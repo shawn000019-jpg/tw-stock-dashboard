@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"data/latest.json"
+SCORE_HISTORY=ROOT/"data/score_history.json"
 TZ=timezone(timedelta(hours=8))
 API="https://api.finmindtrade.com/api/v4/data"
 UA={"User-Agent":"Mozilla/5.0 (compatible; StockDashboard/3.0)"}
@@ -303,6 +304,59 @@ def links(sid,name):
       "MoneyDJ":f"https://www.google.com/search?q={quote('site:moneydj.com '+sid+' '+name)}"
     }
 
+
+def score_stock(s):
+    inst=s.get("institution") or {}
+    fundamental=12;chip=12;technical=12;valuation=12
+    yoy=s.get("revenue_yoy");mom=s.get("revenue_mom")
+    if yoy is not None:
+        fundamental += 9 if yoy>=20 else 7 if yoy>=10 else 4 if yoy>0 else -9 if yoy<=-20 else -7 if yoy<=-10 else -4
+    if mom is not None: fundamental += 2 if mom>0 else -2
+    if s.get("forward_eps") is not None and s.get("eps_ttm") is not None:
+        fundamental += 2 if s["forward_eps"]>s["eps_ttm"] else 0
+    total5=inst.get("total5")
+    if total5 is not None: chip += 9 if total5>1000 else 6 if total5>0 else -9 if total5<-1000 else -6
+    fd5=((inst.get("foreign") or {}).get("d5") or 0);td5=((inst.get("trust") or {}).get("d5") or 0)
+    chip += 3 if fd5>0 else -3 if fd5<0 else 0
+    chip += 2 if td5>0 else -2 if td5<0 else 0
+    tr=s.get("trend")
+    technical += 11 if tr=="強勢多頭" else 7 if tr=="偏多" else -7 if tr=="偏弱" else -11 if tr=="空頭" else 0
+    cp=s.get("change_pct")
+    if cp is not None: technical += 2 if cp>0 else -2 if cp<0 else 0
+    close=s.get("close");base=s.get("target_base")
+    upside=((base/close)-1)*100 if close and base else None
+    if upside is not None: valuation += 11 if upside>=30 else 8 if upside>=15 else 4 if upside>=5 else -10 if upside<0 else 1
+    if s.get("valuation_status")=="低於保守價": valuation+=3
+    if s.get("valuation_status")=="估值偏熱": valuation-=3
+    vals=[max(0,min(25,x)) for x in (fundamental,chip,technical,valuation)]
+    return {"fundamental":vals[0],"chip":vals[1],"technical":vals[2],"valuation":vals[3],"total":sum(vals)}
+
+def update_score_history(stocks):
+    try: history=json.loads(SCORE_HISTORY.read_text(encoding="utf-8")) if SCORE_HISTORY.exists() else {}
+    except: history={}
+    day=datetime.now(TZ).strftime("%Y-%m-%d")
+    for s in stocks:
+        sid=s["id"];sc=score_stock(s)
+        arr=history.setdefault(sid,[])
+        arr=[x for x in arr if x.get("date")!=day]
+        arr.append({"date":day,**sc})
+        history[sid]=arr[-90:]
+        s["score"]=sc
+        s["score_history"]=history[sid]
+        s["score_change_1d"]=sc["total"]-history[sid][-2]["total"] if len(history[sid])>=2 else None
+        s["score_change_5d"]=sc["total"]-history[sid][-6]["total"] if len(history[sid])>=6 else None
+    SCORE_HISTORY.write_text(json.dumps(history,ensure_ascii=False,indent=2),encoding="utf-8")
+    return history
+
+def get_market_regime(market_inst,stocks):
+    weights=[s for s in stocks if s.get("weight") and s.get("close") is not None]
+    tech=sum(1 if s.get("trend") in ("強勢多頭","偏多") else -1 if s.get("trend") in ("偏弱","空頭") else 0 for s in weights)
+    foreign=market_inst.get("foreign")
+    score=tech+(2 if foreign is not None and foreign>0 else -2 if foreign is not None and foreign<0 else 0)
+    label="偏多" if score>=3 else "偏空" if score<=-3 else "震盪"
+    return {"label":label,"score":score,"weight_breadth":tech,"foreign":foreign,
+            "note":"權值股技術廣度＋TWSE 外資當日買賣超"}
+
 def main():
     stocks=[]
     for s in WATCH:
@@ -353,11 +407,20 @@ def main():
       "weakest":[{"id":s["id"],"name":s["name"],"total5":s["institution"]["total5"]} for s in eligible[-3:][::-1]]
     }
 
+    update_score_history(stocks)
+    momentum=sorted([s for s in stocks if s.get("score_change_5d") is not None],key=lambda s:s["score_change_5d"],reverse=True)[:5]
+    if not momentum:
+        momentum=sorted(stocks,key=lambda s:(s.get("score") or {}).get("total",0),reverse=True)[:5]
+    market_inst=get_market_institution()
+    market_regime=get_market_regime(market_inst,stocks)
+
     payload={
       "updated_at":datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S"),
       "sources":["FinMind（量化資料，server-side）","TWSE 臺灣證券交易所","中央社財經 RSS","公開資訊觀測站 MOPS","財報狗","Goodinfo","CMoney","MoneyDJ"],
       "ranking":ranking,
-      "market_institution":get_market_institution(),
+      "market_institution":market_inst,
+      "market_regime":market_regime,
+      "momentum_top5":[{"id":s["id"],"name":s["name"],"score":s["score"]["total"],"change5":s.get("score_change_5d")} for s in momentum],
       "finance_news":get_finance_news(),
       "stocks":stocks
     }
