@@ -251,6 +251,13 @@ def get_market_institution():
         out["error"]=str(e)
     return out
 
+def news_region(title):
+    intl=["美國","美股","華爾街","聯準會","Fed","歐洲","歐盟","英國","德國","法國","全球","國際","美元","美債","原油","OPEC","俄羅斯","烏克蘭","中東","以色列"]
+    asia=["台灣","台股","台積電","中國","大陸","香港","港股","日本","日股","韓國","韓股","新加坡","印度","亞洲","亞股","人民幣","日圓","韓元"]
+    if any(w in title for w in intl): return "international"
+    if any(w in title for w in asia): return "asia"
+    return "asia"
+
 def get_finance_news():
     urls=[
       ("中央社產經","https://feeds.feedburner.com/rsscna/finance"),
@@ -261,14 +268,16 @@ def get_finance_news():
         try:
             r=requests.get(url,headers=UA,timeout=20);r.raise_for_status()
             root=ET.fromstring(r.text)
-            for item in root.findall(".//item")[:10]:
+            for item in root.findall(".//item")[:18]:
                 title=(item.findtext("title") or "").strip()
                 link=(item.findtext("link") or "").strip()
                 if not title or title in seen:continue
                 seen.add(title)
-                items.append({"title":title,"url":link,"source":source,"date":item.findtext("pubDate") or "","sentiment":news_sentiment(title)})
+                items.append({"title":title,"url":link,"source":source,"date":item.findtext("pubDate") or "","sentiment":news_sentiment(title),"region":news_region(title)})
         except:pass
-    return items[:12]
+    asia=[x for x in items if x["region"]=="asia"][:8]
+    international=[x for x in items if x["region"]=="international"][:8]
+    return {"asia":asia,"international":international,"all":items[:16]}
 
 def calc_targets(fwd_eps,pe_hist,latest_pe):
     if fwd_eps is None:return None,None,None,"缺 EPS，暫不估值"
