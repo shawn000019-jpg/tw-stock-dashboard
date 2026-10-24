@@ -349,6 +349,31 @@ def update_score_history(stocks):
     return history
 
 
+
+def risk_reward_metrics(s):
+    close=s.get("close");target=s.get("target_base");ql=s.get("quarter_low");qh=s.get("quarter_high")
+    if not close:return {"support":None,"resistance":None,"upside_pct":None,"downside_pct":None,"rr":None,"entry_low":None,"entry_high":None,"risk_note":"缺現價"}
+    support=ql if ql and ql<close else None
+    resistance=qh if qh and qh>close else None
+    upside=((target/close)-1)*100 if target and s.get("target_confidence")!="低" else None
+    downside=((close-support)/close)*100 if support else None
+    rr=(upside/downside) if upside is not None and upside>0 and downside and downside>0 else None
+    # Observation band: avoid false precision; 3% band around support or 5% below current if support unavailable.
+    anchor=support if support else close*.95
+    entry_low=anchor*.99;entry_high=anchor*1.03
+    note="近季低點作風險參考；非自動停損價" if support else "缺有效近季支撐，觀察區僅供參考"
+    return {"support":support,"resistance":resistance,"upside_pct":upside,"downside_pct":downside,"rr":rr,
+            "entry_low":entry_low,"entry_high":entry_high,"risk_note":note}
+
+def data_quality(s):
+    issues=[]
+    if s.get("eps_source")!="近四季官方單季 EPS 加總": issues.append("EPS使用備援")
+    if s.get("target_confidence")=="低": issues.append("目標價低可信")
+    if not (s.get("institution") or {}).get("last_date"): issues.append("法人資料缺")
+    if not s.get("history"): issues.append("價格歷史缺")
+    level="高" if not issues else "中" if len(issues)==1 else "低"
+    return {"level":level,"issues":issues}
+
 def decision_zone(s,market_label):
     sc=(s.get("score") or {}).get("total",0)
     inst=s.get("institution") or {}
@@ -445,10 +470,22 @@ def main():
     market_regime=get_market_regime(market_inst,stocks)
     zones={"進場觀察":[],"強勢續追":[],"過熱等待":[],"風險警戒":[],"中性等待":[]}
     for s in stocks:
+        s["risk_reward"]=risk_reward_metrics(s)
+        s["data_quality"]=data_quality(s)
         dz=decision_zone(s,market_regime["label"])
         s["decision"]=dz
         zones[dz["zone"]].append({"id":s["id"],"name":s["name"],"score":s["score"]["total"],"reasons":dz["reasons"],"upside":dz["upside"]})
     for key in zones: zones[key]=sorted(zones[key],key=lambda x:x["score"],reverse=True)
+
+    # concise daily brief from current model state
+    best=sorted(stocks,key=lambda s:(s.get("score") or {}).get("total",0),reverse=True)[:3]
+    risks=sorted(stocks,key=lambda s:(s.get("score") or {}).get("total",0))[:3]
+    daily_brief={
+      "market":market_regime["label"],
+      "headline":f"市場{market_regime['label']}；外資 {market_inst.get('foreign'):.1f} 億" if market_inst.get("foreign") is not None else f"市場{market_regime['label']}",
+      "leaders":[{"id":s["id"],"name":s["name"],"score":s["score"]["total"]} for s in best],
+      "risks":[{"id":s["id"],"name":s["name"],"score":s["score"]["total"]} for s in risks]
+    }
 
     payload={
       "updated_at":datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S"),
@@ -457,6 +494,7 @@ def main():
       "market_institution":market_inst,
       "market_regime":market_regime,
       "decision_zones":zones,
+      "daily_brief":daily_brief,
       "momentum_top5":[{"id":s["id"],"name":s["name"],"score":s["score"]["total"],"change5":s.get("score_change_5d")} for s in momentum],
       "finance_news":get_finance_news(),
       "stocks":stocks
