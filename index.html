@@ -55,7 +55,9 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
   <div><h3>🌏 亞洲財經</h3><div id="asiaNews"></div></div>
   <div><h3>🌐 國際財經</h3><div id="internationalNews"></div></div>
  </div></div>
- <div class="card home4"><h2 style="margin-top:0">🎯 快速選擇標的</h2><div class="small" style="margin-bottom:8px">輸入代號或名稱快速切到個股詳細</div><input id="quickSearch" class="selector" list="stockOptions" placeholder="例如：2330 / 台積電" oninput="quickPick(this.value)"><datalist id="stockOptions"></datalist><div id="quickSummary" style="margin-top:12px"></div></div>
+ <div class="card home4"><h2 style="margin-top:0">🚦 市場環境</h2><div id="marketRegime"></div></div>
+<div class="card home4"><h2 style="margin-top:0">🚀 Top 5 轉強觀察</h2><div id="momentumTop"></div></div>
+<div class="card home4"><h2 style="margin-top:0">🎯 快速選擇標的</h2><div class="small" style="margin-bottom:8px">輸入代號或名稱快速切到個股詳細</div><input id="quickSearch" class="selector" list="stockOptions" placeholder="例如：2330 / 台積電" oninput="quickPick(this.value)"><datalist id="stockOptions"></datalist><div id="quickSummary" style="margin-top:12px"></div></div>
 </div>
 </section>
 
@@ -130,6 +132,10 @@ function render(d){
  ib.innerHTML='';db.innerHTML='';nb.innerHTML='';
  const wb=document.getElementById('weightBody'); wb.innerHTML='';
  const mi=document.getElementById('marketInst'); mi.innerHTML='';
+ const mr=d.market_regime||{};const mc=mr.label==='偏多'?'good':mr.label==='偏空'?'bad':'warn';
+ document.getElementById('marketRegime').innerHTML=`<div class="value" style="font-size:28px"><span class="pill ${mc}">${mr.label==='偏多'?'🟢':mr.label==='偏空'?'🔴':'🟡'} ${mr.label||'資料更新中'}</span></div><div style="margin-top:12px">外資：<b class="${cls(mr.foreign)}">${mr.foreign!==null&&mr.foreign!==undefined?fmt(mr.foreign,1)+' 億':'—'}</b></div><div class="small" style="margin-top:8px">${mr.note||'權值股技術面＋外資方向'}</div>`;
+ const mt=document.getElementById('momentumTop');mt.innerHTML='';
+ (d.momentum_top5||[]).forEach((x,i)=>mt.insertAdjacentHTML('beforeend',`<div class="rankitem"><span>#${i+1} <b>${x.name}</b> ${x.id}</span><span>${x.score}分 ${x.change5!==null&&x.change5!==undefined?'<b class="'+cls(x.change5)+'">'+(x.change5>0?'+':'')+fmt(x.change5,0)+'</b>':'<span class="small">建立歷史中</span>'}</span></div>`));
  const an=document.getElementById('asiaNews'),inn=document.getElementById('internationalNews'); an.innerHTML='';inn.innerHTML='';
  const sel=document.getElementById('stockSelect'),opts=document.getElementById('stockOptions'); sel.innerHTML='';opts.innerHTML='';
  const m=d.market_institution||{};
@@ -208,7 +214,7 @@ function selectStock(id){
  if(!s)return;
  document.getElementById('stockSelect').value=id;
  const a=s.institution||{};
- const sc=scoreStock(s);
+ const sc=s.score||scoreStock(s);
  const upside=s.target_base&&s.close?(s.target_base/s.close-1)*100:null;
  let score=0, reasons=[];
  if((s.revenue_yoy||0)>0){score++;reasons.push('營收 YoY 成長');}else if(s.revenue_yoy!==null&&s.revenue_yoy!==undefined){score--;reasons.push('營收 YoY 衰退');}
@@ -226,6 +232,8 @@ function selectStock(id){
  <div class="kpi"><div class="label">技術面</div><div class="value">${sc.technical}<span class="small"> /25</span></div></div>
  <div class="kpi"><div class="label">估值面</div><div class="value">${sc.valuation}<span class="small"> /25</span></div></div>
  <div class="kpi"><div class="label">15 檔排名</div><div class="value">#${(window.__rankMap||{})[s.id]||'—'}</div></div>
+ <div class="kpi"><div class="label">評分 1D</div><div class="value ${cls(s.score_change_1d)}">${s.score_change_1d!==null&&s.score_change_1d!==undefined?(s.score_change_1d>0?'+':'')+fmt(s.score_change_1d,0):'—'}</div></div>
+ <div class="kpi"><div class="label">評分 5D</div><div class="value ${cls(s.score_change_5d)}">${s.score_change_5d!==null&&s.score_change_5d!==undefined?(s.score_change_5d>0?'+':'')+fmt(s.score_change_5d,0):'建立中'}</div></div>
  </div>
  <div class="outlook" style="margin-top:12px"><b>後續動向依據：</b> ${reasons.length?reasons.join(' → '):'資料不足，暫不判讀'}<div class="small" style="margin-top:6px">評分＝基本面 25＋籌碼面 25＋技術面 25＋估值面 25。屬規則式比較工具，不代表未來報酬保證。</div></div></div>`;
 }
