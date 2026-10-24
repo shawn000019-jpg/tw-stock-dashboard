@@ -130,8 +130,8 @@ function renderRanking(d){
 function render(d){
  document.getElementById('updated').textContent=`資料更新：${d.updated_at||'—'}｜來源：${(d.sources||[]).join('、')}`;
  renderRanking(d);
- const ib=document.getElementById('instBody'),db=document.getElementById('detailBody'),nb=document.getElementById('newsBody');
- ib.innerHTML='';db.innerHTML='';nb.innerHTML='';
+ const ib=document.getElementById('instBody'),detailBody=document.getElementById('detailBody'),nb=document.getElementById('newsBody');
+ ib.innerHTML='';detailBody.innerHTML='';nb.innerHTML='';
  const wb=document.getElementById('weightBody'); wb.innerHTML='';
  const mi=document.getElementById('marketInst'); mi.innerHTML='';
  const db=d.daily_brief||{};
@@ -173,7 +173,7 @@ function render(d){
 
    const src=s.links||{};
    const qeps=(s.quarterly_eps||[]).map(x=>`<tr><td>${x.quarter}</td><td>${fmt(x.eps)}</td></tr>`).join('');
-   db.insertAdjacentHTML('beforeend',`<div class="card stock-detail" data-stock="${s.id}" style="display:none">
+   detailBody.insertAdjacentHTML('beforeend',`<div class="card stock-detail" data-stock="${s.id}" style="display:none">
      <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><h2 style="margin:0">${s.name}（${s.id}）</h2><div class="source">${Object.entries(src).map(([k,v])=>`<a href="${v}" target="_blank">${k}</a>`).join('')}</div></div>
      <div class="kpis" style="margin-top:12px">
       <div class="kpi"><div class="label">收盤</div><div class="value">${fmt(s.close)}</div></div>
