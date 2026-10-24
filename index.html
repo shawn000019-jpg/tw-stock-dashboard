@@ -88,7 +88,7 @@ function render(d){
    (s.news||[]).forEach(n=>nb.insertAdjacentHTML('beforeend',`<div style="padding:10px 0;border-bottom:1px solid #2a3b58"><b>${s.name}</b>｜<a href="${n.url}" target="_blank">${n.title}</a><div class="small">${n.source||''} ${n.date||''}</div></div>`));
  });
 }
-fetch('data/latest.json?ts='+Date.now()).then(r=>r.json()).then(render).catch(e=>{
+fetch('https://raw.githubusercontent.com/shawn000019-jpg/tw-stock-dashboard/main/data/latest.json?ts='+Date.now(),{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json()}).then(render).catch(e=>{
  document.getElementById('updated').textContent='資料讀取失敗：'+e.message;
 });
 </script>
