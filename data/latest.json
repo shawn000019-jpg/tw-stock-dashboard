@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24 13:46:11",
+  "updated_at": "2026-10-24 13:50:48",
   "sources": [
     "FinMind（量化資料，server-side）",
     "公開資訊觀測站 MOPS",
@@ -8,6 +8,42 @@
     "CMoney",
     "MoneyDJ"
   ],
+  "ranking": {
+    "strongest": [
+      {
+        "id": "7887",
+        "name": "宇川精材",
+        "total5": 1.7189999999999968
+      },
+      {
+        "id": "5297",
+        "name": "廣化",
+        "total5": -2.7609999999999983
+      },
+      {
+        "id": "7556",
+        "name": "意德士",
+        "total5": -33.319
+      }
+    ],
+    "weakest": [
+      {
+        "id": "4556",
+        "name": "旭然",
+        "total5": -401.248
+      },
+      {
+        "id": "3680",
+        "name": "家登",
+        "total5": -89.59200000000003
+      },
+      {
+        "id": "7556",
+        "name": "意德士",
+        "total5": -33.319
+      }
+    ]
+  },
   "stocks": [
     {
       "id": "4556",
@@ -16,12 +52,131 @@
       "close": 120.0,
       "change_pct": -9.774436090225569,
       "eps_ttm": 1.069995541685243,
-      "forward_eps": 1.069995541685243,
+      "forward_eps": 1.4916585597034362,
       "pe": 112.15,
-      "target_low": 43.62906821221578,
-      "target_base": 49.50869371377618,
-      "target_high": 70.14890771288452,
+      "quarterly_eps": [
+        {
+          "quarter": "2024Q3",
+          "eps": 0.15,
+          "reported_eps": 0.19
+        },
+        {
+          "quarter": "2024Q4",
+          "eps": -0.03,
+          "reported_eps": 0.16
+        },
+        {
+          "quarter": "2025Q1",
+          "eps": 0.02,
+          "reported_eps": 0.02
+        },
+        {
+          "quarter": "2025Q2",
+          "eps": 0.18000000000000002,
+          "reported_eps": 0.2
+        },
+        {
+          "quarter": "2025Q3",
+          "eps": 0.07,
+          "reported_eps": 0.27
+        },
+        {
+          "quarter": "2025Q4",
+          "eps": 0.15999999999999998,
+          "reported_eps": 0.43
+        },
+        {
+          "quarter": "2026Q1",
+          "eps": 0.13,
+          "reported_eps": 0.13
+        },
+        {
+          "quarter": "2026Q2",
+          "eps": 0.10999999999999999,
+          "reported_eps": 0.24
+        }
+      ],
+      "revenue_yoy": 39.40792289228365,
+      "revenue_mom": 16.246450792074608,
+      "revenue_history": [
+        {
+          "date": "2025-11-01",
+          "year": 2025,
+          "month": 10,
+          "revenue": 77089000.0
+        },
+        {
+          "date": "2025-12-01",
+          "year": 2025,
+          "month": 11,
+          "revenue": 61081000.0
+        },
+        {
+          "date": "2026-01-01",
+          "year": 2025,
+          "month": 12,
+          "revenue": 61849000.0
+        },
+        {
+          "date": "2026-02-01",
+          "year": 2026,
+          "month": 1,
+          "revenue": 60478000.0
+        },
+        {
+          "date": "2026-03-01",
+          "year": 2026,
+          "month": 2,
+          "revenue": 49907000.0
+        },
+        {
+          "date": "2026-04-01",
+          "year": 2026,
+          "month": 3,
+          "revenue": 57893000.0
+        },
+        {
+          "date": "2026-05-01",
+          "year": 2026,
+          "month": 4,
+          "revenue": 59240000.0
+        },
+        {
+          "date": "2026-06-01",
+          "year": 2026,
+          "month": 5,
+          "revenue": 55630000.0
+        },
+        {
+          "date": "2026-07-01",
+          "year": 2026,
+          "month": 6,
+          "revenue": 61317000.0
+        },
+        {
+          "date": "2026-08-01",
+          "year": 2026,
+          "month": 7,
+          "revenue": 85038000.0
+        },
+        {
+          "date": "2026-09-01",
+          "year": 2026,
+          "month": 8,
+          "revenue": 64451000.0
+        },
+        {
+          "date": "2026-10-01",
+          "year": 2026,
+          "month": 9,
+          "revenue": 74922000.0
+        }
+      ],
+      "target_low": 60.82237777190761,
+      "target_base": 69.01904155747799,
+      "target_high": 97.79313517415729,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
+      "valuation_status": "估值偏熱",
       "trend": "偏弱",
       "quarter_high": 149.0,
       "quarter_low": 98.3,
@@ -29,8 +184,8 @@
       "institution": {
         "foreign": {
           "d1": -444.469,
-          "d5": -397.523,
-          "d20": 52.51400000000018
+          "d5": -397.52299999999997,
+          "d20": 52.514000000000024
         },
         "trust": {
           "d1": 0.0,
@@ -39,11 +194,14 @@
         },
         "dealer": {
           "d1": -1.441,
-          "d5": -3.7250000000000005,
-          "d20": -5.258999999999998
+          "d5": -3.725,
+          "d20": -5.259000000000001
         },
-        "total5": -401.24800000000005,
-        "signal": "法人偏空"
+        "total5": -401.248,
+        "signal": "法人偏空",
+        "streak": "連賣1日",
+        "foreign_streak": "連賣1日",
+        "last_date": "2026-10-22"
       },
       "history": [
         {
@@ -1872,33 +2030,46 @@
           "title": "兩大效益創造成長動能，旭然Q3 EPS拚新高- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeWpVN2U0X3N2b3hvNEc5WTJvYUtqNjFLSDNXRFpfVnZHMVBUQ2dMUlpmX3p5WDVzSFAyMWV0eGVFS0w4LTJhckhuVFBDMFRoSGdlSFQtc1F2d0dBMF9oWGd3amxHQllzSWE1MUxWVUpfcVlSaGplcmhhVkhidGp0Unc2WmZUdkZfWWk1cWgzcWo5UQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 02:59:00 GMT"
+          "date": "Wed, 21 Oct 2026 02:59:00 GMT",
+          "sentiment": "利多"
         },
         {
           "title": "NVKMDJ新聞內文-{380E057F-F30A-4D05-B4A2-7D5990E7EF2B} - 臺灣企銀基金理財網",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQazI2TFBNRmx4LTZfTWxzcGozN1AwQWFQWVM1RnFld3JrNTRuUVBUWG0zQzB3RFktc0JlbGFYSHNxYWg4Vl9Cb1JzMFdPNXpfMEhXamxyRmFXVmkxVVVqdkxjXzJSQnJkYjdfY0RBLWdVcnlJeF9zWTdDbzJGalZ0QjJqOU9TQ3R0cEc3ZGRkU0RRX3RlTmN1SHUteE9jdTNoZEt4YjQ5Q3k3aHU3RWFlRlFaRW1HOTNvdjI5TmFueWxFMjRt?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 06:50:51 GMT"
+          "date": "Wed, 21 Oct 2026 06:50:51 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "10/16上櫃融券減少排行前20名",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbUs3cGlsWlJGVjJOMEd4VWRlZXZBY0FJekE0U3gzcjZTUXNRYTkySl9nQWh5ekdhNU5Mby1lU19hSGs1djRMUThuQXBacFY1b0JFUnQ4TW9RNlpTLWU3QjFzdHNrMDhlYXhSN1JobVRrV0NLdm1kMzAtRG13Tm50ZklqcDBwYjBxWmJ1bXJFcmxoUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Sun, 18 Oct 2026 23:31:00 GMT"
+          "date": "Sun, 18 Oct 2026 23:31:00 GMT",
+          "sentiment": "利空"
         },
         {
           "title": "新聞內容-0D388447-7204-46E6-9AAD-D674BC67A671",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeF9sdi1nMVd0b05yeFhjdnZxVGJnbHphTmNtWEZHc3VQX01qMjFIdE5qbE9ZWWd3YkxxX2tLdk43WVg2QWtuMGhYT0tEWWhrN3FtS082WVdUZ2t2VW9rcEI4bllMbXRSajNxX2VEWkl3a2lYZVhad3ZyX1lZV0Q5dUJsdkJDT1BhLVpZ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 11:14:06 GMT"
+          "date": "Thu, 22 Oct 2026 11:14:06 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "旭然 115年9月營收7492萬、年增39.41%",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTUxZbDVMUDRTXzJPZkhnY2xrZmtyUEVSZ1VlY3p3SHZzX1hveHlIMzhPZ3ZFRFNnN3Z2cGptS2p4ZEg5Y09QQVh6V0xfQWJxUnhMVTJ2eVQzWlZ6ckNEeWoyRG0wTE9WMWdfaFRzNUsxMi1CY0F6M0RDcUhFakl5ajJmUTdCOUQ2RGxmWUtRZGZpUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 08 Oct 2026 07:00:00 GMT"
+          "date": "Thu, 08 Oct 2026 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "旭然啟動現增/可轉債籌資強化財務結構布局成長引擎- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc0VRRDB2eFEzNk5vQXhKcVVkOTN5c0NONEsxbUxWdFphNldScVdtcWpsTUFGXzhBYlpieFBSbVgyMzlZM2ltVS1ycl9lSzg4Y2RFeXhIRDNMZjBldjc2cHZHUlFNZ3B3cWp0ZHliNXF4R20xWjBqTWtZY2hEdTdpbW1kVEFHMlJhbEV2SlpGVDJDQQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 07 Oct 2026 07:00:00 GMT",
+          "sentiment": "利多"
         }
       ],
+      "news_score": 1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/4556",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -1914,12 +2085,131 @@
       "close": 269.0,
       "change_pct": -3.237410071942448,
       "eps_ttm": 8.61903236142262,
-      "forward_eps": 8.61903236142262,
+      "forward_eps": 12.928548542133932,
       "pe": 31.21,
-      "target_low": 208.0849887856456,
-      "target_base": 226.46507529637935,
-      "target_high": 254.62776353732778,
+      "quarterly_eps": [
+        {
+          "quarter": "2024Q3",
+          "eps": 0.32000000000000006,
+          "reported_eps": 1.74
+        },
+        {
+          "quarter": "2024Q4",
+          "eps": -0.21999999999999997,
+          "reported_eps": 1.52
+        },
+        {
+          "quarter": "2025Q1",
+          "eps": 2.05,
+          "reported_eps": 2.05
+        },
+        {
+          "quarter": "2025Q2",
+          "eps": -0.1299999999999999,
+          "reported_eps": 1.92
+        },
+        {
+          "quarter": "2025Q3",
+          "eps": -0.24,
+          "reported_eps": 1.68
+        },
+        {
+          "quarter": "2025Q4",
+          "eps": -0.11999999999999988,
+          "reported_eps": 1.56
+        },
+        {
+          "quarter": "2026Q1",
+          "eps": 2.52,
+          "reported_eps": 2.52
+        },
+        {
+          "quarter": "2026Q2",
+          "eps": 0.33000000000000007,
+          "reported_eps": 2.85
+        }
+      ],
+      "revenue_yoy": 61.99050704437581,
+      "revenue_mom": 10.28840358548877,
+      "revenue_history": [
+        {
+          "date": "2025-11-01",
+          "year": 2025,
+          "month": 10,
+          "revenue": 61539000.0
+        },
+        {
+          "date": "2025-12-01",
+          "year": 2025,
+          "month": 11,
+          "revenue": 64780000.0
+        },
+        {
+          "date": "2026-01-01",
+          "year": 2025,
+          "month": 12,
+          "revenue": 66400000.0
+        },
+        {
+          "date": "2026-02-01",
+          "year": 2026,
+          "month": 1,
+          "revenue": 75668000.0
+        },
+        {
+          "date": "2026-03-01",
+          "year": 2026,
+          "month": 2,
+          "revenue": 62151000.0
+        },
+        {
+          "date": "2026-04-01",
+          "year": 2026,
+          "month": 3,
+          "revenue": 75320000.0
+        },
+        {
+          "date": "2026-05-01",
+          "year": 2026,
+          "month": 4,
+          "revenue": 71075000.0
+        },
+        {
+          "date": "2026-06-01",
+          "year": 2026,
+          "month": 5,
+          "revenue": 73392000.0
+        },
+        {
+          "date": "2026-07-01",
+          "year": 2026,
+          "month": 6,
+          "revenue": 70516000.0
+        },
+        {
+          "date": "2026-08-01",
+          "year": 2026,
+          "month": 7,
+          "revenue": 73025000.0
+        },
+        {
+          "date": "2026-09-01",
+          "year": 2026,
+          "month": 8,
+          "revenue": 77981000.0
+        },
+        {
+          "date": "2026-10-01",
+          "year": 2026,
+          "month": 9,
+          "revenue": 86004000.0
+        }
+      ],
+      "target_low": 312.1274831784684,
+      "target_base": 339.697612944569,
+      "target_high": 381.9416453059917,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
+      "valuation_status": "低於保守價",
       "trend": "偏弱",
       "quarter_high": 314.0,
       "quarter_low": 260.0,
@@ -1927,8 +2217,8 @@
       "institution": {
         "foreign": {
           "d1": -13.009,
-          "d5": -20.243000000000002,
-          "d20": 125.58900000000001
+          "d5": -20.243,
+          "d20": 125.589
         },
         "trust": {
           "d1": 0.0,
@@ -1938,10 +2228,13 @@
         "dealer": {
           "d1": -0.808,
           "d5": -13.076,
-          "d20": 8.107999999999992
+          "d20": 8.108
         },
         "total5": -33.319,
-        "signal": "法人偏空"
+        "signal": "法人偏空",
+        "streak": "連賣2日",
+        "foreign_streak": "連賣2日",
+        "last_date": "2026-10-22"
       },
       "history": [
         {
@@ -3770,33 +4063,46 @@
           "title": "法人專欄分析內容-台股",
           "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNldKTkhUTnRhQnBNU2xWT1pGUkgwcVgxTmdSQ1RZSHZCUlFMNVhLQWIzVGFNRUkxWDJ1N0FYRUhHN0ZoUGZWLTZFV3hpb3k3aFdFRzZnS1RpVV90ZDQ2dE5YcVpTZEIwYlNDUVIyYzR1TDRjWWhzYW5LUzFjYXQzLWlBZFZ2bmVGcWRNeEhzQ0E1cWVuUEE?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 16:05:57 GMT"
+          "date": "Tue, 20 Oct 2026 16:05:57 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "意德士 115年9月營收8600萬、年增61.99%",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcGU0QXd3U2RCRW5LNzN0MVhXanBzMmR0dDdkS3JYRDh1X2Z4dGx1QWR4eVRnWEdIWkRKNFF2VG5Ib1BHdHVBQXFJRC1jcHllb01kTmI3bW1NbUZyT05lbTJtck9FVC1aSTFRRXZRR2tRT05mVDh2RnNaRFFCNUpzQVllLUZZS0E3Z1BFc3lla1hZdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 07 Oct 2026 07:00:00 GMT"
+          "date": "Wed, 07 Oct 2026 07:00:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "意德士科技股份有限公司",
           "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPcU5VSXYyWEVVSXI0SFhEU2hRUHJJZzVQRDRBaS1KWFczUTBZUjFBU3d0Z25BSUtZU2FNc1Bob2JaYnRJdUpqR054UUEwVWY5eVR4M1Q3ekpwWjJrbU9laDFDZXNGQTlBWlYwR2NGMThheTh4dmUzMWRYWEZFVDQ0Q1BuUXFRQVNFc05LTENQOTlfcF9FeFZYM0FwQkE4R3NfWmlJdlJEM3NwVUhFamRnWURLRUlqVDE4aU1ja1o3U0FaM09wQTM3SXUya2R4Y3MwZE85SksxbXlFd2NtOWhLTGM1Z2tMamRVS1Vr?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 24 Sep 2026 07:00:00 GMT"
+          "date": "Thu, 24 Sep 2026 07:00:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "意徳士1月營收締新猷，Q1登高可期- 新聞",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSmpjcDF1NzZQTVhzSHoxSVZFVVBXXzhLcUJoQXJMUXpJWXhjMXVOZ1JTRG1QRTBObmNUbk9GeDgxZENOWTZEVmw4SUdPQ1N3akN2YzVEenRiVGZLZWVCM18yUVJLY1hNODNxN1ZzaU9zdjA3aUtCWno5Qm8xWk80LUdsU3Z6Mk9KQzRXdFBPVGpwdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 10 Feb 2025 08:00:00 GMT"
+          "date": "Mon, 10 Feb 2025 08:00:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "意德士訂7/9為除息交易日，現金股利發放日8/14 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEdabXdWUjd5TUNway10UlJKMjJCX1dIQWZFX01QRUdTbk1TWk4zT0ZlcDhjZkFfRFdDbzY0ajNIalNnV1JrS2pTM0ZkOE5Gb2JqNlZzX3MxUjV0QlJaZ2FYTkJubVZuUjA2QlV2elROT2dTbDdFbV9DY2hkNkY4MGlFeGpsaWdJZlNOSUx4cE4yQQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 10 Jun 2026 07:00:00 GMT"
+          "date": "Wed, 10 Jun 2026 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "意德士取得新竹縣竹東鎮土地，計約2.66億元- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYXpNX2ZHWVFmRXF0WmZ3UmdtVWlpVGJfRVFkTE5aR0IxRHhieUE0eS02eVRnNi1iVHFKekhlQUk3Q3NETjFUcTJJRkF4UEhIU2xqcnRiZ1puRFMxNTV0TTdyWGJpdmRfUndrMFVpYTR3QUJZV2dsbHp3S1VFM1VjS185WlZqX0lCMWNUR2Q5VlFiUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 16 Jul 2026 07:00:00 GMT",
+          "sentiment": "中性"
         }
       ],
+      "news_score": 0,
       "links": {
         "財報狗": "https://statementdog.com/analysis/7556",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -3814,32 +4120,139 @@
       "eps_ttm": null,
       "forward_eps": null,
       "pe": null,
+      "quarterly_eps": [
+        {
+          "quarter": "2024Q2",
+          "eps": 0.55,
+          "reported_eps": 0.55
+        },
+        {
+          "quarter": "2024Q4",
+          "eps": 0.04999999999999993,
+          "reported_eps": 0.6
+        },
+        {
+          "quarter": "2025Q2",
+          "eps": -0.25,
+          "reported_eps": -0.25
+        },
+        {
+          "quarter": "2025Q4",
+          "eps": 0.91,
+          "reported_eps": 0.66
+        },
+        {
+          "quarter": "2026Q2",
+          "eps": 0.18,
+          "reported_eps": 0.18
+        }
+      ],
+      "revenue_yoy": 19.66984746116878,
+      "revenue_mom": 59.610441891431584,
+      "revenue_history": [
+        {
+          "date": "2025-11-01",
+          "year": 2025,
+          "month": 10,
+          "revenue": 31786000.0
+        },
+        {
+          "date": "2025-12-01",
+          "year": 2025,
+          "month": 11,
+          "revenue": 41298000.0
+        },
+        {
+          "date": "2026-01-01",
+          "year": 2025,
+          "month": 12,
+          "revenue": 36121000.0
+        },
+        {
+          "date": "2026-02-01",
+          "year": 2026,
+          "month": 1,
+          "revenue": 23181000.0
+        },
+        {
+          "date": "2026-03-01",
+          "year": 2026,
+          "month": 2,
+          "revenue": 29085000.0
+        },
+        {
+          "date": "2026-04-01",
+          "year": 2026,
+          "month": 3,
+          "revenue": 40602000.0
+        },
+        {
+          "date": "2026-05-01",
+          "year": 2026,
+          "month": 4,
+          "revenue": 38723000.0
+        },
+        {
+          "date": "2026-06-01",
+          "year": 2026,
+          "month": 5,
+          "revenue": 37789000.0
+        },
+        {
+          "date": "2026-07-01",
+          "year": 2026,
+          "month": 6,
+          "revenue": 16081000.0
+        },
+        {
+          "date": "2026-08-01",
+          "year": 2026,
+          "month": 7,
+          "revenue": 37723000.0
+        },
+        {
+          "date": "2026-09-01",
+          "year": 2026,
+          "month": 8,
+          "revenue": 32293000.0
+        },
+        {
+          "date": "2026-10-01",
+          "year": 2026,
+          "month": 9,
+          "revenue": 51543000.0
+        }
+      ],
       "target_low": null,
       "target_base": null,
       "target_high": null,
       "valuation_note": "缺 EPS，暫不估值",
+      "valuation_status": "待估值",
       "trend": "偏弱",
       "quarter_high": 92.0,
       "quarter_low": 70.4,
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": null,
-          "d5": null,
-          "d20": null
+          "d1": -19.0,
+          "d5": -2.7609999999999983,
+          "d20": -0.698999999999999
         },
         "trust": {
-          "d1": null,
-          "d5": null,
-          "d20": null
+          "d1": 0.0,
+          "d5": 0.0,
+          "d20": 0.0
         },
         "dealer": {
-          "d1": null,
-          "d5": null,
-          "d20": null
+          "d1": 0.0,
+          "d5": 0.0,
+          "d20": 0.0
         },
-        "total5": null,
-        "signal": "興櫃無標準三大法人日表"
+        "total5": -2.7609999999999983,
+        "signal": "法人偏空",
+        "streak": "連賣1日",
+        "foreign_streak": "連賣1日",
+        "last_date": "2026-10-22"
       },
       "history": [
         {
@@ -5668,33 +6081,46 @@
           "title": "廣化 114年8月營收2814萬、年減43.05% - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQck1xR2paaGtyVzdkeXRzZjlPZjlCRm5TbXFIZXRwYmh4MHFKMUJTT2tZNTR3M21welZONWt0VTZ3SEpWeVZLMklKSlRIMXNpXzdtdDlmVFp2RHRLY0V4M2Y1UWthRzNDaTJEdWxyakxvYkZCM3ZINk1MU2M4Wmp4X0R4M0dFR0tVOUhYay1INlhoQQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 10 Sep 2025 07:00:00 GMT"
+          "date": "Wed, 10 Sep 2025 07:00:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "廣化(5297)公開說明書連結",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBJbzJOSDVWSnF0VVNwYjVrVXRDU1BvY2todFZMZFZleWZDWW00V21Cbl9POEdGRkowenBaSDVrZ2l3UTZsMXV4TU5OcnotY2xicGwxZVNkRk13bm1EVTk2NEpOYUM0YjdQSllyUmpOMDFwR2RKd0gycUF3?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 17 Sep 2018 04:29:31 GMT"
+          "date": "Mon, 17 Sep 2018 04:29:31 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "廣化自結第一季獲利1344萬元，每股稅後0.36元",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPT01qY0luekdJbmExVXRNNUlLamlmd1RGUlNfUW1rcjI0blBJVUdfZjF5c0k1X3RGcWZWQVE4MzRibUxja011Q1I2VXJpTG5vMENsN091SzJHQXZXblYtZHBocmlQVmhuRlM4cnpJWm5zQjRIaFZmejV6dGo3Wnp2M2g0VDBUQ3JiZGJEejlzMU05QQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 22 Apr 2026 07:00:00 GMT"
+          "date": "Wed, 22 Apr 2026 07:00:00 GMT",
+          "sentiment": "利多"
         },
         {
           "title": "廣化 115年4月營收3872萬、年增20.38% - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFlwRVF4Y1JfT04zcjRtbGJ4ZW9wR1dtaTN2V0xBLWFSR3JRaVdGLUp3NVhIbURNcDJZdjJuSkdRR1ZuOGtXM3Zpa0VYT2VqenZSMWtrYlNjd1BtUzNnajZmMGVsR2RuX1ZYN29hNHkyM2Z1T3p2dnpDXzFkZXFrLUdEXzBkTTg4RE5BOHl5NmNOZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Fri, 08 May 2026 07:00:00 GMT"
+          "date": "Fri, 08 May 2026 07:00:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "廣化董事長由張維仲續任- 新聞",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOWElDLW5ZbkVvSWxrTkphR1lhSmNSRW80c3dQM2tEaTJlY01adTNsTG1Nd1JSSm8wUV9jZ3V3bmRqV0lqcHFsQmF4Q0ROTEFLVnlBNnBBQ0MxbW1pMUVWVm5FOHFKSFdDS0hWODJlQTBxYm9EVTE0Sm9SUnp3cXhRMkFqc0plR1NSTXY0S1VEX3I1Zw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Fri, 20 Jun 2025 07:00:00 GMT"
+          "date": "Fri, 20 Jun 2025 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "今年營收可望年增4~5成？廣化：以公告為主- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVmQ2cU5rVnM1eERzQnZJczlwYk1VN0lHRGpmU2N3ckprX3JQX1ZOZnB3RkF5YjlkTEZ4ekRFR1BHRi1EeUFIVVl4cUgybWVicGQtRmhOOGJua0Z3UVpYcEs4TXAxLVNQcDFMTHdhM0lud1ZmQWdlMVdzZktiQ3hmSk5EdUFTUmlUcGxOMWY2a0QxZw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Mon, 22 Jun 2026 07:00:00 GMT",
+          "sentiment": "中性"
         }
       ],
+      "news_score": 1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/5297",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -5712,32 +6138,122 @@
       "eps_ttm": null,
       "forward_eps": null,
       "pe": null,
+      "quarterly_eps": [
+        {
+          "quarter": "2024Q4",
+          "eps": -2.05,
+          "reported_eps": -2.05
+        },
+        {
+          "quarter": "2025Q2",
+          "eps": -1.34,
+          "reported_eps": -1.34
+        },
+        {
+          "quarter": "2025Q4",
+          "eps": 0.7100000000000001,
+          "reported_eps": -0.63
+        },
+        {
+          "quarter": "2026Q2",
+          "eps": 0.02,
+          "reported_eps": 0.02
+        }
+      ],
+      "revenue_yoy": null,
+      "revenue_mom": -16.96767001114827,
+      "revenue_history": [
+        {
+          "date": "2026-01-01",
+          "year": 2025,
+          "month": 12,
+          "revenue": 11599000.0
+        },
+        {
+          "date": "2026-02-01",
+          "year": 2026,
+          "month": 1,
+          "revenue": 12136000.0
+        },
+        {
+          "date": "2026-03-01",
+          "year": 2026,
+          "month": 2,
+          "revenue": 13960000.0
+        },
+        {
+          "date": "2026-04-01",
+          "year": 2026,
+          "month": 3,
+          "revenue": 21490000.0
+        },
+        {
+          "date": "2026-05-01",
+          "year": 2026,
+          "month": 4,
+          "revenue": 16824000.0
+        },
+        {
+          "date": "2026-06-01",
+          "year": 2026,
+          "month": 5,
+          "revenue": 16809000.0
+        },
+        {
+          "date": "2026-07-01",
+          "year": 2026,
+          "month": 6,
+          "revenue": 21153000.0
+        },
+        {
+          "date": "2026-08-01",
+          "year": 2026,
+          "month": 7,
+          "revenue": 20868000.0
+        },
+        {
+          "date": "2026-09-01",
+          "year": 2026,
+          "month": 8,
+          "revenue": 17940000.0
+        },
+        {
+          "date": "2026-10-01",
+          "year": 2026,
+          "month": 9,
+          "revenue": 14896000.0
+        }
+      ],
       "target_low": null,
       "target_base": null,
       "target_high": null,
       "valuation_note": "缺 EPS，暫不估值",
+      "valuation_status": "待估值",
       "trend": "偏弱",
       "quarter_high": 170.5,
       "quarter_low": 141.0,
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": null,
-          "d5": null,
-          "d20": null
+          "d1": -3.0,
+          "d5": -14.281000000000002,
+          "d20": -38.217999999999996
         },
         "trust": {
-          "d1": null,
-          "d5": null,
-          "d20": null
+          "d1": 0.0,
+          "d5": 0.0,
+          "d20": 0.0
         },
         "dealer": {
-          "d1": null,
-          "d5": null,
-          "d20": null
+          "d1": 0.0,
+          "d5": 16.0,
+          "d20": 20.0
         },
-        "total5": null,
-        "signal": "興櫃無標準三大法人日表"
+        "total5": 1.7189999999999968,
+        "signal": "內資偏多",
+        "streak": "連賣2日",
+        "foreign_streak": "連賣2日",
+        "last_date": "2026-10-22"
       },
       "history": [
         {
@@ -7055,33 +7571,46 @@
           "title": "合作金庫證申請加入宇川精材之興櫃股票推薦證券商，10/20起生效 - 台股 - 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbnVvYTNzWXdjVDBfOGZlT1EzRUt1MUsyLXp1N2RpanVCLTgycmNPRDFtcTMyQktLc1BucWFrMmhDdnVnZnJEbl85N2pCZnAzYkhQblJHZnNYLWFuZGJTYTZmSHZFbjZaZDk2NmdTaWJOOTl4bktVTm5xajU5MjlYT3dQbVA2NjFoV0dXLTd1bC1fSlhiT2c4RWdRZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 19 Oct 2026 05:31:00 GMT"
+          "date": "Mon, 19 Oct 2026 05:31:00 GMT",
+          "sentiment": "利多"
         },
         {
           "title": "宇川精材 115年9月營收1490萬、年增38.35%",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTXBGMDFibXpqNGlfZk5vNWV5OTJXS01YMjRCS05OSFozY2picGVxSi12U2xCZjdSNXZ5aHlxUXpXMW91aHUtOExKZXlaX0pENEl1c1p5eEhYZWlFV1d2TTcyZHpTWTc1WFhPZjdvOW8tYzFoeXRHMzNqYVN2S19zQXEtd2lKNUhtRkpCZ2swVlFyQQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 08 Oct 2026 07:00:00 GMT"
+          "date": "Thu, 08 Oct 2026 07:00:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "宇川精材公告本公司董事會推選董事長- 新聞",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE0wcnBRT0w4WThNYWg3TmE1Yjd2dkNCblNocTNNN0hUMnhVV0NQYXRjWUI0WXc0Z1NlM1RuRS13a3NfdkM2R2Q2WjdfWnlqSXdGT0ZMT3poZGRhOHBQamdhYkNtSDFFSTVrSmtVVDRmZUZSRlJtSFVvalZKMUQya3ZXdVBXSXE1c0NndTFuUFZaUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 10 Jun 2026 07:00:00 GMT"
+          "date": "Wed, 10 Jun 2026 07:00:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "宇川精材 115年6月營收2115萬、年增79.81%",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbE82YUZFRmlxc25QSkk2c3RfNG9XQklud2Z2QS0tOVBUZUR4NS1YclNvdEI4V2RoTjBfanNmTHhYOTRIeURpVXZUVW9pWENzVUlnQVVteE1GYTVPNGNvUFhNN1U0bzlFaWZzQzhuYWRtbkJsTjNYZVB0OU94UGNfc0FvYXBSeHFETklINzFrUFBYQQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 08 Jul 2026 07:00:00 GMT"
+          "date": "Wed, 08 Jul 2026 07:00:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "宇川精材 115年5月營收1681萬、年增103.23% - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeXB3NEVJdTNHWVJNazNJTmVPaFJZLU9tN2hhR282ZTVuSG1BM2lMZV9DLTBTMHBPSXkxRjR3cGIyZ1p4WmZ6RTJ3d001UkkxOU9iWUZDaDRmQ3YtZ3MxdmN5V0R3dHZxY1psTHhXZ29TRWgxZmVIMk1aU2w1WGV6UE05ejZSOVEyaEpNcmdSQjdUdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 08 Jun 2026 07:00:00 GMT"
+          "date": "Mon, 08 Jun 2026 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "宇川精材公告本公司會計主管異動- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTEI3dlkwODlOVEk2TWlISGNZTU56bzZNeHcyeFZILWdBWTVyZVNhWDRHRlVrNExWUV9FdnZMeXJGTDZtZ0cybmlHSzJPWnhfMjdHcEdKMkd6bzBiSnd0N2YtNWxHRlpKNDNWUW9KV0ZvNkxDU0NXX0tma2R4cUVoUDBzNGFQQW53Q1VaV1NzbUNXdw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 31 Mar 2026 07:00:00 GMT",
+          "sentiment": "中性"
         }
       ],
+      "news_score": 1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/7887",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -7097,12 +7626,131 @@
       "close": 503.0,
       "change_pct": -3.454894433781186,
       "eps_ttm": 14.868459946792788,
-      "forward_eps": 14.868459946792788,
+      "forward_eps": 22.30268992018918,
       "pe": 33.83,
-      "target_low": 511.77239136860777,
-      "target_base": 602.02394324564,
-      "target_high": 771.9332692876145,
+      "quarterly_eps": [
+        {
+          "quarter": "2024Q3",
+          "eps": 1.3899999999999997,
+          "reported_eps": 4.39
+        },
+        {
+          "quarter": "2024Q4",
+          "eps": -1.6999999999999997,
+          "reported_eps": 2.69
+        },
+        {
+          "quarter": "2025Q1",
+          "eps": 2.2,
+          "reported_eps": 2.2
+        },
+        {
+          "quarter": "2025Q2",
+          "eps": -1.7600000000000002,
+          "reported_eps": 0.44
+        },
+        {
+          "quarter": "2025Q3",
+          "eps": 1.12,
+          "reported_eps": 1.56
+        },
+        {
+          "quarter": "2025Q4",
+          "eps": 3.6700000000000004,
+          "reported_eps": 5.23
+        },
+        {
+          "quarter": "2026Q1",
+          "eps": 2.55,
+          "reported_eps": 2.55
+        },
+        {
+          "quarter": "2026Q2",
+          "eps": 2.9800000000000004,
+          "reported_eps": 5.53
+        }
+      ],
+      "revenue_yoy": 67.74433515568728,
+      "revenue_mom": 18.416449246282607,
+      "revenue_history": [
+        {
+          "date": "2025-11-01",
+          "year": 2025,
+          "month": 10,
+          "revenue": 658672000.0
+        },
+        {
+          "date": "2025-12-01",
+          "year": 2025,
+          "month": 11,
+          "revenue": 733434000.0
+        },
+        {
+          "date": "2026-01-01",
+          "year": 2025,
+          "month": 12,
+          "revenue": 873299000.0
+        },
+        {
+          "date": "2026-02-01",
+          "year": 2026,
+          "month": 1,
+          "revenue": 633937000.0
+        },
+        {
+          "date": "2026-03-01",
+          "year": 2026,
+          "month": 2,
+          "revenue": 569794000.0
+        },
+        {
+          "date": "2026-04-01",
+          "year": 2026,
+          "month": 3,
+          "revenue": 660536000.0
+        },
+        {
+          "date": "2026-05-01",
+          "year": 2026,
+          "month": 4,
+          "revenue": 885957000.0
+        },
+        {
+          "date": "2026-06-01",
+          "year": 2026,
+          "month": 5,
+          "revenue": 677726000.0
+        },
+        {
+          "date": "2026-07-01",
+          "year": 2026,
+          "month": 6,
+          "revenue": 752110000.0
+        },
+        {
+          "date": "2026-08-01",
+          "year": 2026,
+          "month": 7,
+          "revenue": 870996000.0
+        },
+        {
+          "date": "2026-09-01",
+          "year": 2026,
+          "month": 8,
+          "revenue": 839771000.0
+        },
+        {
+          "date": "2026-10-01",
+          "year": 2026,
+          "month": 9,
+          "revenue": 994427000.0
+        }
+      ],
+      "target_low": 767.6585870529117,
+      "target_base": 903.0359148684599,
+      "target_high": 1157.8999039314217,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
+      "valuation_status": "低於保守價",
       "trend": "偏弱",
       "quarter_high": 594.0,
       "quarter_low": 491.0,
@@ -7110,13 +7758,13 @@
       "institution": {
         "foreign": {
           "d1": -155.353,
-          "d5": 24.247999999999962,
-          "d20": 998.6379999999999
+          "d5": 24.24799999999998,
+          "d20": 998.638
         },
         "trust": {
           "d1": 0.0,
           "d5": 1.53,
-          "d20": 1.1329999999999998
+          "d20": 1.133
         },
         "dealer": {
           "d1": -20.911,
@@ -7124,7 +7772,10 @@
           "d20": -462.467
         },
         "total5": -89.59200000000003,
-        "signal": "法人偏空"
+        "signal": "法人偏空",
+        "streak": "連賣1日",
+        "foreign_streak": "連賣1日",
+        "last_date": "2026-10-22"
       },
       "history": [
         {
@@ -8953,33 +9604,46 @@
           "title": "今日要聞內容-244D7E8B-3D8C-485B-809D-943DEAF1CB56 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV3pEem5rQkdydXEwZ1ViZ3h4dVdhUGFtWE5WQ0FrbENFZ2RkYVBac1ZUVjVMVk5Ed3JTQ1Y4aTg0eVB3NzMtb0tIbWMwbGQwN0JKUFhPczIxaWxnemxNdUpXQUJGU0xrQmExdFN4S3ZVekd4b0I0YjJFX3lRSnMtUElnZ0NSRXRfVVFkcm9R?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 02:49:42 GMT"
+          "date": "Tue, 20 Oct 2026 02:49:42 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "10/21櫃買市場三大法人合計買超200張以上個股- 新聞",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYWZYam8yMTZ1UFpfb0czVjJ1Ym44V1E4ZWtBYndZQlAxYnRDVjVmVXJTRG5tVUphSWVMRzNXNEVRMHVsY1dGT0xiX2dLOWdnNjIxOHA0bFBYUnFiMVFTQlR6YllDaUphTkRFTWlEQkswU2ZPRWpySHB2YUljVGIyMXYxbmxUaEVrZWRJYTFqS01idw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 07:53:00 GMT"
+          "date": "Wed, 21 Oct 2026 07:53:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "10/19櫃買市場三大法人合計賣超200張以上個股- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSFZadnhqdEU4bVd3NUpBRUloWlVhN3BDQ0Z0QUp5bDlwcVA2MjhtcTBTZlBuTEl1SW9fSTFyS3J6NzBpSVQyQ3pTT3hJUk9FaXBwZnZaWGNZS0kxc0Qxc2VpTjZvWk5zOXdaTGJxZVZKVm1FM1VXM1FvT3hCZDBCYmxkY1RuelZKdnhfMm9ONENZZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 19 Oct 2026 07:52:00 GMT"
+          "date": "Mon, 19 Oct 2026 07:52:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "家登 115年9月營收9.94億、年增67.74%",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRHROM2FaS2NXTGNGSVVSR0tPd25ZdUxHYkJuREI0alk2QmtDQllGRUZSTWFDSnFNNkgwbnZMdzZxTFNnQ1VIYTd0VFBLaTVxOWlJcllZUGlFWlFyQVNuQk1IYUhnc2lMQXdCZWQxTkNBMVpIaS01ZnZxYVYxV1pBUGhRQUp6NF92YTJ0bzM2ZXF1Zw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 08 Oct 2026 07:00:00 GMT"
+          "date": "Thu, 08 Oct 2026 07:00:00 GMT",
+          "sentiment": "中性"
         },
         {
           "title": "家登加入TRE100倡議加速邁向淨零排放- 新聞",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWlNfS3E1NWFsVEVmQnJXQkI0dWRvc2FNS0xVUS1XNmhVQzYxYTU5TVlWQ0xFTW9xbVphd1I2YUFNWlhoVHdQdG8yc0NGZ01iRkREYlZqSUlpTF9SYm9BSVIwcGc2Z1Y3LU5qZVAyRmg2OFhOM280NDB6RUNGbjl0dl9ad19od2RDNGdlZEFGMjJzZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Fri, 27 Mar 2026 07:00:00 GMT"
+          "date": "Fri, 27 Mar 2026 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "家登資訊安全長改由劉媺貞擔任- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZURydUV1R0w3di1ZMkVZaFZEdDNsNUN0dy1aQ01PWEY3ZDJMVllXc3c4dWVIQWtXT2hCdFBVaFNZejU5ZUxjdF9mSk9WN0ZoRVZvM1VXVlZzc0ROa1FQMzJ4VzR4dlJpWlRtTDlJZHNOZ3dSQ1k1TzFmM0s2QV9kSHNEVW5fcEFvNlZDc2YzWkZyUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 30 Aug 2023 07:00:00 GMT",
+          "sentiment": "中性"
         }
       ],
+      "news_score": 0,
       "links": {
         "財報狗": "https://statementdog.com/analysis/3680",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
