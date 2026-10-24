@@ -55,7 +55,8 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
   <div><h3>🌏 亞洲財經</h3><div id="asiaNews"></div></div>
   <div><h3>🌐 國際財經</h3><div id="internationalNews"></div></div>
  </div></div>
- <div class="card home4"><h2 style="margin-top:0">🚦 市場環境</h2><div id="marketRegime"></div></div>
+ <div class="card home12"><h2 style="margin-top:0">🧭 今日決策區</h2><div class="rankgrid"><div><h3>🟢 進場觀察 / 🔵 強勢</h3><div id="positiveZones"></div></div><div><h3>🟠 過熱 / 🔴 風險</h3><div id="riskZones"></div></div></div><div class="small" style="margin-top:10px">決策區會同時考慮綜合分數、法人、技術趨勢、目標價可信度與市場環境；屬觀察工具，不等於買賣建議。</div></div>
+<div class="card home4"><h2 style="margin-top:0">🚦 市場環境</h2><div id="marketRegime"></div></div>
 <div class="card home4"><h2 style="margin-top:0">🚀 Top 5 轉強觀察</h2><div id="momentumTop"></div></div>
 <div class="card home4"><h2 style="margin-top:0">🎯 快速選擇標的</h2><div class="small" style="margin-bottom:8px">輸入代號或名稱快速切到個股詳細</div><input id="quickSearch" class="selector" list="stockOptions" placeholder="例如：2330 / 台積電" oninput="quickPick(this.value)"><datalist id="stockOptions"></datalist><div id="quickSummary" style="margin-top:12px"></div></div>
 </div>
@@ -132,6 +133,13 @@ function render(d){
  ib.innerHTML='';db.innerHTML='';nb.innerHTML='';
  const wb=document.getElementById('weightBody'); wb.innerHTML='';
  const mi=document.getElementById('marketInst'); mi.innerHTML='';
+ const dz=d.decision_zones||{};
+ const pz=document.getElementById('positiveZones'),rz=document.getElementById('riskZones');pz.innerHTML='';rz.innerHTML='';
+ const zoneRow=(x,label)=>`<div class="rankitem"><span><b>${x.name}</b> ${x.id}<div class="small">${(x.reasons||[]).join('｜')}</div></span><span><b>${x.score}</b>分<br><span class="small">${label}</span></span></div>`;
+ [...(dz['進場觀察']||[]).slice(0,3).map(x=>[x,'🟢進場觀察']),...(dz['強勢續追']||[]).slice(0,3).map(x=>[x,'🔵強勢續追'])].slice(0,5).forEach(([x,l])=>pz.insertAdjacentHTML('beforeend',zoneRow(x,l)));
+ [...(dz['過熱等待']||[]).slice(0,3).map(x=>[x,'🟠過熱等待']),...(dz['風險警戒']||[]).slice(0,3).map(x=>[x,'🔴風險警戒'])].slice(0,5).forEach(([x,l])=>rz.insertAdjacentHTML('beforeend',zoneRow(x,l)));
+ if(!pz.innerHTML)pz.innerHTML='<div class="small">目前沒有符合條件的積極觀察標的</div>';
+ if(!rz.innerHTML)rz.innerHTML='<div class="small">目前沒有明顯過熱或風險標的</div>';
  const mr=d.market_regime||{};const mc=mr.label==='偏多'?'good':mr.label==='偏空'?'bad':'warn';
  document.getElementById('marketRegime').innerHTML=`<div class="value" style="font-size:28px"><span class="pill ${mc}">${mr.label==='偏多'?'🟢':mr.label==='偏空'?'🔴':'🟡'} ${mr.label||'資料更新中'}</span></div><div style="margin-top:12px">外資：<b class="${cls(mr.foreign)}">${mr.foreign!==null&&mr.foreign!==undefined?fmt(mr.foreign,1)+' 億':'—'}</b></div><div class="small" style="margin-top:8px">${mr.note||'權值股技術面＋外資方向'}</div>`;
  const mt=document.getElementById('momentumTop');mt.innerHTML='';
@@ -215,6 +223,7 @@ function selectStock(id){
  document.getElementById('stockSelect').value=id;
  const a=s.institution||{};
  const sc=s.score||scoreStock(s);
+ const decision=s.decision||{};
  const upside=s.target_base&&s.close?(s.target_base/s.close-1)*100:null;
  let score=0, reasons=[];
  if((s.revenue_yoy||0)>0){score++;reasons.push('營收 YoY 成長');}else if(s.revenue_yoy!==null&&s.revenue_yoy!==undefined){score--;reasons.push('營收 YoY 衰退');}
@@ -225,7 +234,7 @@ function selectStock(id){
  const outlook=score>=3?'偏多觀察':score<=-3?'偏空警戒':'震盪／中性';
  const oc=score>=3?'good':score<=-3?'bad':'warn';
  document.getElementById('quickSummary').innerHTML=`<div class="kpi"><div class="label">${s.id} ${s.name}</div><div class="value">${fmt(s.close)}</div><div class="small">${s.trend||''}｜${s.valuation_status||''}</div></div>`;
- document.getElementById('linkedSummary').innerHTML=`<div class="card"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center"><div><div class="small">連動判讀｜${s.id} ${s.name}</div><h2 style="margin:4px 0 0">${fmt(s.close)} <span class="pill ${oc}">${outlook}</span></h2></div><div><b>基準目標：</b>${fmt(s.target_base)} <span class="${cls(upside)}">${upside!==null?'('+fmt(upside,1)+'%)':'—'}</span></div></div><div class="kpis" style="margin-top:12px">
+ document.getElementById('linkedSummary').innerHTML=`<div class="card"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center"><div><div class="small">連動判讀｜${s.id} ${s.name}</div><h2 style="margin:4px 0 0">${fmt(s.close)} <span class="pill ${oc}">${outlook}</span> <span class="pill warn">${decision.zone||'中性等待'}</span></h2></div><div><b>基準目標：</b>${fmt(s.target_base)} <span class="${cls(upside)}">${upside!==null?'('+fmt(upside,1)+'%)':'—'}</span></div></div><div class="kpis" style="margin-top:12px">
  <div class="kpi"><div class="label">綜合評分</div><div class="value">${sc.total}<span class="small"> /100 · ${grade(sc.total)}</span></div></div>
  <div class="kpi"><div class="label">基本面</div><div class="value">${sc.fundamental}<span class="small"> /25</span></div></div>
  <div class="kpi"><div class="label">籌碼面</div><div class="value">${sc.chip}<span class="small"> /25</span></div></div>
