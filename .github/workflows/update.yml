@@ -1,6 +1,10 @@
 name: Update stock dashboard
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update.yml"
   schedule:
     - cron: "30 12 * * 1-5"
 permissions:
