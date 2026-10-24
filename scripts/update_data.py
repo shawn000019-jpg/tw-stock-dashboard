@@ -13,11 +13,21 @@ API="https://api.finmindtrade.com/api/v4/data"
 UA={"User-Agent":"Mozilla/5.0 (compatible; StockDashboard/3.0)"}
 
 WATCH=[
-    {"id":"4556","name":"旭然","market":"TPEx"},
-    {"id":"7556","name":"意德士","market":"TPEx"},
-    {"id":"5297","name":"廣化","market":"Emerging"},
-    {"id":"7887","name":"宇川精材","market":"Emerging"},
-    {"id":"3680","name":"家登","market":"TPEx"},
+    {"id":"2330","name":"台積電","market":"TWSE","weight":True},
+    {"id":"2317","name":"鴻海","market":"TWSE","weight":True},
+    {"id":"2454","name":"聯發科","market":"TWSE","weight":True},
+    {"id":"2308","name":"台達電","market":"TWSE","weight":True},
+    {"id":"2382","name":"廣達","market":"TWSE","weight":True},
+    {"id":"2881","name":"富邦金","market":"TWSE","weight":True},
+    {"id":"2882","name":"國泰金","market":"TWSE","weight":True},
+    {"id":"2891","name":"中信金","market":"TWSE","weight":True},
+    {"id":"3711","name":"日月光投控","market":"TWSE","weight":True},
+    {"id":"2412","name":"中華電","market":"TWSE","weight":True},
+    {"id":"4556","name":"旭然","market":"TPEx","weight":False},
+    {"id":"7556","name":"意德士","market":"TPEx","weight":False},
+    {"id":"5297","name":"廣化","market":"Emerging","weight":False},
+    {"id":"7887","name":"宇川精材","market":"Emerging","weight":False},
+    {"id":"3680","name":"家登","market":"TPEx","weight":False},
 ]
 
 POS_WORDS=["成長","創高","增加","獲利","訂單","擴產","受惠","突破","上修","看好","轉盈","合作","認證","量產"]
@@ -219,6 +229,47 @@ def get_moneydj_news(stock_id,name):
     except:pass
     return items
 
+
+def get_market_institution():
+    """TWSE whole-market three-institution net trading value. Official summary is value, not lots."""
+    url="https://www.twse.com.tw/rwd/zh/fund/BFI82U?response=json"
+    out={"date":None,"foreign":None,"trust":None,"dealer":None,"total":None,"unit":"億元"}
+    try:
+        j=requests.get(url,headers=UA,timeout=20).json()
+        out["date"]=j.get("date")
+        for row in j.get("data",[]):
+            label=str(row[0])
+            diff=n(row[-1])
+            if diff is None:continue
+            val=diff/100000000
+            if "外資" in label and "自營商" not in label: out["foreign"]=(out["foreign"] or 0)+val
+            elif "投信" in label: out["trust"]=(out["trust"] or 0)+val
+            elif "自營商" in label: out["dealer"]=(out["dealer"] or 0)+val
+        vals=[x for x in (out["foreign"],out["trust"],out["dealer"]) if x is not None]
+        out["total"]=sum(vals) if vals else None
+    except Exception as e:
+        out["error"]=str(e)
+    return out
+
+def get_finance_news():
+    urls=[
+      ("中央社產經","https://feeds.feedburner.com/rsscna/finance"),
+      ("中央社科技","https://feeds.feedburner.com/rsscna/technology")
+    ]
+    items=[];seen=set()
+    for source,url in urls:
+        try:
+            r=requests.get(url,headers=UA,timeout=20);r.raise_for_status()
+            root=ET.fromstring(r.text)
+            for item in root.findall(".//item")[:10]:
+                title=(item.findtext("title") or "").strip()
+                link=(item.findtext("link") or "").strip()
+                if not title or title in seen:continue
+                seen.add(title)
+                items.append({"title":title,"url":link,"source":source,"date":item.findtext("pubDate") or "","sentiment":news_sentiment(title)})
+        except:pass
+    return items[:12]
+
 def calc_targets(fwd_eps,pe_hist,latest_pe):
     if fwd_eps is None:return None,None,None,"缺 EPS，暫不估值"
     hist=[x for x in pe_hist if x and 0<x<150]
@@ -266,7 +317,7 @@ def main():
         news=get_moneydj_news(sid,name)
         news_score=sum(1 if x["sentiment"]=="利多" else -1 if x["sentiment"]=="利空" else 0 for x in news)
         stocks.append({
-          "id":sid,"name":name,"market":market,
+          "id":sid,"name":name,"market":market,"weight":bool(s.get("weight")),
           "close":close,"change_pct":px.get("change_pct"),
           "eps_ttm":ttm,"forward_eps":fwd,"pe":pe,
           "quarterly_eps":qeps,
@@ -292,8 +343,10 @@ def main():
 
     payload={
       "updated_at":datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S"),
-      "sources":["FinMind（量化資料，server-side）","公開資訊觀測站 MOPS","財報狗","Goodinfo","CMoney","MoneyDJ"],
+      "sources":["FinMind（量化資料，server-side）","TWSE 臺灣證券交易所","中央社財經 RSS","公開資訊觀測站 MOPS","財報狗","Goodinfo","CMoney","MoneyDJ"],
       "ranking":ranking,
+      "market_institution":get_market_institution(),
+      "finance_news":get_finance_news(),
       "stocks":stocks
     }
     OUT.parent.mkdir(parents=True,exist_ok=True)
