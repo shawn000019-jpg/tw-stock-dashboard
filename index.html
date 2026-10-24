@@ -50,7 +50,11 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 <div class="homegrid">
  <div class="card home8"><h2 style="margin-top:0">🇹🇼 台股權值觀察</h2><div class="scroll"><table><thead><tr><th>排名</th><th>權值股</th><th>綜合分</th><th>收盤</th><th>漲跌%</th><th>PE</th><th>營收YoY</th><th>基準目標</th><th>距目標%</th><th>趨勢</th><th>外資1D</th></tr></thead><tbody id="weightBody"></tbody></table></div></div>
  <div class="card home4"><h2 style="margin-top:0">🏦 全市場三大法人</h2><div class="small">TWSE 官方全市場口徑為買賣超金額（億元）</div><div id="marketInst" class="instcards" style="margin-top:12px"></div></div>
- <div class="card home8"><h2 style="margin-top:0">📰 今日重點財經新聞</h2><div id="financeNews"></div></div>
+ <div class="card home8"><h2 style="margin-top:0">📰 今日重點財經新聞</h2>
+ <div class="rankgrid">
+  <div><h3>🌏 亞洲財經</h3><div id="asiaNews"></div></div>
+  <div><h3>🌐 國際財經</h3><div id="internationalNews"></div></div>
+ </div></div>
  <div class="card home4"><h2 style="margin-top:0">🎯 快速選擇標的</h2><div class="small" style="margin-bottom:8px">輸入代號或名稱快速切到個股詳細</div><input id="quickSearch" class="selector" list="stockOptions" placeholder="例如：2330 / 台積電" oninput="quickPick(this.value)"><datalist id="stockOptions"></datalist><div id="quickSummary" style="margin-top:12px"></div></div>
 </div>
 </section>
@@ -126,11 +130,15 @@ function render(d){
  ib.innerHTML='';db.innerHTML='';nb.innerHTML='';
  const wb=document.getElementById('weightBody'); wb.innerHTML='';
  const mi=document.getElementById('marketInst'); mi.innerHTML='';
- const fn=document.getElementById('financeNews'); fn.innerHTML='';
+ const an=document.getElementById('asiaNews'),inn=document.getElementById('internationalNews'); an.innerHTML='';inn.innerHTML='';
  const sel=document.getElementById('stockSelect'),opts=document.getElementById('stockOptions'); sel.innerHTML='';opts.innerHTML='';
  const m=d.market_institution||{};
  [['外資',m.foreign],['投信',m.trust],['自營商',m.dealer],['三大合計',m.total]].forEach(([k,v])=>mi.insertAdjacentHTML('beforeend',`<div class="kpi"><div class="label">${k}</div><div class="value ${cls(v)}">${fmt(v,1)}</div><div class="small">億元</div></div>`));
- (d.finance_news||[]).slice(0,8).forEach(n=>fn.insertAdjacentHTML('beforeend',`<div style="padding:9px 0;border-bottom:1px solid #2a3b58">${newsPill(n.sentiment)} <a href="${n.url}" target="_blank">${n.title}</a><div class="small">${n.source} ${n.date||''}</div></div>`));
+ const finance=Array.isArray(d.finance_news)?{asia:d.finance_news,international:[]}:(d.finance_news||{});
+ (finance.asia||[]).slice(0,7).forEach(n=>an.insertAdjacentHTML('beforeend',`<div style="padding:9px 0;border-bottom:1px solid #2a3b58">${newsPill(n.sentiment)} <a href="${n.url}" target="_blank">${n.title}</a><div class="small">${n.source} ${n.date||''}</div></div>`));
+ (finance.international||[]).slice(0,7).forEach(n=>inn.insertAdjacentHTML('beforeend',`<div style="padding:9px 0;border-bottom:1px solid #2a3b58">${newsPill(n.sentiment)} <a href="${n.url}" target="_blank">${n.title}</a><div class="small">${n.source} ${n.date||''}</div></div>`));
+ if(!an.innerHTML)an.innerHTML='<div class="small">亞洲新聞更新中</div>';
+ if(!inn.innerHTML)inn.innerHTML='<div class="small">國際新聞更新中</div>';
  const scored=(d.stocks||[]).map(s=>({id:s.id,...scoreStock(s)})).sort((a,b)=>b.total-a.total);
  const rankMap=Object.fromEntries(scored.map((x,i)=>[x.id,i+1]));
  (d.stocks||[]).forEach((s,i)=>{
