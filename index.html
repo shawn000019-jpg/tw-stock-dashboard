@@ -173,7 +173,7 @@ function render(d){
          <tr><td>保守目標</td><td>${fmt(s.target_low)}</td><td class="${cls(s.target_low&&s.close?(s.target_low/s.close-1):null)}">${s.target_low&&s.close?fmt((s.target_low/s.close-1)*100,1)+'%':'—'}</td></tr>
          <tr class="target-best"><td>基準目標</td><td>${fmt(s.target_base)}</td><td class="${cls(s.target_base&&s.close?(s.target_base/s.close-1):null)}">${s.target_base&&s.close?fmt((s.target_base/s.close-1)*100,1)+'%':'—'}</td></tr>
          <tr><td>樂觀目標</td><td>${fmt(s.target_high)}</td><td class="${cls(s.target_high&&s.close?(s.target_high/s.close-1):null)}">${s.target_high&&s.close?fmt((s.target_high/s.close-1)*100,1)+'%':'—'}</td></tr>
-       </tbody></table><div class="small" style="margin-top:8px">${s.valuation_note||''}</div></div>
+       </tbody></table><div class="small" style="margin-top:8px">可信度：<b>${s.target_confidence||'—'}</b>｜${s.valuation_note||''}<br>EPS來源：${s.eps_source||'—'}</div></div>
        <div class="card span6" style="margin:0"><h3 style="margin-top:0">季度 EPS 趨勢</h3><div class="scroll"><table><thead><tr><th>季度</th><th>EPS</th></tr></thead><tbody>${qeps||'<tr><td colspan="2">暫無資料</td></tr>'}</tbody></table></div></div>
        <div class="card span6" style="margin:0"><h3 style="margin-top:0">法人 / 區間</h3><table><tbody>
          <tr><td>法人 5D</td><td class="${cls(a.total5)}">${fmt(a.total5,0)} 張</td></tr>
