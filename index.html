@@ -55,7 +55,8 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
   <div><h3>🌏 亞洲財經</h3><div id="asiaNews"></div></div>
   <div><h3>🌐 國際財經</h3><div id="internationalNews"></div></div>
  </div></div>
- <div class="card home12"><h2 style="margin-top:0">🧭 今日決策區</h2><div class="rankgrid"><div><h3>🟢 進場觀察 / 🔵 強勢</h3><div id="positiveZones"></div></div><div><h3>🟠 過熱 / 🔴 風險</h3><div id="riskZones"></div></div></div><div class="small" style="margin-top:10px">決策區會同時考慮綜合分數、法人、技術趨勢、目標價可信度與市場環境；屬觀察工具，不等於買賣建議。</div></div>
+ <div class="card home12"><h2 style="margin-top:0">☀️ 今日盤前 / 盤後摘要</h2><div id="dailyBrief"></div></div>
+<div class="card home12"><h2 style="margin-top:0">🧭 今日決策區</h2><div class="rankgrid"><div><h3>🟢 進場觀察 / 🔵 強勢</h3><div id="positiveZones"></div></div><div><h3>🟠 過熱 / 🔴 風險</h3><div id="riskZones"></div></div></div><div class="small" style="margin-top:10px">決策區會同時考慮綜合分數、法人、技術趨勢、目標價可信度與市場環境；屬觀察工具，不等於買賣建議。</div></div>
 <div class="card home4"><h2 style="margin-top:0">🚦 市場環境</h2><div id="marketRegime"></div></div>
 <div class="card home4"><h2 style="margin-top:0">🚀 Top 5 轉強觀察</h2><div id="momentumTop"></div></div>
 <div class="card home4"><h2 style="margin-top:0">🎯 快速選擇標的</h2><div class="small" style="margin-bottom:8px">輸入代號或名稱快速切到個股詳細</div><input id="quickSearch" class="selector" list="stockOptions" placeholder="例如：2330 / 台積電" oninput="quickPick(this.value)"><datalist id="stockOptions"></datalist><div id="quickSummary" style="margin-top:12px"></div></div>
@@ -133,6 +134,8 @@ function render(d){
  ib.innerHTML='';db.innerHTML='';nb.innerHTML='';
  const wb=document.getElementById('weightBody'); wb.innerHTML='';
  const mi=document.getElementById('marketInst'); mi.innerHTML='';
+ const db=d.daily_brief||{};
+ document.getElementById('dailyBrief').innerHTML=`<div class="outlook"><b>${db.headline||'資料更新中'}</b><div style="margin-top:8px">🏆 高分：${(db.leaders||[]).map(x=>x.name+' '+x.score+'分').join('｜')||'—'}</div><div style="margin-top:6px">⚠️ 低分：${(db.risks||[]).map(x=>x.name+' '+x.score+'分').join('｜')||'—'}</div></div>`;
  const dz=d.decision_zones||{};
  const pz=document.getElementById('positiveZones'),rz=document.getElementById('riskZones');pz.innerHTML='';rz.innerHTML='';
  const zoneRow=(x,label)=>`<div class="rankitem"><span><b>${x.name}</b> ${x.id}<div class="small">${(x.reasons||[]).join('｜')}</div></span><span><b>${x.score}</b>分<br><span class="small">${label}</span></span></div>`;
@@ -188,6 +191,19 @@ function render(d){
          <tr class="target-best"><td>基準目標</td><td>${fmt(s.target_base)}</td><td class="${cls(s.target_base&&s.close?(s.target_base/s.close-1):null)}">${s.target_base&&s.close?fmt((s.target_base/s.close-1)*100,1)+'%':'—'}</td></tr>
          <tr><td>樂觀目標</td><td>${fmt(s.target_high)}</td><td class="${cls(s.target_high&&s.close?(s.target_high/s.close-1):null)}">${s.target_high&&s.close?fmt((s.target_high/s.close-1)*100,1)+'%':'—'}</td></tr>
        </tbody></table><div class="small" style="margin-top:8px">可信度：<b>${s.target_confidence||'—'}</b>｜${s.valuation_note||''}<br>EPS來源：${s.eps_source||'—'}</div></div>
+       <div class="card span4" style="margin:0"><h3 style="margin-top:0">⚖️ 風險 / 報酬</h3>
+       <table><tbody>
+       <tr><td>觀察價區</td><td><b>${s.risk_reward?.entry_low?fmt(s.risk_reward.entry_low)+' ～ '+fmt(s.risk_reward.entry_high):'—'}</b></td></tr>
+       <tr><td>近季支撐</td><td>${fmt(s.risk_reward?.support)}</td></tr>
+       <tr><td>近季壓力</td><td>${fmt(s.risk_reward?.resistance)}</td></tr>
+       <tr><td>潛在上漲</td><td class="${cls(s.risk_reward?.upside_pct)}">${s.risk_reward?.upside_pct!==null&&s.risk_reward?.upside_pct!==undefined?fmt(s.risk_reward.upside_pct,1)+'%':'—'}</td></tr>
+       <tr><td>下行風險</td><td>${s.risk_reward?.downside_pct!==null&&s.risk_reward?.downside_pct!==undefined?fmt(s.risk_reward.downside_pct,1)+'%':'—'}</td></tr>
+       <tr><td>Risk / Reward</td><td><b>${s.risk_reward?.rr?fmt(s.risk_reward.rr,2)+' : 1':'—'}</b></td></tr>
+       </tbody></table><div class="small" style="margin-top:8px">${s.risk_reward?.risk_note||''}</div></div>
+       <div class="card span4" style="margin:0"><h3 style="margin-top:0">🛡️ 資料品質</h3>
+       <div class="value" style="font-size:26px">${s.data_quality?.level==='高'?'🟢':s.data_quality?.level==='中'?'🟡':'🔴'} ${s.data_quality?.level||'—'}</div>
+       <div class="small" style="margin-top:10px">${(s.data_quality?.issues||[]).length?'注意：'+s.data_quality.issues.join('、'):'EPS、法人、價格歷史與估值資料完整'}</div>
+       </div>
        <div class="card span6" style="margin:0"><h3 style="margin-top:0">季度 EPS 趨勢</h3><div class="scroll"><table><thead><tr><th>季度</th><th>EPS</th></tr></thead><tbody>${qeps||'<tr><td colspan="2">暫無資料</td></tr>'}</tbody></table></div></div>
        <div class="card span6" style="margin:0"><h3 style="margin-top:0">法人 / 區間</h3><table><tbody>
          <tr><td>法人 5D</td><td class="${cls(a.total5)}">${fmt(a.total5,0)} 張</td></tr>
@@ -243,6 +259,8 @@ function selectStock(id){
  <div class="kpi"><div class="label">15 檔排名</div><div class="value">#${(window.__rankMap||{})[s.id]||'—'}</div></div>
  <div class="kpi"><div class="label">評分 1D</div><div class="value ${cls(s.score_change_1d)}">${s.score_change_1d!==null&&s.score_change_1d!==undefined?(s.score_change_1d>0?'+':'')+fmt(s.score_change_1d,0):'—'}</div></div>
  <div class="kpi"><div class="label">評分 5D</div><div class="value ${cls(s.score_change_5d)}">${s.score_change_5d!==null&&s.score_change_5d!==undefined?(s.score_change_5d>0?'+':'')+fmt(s.score_change_5d,0):'建立中'}</div></div>
+ <div class="kpi"><div class="label">Risk / Reward</div><div class="value">${s.risk_reward?.rr?fmt(s.risk_reward.rr,2)+':1':'—'}</div></div>
+ <div class="kpi"><div class="label">資料品質</div><div class="value">${s.data_quality?.level||'—'}</div></div>
  </div>
  <div class="outlook" style="margin-top:12px"><b>後續動向依據：</b> ${reasons.length?reasons.join(' → '):'資料不足，暫不判讀'}<div class="small" style="margin-top:6px">評分＝基本面 25＋籌碼面 25＋技術面 25＋估值面 25。屬規則式比較工具，不代表未來報酬保證。</div></div></div>`;
 }
