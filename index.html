@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>台股追蹤 Dashboard V4</title>
+<title>台股追蹤 Dashboard V5</title>
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <style>
 :root{--bg:#0b1320;--card:#121e31;--card2:#19283f;--line:#2a3b58;--text:#eef5ff;--muted:#9caec7;--green:#35d49a;--red:#ff707e;--yellow:#ffd166;--blue:#71b4ff}
@@ -21,6 +21,9 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 .note{padding:10px 12px;background:#282416;border-left:4px solid var(--yellow);border-radius:8px;color:#f4e7b7;font-size:12px}
 .rankgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:800px){.rankgrid{grid-template-columns:1fr}}
 .rankitem{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line)}
+.selector{width:100%;max-width:520px;background:#19283f;color:#eef5ff;border:1px solid #3a5277;border-radius:10px;padding:11px;font-size:15px}
+.homegrid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}.home8{grid-column:span 8}.home4{grid-column:span 4}@media(max-width:900px){.home8,.home4{grid-column:span 12}}
+.instcards{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}@media(max-width:700px){.instcards{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
 <body>
@@ -41,12 +44,12 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </div>
 
 <section id="overview" class="section active">
-<div class="card"><div class="scroll"><table>
-<thead><tr>
-<th>股票</th><th>收盤</th><th>漲跌%</th><th>近4季EPS</th><th>PE</th>
-<th>營收YoY</th><th>營收MoM</th><th>基準目標</th><th>潛在空間</th>
-<th>估值狀態</th><th>趨勢</th><th>法人連買賣</th><th>法人訊號</th>
-</tr></thead><tbody id="overviewBody"></tbody></table></div></div>
+<div class="homegrid">
+ <div class="card home8"><h2 style="margin-top:0">🇹🇼 台股權值觀察</h2><div class="scroll"><table><thead><tr><th>權值股</th><th>收盤</th><th>漲跌%</th><th>PE</th><th>營收YoY</th><th>趨勢</th><th>外資1D</th></tr></thead><tbody id="weightBody"></tbody></table></div></div>
+ <div class="card home4"><h2 style="margin-top:0">🏦 全市場三大法人</h2><div class="small">TWSE 官方全市場口徑為買賣超金額（億元）</div><div id="marketInst" class="instcards" style="margin-top:12px"></div></div>
+ <div class="card home8"><h2 style="margin-top:0">📰 今日重點財經新聞</h2><div id="financeNews"></div></div>
+ <div class="card home4"><h2 style="margin-top:0">🎯 快速選擇標的</h2><div class="small" style="margin-bottom:8px">輸入代號或名稱快速切到個股詳細</div><input id="quickSearch" class="selector" list="stockOptions" placeholder="例如：2330 / 台積電" oninput="quickPick(this.value)"><datalist id="stockOptions"></datalist><div id="quickSummary" style="margin-top:12px"></div></div>
+</div>
 </section>
 
 <section id="ranking" class="section">
@@ -66,7 +69,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </tr></thead><tbody id="instBody"></tbody></table></div></div>
 </section>
 
-<section id="detail" class="section"><div id="detailBody"></div></section>
+<section id="detail" class="section"><div class="card"><b>選擇標的：</b> <select id="stockSelect" class="selector" onchange="selectStock(this.value)"></select></div><div id="detailBody"></div></section>
 
 <section id="news" class="section">
 <div class="card"><h3 style="margin-top:0">最新新聞 / 情緒</h3><div id="newsBody"></div></div>
@@ -94,18 +97,21 @@ function renderRanking(d){
 function render(d){
  document.getElementById('updated').textContent=`資料更新：${d.updated_at||'—'}｜來源：${(d.sources||[]).join('、')}`;
  renderRanking(d);
- const ob=document.getElementById('overviewBody'),ib=document.getElementById('instBody'),db=document.getElementById('detailBody'),nb=document.getElementById('newsBody');
- ob.innerHTML='';ib.innerHTML='';db.innerHTML='';nb.innerHTML='';
+ const ib=document.getElementById('instBody'),db=document.getElementById('detailBody'),nb=document.getElementById('newsBody');
+ ib.innerHTML='';db.innerHTML='';nb.innerHTML='';
+ const wb=document.getElementById('weightBody'); wb.innerHTML='';
+ const mi=document.getElementById('marketInst'); mi.innerHTML='';
+ const fn=document.getElementById('financeNews'); fn.innerHTML='';
+ const sel=document.getElementById('stockSelect'),opts=document.getElementById('stockOptions'); sel.innerHTML='';opts.innerHTML='';
+ const m=d.market_institution||{};
+ [['外資',m.foreign],['投信',m.trust],['自營商',m.dealer],['三大合計',m.total]].forEach(([k,v])=>mi.insertAdjacentHTML('beforeend',`<div class="kpi"><div class="label">${k}</div><div class="value ${cls(v)}">${fmt(v,1)}</div><div class="small">億元</div></div>`));
+ (d.finance_news||[]).slice(0,8).forEach(n=>fn.insertAdjacentHTML('beforeend',`<div style="padding:9px 0;border-bottom:1px solid #2a3b58">${newsPill(n.sentiment)} <a href="${n.url}" target="_blank">${n.title}</a><div class="small">${n.source} ${n.date||''}</div></div>`));
  (d.stocks||[]).forEach((s,i)=>{
    const up=s.target_base&&s.close?(s.target_base/s.close-1)*100:null;
    const a=s.institution||{},f=a.foreign||{},t=a.trust||{},r=a.dealer||{};
-   ob.insertAdjacentHTML('beforeend',`<tr>
-     <td><b>${s.name}</b> ${s.id}</td><td>${fmt(s.close)}</td><td class="${cls(s.change_pct)}">${pctText(s.change_pct)}</td>
-     <td>${fmt(s.eps_ttm)}</td><td>${s.pe?fmt(s.pe,1)+'x':'—'}</td>
-     <td class="${cls(s.revenue_yoy)}">${pctText(s.revenue_yoy)}</td><td class="${cls(s.revenue_mom)}">${pctText(s.revenue_mom)}</td>
-     <td>${fmt(s.target_base)}</td><td class="${cls(up)}">${up!==null?fmt(up,1)+'%':'—'}</td>
-     <td>${valPill(s.valuation_status)}</td><td>${s.trend||'—'}</td><td>${a.streak||'—'}</td><td><span class="pill">${a.signal||'—'}</span></td>
-   </tr>`);
+   sel.insertAdjacentHTML('beforeend',`<option value="${s.id}">${s.id} ${s.name}</option>`);
+   opts.insertAdjacentHTML('beforeend',`<option value="${s.id} ${s.name}"></option>`);
+   if(s.weight) wb.insertAdjacentHTML('beforeend',`<tr><td><b>${s.name}</b> ${s.id}</td><td>${fmt(s.close)}</td><td class="${cls(s.change_pct)}">${pctText(s.change_pct)}</td><td>${s.pe?fmt(s.pe,1)+'x':'—'}</td><td class="${cls(s.revenue_yoy)}">${pctText(s.revenue_yoy)}</td><td>${s.trend||'—'}</td><td class="${cls(f.d1)}">${fmt(f.d1,0)}</td></tr>`);
 
    ib.insertAdjacentHTML('beforeend',`<tr><td><b>${s.name}</b> ${s.id}</td>
      <td class="${cls(f.d1)}">${fmt(f.d1,0)}</td><td class="${cls(f.d5)}">${fmt(f.d5,0)}</td><td class="${cls(f.d20)}">${fmt(f.d20,0)}</td><td>${a.foreign_streak||'—'}</td>
@@ -115,7 +121,7 @@ function render(d){
 
    const src=s.links||{};
    const qeps=(s.quarterly_eps||[]).map(x=>`<tr><td>${x.quarter}</td><td>${fmt(x.eps)}</td></tr>`).join('');
-   db.insertAdjacentHTML('beforeend',`<div class="card">
+   db.insertAdjacentHTML('beforeend',`<div class="card stock-detail" data-stock="${s.id}" style="display:none">
      <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap"><h2 style="margin:0">${s.name}（${s.id}）</h2><div class="source">${Object.entries(src).map(([k,v])=>`<a href="${v}" target="_blank">${k}</a>`).join('')}</div></div>
      <div class="kpis" style="margin-top:12px">
       <div class="kpi"><div class="label">收盤</div><div class="value">${fmt(s.close)}</div></div>
@@ -153,6 +159,21 @@ function render(d){
 
    (s.news||[]).forEach(n=>nb.insertAdjacentHTML('beforeend',`<div style="padding:10px 0;border-bottom:1px solid #2a3b58"><b>${s.name}</b>｜${newsPill(n.sentiment)} <a href="${n.url}" target="_blank">${n.title}</a><div class="small">${n.source||''} ${n.date||''}</div></div>`));
  });
+ if((d.stocks||[]).length) selectStock((d.stocks||[])[0].id);
+ window.__stocks=d.stocks||[];
+}
+
+function selectStock(id){
+ document.querySelectorAll('.stock-detail').forEach(x=>x.style.display=x.dataset.stock===id?'block':'none');
+ const s=(window.__stocks||[]).find(x=>x.id===id);
+ if(s){document.getElementById('stockSelect').value=id;document.getElementById('quickSummary').innerHTML=`<div class="kpi"><div class="label">${s.id} ${s.name}</div><div class="value">${fmt(s.close)}</div><div class="small">${s.trend||''}｜${s.valuation_status||''}</div></div>`;}
+}
+function quickPick(v){
+ const s=(window.__stocks||[]).find(x=>v.includes(x.id)||v.includes(x.name));
+ if(!s)return;
+ selectStock(s.id);
+ document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));document.getElementById('detail').classList.add('active');
+ document.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));document.querySelectorAll('.tab')[3].classList.add('active');
 }
 
 fetch('https://raw.githubusercontent.com/shawn000019-jpg/tw-stock-dashboard/main/data/latest.json?ts='+Date.now(),{cache:'no-store'})
