@@ -143,19 +143,13 @@ def get_quarterly_eps(stock_id):
     try:rows=fm("TaiwanStockFinancialStatements",stock_id,start)
     except:return []
     epsrows=sorted([r for r in rows if r.get("type")=="EPS"],key=lambda x:x.get("date",""))
-    byyear={}
+    byq={}
     for r in epsrows:
         d=datetime.fromisoformat(r["date"]);q=(d.month-1)//3+1
-        byyear.setdefault(d.year,{})[q]=n(r.get("value"))
+        byq[(d.year,q)]=n(r.get("value"))
     out=[]
-    for y in sorted(byyear):
-        prevcum=0
-        for q in range(1,5):
-            if q not in byyear[y]:continue
-            cum=byyear[y][q]
-            standalone=cum if q==1 else (cum-prevcum if cum is not None and prevcum is not None else cum)
-            out.append({"quarter":f"{y}Q{q}","eps":standalone,"reported_eps":cum})
-            prevcum=cum
+    for (y,q),value in sorted(byq.items()):
+        out.append({"quarter":f"{y}Q{q}","eps":value,"reported_eps":value})
     return out[-8:]
 
 def classify_name(name):
@@ -242,11 +236,13 @@ def get_market_institution():
             diff=n(row[-1])
             if diff is None:continue
             val=diff/100000000
-            if "外資" in label and "自營商" not in label: out["foreign"]=(out["foreign"] or 0)+val
-            elif "投信" in label: out["trust"]=(out["trust"] or 0)+val
-            elif "自營商" in label: out["dealer"]=(out["dealer"] or 0)+val
-        vals=[x for x in (out["foreign"],out["trust"],out["dealer"]) if x is not None]
-        out["total"]=sum(vals) if vals else None
+            if label.startswith("外資及陸資"): out["foreign"]=val
+            elif label=="投信": out["trust"]=val
+            elif label.startswith("自營商"): out["dealer"]=(out["dealer"] or 0)+val
+            elif label=="合計": out["total"]=val
+        if out["total"] is None:
+            vals=[x for x in (out["foreign"],out["trust"],out["dealer"]) if x is not None]
+            out["total"]=sum(vals) if len(vals)==3 else None
     except Exception as e:
         out["error"]=str(e)
     return out
@@ -314,13 +310,20 @@ def main():
         try:px=get_price_data(sid)
         except:px={}
         close=px.get("close")
-        try:pe,ttm,pe_hist=get_per_eps(sid,close)
-        except:pe,ttm,pe_hist=None,None,[]
-        try:fwd,g,yoy,mom,recent_revenue=get_revenue_metrics(sid,ttm)
-        except:fwd,g,yoy,mom,recent_revenue=ttm,None,None,None,[]
+        try:pe,inferred_ttm,pe_hist=get_per_eps(sid,close)
+        except:pe,inferred_ttm,pe_hist=None,None,[]
         try:qeps=get_quarterly_eps(sid)
         except:qeps=[]
+        recent_eps=[x.get("eps") for x in qeps[-4:] if x.get("eps") is not None]
+        official_ttm=sum(recent_eps) if len(recent_eps)==4 else None
+        ttm=official_ttm if official_ttm is not None else inferred_ttm
+        eps_source="近四季官方單季 EPS 加總" if official_ttm is not None else "股價 ÷ PE 反推（備援）"
+        try:fwd,g,yoy,mom,recent_revenue=get_revenue_metrics(sid,ttm)
+        except:fwd,g,yoy,mom,recent_revenue=ttm,None,None,None,[]
         lo,base,hi,note=calc_targets(fwd,pe_hist,pe)
+        confidence="高" if official_ttm is not None and len(pe_hist)>=100 else "中" if official_ttm is not None and len(pe_hist)>=20 else "低"
+        if close and base and (base/close<0.45 or base/close>2.5):
+            confidence="低"; note += "；模型與現價差距過大，請降低權重"
         try:inst=get_institution(sid,market)
         except:inst={"foreign":{"d1":None,"d5":None,"d20":None},"trust":{"d1":None,"d5":None,"d20":None},"dealer":{"d1":None,"d5":None,"d20":None},"total5":None,"signal":"法人資料暫缺","streak":"—","foreign_streak":"—"}
         news=get_moneydj_news(sid,name)
@@ -328,8 +331,8 @@ def main():
         stocks.append({
           "id":sid,"name":name,"market":market,"weight":bool(s.get("weight")),
           "close":close,"change_pct":px.get("change_pct"),
-          "eps_ttm":ttm,"forward_eps":fwd,"pe":pe,
-          "quarterly_eps":qeps,
+          "eps_ttm":ttm,"eps_source":eps_source,"forward_eps":fwd,"pe":pe,
+          "quarterly_eps":qeps,"target_confidence":confidence,
           "revenue_yoy":yoy,"revenue_mom":mom,"revenue_history":recent_revenue,
           "target_low":lo,"target_base":base,"target_high":hi,
           "valuation_note":note,"valuation_status":valuation_status(close,lo,base,hi),
