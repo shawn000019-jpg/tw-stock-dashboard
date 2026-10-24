@@ -348,6 +348,36 @@ def update_score_history(stocks):
     SCORE_HISTORY.write_text(json.dumps(history,ensure_ascii=False,indent=2),encoding="utf-8")
     return history
 
+
+def decision_zone(s,market_label):
+    sc=(s.get("score") or {}).get("total",0)
+    inst=s.get("institution") or {}
+    total5=inst.get("total5")
+    close=s.get("close");base=s.get("target_base")
+    upside=((base/close)-1)*100 if close and base else None
+    trend=s.get("trend","中性")
+    conf=s.get("target_confidence","低")
+    reasons=[]
+    if sc>=70: reasons.append(f"綜合 {sc} 分")
+    elif sc<45: reasons.append(f"綜合僅 {sc} 分")
+    if total5 is not None: reasons.append("法人近5日買超" if total5>0 else "法人近5日賣超")
+    if trend in ("強勢多頭","偏多"): reasons.append("技術偏多")
+    elif trend in ("偏弱","空頭"): reasons.append("技術偏弱")
+    if upside is not None and conf!="低":
+        if upside>=15: reasons.append(f"基準目標尚有 {upside:.0f}% 空間")
+        elif upside<0: reasons.append("現價高於基準目標")
+    if sc<45 or (total5 is not None and total5<0 and trend in ("偏弱","空頭")):
+        zone="風險警戒"
+    elif sc>=75 and upside is not None and upside<5:
+        zone="過熱等待"
+    elif sc>=70 and total5 is not None and total5>0 and trend in ("強勢多頭","偏多"):
+        zone="進場觀察" if market_label!="偏空" else "強勢續追"
+    elif sc>=65:
+        zone="強勢續追"
+    else:
+        zone="中性等待"
+    return {"zone":zone,"reasons":reasons[:4],"upside":upside}
+
 def get_market_regime(market_inst,stocks):
     weights=[s for s in stocks if s.get("weight") and s.get("close") is not None]
     tech=sum(1 if s.get("trend") in ("強勢多頭","偏多") else -1 if s.get("trend") in ("偏弱","空頭") else 0 for s in weights)
@@ -413,6 +443,12 @@ def main():
         momentum=sorted(stocks,key=lambda s:(s.get("score") or {}).get("total",0),reverse=True)[:5]
     market_inst=get_market_institution()
     market_regime=get_market_regime(market_inst,stocks)
+    zones={"進場觀察":[],"強勢續追":[],"過熱等待":[],"風險警戒":[],"中性等待":[]}
+    for s in stocks:
+        dz=decision_zone(s,market_regime["label"])
+        s["decision"]=dz
+        zones[dz["zone"]].append({"id":s["id"],"name":s["name"],"score":s["score"]["total"],"reasons":dz["reasons"],"upside":dz["upside"]})
+    for key in zones: zones[key]=sorted(zones[key],key=lambda x:x["score"],reverse=True)
 
     payload={
       "updated_at":datetime.now(TZ).strftime("%Y-%m-%d %H:%M:%S"),
@@ -420,6 +456,7 @@ def main():
       "ranking":ranking,
       "market_institution":market_inst,
       "market_regime":market_regime,
+      "decision_zones":zones,
       "momentum_top5":[{"id":s["id"],"name":s["name"],"score":s["score"]["total"],"change5":s.get("score_change_5d")} for s in momentum],
       "finance_news":get_finance_news(),
       "stocks":stocks
