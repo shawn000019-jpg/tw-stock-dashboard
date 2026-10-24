@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24 21:27:27",
+  "updated_at": "2026-10-24 21:30:17",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -239,6 +239,44 @@
           "現價高於基準目標"
         ],
         "upside": -35.42201892744479
+      }
+    ]
+  },
+  "daily_brief": {
+    "market": "偏空",
+    "headline": "市場偏空；外資 -815.8 億",
+    "leaders": [
+      {
+        "id": "2412",
+        "name": "中華電",
+        "score": 91
+      },
+      {
+        "id": "2317",
+        "name": "鴻海",
+        "score": 75
+      },
+      {
+        "id": "2382",
+        "name": "廣達",
+        "score": 74
+      }
+    ],
+    "risks": [
+      {
+        "id": "2454",
+        "name": "聯發科",
+        "score": 21
+      },
+      {
+        "id": "2308",
+        "name": "台達電",
+        "score": 30
+      },
+      {
+        "id": "4556",
+        "name": "旭然",
+        "score": 31
       }
     ]
   },
@@ -2585,6 +2623,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": null,
+        "resistance": 2590.0,
+        "upside_pct": 40.489886792452864,
+        "downside_pct": null,
+        "rr": null,
+        "entry_low": 2243.0925,
+        "entry_high": 2333.7225,
+        "risk_note": "缺有效近季支撐，觀察區僅供參考"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
@@ -4649,6 +4701,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 237.0,
+        "resistance": 266.5,
+        "upside_pct": 36.973612857370796,
+        "downside_pct": 3.2653061224489797,
+        "rr": 11.323168937569806,
+        "entry_low": 234.63,
+        "entry_high": 244.11,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "強勢續追",
         "reasons": [
@@ -6714,6 +6780,22 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 4005.0,
+        "resistance": 5165.0,
+        "upside_pct": null,
+        "downside_pct": 0.12468827930174563,
+        "rr": null,
+        "entry_low": 3964.95,
+        "entry_high": 4125.150000000001,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "中",
+        "issues": [
+          "目標價低可信"
+        ]
+      },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
@@ -8778,6 +8860,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": null,
+        "resistance": 2115.0,
+        "upside_pct": -30.59673125269645,
+        "downside_pct": null,
+        "rr": null,
+        "entry_low": 1467.18,
+        "entry_high": 1526.46,
+        "risk_note": "缺有效近季支撐，觀察區僅供參考"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
@@ -10843,6 +10939,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 311.0,
+        "resistance": 337.5,
+        "upside_pct": 90.48392857142854,
+        "downside_pct": 3.4161490683229814,
+        "rr": 26.487113636363627,
+        "entry_low": 307.89,
+        "entry_high": 320.33,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "強勢續追",
         "reasons": [
@@ -12908,6 +13018,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 147.5,
+        "resistance": 164.5,
+        "upside_pct": -35.42201892744479,
+        "downside_pct": 6.940063091482649,
+        "rr": null,
+        "entry_low": 146.025,
+        "entry_high": 151.925,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "中性等待",
         "reasons": [
@@ -14910,38 +15034,38 @@
           "sentiment": "中性"
         },
         {
-          "title": "國泰金 本公司代子公司國泰人壽公告修正與非利害關係人工程承攬契約結束日(修正114年01月15日)",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOSEFLU0gyb1pmS0RpQlhvOHhCQ0dwakhJRXFGa29JLWQ3TXUzYnlsdzUtcHpZX2pRU2RwWlRVRGNpdGtTYmwyeHpfZVVINEN0eXphQkdOR3VEejhUblVEdGhlelpsdkJycHR4Zk13Rk1sMUZGVHdhQklRTkF2Ql9QckczOW9fLUZLOWVUUEFpb19hQQ?oc=5",
+          "title": "10/20起「低波動股利精選30指數」納台泥等/刪遠東新等- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVXQyT0pVRkx5a2RKcDB3N0tZUzVXV290RTBrbmV5c19fS3ZMblV6akFMS0w2R05QT2VnSUg3cnlvV1Uwa2s2YmhWMzlmenNnUEREWGVPQkdlcW9OSEpsSXNITUZXa2FoQjVuQmRlMThoUEx6dVFLN1VTZTNkQ0hXVDhnVGExMFNoYWJ5QmlIcGY1UQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 10:24:00 GMT",
+          "date": "Tue, 20 Oct 2026 00:12:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "國泰金代子公司國泰綜合證券公告向國泰世華商業銀行(股)公司取得使用權資產- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNblkzVkwzZlpSOWZ0bzY4dDYzWk1YNDdfZzZDLU1sdGFhU2VaTnB5SWR5U212OWtvRDQ4QlJvOXNxSW1TY2hlWHRLQzZXNEVWVlhtZnh5UXBzVGljd25GQ2x2RGdBTmpTVG8ydXlHVi1TWUhzeWtfOTJtRnY2enJ3Q0lnUDNFbUtWN3VJTW5WU0pfZw?oc=5",
+          "title": "10/20起「特選Smart多因子指數」納南亞等/刪東陽等- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN1Z0RzFIeHBpSXcxM0N1VWVESTdRcTJjNXU3STZ5VUFhOGozTElhem9sRUVDOTBqRVRlbnlyc1N1NWY4ejRUTmpBaEc1NUpYQ1RxMXg1amlkVE5pTGc4OGVKYTBsRzBKY09PX09jX1A1VFB1Vkc1U2p4MFFtaUp0dU9JWHQ4U2U0clRzOFNWVkliUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 09:49:00 GMT",
+          "date": "Tue, 20 Oct 2026 00:11:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "國泰金 本公司代子公司國泰人壽公告修正租地委建工程承攬契約結束日(修正114年01月20日)",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOGp5NjJ2LTNia3NJUGY3aHY4VEtHa1RNemdULVllSzFwV19QYlZVMXVmeUNLVHltcjJzeERJY2dqc01xYUNlNThGdDdBZ1plYnBuVUFFUFUwLXBqbnFLOXRNbVBhaERmaHRXaVpJTlRfcnVKeENzeS1OMjFNeGpXbm1yYndfZEtCYjFlMzdzX3RWdw?oc=5",
+          "title": "10/20起「特選臺灣市值菁英50指數」納聯電等/刪儒鴻等- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR3Yza0szdkV2eFpMci1ZQ1ZmSHN5alRnRFlySG1xdEVVQUNIMXRBYkZSLTV3VEJ3b2lRbEYtZU5GeEtHNjRNczF0MHNWTzFXWnJxX2pidE9MMkhPYjhmR1JiUUlmVkhFeHp3T193ZXU2elZDVmUwV1pMLVhpcnRFQkFqSHNZbDA1NFl4UTI0VVB1dw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 10:19:00 GMT",
+          "date": "Tue, 20 Oct 2026 00:12:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "國泰金 本公司代子公司國泰人壽公告修正租地委建工程承攬契約結束日(修正111年06月24日)",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYkphUzA1N1VuYkJ0TGFpc2Q3Q0ptcU1KZ3dNcmhhYkxTUXRzRDNPSFNMZDlXdGxUUVNyWGNFWDRjN3k5ODl4VXpTWHlkZi1ic2tlTjlFc2dxY3dBZGhZME5qdy1DMlZwRl9QMDl3R3ZTNE1jaGFPX2NPUFd1NUxRTm5HSVhtcTh4R1lhUGNLWkI0dw?oc=5",
+          "title": "國泰金加碼企金與私募平台，Q4接軌內評法- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbkZGNjFCSXc4ZVhLNm5uTjl3cGRsa2pOX1NROV9YWjZwOE5qYjN1c25FUEVoZ2lPanVHLS1kRzQzX2RvZnRMd0FtRU1RMTM4MkRvaC1uZjQ2S2ZKcnZvdWx4YTVkdmUwX2J4dlpVcy0xQl9NalZfVEc4aHpOVkdDWHZRSUloRWwzUTI0aXF2NDVRUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 10:19:00 GMT",
+          "date": "Mon, 12 Oct 2026 02:54:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "大和國泰 對 國泰金(2882)個股 單一券商歷史明細 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPQ2hvQUhDM1FfeUM1b2FDU1hTUTBQMVNwendFY1dJQTNDdDFLV19Vd1VoeG40LUFqUEV1OGp2Sk0wMl8yZXpUbDFPOGFVS0FNQzYwcEtiSnF3ck1sRDl6aHg3OHVYWG8wSTR6amNNbkVHZUtFWVRXbTRvOVJDWUxVS2xIQQ?oc=5",
+          "title": "國泰金去年綠色採購增44% 居金融業之冠- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPN0FvMHJ4dGUtZHlKRlpKVVMyWlNHek5Cb0N2TzZvbDVmRWkxUWRieHFxZGExT0ZCQ3E0eUVBb1otejJ4VVUwY3NXX3lFS0FlZGpQaW1Dcl9SaVF6SGFEV3V6Zm83UWlxWjhuVnFRRjNoaDRDRHRRWHBDek1jV3cxWjZCeXh3YWJfNEJPcDBuS1pwZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 20:42:10 GMT",
+          "date": "Tue, 29 Sep 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -14972,6 +15096,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 109.0,
+        "resistance": 118.0,
+        "upside_pct": -29.860370044052864,
+        "downside_pct": 3.9647577092511015,
+        "rr": null,
+        "entry_low": 107.91,
+        "entry_high": 112.27,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "中性等待",
         "reasons": [
@@ -17036,6 +17174,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 67.1,
+        "resistance": 75.5,
+        "upside_pct": -49.09918656241851,
+        "downside_pct": 10.413885180240335,
+        "rr": null,
+        "entry_low": 66.42899999999999,
+        "entry_high": 69.113,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "中性等待",
         "reasons": [
@@ -19100,6 +19252,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 639.0,
+        "resistance": 765.0,
+        "upside_pct": -33.40686427801541,
+        "downside_pct": 2.293577981651376,
+        "rr": null,
+        "entry_low": 632.61,
+        "entry_high": 658.1700000000001,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
@@ -21165,6 +21331,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 143.0,
+        "resistance": null,
+        "upside_pct": 4.117971072757842,
+        "downside_pct": 9.49367088607595,
+        "rr": 0.43375961966382603,
+        "entry_low": 141.57,
+        "entry_high": 147.29,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "過熱等待",
         "reasons": [
@@ -23229,6 +23409,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 98.3,
+        "resistance": 149.0,
+        "upside_pct": -42.48389238598516,
+        "downside_pct": 18.083333333333336,
+        "rr": null,
+        "entry_low": 97.317,
+        "entry_high": 101.249,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
@@ -25294,6 +25488,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 260.0,
+        "resistance": 314.0,
+        "upside_pct": 26.149302973977683,
+        "downside_pct": 3.3457249070631967,
+        "rr": 7.815736111111108,
+        "entry_low": 257.4,
+        "entry_high": 267.8,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
@@ -27343,6 +27551,22 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 70.4,
+        "resistance": 92.0,
+        "upside_pct": null,
+        "downside_pct": 4.4776119402985035,
+        "rr": null,
+        "entry_low": 69.696,
+        "entry_high": 72.51200000000001,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "中",
+        "issues": [
+          "目標價低可信"
+        ]
+      },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
@@ -28864,6 +29088,22 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 141.0,
+        "resistance": 170.5,
+        "upside_pct": null,
+        "downside_pct": 1.3986013986013985,
+        "rr": null,
+        "entry_low": 139.59,
+        "entry_high": 145.23,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "中",
+        "issues": [
+          "目標價低可信"
+        ]
+      },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
@@ -30928,6 +31168,20 @@
       ],
       "score_change_1d": null,
       "score_change_5d": null,
+      "risk_reward": {
+        "support": 491.0,
+        "resistance": 594.0,
+        "upside_pct": 79.54859840954273,
+        "downside_pct": 2.3856858846918487,
+        "rr": 33.344120833333335,
+        "entry_low": 486.09,
+        "entry_high": 505.73,
+        "risk_note": "近季低點作風險參考；非自動停損價"
+      },
+      "data_quality": {
+        "level": "高",
+        "issues": []
+      },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
