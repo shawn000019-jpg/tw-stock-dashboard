@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24 21:19:38",
+  "updated_at": "2026-10-24 21:21:47",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -48,10 +48,10 @@
   },
   "market_institution": {
     "date": "20261022",
-    "foreign": null,
+    "foreign": -815.82101452,
     "trust": 94.92200518,
-    "dealer": -1089.5946605899999,
-    "total": -994.6726554099998,
+    "dealer": -273.77364607,
+    "total": -994.67265541,
     "unit": "億元"
   },
   "finance_news": {
@@ -318,18 +318,19 @@
       "weight": true,
       "close": 2385.0,
       "change_pct": -1.446280991735538,
-      "eps_ttm": 86.25678119349006,
-      "forward_eps": 129.3851717902351,
+      "eps_ttm": 86.28,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 129.42000000000002,
       "pe": 27.65,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 2.99,
+          "eps": 12.55,
           "reported_eps": 12.55
         },
         {
           "quarter": "2024Q4",
-          "eps": 1.8999999999999986,
+          "eps": 14.45,
           "reported_eps": 14.45
         },
         {
@@ -339,17 +340,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": 1.4100000000000001,
+          "eps": 15.36,
           "reported_eps": 15.36
         },
         {
           "quarter": "2025Q3",
-          "eps": 2.080000000000002,
+          "eps": 17.44,
           "reported_eps": 17.44
         },
         {
           "quarter": "2025Q4",
-          "eps": 2.0700000000000003,
+          "eps": 19.51,
           "reported_eps": 19.51
         },
         {
@@ -359,10 +360,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 5.170000000000002,
+          "eps": 27.25,
           "reported_eps": 27.25
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": 54.64861207105231,
       "revenue_mom": -0.572631592589723,
       "revenue_history": [
@@ -439,9 +441,9 @@
           "revenue": 511857399000.0
         }
       ],
-      "target_low": 2758.8153254972876,
-      "target_base": 3349.7820976491867,
-      "target_high": 3684.2427667269444,
+      "target_low": 2759.55795,
+      "target_base": 3350.6838000000007,
+      "target_high": 3685.2345000000005,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "低於保守價",
       "trend": "偏弱",
@@ -2352,18 +2354,19 @@
       "weight": true,
       "close": 245.0,
       "change_pct": -2.0000000000000018,
-      "eps_ttm": 15.170278637770899,
-      "forward_eps": 20.998052728211395,
+      "eps_ttm": 15.21,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 21.053033343824243,
       "pe": 16.15,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 1.02,
+          "eps": 3.55,
           "reported_eps": 3.55
         },
         {
           "quarter": "2024Q4",
-          "eps": -0.20999999999999996,
+          "eps": 3.34,
           "reported_eps": 3.34
         },
         {
@@ -2373,17 +2376,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": 0.16000000000000014,
+          "eps": 3.19,
           "reported_eps": 3.19
         },
         {
           "quarter": "2025Q3",
-          "eps": 0.9600000000000004,
+          "eps": 4.15,
           "reported_eps": 4.15
         },
         {
           "quarter": "2025Q4",
-          "eps": -0.9200000000000004,
+          "eps": 3.23,
           "reported_eps": 3.23
         },
         {
@@ -2393,10 +2396,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 0.7099999999999995,
+          "eps": 4.27,
           "reported_eps": 4.27
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": 38.415735330862866,
       "revenue_mom": 25.697108169499106,
       "revenue_history": [
@@ -2473,9 +2477,9 @@
           "revenue": 1158633235000.0
         }
       ],
-      "target_low": 279.27410128521154,
-      "target_base": 334.70896048768964,
-      "target_high": 356.6519255886705,
+      "target_low": 280.0053434728624,
+      "target_base": 335.58535150055843,
+      "target_high": 357.5857713448548,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "低於保守價",
       "trend": "空頭",
@@ -4386,18 +4390,19 @@
       "weight": true,
       "close": 4010.0,
       "change_pct": -3.1400966183574908,
-      "eps_ttm": 60.54658009965272,
-      "forward_eps": 61.73838695937629,
+      "eps_ttm": 60.69,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 61.88462995593765,
       "pe": 66.23,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": -0.2500000000000018,
+          "eps": 15.94,
           "reported_eps": 15.94
         },
         {
           "quarter": "2024Q4",
-          "eps": -1.0,
+          "eps": 14.94,
           "reported_eps": 14.94
         },
         {
@@ -4407,17 +4412,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": -0.9299999999999997,
+          "eps": 17.5,
           "reported_eps": 17.5
         },
         {
           "quarter": "2025Q3",
-          "eps": -1.6600000000000001,
+          "eps": 15.84,
           "reported_eps": 15.84
         },
         {
           "quarter": "2025Q4",
-          "eps": -1.4399999999999995,
+          "eps": 14.4,
           "reported_eps": 14.4
         },
         {
@@ -4427,10 +4432,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 0.10999999999999943,
+          "eps": 15.28,
           "reported_eps": 15.28
         }
       ],
+      "target_confidence": "低",
       "revenue_yoy": 1.968413175049677,
       "revenue_mom": -13.685578104892326,
       "revenue_history": [
@@ -4507,10 +4513,10 @@
           "revenue": 55399497000.0
         }
       ],
-      "target_low": 1236.31119886151,
-      "target_base": 1323.053632539434,
-      "target_high": 1514.905670015696,
-      "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
+      "target_low": 1239.2397148676514,
+      "target_base": 1326.1876199557437,
+      "target_high": 1518.49410754382,
+      "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位；模型與現價差距過大，請降低權重",
       "valuation_status": "估值偏熱",
       "trend": "偏弱",
       "quarter_high": 5165.0,
@@ -6420,18 +6426,19 @@
       "weight": true,
       "close": 1560.0,
       "change_pct": -4.0000000000000036,
-      "eps_ttm": 31.419939577039276,
-      "forward_eps": 36.0116052008607,
+      "eps_ttm": 31.42,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 36.01167445394763,
       "pe": 49.65,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 0.9199999999999999,
+          "eps": 4.75,
           "reported_eps": 4.75
         },
         {
           "quarter": "2024Q4",
-          "eps": -1.9900000000000002,
+          "eps": 2.76,
           "reported_eps": 2.76
         },
         {
@@ -6441,17 +6448,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": 1.4300000000000002,
+          "eps": 5.37,
           "reported_eps": 5.37
         },
         {
           "quarter": "2025Q3",
-          "eps": 1.79,
+          "eps": 7.16,
           "reported_eps": 7.16
         },
         {
           "quarter": "2025Q4",
-          "eps": -0.4900000000000002,
+          "eps": 6.67,
           "reported_eps": 6.67
         },
         {
@@ -6461,10 +6468,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 1.7699999999999996,
+          "eps": 9.68,
           "reported_eps": 9.68
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": 14.61385886043165,
       "revenue_mom": 1.2595816164571394,
       "revenue_history": [
@@ -6541,9 +6549,9 @@
           "revenue": 65399563000.0
         }
       ],
-      "target_low": 933.6908938453158,
-      "target_base": 1082.6889103638769,
-      "target_high": 1927.9713134410797,
+      "target_low": 933.6926894047272,
+      "target_base": 1082.6909924579354,
+      "target_high": 1927.975021078221,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "接近樂觀價",
       "trend": "偏弱",
@@ -8454,18 +8462,19 @@
       "weight": true,
       "close": 322.0,
       "change_pct": -1.9786910197869156,
-      "eps_ttm": 22.95081967213115,
-      "forward_eps": 34.42622950819673,
+      "eps_ttm": 22.939999999999998,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 34.41,
       "pe": 14.03,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 0.40000000000000036,
+          "eps": 4.32,
           "reported_eps": 4.32
         },
         {
           "quarter": "2024Q4",
-          "eps": -0.20000000000000018,
+          "eps": 4.12,
           "reported_eps": 4.12
         },
         {
@@ -8475,17 +8484,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": -0.6899999999999995,
+          "eps": 4.37,
           "reported_eps": 4.37
         },
         {
           "quarter": "2025Q3",
-          "eps": -0.11000000000000032,
+          "eps": 4.26,
           "reported_eps": 4.26
         },
         {
           "quarter": "2025Q4",
-          "eps": 1.4900000000000002,
+          "eps": 5.75,
           "reported_eps": 5.75
         },
         {
@@ -8495,10 +8504,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 1.9299999999999997,
+          "eps": 7.43,
           "reported_eps": 7.43
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": 76.68901002964486,
       "revenue_mom": -23.27315755694308,
       "revenue_history": [
@@ -8575,9 +8585,9 @@
           "revenue": 325299509000.0
         }
       ],
-      "target_low": 540.1475409836066,
-      "target_base": 613.6475409836066,
-      "target_high": 763.0573770491804,
+      "target_low": 539.8928999999999,
+      "target_base": 613.3582499999999,
+      "target_high": 762.6976499999998,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "低於保守價",
       "trend": "偏弱",
@@ -10488,18 +10498,19 @@
       "weight": true,
       "close": 158.5,
       "change_pct": 0.0,
-      "eps_ttm": 10.702228224172856,
-      "forward_eps": 7.491559756920998,
+      "eps_ttm": 11.55,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 8.085,
       "pe": 14.81,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": -0.9899999999999998,
+          "eps": 2.64,
           "reported_eps": 2.64
         },
         {
           "quarter": "2024Q4",
-          "eps": -0.48,
+          "eps": 2.16,
           "reported_eps": 2.16
         },
         {
@@ -10509,17 +10520,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": -2.51,
+          "eps": 0.49,
           "reported_eps": 0.49
         },
         {
           "quarter": "2025Q3",
-          "eps": 2.25,
+          "eps": 2.74,
           "reported_eps": 2.74
         },
         {
           "quarter": "2025Q4",
-          "eps": -0.6000000000000001,
+          "eps": 2.14,
           "reported_eps": 2.14
         },
         {
@@ -10529,10 +10540,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 1.8699999999999997,
+          "eps": 4.27,
           "reported_eps": 4.27
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": -45.39071293609148,
       "revenue_mom": -51.991487271955435,
       "revenue_history": [
@@ -10609,9 +10621,9 @@
           "revenue": 19467727000.0
         }
       ],
-      "target_low": 85.62852802160701,
-      "target_base": 94.84314652261985,
-      "target_high": 121.17597906819715,
+      "target_low": 92.41155,
+      "target_base": 102.35610000000001,
+      "target_high": 130.774875,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "估值偏熱",
       "trend": "強勢多頭",
@@ -12471,7 +12483,7 @@
           "sentiment": "中性"
         },
         {
-          "title": "富邦金 富邦金控代子公司富邦證券公告認購富邦期貨現金增資- 新聞 - MoneyDJ",
+          "title": "富邦金 富邦金控代子公司富邦證券公告認購富邦期貨現金增資- 新聞",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORUp2V3dCb2dTWGNkb3lIaWxEZ1l4X1c5RzJWc1NHVWxlVTF0M0x4UTlhNGM0Mk5EeHVoZDl1WlludTM4cHZBcFpzdXRaajBHREFGVzVhM0hZRGdQX2hsQ3htckY5Q3ZpTVNnektEQjBwQ0VsLURFaFdweWNHR0Yxa3VOT3ZoWEs0TzVfbE9nR1g5UQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Thu, 22 Oct 2026 10:14:00 GMT",
@@ -12522,18 +12534,19 @@
       "weight": true,
       "close": 113.5,
       "change_pct": -0.43859649122807154,
-      "eps_ttm": 8.482810164424514,
-      "forward_eps": 5.937967115097159,
+      "eps_ttm": 9.12,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 6.3839999999999995,
       "pe": 13.38,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 0.06000000000000005,
+          "eps": 2.12,
           "reported_eps": 2.12
         },
         {
           "quarter": "2024Q4",
-          "eps": -1.61,
+          "eps": 0.51,
           "reported_eps": 0.51
         },
         {
@@ -12543,17 +12556,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": -1.4700000000000002,
+          "eps": 0.71,
           "reported_eps": 0.71
         },
         {
           "quarter": "2025Q3",
-          "eps": 1.24,
+          "eps": 1.95,
           "reported_eps": 1.95
         },
         {
           "quarter": "2025Q4",
-          "eps": 0.27000000000000024,
+          "eps": 2.22,
           "reported_eps": 2.22
         },
         {
@@ -12563,10 +12576,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 0.6499999999999999,
+          "eps": 2.8,
           "reported_eps": 2.8
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": -41.17227804820347,
       "revenue_mom": -30.79923317718697,
       "revenue_history": [
@@ -12643,9 +12657,9 @@
           "revenue": 20405136000.0
         }
       ],
-      "target_low": 68.12332772795216,
-      "target_base": 74.04644992526157,
-      "target_high": 90.55399850523168,
+      "target_low": 73.24043999999999,
+      "target_base": 79.60848,
+      "target_high": 97.356,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "估值偏熱",
       "trend": "強勢多頭",
@@ -14512,8 +14526,8 @@
           "sentiment": "中性"
         },
         {
-          "title": "國泰金代子公司國泰綜合證券公告向國泰世華商業銀行(股)公司取得使用權資產- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNblkzVkwzZlpSOWZ0bzY4dDYzWk1YNDdfZzZDLU1sdGFhU2VaTnB5SWR5U212OWtvRDQ4QlJvOXNxSW1TY2hlWHRLQzZXNEVWVlhtZnh5UXBzVGljd25GQ2x2RGdBTmpTVG8ydXlHVi1TWUhzeWtfOTJtRnY2enJ3Q0lnUDNFbUtWN3VJTW5WU0pfZw?oc=5",
+          "title": "國泰金 代子公司國泰綜合證券公告向國泰世華商業銀行(股)公司取得使用權資產 - 台股 - 新聞",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTjJYR1J5NnkxUXF2VjR4UUl6d1Nwb1ZZLXkyMHJjZVBxS2pYa3VFbXIyOWtMaVhHY2VhdU40XzJXU0dZT1NOTHNPUHZHQ0tLQjhWYkVrT0pGRlFEcDRsdXg4NUtxcFdSaFVOZ0dtSWhHS25WTDJiT2JfTFJTWE1ic0hwd2tmRU9lVjdiczRrQkRMQnZqMko0MmNHOA?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 21 Oct 2026 09:49:00 GMT",
           "sentiment": "中性"
@@ -14556,18 +14570,19 @@
       "weight": true,
       "close": 74.9,
       "change_pct": 0.13368983957220415,
-      "eps_ttm": 4.1796875,
-      "forward_eps": 3.0774130461778637,
+      "eps_ttm": 4.26,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 3.1365453940558234,
       "pe": 17.92,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 0.32000000000000006,
+          "eps": 1.1,
           "reported_eps": 1.1
         },
         {
           "quarter": "2024Q4",
-          "eps": -0.41000000000000014,
+          "eps": 0.69,
           "reported_eps": 0.69
         },
         {
@@ -14577,17 +14592,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": -0.26,
+          "eps": 0.76,
           "reported_eps": 0.76
         },
         {
           "quarter": "2025Q3",
-          "eps": 0.52,
+          "eps": 1.28,
           "reported_eps": 1.28
         },
         {
           "quarter": "2025Q4",
-          "eps": -0.26,
+          "eps": 1.02,
           "reported_eps": 1.02
         },
         {
@@ -14597,10 +14612,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": -0.3999999999999999,
+          "eps": 0.78,
           "reported_eps": 0.78
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": -26.37217384845485,
       "revenue_mom": -12.579426952652806,
       "revenue_history": [
@@ -14677,9 +14693,9 @@
           "revenue": 21331939000.0
         }
       ],
-      "target_low": 35.921103781511114,
-      "target_base": 37.40595557629194,
-      "target_high": 42.16055873263673,
+      "target_low": 36.6113261121166,
+      "target_base": 38.12470926474854,
+      "target_high": 42.97067189856478,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "估值偏熱",
       "trend": "強勢多頭",
@@ -16532,6 +16548,13 @@
       ],
       "news": [
         {
+          "title": "中信金代子公司中國信託商業銀行公告授信資產之轉讓- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0Nlc09hemZHZFI4V1I3WXVNanpOS192RzNWODl3cnBQUWFnTzBQTURzamRVOEktdFk3SnFZdUVUemk4d3NjOHhsZER0NXZuMWxGMTZoRFZJVE5DeHJzay1Tdi1BQ2NGc1g1TmNNUEhhenBTcDA0NG0tVW9NV1hfYUlmZlI5TXl6NXlYa3F5ZW5sZw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 22 Oct 2026 10:49:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "中信金聯名卡攻高端客群，私銀服務擴至家族治理- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeDBZc1NaN0lkOTVoRDJBSHVSQjJWd3QzbGR4Ym5pT1RyV0R0S0xzODNYXzJyNm5OQTI0NW5TQ2c1MlBSaEJSaUVZNFBpVnQ5WXhzMDNwOVA5ams3d2gzX1RITXFVQU40UlZGcDhBaEdIRDFNUjgwd1JXZDcxRkJENGJyUUY2UExDWk0wcWpBVFlHZw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -16539,38 +16562,31 @@
           "sentiment": "中性"
         },
         {
-          "title": "10/20起「低波動股利精選30指數」納台泥等/刪遠東新等- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVXQyT0pVRkx5a2RKcDB3N0tZUzVXV290RTBrbmV5c19fS3ZMblV6akFMS0w2R05QT2VnSUg3cnlvV1Uwa2s2YmhWMzlmenNnUEREWGVPQkdlcW9OSEpsSXNITUZXa2FoQjVuQmRlMThoUEx6dVFLN1VTZTNkQ0hXVDhnVGExMFNoYWJ5QmlIcGY1UQ?oc=5",
+          "title": "中信金代子公司Land and Houses Bank Public Company Limited公告115年第二次股東臨時會重要決議事項- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNUhRdzBodHdvWWUtQmNkV1Q4LVR3Q25VNThjc0RsU3B0NUpPSEowZ3dfOU15VzVfZlN2UXpfSEhiRjlLT0luVEc5QkVJZjZ2ejFrNVJNNUVMMEtBY1h0RWRjc05Fd0VuMG9QZzYweWJJUlY1bUZ0RVNoaW1EcXo5Vk5QVUZWNWV3VS1Lb2RRMDZOQQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 00:12:00 GMT",
+          "date": "Mon, 19 Oct 2026 10:09:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "10/21證交所盤後零股交易成交股數前20名排行- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcVl4cE52SVh6S1NMOC1yUTdBRGl3azlxaXQ1WlhZdWZKMTRtSVh6aGFQcFpMY3BJZFdzVjFIMEgwUXN4bVhJSXZzVHNWYjRZMC1hZ2ZVdjdvWlZERmFQVkhaWi1EYm05Xy1lNEcyTjE0TE5vVFphQ3cwVm5ld2lEeDgtSlRzcFJyMHhMZWdDUUtBZw?oc=5",
+          "title": "產業動態報導內文-C8AA19C8-FE42-4F2C-A8F6-B5C331A56AB5 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQnpEdG10bjBEY2szdTFlai1DLUtmOTFSMThtekF3MHljTEUwemFSVU9jRzk3N09lcTljZy12YmNvbGwzWkhQdGZIWFRKell5dHQyRGgtdlRWTkxZZVN1dm0xRm1NTGNxY1gxQXJZYWhwSF95WXhqUkFYekU4dGllRDdlYTFIdE1VUUl4aUpzS2pwdHFWdks0YVl3?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 08:28:00 GMT",
+          "date": "Sun, 18 Oct 2026 05:21:58 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "中信金第三季底淨值有望續揚；配息想像豐- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdTVwelBYelNIbzBwcl9iZHRlZ1R5Vlg4dnEwdlJzTEdyN2pQSDc2UUwyUTZXU054bzF3eVR5QmZIY2VxWnRtQUdwSlJFZGVzYWZQTmRnc2tMWGZnRHF5UTliV2Nfczc3Q0s3ektoM0sxRVlCbmNSZ3FLcU12MnhDVXhRZ2hBX0trWWtrc2hDUEN3QQ?oc=5",
+          "title": "新聞內容-9AECC7B0-BAA7-48DB-82A8-6DA361850DE6 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT1Q4bU1kZ1FIM19uS1loYnlUa1NnNkZ4RmNFWDI0UFFJLU1mLURBdktsdW9scDloQUxPVjRtVlJOYXBaNDFueTcyMFVtbHR1bkszZktxVzBJQ0NSSGFoNkEyRXotcERxWHNBbXpHd2VlRDdsMDBXSndFbmk1WGN0RF91d1ZlVHpTNUE?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 20 Oct 2026 04:31:24 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "盤後解盤內容-AAD9AC6A-5F06-4839-9B5F-6016D1246392 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUtjNXFGQ2RXdWt3Ty1HQWlWMWZ3V2Z2dUFteUZYVWtWWC0xN1JNb2E1X1ItQklMVFU2VkkzbzVfaHZ4ZkhTTkRlRlpuR1JfTmV3NTNWM2pkMHJ3WVU2dVZrNF9NTjlaOTdhbXN4aVZvaFVoWkpyVFkxWC1pVTV4aTV3dzZUSU96bDk4WV9RanpfY0sz?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Thu, 15 Oct 2026 07:00:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "中信金 115年9月營收213.32億、年增12.82%",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVUNtNk5DeGdUQUR1Q2FiV2Fadi11cnJ4ZnU4cUNpYlV4TDNIYnlaR0g0UVZZZnZEckZsQnNYZWtadTNfc2xnM3A0bnpnLTB0R3E0NXUzTUFNUFBzRXJHT3hJRlJoazF6S01LS1lETi1lYmR0NzBncW83akVsTGU4ZC1SOUdZalA0bC1wOGwtQUJpdw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 15 Oct 2026 00:39:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "中信金攻高端消費，銀行/壽險雙軸驅動- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMlBKeFdSRWVqSG5uaGRmemwtaEh0bGk3eXdSN0VLeU9kRVZld3htSUVVMEJWLVdkeHZseng3QW1USEJIaGZoejRDeGdmclFucWJxR0dBcHBwei1rSWpvMHFZaUxHRzVxM0U0OVlCMUhtVWs1WGtfVmhrRGpoVjhXYnEzbXppNktMaExFN2x4YTA4QQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -16590,18 +16606,19 @@
       "weight": true,
       "close": 654.0,
       "change_pct": -4.385964912280704,
-      "eps_ttm": 13.82079459002536,
-      "forward_eps": 20.11233669631034,
+      "eps_ttm": 13.92,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 20.256702680082753,
       "pe": 47.32,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 0.44000000000000017,
+          "eps": 2.24,
           "reported_eps": 2.24
         },
         {
           "quarter": "2024Q4",
-          "eps": -0.07000000000000028,
+          "eps": 2.17,
           "reported_eps": 2.17
         },
         {
@@ -16611,17 +16628,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": -0.010000000000000009,
+          "eps": 1.74,
           "reported_eps": 1.74
         },
         {
           "quarter": "2025Q3",
-          "eps": 0.76,
+          "eps": 2.5,
           "reported_eps": 2.5
         },
         {
           "quarter": "2025Q4",
-          "eps": 0.8799999999999999,
+          "eps": 3.38,
           "reported_eps": 3.38
         },
         {
@@ -16631,10 +16648,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 1.5599999999999996,
+          "eps": 4.8,
           "reported_eps": 4.8
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": 45.52228936841058,
       "revenue_mom": 7.15245935997908,
       "revenue_history": [
@@ -16711,9 +16729,9 @@
           "revenue": 88130084000.0
         }
       ],
-      "target_low": 381.93327386293333,
-      "target_base": 432.4152389706723,
-      "target_high": 698.5517343045989,
+      "target_low": 384.67478389477145,
+      "target_base": 435.5191076217792,
+      "target_high": 703.5659258359742,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "接近樂觀價",
       "trend": "偏弱",
@@ -18624,18 +18642,19 @@
       "weight": true,
       "close": 158.0,
       "change_pct": 2.5974025974025983,
-      "eps_ttm": 5.090206185567011,
-      "forward_eps": 6.15176034062488,
+      "eps_ttm": 5.1,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 6.163596639001777,
       "pe": 31.04,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": -0.1100000000000001,
+          "eps": 1.16,
           "reported_eps": 1.16
         },
         {
           "quarter": "2024Q4",
-          "eps": 0.0,
+          "eps": 1.16,
           "reported_eps": 1.16
         },
         {
@@ -18645,17 +18664,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": 0.050000000000000044,
+          "eps": 1.31,
           "reported_eps": 1.31
         },
         {
           "quarter": "2025Q3",
-          "eps": -0.09000000000000008,
+          "eps": 1.22,
           "reported_eps": 1.22
         },
         {
           "quarter": "2025Q4",
-          "eps": -0.020000000000000018,
+          "eps": 1.2,
           "reported_eps": 1.2
         },
         {
@@ -18665,10 +18684,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 0.07999999999999985,
+          "eps": 1.38,
           "reported_eps": 1.38
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": 20.854836058858382,
       "revenue_mom": 4.673262776681231,
       "revenue_history": [
@@ -18745,9 +18765,9 @@
           "revenue": 24398810000.0
         }
       ],
-      "target_low": 160.93005051074687,
-      "target_base": 164.19048349127803,
-      "target_high": 166.95877564455924,
+      "target_low": 161.23968807628648,
+      "target_base": 164.5063942949574,
+      "target_high": 167.28001278250824,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "低於保守價",
       "trend": "強勢多頭",
@@ -20658,18 +20678,19 @@
       "weight": false,
       "close": 120.0,
       "change_pct": -9.774436090225569,
-      "eps_ttm": 1.069995541685243,
-      "forward_eps": 1.4916585597034362,
+      "eps_ttm": 1.07,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 1.4916647749474352,
       "pe": 112.15,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 0.15,
+          "eps": 0.19,
           "reported_eps": 0.19
         },
         {
           "quarter": "2024Q4",
-          "eps": -0.03,
+          "eps": 0.16,
           "reported_eps": 0.16
         },
         {
@@ -20679,17 +20700,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": 0.18000000000000002,
+          "eps": 0.2,
           "reported_eps": 0.2
         },
         {
           "quarter": "2025Q3",
-          "eps": 0.07,
+          "eps": 0.27,
           "reported_eps": 0.27
         },
         {
           "quarter": "2025Q4",
-          "eps": 0.15999999999999998,
+          "eps": 0.43,
           "reported_eps": 0.43
         },
         {
@@ -20699,10 +20720,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 0.10999999999999999,
+          "eps": 0.24,
           "reported_eps": 0.24
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": 39.40792289228365,
       "revenue_mom": 16.246450792074608,
       "revenue_history": [
@@ -20779,9 +20801,9 @@
           "revenue": 74922000.0
         }
       ],
-      "target_low": 60.82237777190761,
-      "target_base": 69.01904155747799,
-      "target_high": 97.79313517415729,
+      "target_low": 60.822631198481666,
+      "target_base": 69.01932913681782,
+      "target_high": 97.79354264555386,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "估值偏熱",
       "trend": "偏弱",
@@ -22692,18 +22714,19 @@
       "weight": false,
       "close": 269.0,
       "change_pct": -3.237410071942448,
-      "eps_ttm": 8.61903236142262,
-      "forward_eps": 12.928548542133932,
+      "eps_ttm": 8.61,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 12.915,
       "pe": 31.21,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 0.32000000000000006,
+          "eps": 1.74,
           "reported_eps": 1.74
         },
         {
           "quarter": "2024Q4",
-          "eps": -0.21999999999999997,
+          "eps": 1.52,
           "reported_eps": 1.52
         },
         {
@@ -22713,17 +22736,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": -0.1299999999999999,
+          "eps": 1.92,
           "reported_eps": 1.92
         },
         {
           "quarter": "2025Q3",
-          "eps": -0.24,
+          "eps": 1.68,
           "reported_eps": 1.68
         },
         {
           "quarter": "2025Q4",
-          "eps": -0.11999999999999988,
+          "eps": 1.56,
           "reported_eps": 1.56
         },
         {
@@ -22733,10 +22756,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 0.33000000000000007,
+          "eps": 2.85,
           "reported_eps": 2.85
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": 61.99050704437581,
       "revenue_mom": 10.28840358548877,
       "revenue_history": [
@@ -22813,9 +22837,9 @@
           "revenue": 86004000.0
         }
       ],
-      "target_low": 312.1274831784684,
-      "target_base": 339.697612944569,
-      "target_high": 381.9416453059917,
+      "target_low": 311.80038749999994,
+      "target_base": 339.34162499999996,
+      "target_high": 381.5413875,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "低於保守價",
       "trend": "偏弱",
@@ -24726,8 +24750,9 @@
       "weight": false,
       "close": 73.7,
       "change_pct": -4.533678756476689,
-      "eps_ttm": null,
-      "forward_eps": null,
+      "eps_ttm": 1.19,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 1.4240711847879084,
       "pe": null,
       "quarterly_eps": [
         {
@@ -24737,7 +24762,7 @@
         },
         {
           "quarter": "2024Q4",
-          "eps": 0.04999999999999993,
+          "eps": 0.6,
           "reported_eps": 0.6
         },
         {
@@ -24747,7 +24772,7 @@
         },
         {
           "quarter": "2025Q4",
-          "eps": 0.91,
+          "eps": 0.66,
           "reported_eps": 0.66
         },
         {
@@ -24756,6 +24781,7 @@
           "reported_eps": 0.18
         }
       ],
+      "target_confidence": "低",
       "revenue_yoy": 19.66984746116878,
       "revenue_mom": 59.610441891431584,
       "revenue_history": [
@@ -24835,7 +24861,7 @@
       "target_low": null,
       "target_base": null,
       "target_high": null,
-      "valuation_note": "缺 EPS，暫不估值",
+      "valuation_note": "缺 PE，暫不估值",
       "valuation_status": "待估值",
       "trend": "偏弱",
       "quarter_high": 92.0,
@@ -26745,8 +26771,9 @@
       "weight": false,
       "close": 143.0,
       "change_pct": -1.379310344827589,
-      "eps_ttm": null,
-      "forward_eps": null,
+      "eps_ttm": -4.0,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": -4.0,
       "pe": null,
       "quarterly_eps": [
         {
@@ -26761,7 +26788,7 @@
         },
         {
           "quarter": "2025Q4",
-          "eps": 0.7100000000000001,
+          "eps": -0.63,
           "reported_eps": -0.63
         },
         {
@@ -26770,6 +26797,7 @@
           "reported_eps": 0.02
         }
       ],
+      "target_confidence": "低",
       "revenue_yoy": null,
       "revenue_mom": -16.96767001114827,
       "revenue_history": [
@@ -26837,7 +26865,7 @@
       "target_low": null,
       "target_base": null,
       "target_high": null,
-      "valuation_note": "缺 EPS，暫不估值",
+      "valuation_note": "缺 PE，暫不估值",
       "valuation_status": "待估值",
       "trend": "偏弱",
       "quarter_high": 170.5,
@@ -28236,18 +28264,19 @@
       "weight": false,
       "close": 503.0,
       "change_pct": -3.454894433781186,
-      "eps_ttm": 14.868459946792788,
-      "forward_eps": 22.30268992018918,
+      "eps_ttm": 14.870000000000001,
+      "eps_source": "近四季官方單季 EPS 加總",
+      "forward_eps": 22.305,
       "pe": 33.83,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
-          "eps": 1.3899999999999997,
+          "eps": 4.39,
           "reported_eps": 4.39
         },
         {
           "quarter": "2024Q4",
-          "eps": -1.6999999999999997,
+          "eps": 2.69,
           "reported_eps": 2.69
         },
         {
@@ -28257,17 +28286,17 @@
         },
         {
           "quarter": "2025Q2",
-          "eps": -1.7600000000000002,
+          "eps": 0.44,
           "reported_eps": 0.44
         },
         {
           "quarter": "2025Q3",
-          "eps": 1.12,
+          "eps": 1.56,
           "reported_eps": 1.56
         },
         {
           "quarter": "2025Q4",
-          "eps": 3.6700000000000004,
+          "eps": 5.23,
           "reported_eps": 5.23
         },
         {
@@ -28277,10 +28306,11 @@
         },
         {
           "quarter": "2026Q2",
-          "eps": 2.9800000000000004,
+          "eps": 5.53,
           "reported_eps": 5.53
         }
       ],
+      "target_confidence": "高",
       "revenue_yoy": 67.74433515568728,
       "revenue_mom": 18.416449246282607,
       "revenue_history": [
@@ -28357,9 +28387,9 @@
           "revenue": 994427000.0
         }
       ],
-      "target_low": 767.6585870529117,
-      "target_base": 903.0359148684599,
-      "target_high": 1157.8999039314217,
+      "target_low": 767.7381,
+      "target_base": 903.12945,
+      "target_high": 1158.0198375,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "低於保守價",
       "trend": "偏弱",
