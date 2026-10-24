@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24 21:24:08",
+  "updated_at": "2026-10-24 21:27:27",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -60,6 +60,187 @@
     "weight_breadth": -2,
     "foreign": -815.82101452,
     "note": "權值股技術廣度＋TWSE 外資當日買賣超"
+  },
+  "decision_zones": {
+    "進場觀察": [],
+    "強勢續追": [
+      {
+        "id": "2317",
+        "name": "鴻海",
+        "score": 75,
+        "reasons": [
+          "綜合 75 分",
+          "法人近5日買超",
+          "技術偏弱",
+          "基準目標尚有 37% 空間"
+        ],
+        "upside": 36.973612857370796
+      },
+      {
+        "id": "2382",
+        "name": "廣達",
+        "score": 74,
+        "reasons": [
+          "綜合 74 分",
+          "法人近5日買超",
+          "技術偏弱",
+          "基準目標尚有 90% 空間"
+        ],
+        "upside": 90.48392857142854
+      }
+    ],
+    "過熱等待": [
+      {
+        "id": "2412",
+        "name": "中華電",
+        "score": 91,
+        "reasons": [
+          "綜合 91 分",
+          "法人近5日買超",
+          "技術偏多"
+        ],
+        "upside": 4.117971072757842
+      }
+    ],
+    "風險警戒": [
+      {
+        "id": "3680",
+        "name": "家登",
+        "score": 64,
+        "reasons": [
+          "法人近5日賣超",
+          "技術偏弱",
+          "基準目標尚有 80% 空間"
+        ],
+        "upside": 79.54859840954273
+      },
+      {
+        "id": "7556",
+        "name": "意德士",
+        "score": 54,
+        "reasons": [
+          "法人近5日賣超",
+          "技術偏弱",
+          "基準目標尚有 26% 空間"
+        ],
+        "upside": 26.149302973977683
+      },
+      {
+        "id": "2330",
+        "name": "台積電",
+        "score": 51,
+        "reasons": [
+          "法人近5日賣超",
+          "技術偏弱",
+          "基準目標尚有 40% 空間"
+        ],
+        "upside": 40.489886792452864
+      },
+      {
+        "id": "5297",
+        "name": "廣化",
+        "score": 41,
+        "reasons": [
+          "綜合僅 41 分",
+          "法人近5日賣超",
+          "技術偏弱"
+        ],
+        "upside": null
+      },
+      {
+        "id": "7887",
+        "name": "宇川精材",
+        "score": 40,
+        "reasons": [
+          "綜合僅 40 分",
+          "法人近5日買超",
+          "技術偏弱"
+        ],
+        "upside": null
+      },
+      {
+        "id": "3711",
+        "name": "日月光投控",
+        "score": 32,
+        "reasons": [
+          "綜合僅 32 分",
+          "法人近5日賣超",
+          "技術偏弱",
+          "現價高於基準目標"
+        ],
+        "upside": -33.40686427801541
+      },
+      {
+        "id": "4556",
+        "name": "旭然",
+        "score": 31,
+        "reasons": [
+          "綜合僅 31 分",
+          "法人近5日賣超",
+          "技術偏弱",
+          "現價高於基準目標"
+        ],
+        "upside": -42.48389238598516
+      },
+      {
+        "id": "2308",
+        "name": "台達電",
+        "score": 30,
+        "reasons": [
+          "綜合僅 30 分",
+          "法人近5日賣超",
+          "技術偏弱",
+          "現價高於基準目標"
+        ],
+        "upside": -30.59673125269645
+      },
+      {
+        "id": "2454",
+        "name": "聯發科",
+        "score": 21,
+        "reasons": [
+          "綜合僅 21 分",
+          "法人近5日賣超",
+          "技術偏弱"
+        ],
+        "upside": -66.92798952728819
+      }
+    ],
+    "中性等待": [
+      {
+        "id": "2891",
+        "name": "中信金",
+        "score": 48,
+        "reasons": [
+          "法人近5日買超",
+          "技術偏多",
+          "現價高於基準目標"
+        ],
+        "upside": -49.09918656241851
+      },
+      {
+        "id": "2882",
+        "name": "國泰金",
+        "score": 47,
+        "reasons": [
+          "法人近5日買超",
+          "技術偏多",
+          "現價高於基準目標"
+        ],
+        "upside": -29.860370044052864
+      },
+      {
+        "id": "2881",
+        "name": "富邦金",
+        "score": 46,
+        "reasons": [
+          "法人近5日買超",
+          "技術偏多",
+          "現價高於基準目標"
+        ],
+        "upside": -35.42201892744479
+      }
+    ]
   },
   "momentum_top5": [
     {
@@ -2403,7 +2584,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "風險警戒",
+        "reasons": [
+          "法人近5日賣超",
+          "技術偏弱",
+          "基準目標尚有 40% 空間"
+        ],
+        "upside": 40.489886792452864
+      }
     },
     {
       "id": "2317",
@@ -4458,7 +4648,17 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "強勢續追",
+        "reasons": [
+          "綜合 75 分",
+          "法人近5日買超",
+          "技術偏弱",
+          "基準目標尚有 37% 空間"
+        ],
+        "upside": 36.973612857370796
+      }
     },
     {
       "id": "2454",
@@ -6513,7 +6713,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "風險警戒",
+        "reasons": [
+          "綜合僅 21 分",
+          "法人近5日賣超",
+          "技術偏弱"
+        ],
+        "upside": -66.92798952728819
+      }
     },
     {
       "id": "2308",
@@ -8568,7 +8777,17 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "風險警戒",
+        "reasons": [
+          "綜合僅 30 分",
+          "法人近5日賣超",
+          "技術偏弱",
+          "現價高於基準目標"
+        ],
+        "upside": -30.59673125269645
+      }
     },
     {
       "id": "2382",
@@ -10623,7 +10842,17 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "強勢續追",
+        "reasons": [
+          "綜合 74 分",
+          "法人近5日買超",
+          "技術偏弱",
+          "基準目標尚有 90% 空間"
+        ],
+        "upside": 90.48392857142854
+      }
     },
     {
       "id": "2881",
@@ -12617,6 +12846,20 @@
           "sentiment": "中性"
         },
         {
+          "title": "富邦金 富邦金控代子公司富邦證券公告認購富邦期貨現金增資- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORUp2V3dCb2dTWGNkb3lIaWxEZ1l4X1c5RzJWc1NHVWxlVTF0M0x4UTlhNGM0Mk5EeHVoZDl1WlludTM4cHZBcFpzdXRaajBHREFGVzVhM0hZRGdQX2hsQ3htckY5Q3ZpTVNnektEQjBwQ0VsLURFaFdweWNHR0Yxa3VOT3ZoWEs0TzVfbE9nR1g5UQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 22 Oct 2026 10:14:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "富邦金 富邦金控代富邦華一銀行有限公司公告受監理機關裁罰之說明- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbWhsZVMwcEdhTFVlbWt1aUVnOHY5aG0wUUstRnNaMGRlSUh5enJ0Z2lYeXIza29ndUtFMGRLYTVPUXF2ZkxPVmxQRFExWTlhRUZIdjZFdGtUaFlrSHgzLXU1SFVyNTZrcFNMMXJfRWRydVlKVl9RMU9wcF9RV3V0cVdYQ204OVFWbzFxTHN2Y0l6dw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 21 Oct 2026 10:44:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "富邦金 富邦金控代子公司富邦銀行(香港)有限公司公告取得資產基礎證券(補充115/10/14公告)",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLWtZa1VodzUzUzA4Mk9RaXRucnFGVXFXX2lsaTRUT3owV25MaFJtdHE2VlNQeVlvUkpVVDBQLW1vdzg3N2NXUnNCOGx1VnB4YkgtYUpYVGxNRXE2RlFzMXRPU2o3RHctbnF1U3RpbTdfMExFdmFEZWE3VERlRUxkOEp1V2lvOWU1VkRjcEQwUVlzdw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -12624,31 +12867,17 @@
           "sentiment": "中性"
         },
         {
-          "title": "10/20起「低波動股利精選30指數」納台泥等/刪遠東新等- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVXQyT0pVRkx5a2RKcDB3N0tZUzVXV290RTBrbmV5c19fS3ZMblV6akFMS0w2R05QT2VnSUg3cnlvV1Uwa2s2YmhWMzlmenNnUEREWGVPQkdlcW9OSEpsSXNITUZXa2FoQjVuQmRlMThoUEx6dVFLN1VTZTNkQ0hXVDhnVGExMFNoYWJ5QmlIcGY1UQ?oc=5",
+          "title": "富邦金 富邦金控代富邦保險經紀人(菲律賓)股份有限公司公告股東臨時會召開事宜- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWl8yZS1YTGNQWURKTTdsS29KSEhEUWRmdmxqb25LcG5aY1ZSb1E2ZU1jSDlURERJbXhUV3BralN1Yi1nVkVaYnJQYnZXUFc2OVdrMjVlV0JrS2xFZllLVjNDLWJvUEVmLXNRTldpQTVQRm1Udk9qTXFaQzFGUlFEV0doT0E4YmNyT0pPZGh6Y1pSZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 00:12:00 GMT",
+          "date": "Wed, 21 Oct 2026 10:19:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "富邦金 富邦金控代子公司富邦人壽公告發行115年度第2期無擔保累積次順位普通公司債(補充114/12/23公告) - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWncxOGpvUVhfSXlKckZhVDlwYmNkTU1Hby1lMGQ2ODNjQ0JROW5VSDZaUmt5X21KV3RGU3BiVC1tR3Jad0RaWm11WE5nZUtvMk9ob08wdGg1WlJ5U29sQ3dFQXA1RHZlM00xdnk1Tzl3UGlmMk5ZZWxma0lidmFSa016dGxlamhWdmEydDVXMDZKUQ?oc=5",
+          "title": "富邦金 富邦金控代子公司富邦科技保代公告取得「富邦人壽保險股份有限公司」使用權資產- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFNVNXFULVJFUkNCMXhqYWpjWHB1OGJieW9NMHlRNnNKNG1XUklIaFFGVG0xZThpQlVjc041VU1RV2kxai1fSFhpZmFvN3JyR01LdlVpUll4bTlwY1Q5cFhLMlU2aVgyY1k0VkZjQmZDQTNMX0loM3hlVnJRWkRNS2VVSTlOVzJ0d2p2RXRKd0dHZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 15 Oct 2026 08:19:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "富邦金 115年9月營收194.68億、年減63.80% - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLXoyUW80ZGhySFBGb0tfb19zT0w3QVRJQ1ZnWUpxMkFTa1RtaERiVjJsVnZGNlk1X25qc0cybmpkdEtraldRYkQ4QXlselJRVlhyWGZLaGhXN01uVl92YU92bjV1eE9QdTZWZVJCSmtWcTdQRmhJSXkwSHluOGk2cEZQUUZSWlJWNnhwcTJpRkZUUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 15 Oct 2026 07:00:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "富邦金Q4開放美股盤前後交易，雪梨分行拓企業金融- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdm9iX0hNTkVXRVJrVzNYdXo4TGtRQ3hkNU43T2R6MlpPQW1XQXJUNGd1LU02UlZ6UTlOdnktOWxoaGZONW5VWVkxakJZcWxydlNQMkh1OGkza2xQVGJMSVR4V09Da2RXYlRCbk5qcnI5eXMtY1lsRVFiX2hoTVhweTNhcXNMaEVkWkFuQzRVdXBlZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Mon, 05 Oct 2026 07:00:00 GMT",
+          "date": "Wed, 21 Oct 2026 10:49:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -12678,7 +12907,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "中性等待",
+        "reasons": [
+          "法人近5日買超",
+          "技術偏多",
+          "現價高於基準目標"
+        ],
+        "upside": -35.42201892744479
+      }
     },
     {
       "id": "2882",
@@ -14679,8 +14917,8 @@
           "sentiment": "中性"
         },
         {
-          "title": "國泰金 代子公司國泰綜合證券公告向國泰世華商業銀行(股)公司取得使用權資產 - 台股 - 新聞",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTjJYR1J5NnkxUXF2VjR4UUl6d1Nwb1ZZLXkyMHJjZVBxS2pYa3VFbXIyOWtMaVhHY2VhdU40XzJXU0dZT1NOTHNPUHZHQ0tLQjhWYkVrT0pGRlFEcDRsdXg4NUtxcFdSaFVOZ0dtSWhHS25WTDJiT2JfTFJTWE1ic0hwd2tmRU9lVjdiczRrQkRMQnZqMko0MmNHOA?oc=5",
+          "title": "國泰金代子公司國泰綜合證券公告向國泰世華商業銀行(股)公司取得使用權資產- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNblkzVkwzZlpSOWZ0bzY4dDYzWk1YNDdfZzZDLU1sdGFhU2VaTnB5SWR5U212OWtvRDQ4QlJvOXNxSW1TY2hlWHRLQzZXNEVWVlhtZnh5UXBzVGljd25GQ2x2RGdBTmpTVG8ydXlHVi1TWUhzeWtfOTJtRnY2enJ3Q0lnUDNFbUtWN3VJTW5WU0pfZw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 21 Oct 2026 09:49:00 GMT",
           "sentiment": "中性"
@@ -14733,7 +14971,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "中性等待",
+        "reasons": [
+          "法人近5日買超",
+          "技術偏多",
+          "現價高於基準目標"
+        ],
+        "upside": -29.860370044052864
+      }
     },
     {
       "id": "2891",
@@ -16788,7 +17035,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "中性等待",
+        "reasons": [
+          "法人近5日買超",
+          "技術偏多",
+          "現價高於基準目標"
+        ],
+        "upside": -49.09918656241851
+      }
     },
     {
       "id": "3711",
@@ -18843,7 +19099,17 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "風險警戒",
+        "reasons": [
+          "綜合僅 32 分",
+          "法人近5日賣超",
+          "技術偏弱",
+          "現價高於基準目標"
+        ],
+        "upside": -33.40686427801541
+      }
     },
     {
       "id": "2412",
@@ -20844,31 +21110,31 @@
           "sentiment": "中性"
         },
         {
-          "title": "是方33億虎尾AI機房動土，科技巨頭進駐已滿租- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOWpXUm5KaDFKVnUwMktqTnl6QWZ0b0VGWk12WlNNY2VrSEZlNnowV296S3V4N3VULVpHUjJlYlhUY0F5Wk1NenJBOV9YR0RJVEJNaE5sS0lSVG5NZlo2YUdJR1c0T1V3Um52ZEk2ZWZGY0xNWEdRdF9ESDdpQ1N4eWlFYzdPanNyQXBMbnJfRV83QQ?oc=5",
+          "title": "今日要聞內容-CABA39E3-07D8-4A4D-8926-4592A4E8D589 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYzhWd05nQnRDbmtSdFh6UFdodVNYbFRBektYSXdyM3VrcXlaRUs0QUU2VkV1elhqQUF4VTF1WG1zRGQ3aER2X2IxcEJHUU1RaFhNLV9kMVh2TV9hdkV1TjFTaGQtNjdkMHRLNndfbjR3WnFJd2QxTHhqMG5tWmhRS3NaMU1PUXo5ZmRCd3Fn?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 05:52:00 GMT",
+          "date": "Tue, 20 Oct 2026 06:16:02 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "中華電 115年9月營收243.99億、年增20.85%",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRWVEV2xjM2RWbl9ZcmVmT0M0X0tvT3RrZTQwRVM5aHVia0JFb2xuQTRYbVd5Nl81bWVQQllUOWJwZzFReDhydjZ0Mm5TUG5JTkRxbnNSY2l3RS1hNDdvb3NtSnF1a21PYTY2dktlcWw0Y0JpR0xhX3EwVHVoYktBU0dVb0dzdHVDMFdpeUg1OEp2Zw?oc=5",
+          "title": "盤後解盤內容-42DB360C-BA9D-4DC7-8EE5-D5671DC6ACB0 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR3lublhxSTlNYXRTZTJUTVlZQXNnaWsxXzNoRGJzR2NmdEx5V1hUSUFCNGswdDFJaWNPVEFlVVZ1MkVfTTJkOGhwdG4tNERFZE1fczcyRVFfQy1iNzhzQ25LMFlOOURfQkpDWHQ2dkltOThZRGtJNTRSUm0zdjlCVXZNWldqUW5aQ3RmWnFDVzRDUW12?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 12 Oct 2026 09:59:00 GMT",
+          "date": "Wed, 21 Oct 2026 08:33:17 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "中華電中華電信公佈115年9月營運績效- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOU12cUxyZG5sWlo5OFdnSjNlNnQ3TnJaZUVtRkJOX01DNjJ0YmFFWm1GN1IySWdITDhDbjJka1NMb0R1TEYyMF9nRjdFWTNtdHlkTUcwUWhTUzJEQW96Y1l6OEdJdzJzblFNWG91bjI0SF9MMzFsaEtPWlc2S3dOaXpLRDhPVFBTaUJuY3JZajFVUQ?oc=5",
+          "title": "盤後解盤內容-26EFA5EA-82F0-43D2-84FD-03745996FA84 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2R0Y0VZRjhObk1HVk9zRVpFR1czcmg1Z0drZ0U5SmJlWkF4bzlsMy1FVUZJWkRNcTgwWTI0OE5MVWNFanZwQ001OE1UdF9QNUloQUJBZm4wa0ZXWjVXNFRMa2JGbFNlaVprV2h6cWw1eE1JS3Y2NXNvQ2c3NWM5Vjdsbmg0cnpGbVRWSENVZW1QQm1j?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 12 Oct 2026 07:00:00 GMT",
+          "date": "Thu, 22 Oct 2026 13:55:40 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "中華電9月營收創同期高，累計EPS達4.25元",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmlEY2g3eS1yZEhJRzBmUXBkLXpZV3pMUW4zWl9KVGZ6d1ZTZ0RsWjVBLTZLd1NfMVFyUFpGRW1EVGdUMkFBRzI3TC1XdWU5NTNjYS1QSTNpMG56Zm96MmY5Q01la1RiRFNiaEVDSWtxbnRUYkZQOF9JbnlHalJxa0t4Um9IRms4aDg5d2tYUmhmdw?oc=5",
+          "title": "盤後解盤內容-AAD9AC6A-5F06-4839-9B5F-6016D1246392 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUtjNXFGQ2RXdWt3Ty1HQWlWMWZ3V2Z2dUFteUZYVWtWWC0xN1JNb2E1X1ItQklMVFU2VkkzbzVfaHZ4ZkhTTkRlRlpuR1JfTmV3NTNWM2pkMHJ3WVU2dVZrNF9NTjlaOTdhbXN4aVZvaFVoWkpyVFkxWC1pVTV4aTV3dzZUSU96bDk4WV9RanpfY0sz?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "date": "Thu, 15 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -20898,7 +21164,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "過熱等待",
+        "reasons": [
+          "綜合 91 分",
+          "法人近5日買超",
+          "技術偏多"
+        ],
+        "upside": 4.117971072757842
+      }
     },
     {
       "id": "4556",
@@ -22899,17 +23174,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "10/16上櫃融券減少排行前20名 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbUs3cGlsWlJGVjJOMEd4VWRlZXZBY0FJekE0U3gzcjZTUXNRYTkySl9nQWh5ekdhNU5Mby1lU19hSGs1djRMUThuQXBacFY1b0JFUnQ4TW9RNlpTLWU3QjFzdHNrMDhlYXhSN1JobVRrV0NLdm1kMzAtRG13Tm50ZklqcDBwYjBxWmJ1bXJFcmxoUQ?oc=5",
+          "title": "10/22櫃買市場三大法人合計賣超200張以上個股- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVW9mMlRaMTh4blljYXJWTEVzZWFFWHVSNFJvX1J0SWUzbnJta3duc0N5NzhZU0tqZ3luUUtrWUs1YTdUdFZlYllQMXVjS0dJV3l5Ti1fN1ZQNWZTQ1FiSDcxdlVYM0JQVWl3cXZzLVBzUDR1N1JySVFxUzdaWk42Sy1lN0w3dUJYek1LM1NBR3F4dw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Sun, 18 Oct 2026 23:31:00 GMT",
-          "sentiment": "利空"
-        },
-        {
-          "title": "新聞內容-0D388447-7204-46E6-9AAD-D674BC67A671",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeF9sdi1nMVd0b05yeFhjdnZxVGJnbHphTmNtWEZHc3VQX01qMjFIdE5qbE9ZWWd3YkxxX2tLdk43WVg2QWtuMGhYT0tEWWhrN3FtS082WVdUZ2t2VW9rcEI4bllMbXRSajNxX2VEWkl3a2lYZVhad3ZyX1lZV0Q5dUJsdkJDT1BhLVpZ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 11:14:06 GMT",
+          "date": "Thu, 22 Oct 2026 07:52:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -22925,9 +23193,16 @@
           "source": "MoneyDJ / Google News",
           "date": "Wed, 07 Oct 2026 07:00:00 GMT",
           "sentiment": "利多"
+        },
+        {
+          "title": "兩大動能加持，旭然Q3營收創高/季增28% - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOWFwOURaYk1QVFpXN2phbFBFLTJRMm9WUTh6Q3RvMlZlTjJnVEk1WTJncUp3dXZ5MTd0RjVqSTZ6R3RWTDVoZnRLemFNb0tSYjdlM21pSGdwWXhZekVJTUdoMTZJVGZNSGRSMDlZb1ByZGx6cnY3QUZsdEtwNnZYYjVVM0RKTUVqbWt2c2ZSOWM1Zw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Mon, 12 Oct 2026 02:28:00 GMT",
+          "sentiment": "利多"
         }
       ],
-      "news_score": 1,
+      "news_score": 3,
       "links": {
         "財報狗": "https://statementdog.com/analysis/4556",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -22953,7 +23228,17 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "風險警戒",
+        "reasons": [
+          "綜合僅 31 分",
+          "法人近5日賣超",
+          "技術偏弱",
+          "現價高於基準目標"
+        ],
+        "upside": -42.48389238598516
+      }
     },
     {
       "id": "7556",
@@ -25008,7 +25293,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "風險警戒",
+        "reasons": [
+          "法人近5日賣超",
+          "技術偏弱",
+          "基準目標尚有 26% 空間"
+        ],
+        "upside": 26.149302973977683
+      }
     },
     {
       "id": "5297",
@@ -27048,7 +27342,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "風險警戒",
+        "reasons": [
+          "綜合僅 41 分",
+          "法人近5日賣超",
+          "技術偏弱"
+        ],
+        "upside": null
+      }
     },
     {
       "id": "7887",
@@ -28560,7 +28863,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "風險警戒",
+        "reasons": [
+          "綜合僅 40 分",
+          "法人近5日買超",
+          "技術偏弱"
+        ],
+        "upside": null
+      }
     },
     {
       "id": "3680",
@@ -30547,10 +30859,10 @@
       ],
       "news": [
         {
-          "title": "能見度清晰家碩今年營收拚高、明年更旺- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdDZhdjFEdFg3ZFVmOGRwaTFzTUZxNVhoQ2tWaFR4WFVHbUhDc29CSlNHWDJmNEUwaTY0VTRRRkM1MzM0ZFhaa2pXR3FZdTNlWHhUcmpYUXhHVzk3RU54eVN6ZElvZ0R4bXI1WWQ0SjAzSld2WE1wclplV2RsXzhKSjM5a3ZWWDdhY0N3QU1FYTdGUQ?oc=5",
+          "title": "今日要聞內容-244D7E8B-3D8C-485B-809D-943DEAF1CB56 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV3pEem5rQkdydXEwZ1ViZ3h4dVdhUGFtWE5WQ0FrbENFZ2RkYVBac1ZUVjVMVk5Ed3JTQ1Y4aTg0eVB3NzMtb0tIbWMwbGQwN0JKUFhPczIxaWxnemxNdUpXQUJGU0xrQmExdFN4S3ZVekd4b0I0YjJFX3lRSnMtUElnZ0NSRXRfVVFkcm9R?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 00:59:00 GMT",
+          "date": "Tue, 20 Oct 2026 02:49:42 GMT",
           "sentiment": "中性"
         },
         {
@@ -30615,7 +30927,16 @@
         }
       ],
       "score_change_1d": null,
-      "score_change_5d": null
+      "score_change_5d": null,
+      "decision": {
+        "zone": "風險警戒",
+        "reasons": [
+          "法人近5日賣超",
+          "技術偏弱",
+          "基準目標尚有 80% 空間"
+        ],
+        "upside": 79.54859840954273
+      }
     }
   ]
 }
