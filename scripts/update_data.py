@@ -98,7 +98,7 @@ def get_price_data(stock_id):
     highs=[n(r.get("max")) for r in qrows if n(r.get("max")) is not None]
     lows=[n(r.get("min")) for r in qrows if n(r.get("min")) is not None]
     return {
-        "close":close,"change_pct":pct(close,prevc),"trend":trend,
+        "price_date":last.get("date"),"close":close,"change_pct":pct(close,prevc),"trend":trend,
         "quarter_high":max(highs) if highs else None,
         "quarter_low":min(lows) if lows else None,
         "history":hist
