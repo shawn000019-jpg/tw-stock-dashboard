@@ -21,6 +21,9 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 .note{padding:10px 12px;background:#282416;border-left:4px solid var(--yellow);border-radius:8px;color:#f4e7b7;font-size:12px}
 .rankgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}@media(max-width:800px){.rankgrid{grid-template-columns:1fr}}
 .rankitem{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--line)}
+.outlook{padding:12px;border-radius:12px;background:#19283f;border:1px solid #2a3b58;line-height:1.7}
+.target-current{font-weight:800;background:#1c3150}.target-best{font-weight:800}
+
 .selector{width:100%;max-width:520px;background:#19283f;color:#eef5ff;border:1px solid #3a5277;border-radius:10px;padding:11px;font-size:15px}
 .homegrid{display:grid;grid-template-columns:repeat(12,1fr);gap:12px}.home8{grid-column:span 8}.home4{grid-column:span 4}@media(max-width:900px){.home8,.home4{grid-column:span 12}}
 .instcards{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}@media(max-width:700px){.instcards{grid-template-columns:repeat(2,1fr)}}
@@ -45,7 +48,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 
 <section id="overview" class="section active">
 <div class="homegrid">
- <div class="card home8"><h2 style="margin-top:0">🇹🇼 台股權值觀察</h2><div class="scroll"><table><thead><tr><th>權值股</th><th>收盤</th><th>漲跌%</th><th>PE</th><th>營收YoY</th><th>趨勢</th><th>外資1D</th></tr></thead><tbody id="weightBody"></tbody></table></div></div>
+ <div class="card home8"><h2 style="margin-top:0">🇹🇼 台股權值觀察</h2><div class="scroll"><table><thead><tr><th>權值股</th><th>收盤</th><th>漲跌%</th><th>PE</th><th>營收YoY</th><th>基準目標</th><th>距目標%</th><th>趨勢</th><th>外資1D</th></tr></thead><tbody id="weightBody"></tbody></table></div></div>
  <div class="card home4"><h2 style="margin-top:0">🏦 全市場三大法人</h2><div class="small">TWSE 官方全市場口徑為買賣超金額（億元）</div><div id="marketInst" class="instcards" style="margin-top:12px"></div></div>
  <div class="card home8"><h2 style="margin-top:0">📰 今日重點財經新聞</h2><div id="financeNews"></div></div>
  <div class="card home4"><h2 style="margin-top:0">🎯 快速選擇標的</h2><div class="small" style="margin-bottom:8px">輸入代號或名稱快速切到個股詳細</div><input id="quickSearch" class="selector" list="stockOptions" placeholder="例如：2330 / 台積電" oninput="quickPick(this.value)"><datalist id="stockOptions"></datalist><div id="quickSummary" style="margin-top:12px"></div></div>
@@ -69,7 +72,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 </tr></thead><tbody id="instBody"></tbody></table></div></div>
 </section>
 
-<section id="detail" class="section"><div class="card"><b>選擇標的：</b> <select id="stockSelect" class="selector" onchange="selectStock(this.value)"></select></div><div id="detailBody"></div></section>
+<section id="detail" class="section"><div class="card"><b>選擇標的：</b> <select id="stockSelect" class="selector" onchange="selectStock(this.value)"></select></div><div id="linkedSummary"></div><div id="detailBody"></div></section>
 
 <section id="news" class="section">
 <div class="card"><h3 style="margin-top:0">最新新聞 / 情緒</h3><div id="newsBody"></div></div>
@@ -111,7 +114,7 @@ function render(d){
    const a=s.institution||{},f=a.foreign||{},t=a.trust||{},r=a.dealer||{};
    sel.insertAdjacentHTML('beforeend',`<option value="${s.id}">${s.id} ${s.name}</option>`);
    opts.insertAdjacentHTML('beforeend',`<option value="${s.id} ${s.name}"></option>`);
-   if(s.weight) wb.insertAdjacentHTML('beforeend',`<tr><td><b>${s.name}</b> ${s.id}</td><td>${fmt(s.close)}</td><td class="${cls(s.change_pct)}">${pctText(s.change_pct)}</td><td>${s.pe?fmt(s.pe,1)+'x':'—'}</td><td class="${cls(s.revenue_yoy)}">${pctText(s.revenue_yoy)}</td><td>${s.trend||'—'}</td><td class="${cls(f.d1)}">${fmt(f.d1,0)}</td></tr>`);
+   if(s.weight) wb.insertAdjacentHTML('beforeend',`<tr><td><b>${s.name}</b> ${s.id}</td><td>${fmt(s.close)}</td><td class="${cls(s.change_pct)}">${pctText(s.change_pct)}</td><td>${s.pe?fmt(s.pe,1)+'x':'—'}</td><td class="${cls(s.revenue_yoy)}">${pctText(s.revenue_yoy)}</td><td>${fmt(s.target_base)}</td><td class="${cls(up)}">${up!==null?fmt(up,1)+'%':'—'}</td><td>${s.trend||'—'}</td><td class="${cls(f.d1)}">${fmt(f.d1,0)}</td></tr>`);
 
    ib.insertAdjacentHTML('beforeend',`<tr><td><b>${s.name}</b> ${s.id}</td>
      <td class="${cls(f.d1)}">${fmt(f.d1,0)}</td><td class="${cls(f.d5)}">${fmt(f.d5,0)}</td><td class="${cls(f.d20)}">${fmt(f.d20,0)}</td><td>${a.foreign_streak||'—'}</td>
@@ -133,8 +136,11 @@ function render(d){
      </div>
      <div class="grid" style="margin-top:12px">
        <div class="card span8" style="margin:0"><canvas id="c${i}" height="120"></canvas></div>
-       <div class="card span4" style="margin:0"><h3 style="margin-top:0">估值情境</h3><table><tbody>
-         <tr><td>保守</td><td>${fmt(s.target_low)}</td></tr><tr><td>基準</td><td><b>${fmt(s.target_base)}</b></td></tr><tr><td>樂觀</td><td>${fmt(s.target_high)}</td></tr>
+       <div class="card span4" style="margin:0"><h3 style="margin-top:0">🎯 現價 / 目標價對照</h3><table><thead><tr><th>情境</th><th>價格</th><th>距現價</th></tr></thead><tbody>
+         <tr class="target-current"><td>目前股價</td><td>${fmt(s.close)}</td><td>—</td></tr>
+         <tr><td>保守目標</td><td>${fmt(s.target_low)}</td><td class="${cls(s.target_low&&s.close?(s.target_low/s.close-1):null)}">${s.target_low&&s.close?fmt((s.target_low/s.close-1)*100,1)+'%':'—'}</td></tr>
+         <tr class="target-best"><td>基準目標</td><td>${fmt(s.target_base)}</td><td class="${cls(s.target_base&&s.close?(s.target_base/s.close-1):null)}">${s.target_base&&s.close?fmt((s.target_base/s.close-1)*100,1)+'%':'—'}</td></tr>
+         <tr><td>樂觀目標</td><td>${fmt(s.target_high)}</td><td class="${cls(s.target_high&&s.close?(s.target_high/s.close-1):null)}">${s.target_high&&s.close?fmt((s.target_high/s.close-1)*100,1)+'%':'—'}</td></tr>
        </tbody></table><div class="small" style="margin-top:8px">${s.valuation_note||''}</div></div>
        <div class="card span6" style="margin:0"><h3 style="margin-top:0">季度 EPS 趨勢</h3><div class="scroll"><table><thead><tr><th>季度</th><th>EPS</th></tr></thead><tbody>${qeps||'<tr><td colspan="2">暫無資料</td></tr>'}</tbody></table></div></div>
        <div class="card span6" style="margin:0"><h3 style="margin-top:0">法人 / 區間</h3><table><tbody>
@@ -166,7 +172,20 @@ function render(d){
 function selectStock(id){
  document.querySelectorAll('.stock-detail').forEach(x=>x.style.display=x.dataset.stock===id?'block':'none');
  const s=(window.__stocks||[]).find(x=>x.id===id);
- if(s){document.getElementById('stockSelect').value=id;document.getElementById('quickSummary').innerHTML=`<div class="kpi"><div class="label">${s.id} ${s.name}</div><div class="value">${fmt(s.close)}</div><div class="small">${s.trend||''}｜${s.valuation_status||''}</div></div>`;}
+ if(!s)return;
+ document.getElementById('stockSelect').value=id;
+ const a=s.institution||{};
+ const upside=s.target_base&&s.close?(s.target_base/s.close-1)*100:null;
+ let score=0, reasons=[];
+ if((s.revenue_yoy||0)>0){score++;reasons.push('營收 YoY 成長');}else if(s.revenue_yoy!==null&&s.revenue_yoy!==undefined){score--;reasons.push('營收 YoY 衰退');}
+ if((a.total5||0)>0){score++;reasons.push('法人近 5 日買超');}else if(a.total5!==null&&a.total5!==undefined){score--;reasons.push('法人近 5 日賣超');}
+ if(['強勢多頭','偏多'].includes(s.trend)){score++;reasons.push('技術趨勢偏多');}else if(['空頭','偏弱'].includes(s.trend)){score--;reasons.push('技術趨勢偏弱');}
+ if(upside!==null&&upside>10){score++;reasons.push('基準目標仍有 >10% 空間');}else if(upside!==null&&upside<0){score--;reasons.push('現價已高於基準目標');}
+ if((s.news_score||0)>0){score++;reasons.push('近期新聞情緒偏正向');}else if((s.news_score||0)<0){score--;reasons.push('近期新聞情緒偏負向');}
+ const outlook=score>=3?'偏多觀察':score<=-3?'偏空警戒':'震盪／中性';
+ const oc=score>=3?'good':score<=-3?'bad':'warn';
+ document.getElementById('quickSummary').innerHTML=`<div class="kpi"><div class="label">${s.id} ${s.name}</div><div class="value">${fmt(s.close)}</div><div class="small">${s.trend||''}｜${s.valuation_status||''}</div></div>`;
+ document.getElementById('linkedSummary').innerHTML=`<div class="card"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center"><div><div class="small">連動判讀｜${s.id} ${s.name}</div><h2 style="margin:4px 0 0">${fmt(s.close)} <span class="pill ${oc}">${outlook}</span></h2></div><div><b>基準目標：</b>${fmt(s.target_base)} <span class="${cls(upside)}">${upside!==null?'('+fmt(upside,1)+'%)':'—'}</span></div></div><div class="outlook" style="margin-top:12px"><b>後續動向依據：</b> ${reasons.length?reasons.join(' → '):'資料不足，暫不判讀'}<div class="small" style="margin-top:6px">這是規則式趨勢判讀，不代表未來股價保證；選股後下方股價、EPS、營收、法人、新聞與目標價會同步切換。</div></div></div>`;
 }
 function quickPick(v){
  const s=(window.__stocks||[]).find(x=>v.includes(x.id)||v.includes(x.name));
