@@ -48,7 +48,7 @@ table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px;borde
 
 <section id="overview" class="section active">
 <div class="homegrid">
- <div class="card home8"><h2 style="margin-top:0">🇹🇼 台股權值觀察</h2><div class="scroll"><table><thead><tr><th>權值股</th><th>收盤</th><th>漲跌%</th><th>PE</th><th>營收YoY</th><th>基準目標</th><th>距目標%</th><th>趨勢</th><th>外資1D</th></tr></thead><tbody id="weightBody"></tbody></table></div></div>
+ <div class="card home8"><h2 style="margin-top:0">🇹🇼 台股權值觀察</h2><div class="scroll"><table><thead><tr><th>排名</th><th>權值股</th><th>綜合分</th><th>收盤</th><th>漲跌%</th><th>PE</th><th>營收YoY</th><th>基準目標</th><th>距目標%</th><th>趨勢</th><th>外資1D</th></tr></thead><tbody id="weightBody"></tbody></table></div></div>
  <div class="card home4"><h2 style="margin-top:0">🏦 全市場三大法人</h2><div class="small">TWSE 官方全市場口徑為買賣超金額（億元）</div><div id="marketInst" class="instcards" style="margin-top:12px"></div></div>
  <div class="card home8"><h2 style="margin-top:0">📰 今日重點財經新聞</h2><div id="financeNews"></div></div>
  <div class="card home4"><h2 style="margin-top:0">🎯 快速選擇標的</h2><div class="small" style="margin-bottom:8px">輸入代號或名稱快速切到個股詳細</div><input id="quickSearch" class="selector" list="stockOptions" placeholder="例如：2330 / 台積電" oninput="quickPick(this.value)"><datalist id="stockOptions"></datalist><div id="quickSummary" style="margin-top:12px"></div></div>
@@ -87,6 +87,28 @@ function cls(v){return v>0?'pos':v<0?'neg':'neu'}
 function pctText(v){return v===null||v===undefined?'—':fmt(v,1)+'%'}
 function valPill(x){if(!x)return '';let c=x.includes('低')?'good':x.includes('熱')?'bad':'warn';return '<span class="pill '+c+'">'+x+'</span>'}
 function newsPill(x){let c=x==='利多'?'good':x==='利空'?'bad':'warn';return '<span class="pill '+c+'">'+(x||'中性')+'</span>'}
+function scoreStock(s){
+ const a=s.institution||{};
+ let fundamental=12, chip=12, technical=12, valuation=12;
+ const yoy=s.revenue_yoy, mom=s.revenue_mom;
+ if(yoy!==null&&yoy!==undefined){fundamental += yoy>=20?9:yoy>=10?7:yoy>0?4:yoy<=-20?-9:yoy<=-10?-7:-4;}
+ if(mom!==null&&mom!==undefined) fundamental += mom>0?2:-2;
+ if((s.forward_eps||0)>(s.eps_ttm||0)) fundamental+=2;
+ const total5=a.total5;
+ if(total5!==null&&total5!==undefined){chip += total5>1000?9:total5>0?6:total5<-1000?-9:-6;}
+ if((a.foreign?.d5||0)>0)chip+=3;else if((a.foreign?.d5||0)<0)chip-=3;
+ if((a.trust?.d5||0)>0)chip+=2;else if((a.trust?.d5||0)<0)chip-=2;
+ if(s.trend==='強勢多頭')technical+=11;else if(s.trend==='偏多')technical+=7;else if(s.trend==='偏弱')technical-=7;else if(s.trend==='空頭')technical-=11;
+ if((s.change_pct||0)>0)technical+=2;else if((s.change_pct||0)<0)technical-=2;
+ const upside=s.target_base&&s.close?(s.target_base/s.close-1)*100:null;
+ if(upside!==null){valuation += upside>=30?11:upside>=15?8:upside>=5?4:upside<0?-10:1;}
+ if(s.valuation_status==='低於保守價')valuation+=3;
+ if(s.valuation_status==='估值偏熱')valuation-=3;
+ fundamental=Math.max(0,Math.min(25,fundamental));chip=Math.max(0,Math.min(25,chip));technical=Math.max(0,Math.min(25,technical));valuation=Math.max(0,Math.min(25,valuation));
+ return {fundamental,chip,technical,valuation,total:fundamental+chip+technical+valuation};
+}
+function grade(total){return total>=80?'A':total>=70?'B+':total>=60?'B':total>=50?'C+':'C';}
+function scorePill(total){let c=total>=70?'good':total<50?'bad':'warn';return '<span class="pill '+c+'">'+total+' / 100 · '+grade(total)+'</span>'}
 
 function renderRanking(d){
   const strong=document.getElementById('strongRank'),weak=document.getElementById('weakRank');
@@ -109,12 +131,14 @@ function render(d){
  const m=d.market_institution||{};
  [['外資',m.foreign],['投信',m.trust],['自營商',m.dealer],['三大合計',m.total]].forEach(([k,v])=>mi.insertAdjacentHTML('beforeend',`<div class="kpi"><div class="label">${k}</div><div class="value ${cls(v)}">${fmt(v,1)}</div><div class="small">億元</div></div>`));
  (d.finance_news||[]).slice(0,8).forEach(n=>fn.insertAdjacentHTML('beforeend',`<div style="padding:9px 0;border-bottom:1px solid #2a3b58">${newsPill(n.sentiment)} <a href="${n.url}" target="_blank">${n.title}</a><div class="small">${n.source} ${n.date||''}</div></div>`));
+ const scored=(d.stocks||[]).map(s=>({id:s.id,...scoreStock(s)})).sort((a,b)=>b.total-a.total);
+ const rankMap=Object.fromEntries(scored.map((x,i)=>[x.id,i+1]));
  (d.stocks||[]).forEach((s,i)=>{
    const up=s.target_base&&s.close?(s.target_base/s.close-1)*100:null;
    const a=s.institution||{},f=a.foreign||{},t=a.trust||{},r=a.dealer||{};
    sel.insertAdjacentHTML('beforeend',`<option value="${s.id}">${s.id} ${s.name}</option>`);
    opts.insertAdjacentHTML('beforeend',`<option value="${s.id} ${s.name}"></option>`);
-   if(s.weight) wb.insertAdjacentHTML('beforeend',`<tr><td><b>${s.name}</b> ${s.id}</td><td>${fmt(s.close)}</td><td class="${cls(s.change_pct)}">${pctText(s.change_pct)}</td><td>${s.pe?fmt(s.pe,1)+'x':'—'}</td><td class="${cls(s.revenue_yoy)}">${pctText(s.revenue_yoy)}</td><td>${fmt(s.target_base)}</td><td class="${cls(up)}">${up!==null?fmt(up,1)+'%':'—'}</td><td>${s.trend||'—'}</td><td class="${cls(f.d1)}">${fmt(f.d1,0)}</td></tr>`);
+   if(s.weight){const sc=scoreStock(s);wb.insertAdjacentHTML('beforeend',`<tr><td>#${rankMap[s.id]}</td><td><b>${s.name}</b> ${s.id}</td><td>${scorePill(sc.total)}</td><td>${fmt(s.close)}</td><td class="${cls(s.change_pct)}">${pctText(s.change_pct)}</td><td>${s.pe?fmt(s.pe,1)+'x':'—'}</td><td class="${cls(s.revenue_yoy)}">${pctText(s.revenue_yoy)}</td><td>${fmt(s.target_base)}</td><td class="${cls(up)}">${up!==null?fmt(up,1)+'%':'—'}</td><td>${s.trend||'—'}</td><td class="${cls(f.d1)}">${fmt(f.d1,0)}</td></tr>`);}
 
    ib.insertAdjacentHTML('beforeend',`<tr><td><b>${s.name}</b> ${s.id}</td>
      <td class="${cls(f.d1)}">${fmt(f.d1,0)}</td><td class="${cls(f.d5)}">${fmt(f.d5,0)}</td><td class="${cls(f.d20)}">${fmt(f.d20,0)}</td><td>${a.foreign_streak||'—'}</td>
@@ -165,8 +189,9 @@ function render(d){
 
    (s.news||[]).forEach(n=>nb.insertAdjacentHTML('beforeend',`<div style="padding:10px 0;border-bottom:1px solid #2a3b58"><b>${s.name}</b>｜${newsPill(n.sentiment)} <a href="${n.url}" target="_blank">${n.title}</a><div class="small">${n.source||''} ${n.date||''}</div></div>`));
  });
- if((d.stocks||[]).length) selectStock((d.stocks||[])[0].id);
  window.__stocks=d.stocks||[];
+ window.__rankMap=rankMap;
+ if((d.stocks||[]).length) selectStock((d.stocks||[])[0].id);
 }
 
 function selectStock(id){
@@ -175,6 +200,7 @@ function selectStock(id){
  if(!s)return;
  document.getElementById('stockSelect').value=id;
  const a=s.institution||{};
+ const sc=scoreStock(s);
  const upside=s.target_base&&s.close?(s.target_base/s.close-1)*100:null;
  let score=0, reasons=[];
  if((s.revenue_yoy||0)>0){score++;reasons.push('營收 YoY 成長');}else if(s.revenue_yoy!==null&&s.revenue_yoy!==undefined){score--;reasons.push('營收 YoY 衰退');}
@@ -185,7 +211,15 @@ function selectStock(id){
  const outlook=score>=3?'偏多觀察':score<=-3?'偏空警戒':'震盪／中性';
  const oc=score>=3?'good':score<=-3?'bad':'warn';
  document.getElementById('quickSummary').innerHTML=`<div class="kpi"><div class="label">${s.id} ${s.name}</div><div class="value">${fmt(s.close)}</div><div class="small">${s.trend||''}｜${s.valuation_status||''}</div></div>`;
- document.getElementById('linkedSummary').innerHTML=`<div class="card"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center"><div><div class="small">連動判讀｜${s.id} ${s.name}</div><h2 style="margin:4px 0 0">${fmt(s.close)} <span class="pill ${oc}">${outlook}</span></h2></div><div><b>基準目標：</b>${fmt(s.target_base)} <span class="${cls(upside)}">${upside!==null?'('+fmt(upside,1)+'%)':'—'}</span></div></div><div class="outlook" style="margin-top:12px"><b>後續動向依據：</b> ${reasons.length?reasons.join(' → '):'資料不足，暫不判讀'}<div class="small" style="margin-top:6px">這是規則式趨勢判讀，不代表未來股價保證；選股後下方股價、EPS、營收、法人、新聞與目標價會同步切換。</div></div></div>`;
+ document.getElementById('linkedSummary').innerHTML=`<div class="card"><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:center"><div><div class="small">連動判讀｜${s.id} ${s.name}</div><h2 style="margin:4px 0 0">${fmt(s.close)} <span class="pill ${oc}">${outlook}</span></h2></div><div><b>基準目標：</b>${fmt(s.target_base)} <span class="${cls(upside)}">${upside!==null?'('+fmt(upside,1)+'%)':'—'}</span></div></div><div class="kpis" style="margin-top:12px">
+ <div class="kpi"><div class="label">綜合評分</div><div class="value">${sc.total}<span class="small"> /100 · ${grade(sc.total)}</span></div></div>
+ <div class="kpi"><div class="label">基本面</div><div class="value">${sc.fundamental}<span class="small"> /25</span></div></div>
+ <div class="kpi"><div class="label">籌碼面</div><div class="value">${sc.chip}<span class="small"> /25</span></div></div>
+ <div class="kpi"><div class="label">技術面</div><div class="value">${sc.technical}<span class="small"> /25</span></div></div>
+ <div class="kpi"><div class="label">估值面</div><div class="value">${sc.valuation}<span class="small"> /25</span></div></div>
+ <div class="kpi"><div class="label">15 檔排名</div><div class="value">#${(window.__rankMap||{})[s.id]||'—'}</div></div>
+ </div>
+ <div class="outlook" style="margin-top:12px"><b>後續動向依據：</b> ${reasons.length?reasons.join(' → '):'資料不足，暫不判讀'}<div class="small" style="margin-top:6px">評分＝基本面 25＋籌碼面 25＋技術面 25＋估值面 25。屬規則式比較工具，不代表未來報酬保證。</div></div></div>`;
 }
 function quickPick(v){
  const s=(window.__stocks||[]).find(x=>v.includes(x.id)||v.includes(x.name));
