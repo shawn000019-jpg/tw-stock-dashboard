@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-24 21:21:47",
+  "updated_at": "2026-10-24 21:24:08",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -54,6 +54,45 @@
     "total": -994.67265541,
     "unit": "億元"
   },
+  "market_regime": {
+    "label": "偏空",
+    "score": -4,
+    "weight_breadth": -2,
+    "foreign": -815.82101452,
+    "note": "權值股技術廣度＋TWSE 外資當日買賣超"
+  },
+  "momentum_top5": [
+    {
+      "id": "2412",
+      "name": "中華電",
+      "score": 91,
+      "change5": null
+    },
+    {
+      "id": "2317",
+      "name": "鴻海",
+      "score": 75,
+      "change5": null
+    },
+    {
+      "id": "2382",
+      "name": "廣達",
+      "score": 74,
+      "change5": null
+    },
+    {
+      "id": "3680",
+      "name": "家登",
+      "score": 64,
+      "change5": null
+    },
+    {
+      "id": "7556",
+      "name": "意德士",
+      "score": 54,
+      "change5": null
+    }
+  ],
   "finance_news": {
     "asia": [
       {
@@ -2345,7 +2384,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=2330",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2330",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%202330%20%E5%8F%B0%E7%A9%8D%E9%9B%BB"
-      }
+      },
+      "score": {
+        "fundamental": 21,
+        "chip": 2,
+        "technical": 3,
+        "valuation": 25,
+        "total": 51
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 21,
+          "chip": 2,
+          "technical": 3,
+          "valuation": 25,
+          "total": 51
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "2317",
@@ -4381,7 +4439,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=2317",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2317",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%202317%20%E9%B4%BB%E6%B5%B7"
-      }
+      },
+      "score": {
+        "fundamental": 25,
+        "chip": 25,
+        "technical": 0,
+        "valuation": 25,
+        "total": 75
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 25,
+          "chip": 25,
+          "technical": 0,
+          "valuation": 25,
+          "total": 75
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "2454",
@@ -6417,7 +6494,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=2454",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2454",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%202454%20%E8%81%AF%E7%99%BC%E7%A7%91"
-      }
+      },
+      "score": {
+        "fundamental": 16,
+        "chip": 2,
+        "technical": 3,
+        "valuation": 0,
+        "total": 21
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 16,
+          "chip": 2,
+          "technical": 3,
+          "valuation": 0,
+          "total": 21
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "2308",
@@ -8453,7 +8549,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=2308",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2308",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%202308%20%E5%8F%B0%E9%81%94%E9%9B%BB"
-      }
+      },
+      "score": {
+        "fundamental": 23,
+        "chip": 2,
+        "technical": 3,
+        "valuation": 2,
+        "total": 30
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 23,
+          "chip": 2,
+          "technical": 3,
+          "valuation": 2,
+          "total": 30
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "2382",
@@ -10489,7 +10604,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=2382",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2382",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%202382%20%E5%BB%A3%E9%81%94"
-      }
+      },
+      "score": {
+        "fundamental": 21,
+        "chip": 25,
+        "technical": 3,
+        "valuation": 25,
+        "total": 74
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 21,
+          "chip": 25,
+          "technical": 3,
+          "valuation": 25,
+          "total": 74
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "2881",
@@ -12483,20 +12617,6 @@
           "sentiment": "中性"
         },
         {
-          "title": "富邦金 富邦金控代子公司富邦證券公告認購富邦期貨現金增資- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORUp2V3dCb2dTWGNkb3lIaWxEZ1l4X1c5RzJWc1NHVWxlVTF0M0x4UTlhNGM0Mk5EeHVoZDl1WlludTM4cHZBcFpzdXRaajBHREFGVzVhM0hZRGdQX2hsQ3htckY5Q3ZpTVNnektEQjBwQ0VsLURFaFdweWNHR0Yxa3VOT3ZoWEs0TzVfbE9nR1g5UQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 10:14:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "富邦金 富邦金控代富邦華一銀行有限公司公告受監理機關裁罰之說明- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbWhsZVMwcEdhTFVlbWt1aUVnOHY5aG0wUUstRnNaMGRlSUh5enJ0Z2lYeXIza29ndUtFMGRLYTVPUXF2ZkxPVmxQRFExWTlhRUZIdjZFdGtUaFlrSHgzLXU1SFVyNTZrcFNMMXJfRWRydVlKVl9RMU9wcF9RV3V0cVdYQ204OVFWbzFxTHN2Y0l6dw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 10:44:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "富邦金 富邦金控代子公司富邦銀行(香港)有限公司公告取得資產基礎證券(補充115/10/14公告)",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLWtZa1VodzUzUzA4Mk9RaXRucnFGVXFXX2lsaTRUT3owV25MaFJtdHE2VlNQeVlvUkpVVDBQLW1vdzg3N2NXUnNCOGx1VnB4YkgtYUpYVGxNRXE2RlFzMXRPU2o3RHctbnF1U3RpbTdfMExFdmFEZWE3VERlRUxkOEp1V2lvOWU1VkRjcEQwUVlzdw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -12504,17 +12624,31 @@
           "sentiment": "中性"
         },
         {
-          "title": "富邦金 富邦金控代富邦保險經紀人(菲律賓)股份有限公司公告股東臨時會召開事宜- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWl8yZS1YTGNQWURKTTdsS29KSEhEUWRmdmxqb25LcG5aY1ZSb1E2ZU1jSDlURERJbXhUV3BralN1Yi1nVkVaYnJQYnZXUFc2OVdrMjVlV0JrS2xFZllLVjNDLWJvUEVmLXNRTldpQTVQRm1Udk9qTXFaQzFGUlFEV0doT0E4YmNyT0pPZGh6Y1pSZw?oc=5",
+          "title": "10/20起「低波動股利精選30指數」納台泥等/刪遠東新等- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVXQyT0pVRkx5a2RKcDB3N0tZUzVXV290RTBrbmV5c19fS3ZMblV6akFMS0w2R05QT2VnSUg3cnlvV1Uwa2s2YmhWMzlmenNnUEREWGVPQkdlcW9OSEpsSXNITUZXa2FoQjVuQmRlMThoUEx6dVFLN1VTZTNkQ0hXVDhnVGExMFNoYWJ5QmlIcGY1UQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 10:19:00 GMT",
+          "date": "Tue, 20 Oct 2026 00:12:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "富邦金 富邦金控代子公司富邦科技保代公告取得「富邦人壽保險股份有限公司」使用權資產- 新聞",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMFNVNXFULVJFUkNCMXhqYWpjWHB1OGJieW9NMHlRNnNKNG1XUklIaFFGVG0xZThpQlVjc041VU1RV2kxai1fSFhpZmFvN3JyR01LdlVpUll4bTlwY1Q5cFhLMlU2aVgyY1k0VkZjQmZDQTNMX0loM3hlVnJRWkRNS2VVSTlOVzJ0d2p2RXRKd0dHZw?oc=5",
+          "title": "富邦金 富邦金控代子公司富邦人壽公告發行115年度第2期無擔保累積次順位普通公司債(補充114/12/23公告) - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWncxOGpvUVhfSXlKckZhVDlwYmNkTU1Hby1lMGQ2ODNjQ0JROW5VSDZaUmt5X21KV3RGU3BiVC1tR3Jad0RaWm11WE5nZUtvMk9ob08wdGg1WlJ5U29sQ3dFQXA1RHZlM00xdnk1Tzl3UGlmMk5ZZWxma0lidmFSa016dGxlamhWdmEydDVXMDZKUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 10:49:00 GMT",
+          "date": "Thu, 15 Oct 2026 08:19:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "富邦金 115年9月營收194.68億、年減63.80% - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLXoyUW80ZGhySFBGb0tfb19zT0w3QVRJQ1ZnWUpxMkFTa1RtaERiVjJsVnZGNlk1X25qc0cybmpkdEtraldRYkQ4QXlselJRVlhyWGZLaGhXN01uVl92YU92bjV1eE9QdTZWZVJCSmtWcTdQRmhJSXkwSHluOGk2cEZQUUZSWlJWNnhwcTJpRkZUUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 15 Oct 2026 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "富邦金Q4開放美股盤前後交易，雪梨分行拓企業金融- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdm9iX0hNTkVXRVJrVzNYdXo4TGtRQ3hkNU43T2R6MlpPQW1XQXJUNGd1LU02UlZ6UTlOdnktOWxoaGZONW5VWVkxakJZcWxydlNQMkh1OGkza2xQVGJMSVR4V09Da2RXYlRCbk5qcnI5eXMtY1lsRVFiX2hoTVhweTNhcXNMaEVkWkFuQzRVdXBlZw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Mon, 05 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -12525,7 +12659,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=2881",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2881",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%202881%20%E5%AF%8C%E9%82%A6%E9%87%91"
-      }
+      },
+      "score": {
+        "fundamental": 1,
+        "chip": 22,
+        "technical": 23,
+        "valuation": 0,
+        "total": 46
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 1,
+          "chip": 22,
+          "technical": 23,
+          "valuation": 0,
+          "total": 46
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "2882",
@@ -14561,7 +14714,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=2882",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2882",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%202882%20%E5%9C%8B%E6%B3%B0%E9%87%91"
-      }
+      },
+      "score": {
+        "fundamental": 1,
+        "chip": 25,
+        "technical": 21,
+        "valuation": 0,
+        "total": 47
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 1,
+          "chip": 25,
+          "technical": 21,
+          "valuation": 0,
+          "total": 47
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "2891",
@@ -16597,7 +16769,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=2891",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2891",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%202891%20%E4%B8%AD%E4%BF%A1%E9%87%91"
-      }
+      },
+      "score": {
+        "fundamental": 1,
+        "chip": 22,
+        "technical": 25,
+        "valuation": 0,
+        "total": 48
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 1,
+          "chip": 22,
+          "technical": 25,
+          "valuation": 0,
+          "total": 48
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "3711",
@@ -18633,7 +18824,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=3711",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3711",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%203711%20%E6%97%A5%E6%9C%88%E5%85%89%E6%8A%95%E6%8E%A7"
-      }
+      },
+      "score": {
+        "fundamental": 25,
+        "chip": 2,
+        "technical": 3,
+        "valuation": 2,
+        "total": 32
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 25,
+          "chip": 2,
+          "technical": 3,
+          "valuation": 2,
+          "total": 32
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "2412",
@@ -20634,31 +20844,31 @@
           "sentiment": "中性"
         },
         {
-          "title": "今日要聞內容-CABA39E3-07D8-4A4D-8926-4592A4E8D589 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYzhWd05nQnRDbmtSdFh6UFdodVNYbFRBektYSXdyM3VrcXlaRUs0QUU2VkV1elhqQUF4VTF1WG1zRGQ3aER2X2IxcEJHUU1RaFhNLV9kMVh2TV9hdkV1TjFTaGQtNjdkMHRLNndfbjR3WnFJd2QxTHhqMG5tWmhRS3NaMU1PUXo5ZmRCd3Fn?oc=5",
+          "title": "是方33億虎尾AI機房動土，科技巨頭進駐已滿租- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPOWpXUm5KaDFKVnUwMktqTnl6QWZ0b0VGWk12WlNNY2VrSEZlNnowV296S3V4N3VULVpHUjJlYlhUY0F5Wk1NenJBOV9YR0RJVEJNaE5sS0lSVG5NZlo2YUdJR1c0T1V3Um52ZEk2ZWZGY0xNWEdRdF9ESDdpQ1N4eWlFYzdPanNyQXBMbnJfRV83QQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 06:16:02 GMT",
+          "date": "Tue, 20 Oct 2026 05:52:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "盤後解盤內容-42DB360C-BA9D-4DC7-8EE5-D5671DC6ACB0 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPR3lublhxSTlNYXRTZTJUTVlZQXNnaWsxXzNoRGJzR2NmdEx5V1hUSUFCNGswdDFJaWNPVEFlVVZ1MkVfTTJkOGhwdG4tNERFZE1fczcyRVFfQy1iNzhzQ25LMFlOOURfQkpDWHQ2dkltOThZRGtJNTRSUm0zdjlCVXZNWldqUW5aQ3RmWnFDVzRDUW12?oc=5",
+          "title": "中華電 115年9月營收243.99億、年增20.85%",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRWVEV2xjM2RWbl9ZcmVmT0M0X0tvT3RrZTQwRVM5aHVia0JFb2xuQTRYbVd5Nl81bWVQQllUOWJwZzFReDhydjZ0Mm5TUG5JTkRxbnNSY2l3RS1hNDdvb3NtSnF1a21PYTY2dktlcWw0Y0JpR0xhX3EwVHVoYktBU0dVb0dzdHVDMFdpeUg1OEp2Zw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 21 Oct 2026 08:33:17 GMT",
+          "date": "Mon, 12 Oct 2026 09:59:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "盤後解盤內容-26EFA5EA-82F0-43D2-84FD-03745996FA84 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2R0Y0VZRjhObk1HVk9zRVpFR1czcmg1Z0drZ0U5SmJlWkF4bzlsMy1FVUZJWkRNcTgwWTI0OE5MVWNFanZwQ001OE1UdF9QNUloQUJBZm4wa0ZXWjVXNFRMa2JGbFNlaVprV2h6cWw1eE1JS3Y2NXNvQ2c3NWM5Vjdsbmg0cnpGbVRWSENVZW1QQm1j?oc=5",
+          "title": "中華電中華電信公佈115年9月營運績效- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOU12cUxyZG5sWlo5OFdnSjNlNnQ3TnJaZUVtRkJOX01DNjJ0YmFFWm1GN1IySWdITDhDbjJka1NMb0R1TEYyMF9nRjdFWTNtdHlkTUcwUWhTUzJEQW96Y1l6OEdJdzJzblFNWG91bjI0SF9MMzFsaEtPWlc2S3dOaXpLRDhPVFBTaUJuY3JZajFVUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 13:55:40 GMT",
+          "date": "Mon, 12 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "盤後解盤內容-AAD9AC6A-5F06-4839-9B5F-6016D1246392 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVUtjNXFGQ2RXdWt3Ty1HQWlWMWZ3V2Z2dUFteUZYVWtWWC0xN1JNb2E1X1ItQklMVFU2VkkzbzVfaHZ4ZkhTTkRlRlpuR1JfTmV3NTNWM2pkMHJ3WVU2dVZrNF9NTjlaOTdhbXN4aVZvaFVoWkpyVFkxWC1pVTV4aTV3dzZUSU96bDk4WV9RanpfY0sz?oc=5",
+          "title": "中華電9月營收創同期高，累計EPS達4.25元",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmlEY2g3eS1yZEhJRzBmUXBkLXpZV3pMUW4zWl9KVGZ6d1ZTZ0RsWjVBLTZLd1NfMVFyUFpGRW1EVGdUMkFBRzI3TC1XdWU5NTNjYS1QSTNpMG56Zm96MmY5Q01la1RiRFNiaEVDSWtxbnRUYkZQOF9JbnlHalJxa0t4Um9IRms4aDg5d2tYUmhmdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 15 Oct 2026 07:00:00 GMT",
+          "date": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -20669,7 +20879,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=2412",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=2412",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%202412%20%E4%B8%AD%E8%8F%AF%E9%9B%BB"
-      }
+      },
+      "score": {
+        "fundamental": 25,
+        "chip": 25,
+        "technical": 25,
+        "valuation": 16,
+        "total": 91
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 25,
+          "chip": 25,
+          "technical": 25,
+          "valuation": 16,
+          "total": 91
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "4556",
@@ -22705,7 +22934,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=4556",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=4556",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%204556%20%E6%97%AD%E7%84%B6"
-      }
+      },
+      "score": {
+        "fundamental": 25,
+        "chip": 3,
+        "technical": 3,
+        "valuation": 0,
+        "total": 31
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 25,
+          "chip": 3,
+          "technical": 3,
+          "valuation": 0,
+          "total": 31
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "7556",
@@ -24741,7 +24989,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=7556",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=7556",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%207556%20%E6%84%8F%E5%BE%B7%E5%A3%AB"
-      }
+      },
+      "score": {
+        "fundamental": 25,
+        "chip": 3,
+        "technical": 3,
+        "valuation": 23,
+        "total": 54
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 25,
+          "chip": 3,
+          "technical": 3,
+          "valuation": 23,
+          "total": 54
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "5297",
@@ -26762,7 +27029,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=5297",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=5297",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%205297%20%E5%BB%A3%E5%8C%96"
-      }
+      },
+      "score": {
+        "fundamental": 23,
+        "chip": 3,
+        "technical": 3,
+        "valuation": 12,
+        "total": 41
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 23,
+          "chip": 3,
+          "technical": 3,
+          "valuation": 12,
+          "total": 41
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "7887",
@@ -28255,7 +28541,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=7887",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=7887",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%207887%20%E5%AE%87%E5%B7%9D%E7%B2%BE%E6%9D%90"
-      }
+      },
+      "score": {
+        "fundamental": 10,
+        "chip": 15,
+        "technical": 3,
+        "valuation": 12,
+        "total": 40
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 10,
+          "chip": 15,
+          "technical": 3,
+          "valuation": 12,
+          "total": 40
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     },
     {
       "id": "3680",
@@ -30242,10 +30547,10 @@
       ],
       "news": [
         {
-          "title": "今日要聞內容-244D7E8B-3D8C-485B-809D-943DEAF1CB56 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV3pEem5rQkdydXEwZ1ViZ3h4dVdhUGFtWE5WQ0FrbENFZ2RkYVBac1ZUVjVMVk5Ed3JTQ1Y4aTg0eVB3NzMtb0tIbWMwbGQwN0JKUFhPczIxaWxnemxNdUpXQUJGU0xrQmExdFN4S3ZVekd4b0I0YjJFX3lRSnMtUElnZ0NSRXRfVVFkcm9R?oc=5",
+          "title": "能見度清晰家碩今年營收拚高、明年更旺- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdDZhdjFEdFg3ZFVmOGRwaTFzTUZxNVhoQ2tWaFR4WFVHbUhDc29CSlNHWDJmNEUwaTY0VTRRRkM1MzM0ZFhaa2pXR3FZdTNlWHhUcmpYUXhHVzk3RU54eVN6ZElvZ0R4bXI1WWQ0SjAzSld2WE1wclplV2RsXzhKSjM5a3ZWWDdhY0N3QU1FYTdGUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 02:49:42 GMT",
+          "date": "Tue, 20 Oct 2026 00:59:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -30291,7 +30596,26 @@
         "MOPS": "https://mops.twse.com.tw/mops/web/t05st03?TYPEK=all&co_id=3680",
         "Goodinfo": "https://goodinfo.tw/tw/StockDetail.asp?STOCK_ID=3680",
         "MoneyDJ": "https://www.google.com/search?q=site%3Amoneydj.com%203680%20%E5%AE%B6%E7%99%BB"
-      }
+      },
+      "score": {
+        "fundamental": 25,
+        "chip": 11,
+        "technical": 3,
+        "valuation": 25,
+        "total": 64
+      },
+      "score_history": [
+        {
+          "date": "2026-10-24",
+          "fundamental": 25,
+          "chip": 11,
+          "technical": 3,
+          "valuation": 25,
+          "total": 64
+        }
+      ],
+      "score_change_1d": null,
+      "score_change_5d": null
     }
   ]
 }
