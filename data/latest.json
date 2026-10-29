@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29 10:42:10",
+  "updated_at": "2026-10-29 11:40:44",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -313,6 +313,38 @@
   "finance_news": {
     "asia": [
       {
+        "title": "AI需求爆發　三星電子第3季營業利益大增783%創新高",
+        "url": "https://www.cna.com.tw/news/aopl/202610290059.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 29 Oct 2026 10:42:51 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "國銀房貸逾放9月底近百億　創5年半新高",
+        "url": "https://www.cna.com.tw/news/afe/202610290056.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 29 Oct 2026 10:32:45 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "財報不如預期加上自由現金流轉負　Alphabet股價重挫",
+        "url": "https://www.cna.com.tw/news/aopl/202610290053.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 29 Oct 2026 10:26:38 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "騏億鑫10/30起競拍　底價210元",
+        "url": "https://www.cna.com.tw/news/afe/202610290050.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 29 Oct 2026 10:19:32 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "Azure雲端營收強勁成長　助微軟營收獲利雙雙優於預期",
         "url": "https://www.cna.com.tw/news/aopl/202610290042.aspx",
         "source": "中央社產經",
@@ -341,38 +373,6 @@
         "url": "https://www.cna.com.tw/news/afe/202610290032.aspx",
         "source": "中央社產經",
         "date": "Thu, 29 Oct 2026 09:05:52 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "台股開盤跌20.71點",
-        "url": "https://www.cna.com.tw/news/afe/202610290031.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 29 Oct 2026 09:04:50 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "微軟與Alphabet公布業績　投資人關注公司現金流",
-        "url": "https://www.cna.com.tw/news/afe/202610290018.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 29 Oct 2026 07:51:21 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "賓士擬推新中國戰略　降低獲利依賴、擴大當地零組件採購",
-        "url": "https://www.cna.com.tw/news/afe/202610290017.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 29 Oct 2026 07:51:19 +0800",
-        "sentiment": "利多",
-        "region": "asia"
-      },
-      {
-        "title": "楊金龍：台灣有實力推主權基金　審慎規劃就無時機問題",
-        "url": "https://www.cna.com.tw/news/afe/202610280341.aspx",
-        "source": "中央社產經",
-        "date": "Wed, 28 Oct 2026 23:01:25 +0800",
         "sentiment": "中性",
         "region": "asia"
       }
@@ -435,15 +435,47 @@
         "region": "international"
       },
       {
-        "title": "市場靜待聯準會利率決策　歐股多收高",
-        "url": "https://www.cna.com.tw/news/afe/202610290004.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 29 Oct 2026 01:16:42 +0800",
+        "title": "Anthropic估值上看2兆美元　阿莫戴等7創辦人將成億萬富豪",
+        "url": "https://www.cna.com.tw/news/ait/202610280077.aspx",
+        "source": "中央社科技",
+        "date": "Wed, 28 Oct 2026 11:37:44 +0800",
         "sentiment": "中性",
         "region": "international"
       }
     ],
     "all": [
+      {
+        "title": "AI需求爆發　三星電子第3季營業利益大增783%創新高",
+        "url": "https://www.cna.com.tw/news/aopl/202610290059.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 29 Oct 2026 10:42:51 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "國銀房貸逾放9月底近百億　創5年半新高",
+        "url": "https://www.cna.com.tw/news/afe/202610290056.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 29 Oct 2026 10:32:45 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "財報不如預期加上自由現金流轉負　Alphabet股價重挫",
+        "url": "https://www.cna.com.tw/news/aopl/202610290053.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 29 Oct 2026 10:26:38 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "騏億鑫10/30起競拍　底價210元",
+        "url": "https://www.cna.com.tw/news/afe/202610290050.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 29 Oct 2026 10:19:32 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
       {
         "title": "Azure雲端營收強勁成長　助微軟營收獲利雙雙優於預期",
         "url": "https://www.cna.com.tw/news/aopl/202610290042.aspx",
@@ -537,38 +569,6 @@
         "url": "https://www.cna.com.tw/news/afe/202610290013.aspx",
         "source": "中央社產經",
         "date": "Thu, 29 Oct 2026 05:19:05 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "美期中選舉前Fed利率按兵不動　華許否認政治因素",
-        "url": "https://www.cna.com.tw/news/aopl/202610290011.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 29 Oct 2026 04:57:00 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "美期中選舉前　聯準會利率按兵不動",
-        "url": "https://www.cna.com.tw/news/aopl/202610290008.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 29 Oct 2026 02:07:51 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "市場靜待聯準會利率決策　歐股多收高",
-        "url": "https://www.cna.com.tw/news/afe/202610290004.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 29 Oct 2026 01:16:42 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "中東戰事加劇市場疑慮　歐洲天然氣價格升破100歐元",
-        "url": "https://www.cna.com.tw/news/aopl/202610290003.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 29 Oct 2026 01:04:40 +0800",
         "sentiment": "中性",
         "region": "international"
       }
@@ -713,7 +713,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2380.0,
-      "buzz_score": 5,
+      "buzz_score": 7,
       "institution": {
         "foreign": {
           "d1": -3175.021,
@@ -4670,13 +4670,6 @@
       ],
       "news": [
         {
-          "title": "鴻海旗下工業富聯輪值CEO完成交接，由許興仁接任- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX2pteXRQLU13c3k1QnpDQzBWX3g3MjRvRW9rTkR1VEdrVFJRWUtRSC1YUTlLOFI4UGxHdzRqMkk2MWJHVk9aa2x5aWdrN2NoNkM5Y0s4XzZpdW4yb2kzQzllZGI2XzRRQm9Da1NmRGVENU5WRWxCVFhXRDRIdzEzcExTaHhUQTJkY2Y3ekxqaXc0Zw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Tue, 27 Oct 2026 01:00:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "鴻海AI工廠轉型成果顯現，攜輝達提升製造效率- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZG1WZFViUlo1MW15cXQwSVdqQXJzRDVOaXotekRTcmxVYldfTWZQYVRKLXgwR1kxWDJNdUtkejRVNGJNSExfYU9qWHN6ZzhmaEtZVk0zVTZjNXp1WmZKTFA3NjNfbzJQeXlyaDcyQ2lkbW5qMWFFWU1MNUJ1RE5jVG1Ibl9tOGt0bTlvbHdzbk5fdw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -4684,35 +4677,42 @@
           "sentiment": "中性"
         },
         {
-          "title": "國際財經新聞-內文 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY3cxLWY3d2FPZ01pNU5HVk5VN09GNVFZdEJ3V3ZWX3c3MVU1azZCanJMZWp3N2ZpWXZZSlZnRGxWUVNScUdQaGdLRzFpdlhXYU5mRERFNEVvNkd5NnZlZUhsVEY1VmpmZlhpalE2dnV0Mk1LN2FqQUFpLW5BVDVKcGtSMnAwSlRUbkZaQ3F3VE1seEM3Yll5QWxYY0NNQS1xVnNVSjNuV1V1SlRRWFFVR0V0aG5OVWUtTDdCVGJibFBadGtIa3c?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 10 Jun 2026 07:00:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "今日要聞內容-83577DDC-A91E-40BC-A3BD-D7B74AFFB61F",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdDJ0dVljWGdUWDlkRnY3ZFlveUY1RWQ4Sy1LeThDdXVCbzBfcEl3VEpnYm1CWDdfUkRVYk9sMkdXTmp1aTZaWERialFyWlRMUGVKTU5hcUNhODhBZzNsai1hM2NCSWFVTmIxUkVVVHZGNE56ZzdoNl9HMm1TUy1sWnMtQzBoYXRaVTBDb253?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 02:48:13 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "NVKMDJ新聞內文-{D021E692-5C06-4F74-8CAE-439978C9C82E} - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQR3F4VUZ6ZTBQMks0dEZ4VllVdVU4YmFCVHB2bUI3RzVPaVNERngxcjZYdFY4dERwR2tST3FzdFd4SGJTV242TzlpVzVLNkdmbHYxSVpQNGt2R0lsazQ1d3RQb0ZUejRkc3gwMUlmOFFQMlB5UjNPdjFFTkFpemFpVmVncjhtMk0xZ0pTeGhCLUpsQVAxc1lZOHV4REVDT2dTR0VqeDBOdU9rOW5PVFg3TlpCMXhUc1gxMkozTDcxMHV4Um12OEV6d2h3?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 03:53:31 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "宇樹帶動機器人想像，廣宇雙管齊下衝市佔- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LcFdaVnNCanZhd0pvQ05UMmFKSjZ4dXlObzFaUkpMOW90bEFHS3RZMzcyV2gyWnhSYXZ4bm1HUDRoS19fN3dpMENJRHZ4bEtra2lFYVFDTGE0emdNMVdfWW9Jdmx4RWk4VEF3dUFxamF6elRVWmgzaA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQjlEVkJhRTVxRjRNUFltaFBwVXdjZTZsOWs2d2dDcDFkVVdmYWtCV24tc1VhT1BGamJFbU1TZnBzakcyRjlyaGlvc2pqN3VHZkZ0Y25yN3llamp6R2RpOU5CQ0g1QURhVk1WX2FWOFJlOHY3NjBOSTZfT1QzR3Z2N2xLbzJObVEyWnJpY05ITlRZZw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 27 Oct 2026 03:21:00 GMT",
           "sentiment": "中性"
+        },
+        {
+          "title": "鴻海取得eCMMS Precision Singapore 11.01億股，計約11億美元- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdDRKMEJGdUJsRVR0d1JoY19CU1BVQl9xUC1Wc3ZDQkEtLUtMWHBCQ0ZYQkxHMnVVOThXSXRmYjIyYk5uRFByZWhpWklSUFVSbTV5ZktmOENXOXVJRi04em9DTktMZ3BnY2JSbU5XUzlBN3JMRTFBUWFWaGxhQlJWNV91YUVzNVlWdTlBRzlpd2kxUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Fri, 23 Oct 2026 21:10:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "台股擺脫多日跌勢！強勢反攻 終場大漲逾900點、重返47K - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLVZNNGNPZXhuSjNWTkdnbnZDay1fQS1OalhHXzg3R2VOTjMxcVNkVkt4aWY1Q2ZIVTViN1ZYaGJsSWpKZHBpbFJfTFZEMU8zeXF6UVBvZnhhMkhsVmwxd2xlS2xtM0RheXlLLWJ6VzhpLWFYMmpLdnZjSzNTODJUYzQyOGRCaVByQXN2YnZUWWxEUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 28 Oct 2026 07:15:00 GMT",
+          "sentiment": "利空"
+        },
+        {
+          "title": "一度失守46K盤尾回穩！台股終場上漲54點、台積電收2400元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOTBuQU5MNXlLdXI5QmJiV3M1NDNwZmMyLXJ6eldQUi14R21LeGI4NEpId2dWVzVHOEd0TkRZZktFVzFlTUxJZG1val93MlhrSU5ic09JeGh4WUowNTMwMXNIMXNCcl93ejNnaWRIdFkwM0JhelFrXzkwZ2JoM2RFSEhxZUd4M1JhMEhCUjRQTWNXQQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 27 Oct 2026 07:15:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "iPhone Duo災情致新日興股價重挫，後續關注良率- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaGVjTFc4dGNFa20tZ3JLOEY3cW9FcjNQTE1BUjhVR0pXaUlwNnJYaG9lNzVENmJzeF9FbjNhbjI3SnNoSmNINkdhVXVZb0pOSW1oTEloYTFaMktBdHd5SFd6RVRGT29aX1pKYUlmbk5COEZ4aFlGY2lLWU5nYU5DOHF1R090X1pwekpWZnNBdlI2Zw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 27 Oct 2026 04:26:00 GMT",
+          "sentiment": "中性"
         }
       ],
-      "news_score": 0,
+      "news_score": -1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2317",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -4933,7 +4933,7 @@
       "trend": "偏弱",
       "quarter_high": 5165.0,
       "quarter_low": 3910.0,
-      "buzz_score": 0,
+      "buzz_score": 1,
       "institution": {
         "foreign": {
           "d1": -1036.859,
@@ -6787,24 +6787,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "MoneyDJ新聞 2026-06-09 11:29:33 陳怡潔 發佈 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNjJNMi0zTGw2ZC1TcWE3dXZ3di10MVV6X1lHQWlZR1lSTS12amZVNGMtQi1DanBaVzRSOEEtckVRcUpvbFdDU29adGpYNjJKY3FtQy00V0xPMFNtZkJVcnJieVdCUWY1Y0pOLW5SZ3B4NlhBaG1oQWJXVnJJR0k1VEliWFZsdTY3OG5XazF3d3dudw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Mon, 26 Oct 2026 20:18:31 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "聯發科子公司Gaintech Co.董事會決議辦理現金增資案，計3.2億美元- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNazROV3hFa1BVMEgwbjZjTkJaMVNid0pXLUxUYjBRX2lGemQ4bXBNMHRZQ3MzV04wS09iQmFocTFsNWZrdEk5OGc0YWE4R3Y1YUVGZ2ZFWUxXOHc4bkZQTG9kNGR3RDhuZnI5QndDMmo3WHJOb1ktWE53Y2RYUFA0QUxoZ2R5LVFVU0ktRGxzWjE2dw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 27 Oct 2026 11:22:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "台股強勢反彈！盤中漲逾800點 台積電開盤漲20元 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMTJCUU5NQ002Rk1ndnlUbXM2c1o4ZzNoTlpGR20xYVBtdjlVUFFYRUZjYjJsMWYxMG51VFVNb2lacFhIeFFHUG9mOFZEMVpnZmZwcXFwaVdBY1lmWms2Sk1qX1AySFlRSjQxZkxkX0NjZHFudzc2bkVsNzB6WEJoUWtIa21QeVpUczdiQXNZQ0phQQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 28 Oct 2026 01:35:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -6820,9 +6806,23 @@
           "source": "MoneyDJ / Google News",
           "date": "Wed, 28 Oct 2026 07:15:00 GMT",
           "sentiment": "利空"
+        },
+        {
+          "title": "一度失守46K盤尾回穩！台股終場上漲54點、台積電收2400元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOTBuQU5MNXlLdXI5QmJiV3M1NDNwZmMyLXJ6eldQUi14R21LeGI4NEpId2dWVzVHOEd0TkRZZktFVzFlTUxJZG1val93MlhrSU5ic09JeGh4WUowNTMwMXNIMXNCcl93ejNnaWRIdFkwM0JhelFrXzkwZ2JoM2RFSEhxZUd4M1JhMEhCUjRQTWNXQQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 27 Oct 2026 07:15:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "失守47K！台股溜滑梯大跌846點 收最低點46041點",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZVJoZm1xNF9JeUhuZkRQV1lfcmpmcW53a1R5Yl9EeEtPTEFSa0NJYnNrc1dCb1ZILXF4aEh2S1JlRU9XR3I0dlVYZG83VFNXcXlJQXMyWm02RnBfTWF6bHdZTlAxQTBLenhRTzlNOFZEUy1DcW5lZlZKRFg5T2E3MUpEZmhmMzlCb3NwZlJYZlZlQQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 22 Oct 2026 07:15:00 GMT",
+          "sentiment": "利空"
         }
       ],
-      "news_score": -1,
+      "news_score": -2,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2454",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -7045,7 +7045,7 @@
       "trend": "偏弱",
       "quarter_high": 2115.0,
       "quarter_low": 1490.0,
-      "buzz_score": 6,
+      "buzz_score": 7,
       "institution": {
         "foreign": {
           "d1": 1.41,
@@ -8892,6 +8892,13 @@
       ],
       "news": [
         {
+          "title": "台達電Q3毛利率跌破35% 泰達電存貨提列成法說焦點- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTThZbFY2Ty1KOFJUSXZwUW9VYlRoZmx5Q0lqMThnTEJFbVJEbTl4S242VmEwd2F1bUk2TUtMem5UV2w2c3VzdzR1bWxmOExNR2hkbFR4WkhaQXV6RXNUaGUtaGlXd29xWDEtQzRGaDFWTkx3MVVjM05OYTNQcmN5Q3BXbE9vQTZSNVJMcmRNZVJPUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 29 Oct 2026 01:55:00 GMT",
+          "sentiment": "利空"
+        },
+        {
           "title": "台達電泰國子公司因應轉型為智慧工廠取得供營業用設備，計約3450萬美元- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMl9JVVdscHhpekhISnRMRG03TjVJdEQzdlBVNnFhaXhCdllkdk9GS3lBOTBKaG0zY29xVm9ZU3Ryc2k2QjdZUmExaXh5Nm5XZzUwQTZDS0ZJZmloWVM0eXFhTmhzVFQtM001cWxmUmZfTl96aDZZeDVrcjcxRGltOWtxdW1CYS10Z3B3bk0ybFBwdw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -8906,13 +8913,6 @@
           "sentiment": "中性"
         },
         {
-          "title": "台達電Q3毛利率跌破35% 泰達電存貨提列成法說焦點- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTThZbFY2Ty1KOFJUSXZwUW9VYlRoZmx5Q0lqMThnTEJFbVJEbTl4S242VmEwd2F1bUk2TUtMem5UV2w2c3VzdzR1bWxmOExNR2hkbFR4WkhaQXV6RXNUaGUtaGlXd29xWDEtQzRGaDFWTkx3MVVjM05OYTNQcmN5Q3BXbE9vQTZSNVJMcmRNZVJPUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 29 Oct 2026 01:55:00 GMT",
-          "sentiment": "利空"
-        },
-        {
           "title": "台達電：Delta Electronics(Germany)合併Delta Controls Germany，簡化組織架構- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX19ONU5DVGptb0UydDdCNWdSanBFbU9sMnRJZWpVQ05zZWJMZ3J1c1FyWk43cXF6WDJOWGhWN205YzYycW1veXBRWVhLRGhrNmg0RFdLNVM2MnlON21xbE5DZ1U4bFdhOElKSmdJV1hCdDhmWThrRHU5VjdFbG5TS01QM1IxYjAwY0VWV1ZDeFhTQQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -8921,20 +8921,20 @@
         },
         {
           "title": "台達電Q3獲利寫次高前三季賺贏去年全年- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONVdwQVNJb2xCbDdxWHVSRUdYZmxzamhFWlQ1N0pEZ0o0cTAwVFREdS1yR0FrTjZPQ0pOU2lENEpzdUI0TDhlek9ubWZYbTJacGxvT0R3QjBJbXBBU21mRkswT1plZ3VEeXdILWpuTV8tX1ZSVnhNX3c4aEM3Wk5QR3QxaFFhREtPNHdxMGd3dHRsdw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQLUNDUzZoS1VraEFxaXZlb2xCSWs5Y1o1UTRYbXpTUFdrTDVYdERBTDJ2UE5BSTZhcVlOcGhpVjZpZnNNM0V5TDVWMkpmNzFJaWdSVmFCSlZOU29BNm9OVzNYS3pRYkwxUWRUYllIVXVXaXV1SUR0R1ZfOTNYZ2ZMZHFrYzRmR3dWUXh3WHhZYWkzRUFSYnc?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Thu, 29 Oct 2026 00:05:00 GMT",
           "sentiment": "利多"
         },
         {
-          "title": "台達電：DEN董事會決議擬增資DHK，計約5.1億美元- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNRVJUVjYwQTFXMHJMdFRnTUNublE0S2xfMzA4b3ktaWR4VThmQkFvd1NPRS1Qc2hOdFpsdFh3eGNaVFk0TXNnU0pXZTVGd2hWdUdqYTE2R2R3RUk4blhJRWlJXzFXWFFTVnhYZDZLaVZHdWs3RHVTcFJzRlhKV1lBUmM0bkUwTUlxdUxSMHcydU5rdw?oc=5",
+          "title": "台達電Q4營收估季增雙位數2027續受惠AI電力需求- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQTNaQzdWTFFxcTRVYlhsV2FQcFBlLUU4SW9nSW14WVFkejZtQ2FfV3RUWjdyV3BzUlJhMlR6alJqRjBObzBZOEw3am9qbzFPOC1FdWRNa3Ewc1R3U0Z2d3EwTkZTXzBVVkRaTzBtdnkydUdockpCa01GMXdCeFAtd0REYjRTUmVFd2ZaZ1dLQVBmdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 28 Oct 2026 11:43:00 GMT",
-          "sentiment": "中性"
+          "date": "Thu, 29 Oct 2026 01:55:00 GMT",
+          "sentiment": "利多"
         }
       ],
-      "news_score": 0,
+      "news_score": 1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2308",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -11038,14 +11038,14 @@
           "sentiment": "中性"
         },
         {
-          "title": "台股開盤漲近400點！盤中跌破4萬7 台積電2435元開出- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd1hRcWhPN1ZJalhCTGZSaFh5R0xrZ0h4SGREZlR6a3Q3enktQ0pNNmk1bEpfd3NtenNVMk1PLUFCUUdYTm5yaVVlVkRaLWdaZWJNNnYtYnVsdE9Zc3Vfd0I5OGZ3ZWZVYTNPc2FBY3Y2cEhINXUzWElmOE0tYVVvMzVEcjFjcFM5WHgwbVIyMGp5dw?oc=5",
+          "title": "一度失守46K盤尾回穩！台股終場上漲54點、台積電收2400元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOTBuQU5MNXlLdXI5QmJiV3M1NDNwZmMyLXJ6eldQUi14R21LeGI4NEpId2dWVzVHOEd0TkRZZktFVzFlTUxJZG1val93MlhrSU5ic09JeGh4WUowNTMwMXNIMXNCcl93ejNnaWRIdFkwM0JhelFrXzkwZ2JoM2RFSEhxZUd4M1JhMEhCUjRQTWNXQQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 02:35:00 GMT",
-          "sentiment": "利空"
+          "date": "Tue, 27 Oct 2026 07:15:00 GMT",
+          "sentiment": "中性"
         }
       ],
-      "news_score": -1,
+      "news_score": 0,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2382",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -13121,13 +13121,6 @@
           "sentiment": "中性"
         },
         {
-          "title": "富邦金：富邦證券股東會決議辦理私募1.25億股、每股80元 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR1g5Qk0wYmg3Z1lFX19DRDdfYkFnbl9TbXZBQmlXQUVKa1EwSGxZR2RSOWtSQXJNS3ZpbkFjVGl0RC0xd2l0S1VjakFEN3g1dXRTR2k4dVRYTnVma0ZYblFEeFVlTV9WQnlraDlCTmstQlRPNGkwWXhLcGlJSUpVT3dmaHJIYVZFYXlWZHdtTmxkdw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Tue, 27 Oct 2026 01:49:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "富邦金 富邦金控代子公司台北富邦商業銀行股份有限公司公告授信資產之債權處分- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONmtXUXhTSFljWGlESm0tQngyNkl0YXdGRGk1d3k0QU8wTjBSaWFpOEtjeTVNNGNlLTRiNS1IR2YyZFNBUXpZM0dmUUMtc2lHUEFkLVpUS3padko3RDZGcy1pVFdNRUJaam44Z00xZjZaQ18zdjliQTNyUVVFSzVhNnpRekVKRjVDLWRwN2ktNEpNQQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -13135,24 +13128,31 @@
           "sentiment": "利空"
         },
         {
-          "title": "富邦金 富邦金控代子公司富邦銀行(香港)有限公司公告取得資產基礎證券(補充115/10/14公告) - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLWtZa1VodzUzUzA4Mk9RaXRucnFGVXFXX2lsaTRUT3owV25MaFJtdHE2VlNQeVlvUkpVVDBQLW1vdzg3N2NXUnNCOGx1VnB4YkgtYUpYVGxNRXE2RlFzMXRPU2o3RHctbnF1U3RpbTdfMExFdmFEZWE3VERlRUxkOEp1V2lvOWU1VkRjcEQwUVlzdw?oc=5",
+          "title": "富邦金：富邦證券股東會決議辦理私募1.25億股、每股80元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR1g5Qk0wYmg3Z1lFX19DRDdfYkFnbl9TbXZBQmlXQUVKa1EwSGxZR2RSOWtSQXJNS3ZpbkFjVGl0RC0xd2l0S1VjakFEN3g1dXRTR2k4dVRYTnVma0ZYblFEeFVlTV9WQnlraDlCTmstQlRPNGkwWXhLcGlJSUpVT3dmaHJIYVZFYXlWZHdtTmxkdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 10:34:00 GMT",
+          "date": "Tue, 27 Oct 2026 01:49:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "富邦金 富邦金控代子公司富邦證券公告股東會重要決議事項- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcTZrdzBHMURnT2ctaHl1ZFRIU3RoUXlBd0FpQ0dtZmtDdnpQcFdBMjYwNUpnTnUzM2FOTWtOTHZCenJiczlRMmtuSkxLRF9KR1IwX0FnQzA1QWFSMjRjdXNZbVZYeTZYZ2ZGenk2aHprN0dlZi1IUjhVNTRGMkpKVWJ0TktfaXB6Tk80U1FvZlBSUQ?oc=5",
+          "title": "富邦金 115年9月營收194.68億、年減63.80% - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQLXoyUW80ZGhySFBGb0tfb19zT0w3QVRJQ1ZnWUpxMkFTa1RtaERiVjJsVnZGNlk1X25qc0cybmpkdEtraldRYkQ4QXlselJRVlhyWGZLaGhXN01uVl92YU92bjV1eE9QdTZWZVJCSmtWcTdQRmhJSXkwSHluOGk2cEZQUUZSWlJWNnhwcTJpRkZUUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 10:04:00 GMT",
+          "date": "Thu, 15 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "富邦金 富邦金控代子公司富邦證券公告取得「忠興開發股份有限公司」之使用權資產- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZmc5M0ZrckMtdVBrbEI5Rkd4VVZZZzJFdTNWSVlkbWZyYlIxVHliTWMtNDBvbkRHR0ZtNldyTkE2N2FiTC1PY3VFRmUzUG55T3dXSnpGai1QajE3VUNudGFIM3BlTHBnUmV6TnN6VzhLdDF2bTNVYnVybHhFOVNxU2VxdktvNHk2RW9xaXhGbkwydw?oc=5",
+          "title": "富邦金美股盤前後交易上線，雪梨據點拓企業金融- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTnV6NURLZWNfS0JfTUtDTDZHOFNnMC1wXzFpYkhsamh3bU5CcnpEWUhXZkFXTFdCYnZYYXJYWWpTVC1UWWk4TmlIV0pzdG9QXzl3VDVuOTZybXUzUG5iQ2tvNDRrVW5nMjh5WDdFQkNkbVkzalBFXzU5eHc5aDZhaGZkZ2U3MUFDcWtwaWhrYl9Rdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 09:59:00 GMT",
+          "date": "Tue, 20 Oct 2026 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "富邦金Q4開放美股盤前後交易，雪梨分行拓企業金融- 新聞",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdm9iX0hNTkVXRVJrVzNYdXo4TGtRQ3hkNU43T2R6MlpPQW1XQXJUNGd1LU02UlZ6UTlOdnktOWxoaGZONW5VWVkxakJZcWxydlNQMkh1OGkza2xQVGJMSVR4V09Da2RXYlRCbk5qcnI5eXMtY1lsRVFiX2hoTVhweTNhcXNMaEVkWkFuQzRVdXBlZw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Mon, 05 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -15231,10 +15231,24 @@
           "sentiment": "中性"
         },
         {
+          "title": "個股動態報導內容-6196904A-31A7-4E11-BACA-C371D7161E39",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUnpLTHJUZm11Qlh1R0N1NG9BdlFCZS1QV29fblJWaldzV3lFcU9SV21CbHVZM3FPZG1HSXZYNkVEUkNXcDVhejl0UzVNTE9mMUJUVjRlZVBxZk1hUmVibjBiNGV4SDdLWWRHSk03RUtCa1VJdlY0OEhPZ3VYelc0MEtxWmViOGQ2cjFwU2YzRXNVT1RN?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Fri, 23 Oct 2026 20:54:43 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "10/28上市近二日券資比前20名排行- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR29xenMydHJwTnpZdGhUQTlhTTVQVGZZbU1IdGo1ZldkQXJlbmZjMGVYZTdFZlFIV05aV1huWDRxTlpMZ2g2dmJIc1prTTc2cnk4VlUyUEtjOXUtWW9zLVpOaldEM29PRGoyQ3VNM21xdE9DMUlkMnBVeEcwYTA4cmItMTZGM0lwUEx1TGFNWUtQbFhZS1BXcGsyMTlrOHBfOXZvRmFjcWVHanNYZU52M04yZ2xZSzVrWU9CRkdxWERkQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 28 Oct 2026 23:48:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "新聞內容-CC1EA286-97A5-4D97-AF5D-EB9325C51057 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOeG9jWGJySVdSN1JCakN0bjlSeDJTRTV4clFyemg0Z3o2YS1VMUZQYVh5Q250S1dxTUZKN2VxSGlEdXhOdDd4dWp3b19MU3BwYXdRakttdTFrTV80VWFfTlIzMGt1UEZyVExGeTh5RUNzdjl2WG84bFl2Z3Y1N0ZKSWFrZzl2eW5zaUFj?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 27 Oct 2026 06:20:56 GMT",
           "sentiment": "中性"
         },
         {
@@ -15245,24 +15259,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "國泰金房貸塗銷數位化，私銀產品再添私募股權- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeGpmazdtY3dfdDdMMmU1YnBRNFFEMjZTQVRzRHdtdlUxczVTblF1WkpkOWllOFpjWTB3b09CM0Y4Ul9xSElTOVp5TUZvSDgtX1RVdW1fY2hXbXU1RXI3RjNNNTN3VHQ2bTlPLXJqUU40aXZQcUQ3MWQyMFExSmR1aUF6TmtMZGNfVUNWRl9fUGtSUQ?oc=5",
+          "title": "個股動態報導內容-台泥-4/18證交所「盤中」零股交易成交股數前20名排行 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMjc4X2hyRFQ3Uml6bnZVeWwwQmtsR2RUSUMzMHZkTmJOTUZ0YjEwWFpGUDhvakxxY05lelB2eDVNaXdVaGRaZVotbDk3WjE2WlhVd2FuOTBMUDVyeThGM3p6WDBYcy1ycXJDa05sZmlDYzh6c2p1Q0VDQ3pDRzhRYnhWZGd1QjJMUVdpYVVnTkhPampJZTVCelRjSkk1STRRZHlpbzB1bVg?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 07:00:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "國泰金加碼企金與私募平台，Q4接軌內評法- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbkZGNjFCSXc4ZVhLNm5uTjl3cGRsa2pOX1NROV9YWjZwOE5qYjN1c25FUEVoZ2lPanVHLS1kRzQzX2RvZnRMd0FtRU1RMTM4MkRvaC1uZjQ2S2ZKcnZvdWx4YTVkdmUwX2J4dlpVcy0xQl9NalZfVEc4aHpOVkdDWHZRSUloRWwzUTI0aXF2NDVRUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Mon, 12 Oct 2026 02:54:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "國泰金 115年第2季綜合損益表，每股盈餘2.80元",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZFdFbGhVUU5DRndTY3NoVjhVXzlmT1BmSi1hLUJjb2NWb1lqcmtRc2Jza3lMU3Q5R1U3d3BmOElGcUZZc2ljcHZiUEhfczJnM05JRzRjc2NKSWNuMFRIZlZwMkFzTy04VlBSMW5SYnpiNVJ2eXdoWm9tZUdZNk1rXzJEMUQyWm5vMmNZVkxaLXQzZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "date": "Fri, 18 Apr 2025 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -17341,18 +17341,25 @@
           "sentiment": "中性"
         },
         {
+          "title": "中信金代子公司中信銀公告擬取得中信金控無擔保普通公司債- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORUo2cXlVanIxWWNwUmVWa2xwTkxzUF9RQ2RVb1h3NXFxcWFzYlBKV3FhVFJScmFMTWk4ci1OUnBMU21OcTFobWZzX0ZDcVBSSzk0cmtZWlRuRzJzNE82U0J2R2lXRnlCTTA2WU9IWmVnMUFZY0dQdnlQMjMxQ2VFVWVtLW5RaTNncjMxZzFWZENGQQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 27 Oct 2026 09:54:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "中信金代子公司中國信託商業銀行公告授信資產之轉讓- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYk93QkEtQ2s2TnRRU1FvUkdELVAzbFZHQzFPU2tpcFRZa3lJVThHVUxnY294N0lEV1U3RkNFYU51TmQtMmdMTjdVeDZtUUtITktiOEhBU3NDc2xxci1OaFVYdHYteEVGNnJPMlV2bDBVRkVHeGllZlJuRkMzM1BudGt0Tm1paDFCUmVIX3U3SU5wUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 27 Oct 2026 10:14:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "中信金代子公司中國信託產物保險股份有限公司公告向關係人處分使用權資產- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZHIxM0hjNGJGZHc4S2pYTnpNLTJmT0N3eVhnWDB1XzdXVml4YmJPTE9tOE1Nei1Dbl9WVVB1WmF1cHFTcmVlbGFYeW9rMTAyakNHcnVVVURzLTBzN3h4bWFweS1VWE1qWTRhQ0s2bDR5NFUyOGl2YmZ2RkNtTDNudE5MZm02WkJVeUJVYjJRSTZ2dw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 28 Oct 2026 10:14:00 GMT",
           "sentiment": "利空"
-        },
-        {
-          "title": "中信金 代子公司中國信託商業銀行美國子行CTBC Bank Corp. (USA)公告授信資產之轉讓。 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSWl0YUxxX2U2blNDQTJoS3d3RmlpRF81LTU5Tk13RTQ0anNMd2RvMS1QNEFVZzhPWkt2QjBsTnFzd3V6cjVGd2lfSzVoeGJ6c0xxQ0F4OHVQRUJSdWhqNXhSYXFRcGhJQXItb0g2OHRGbFJNWkFkWFZFbExVX3l0YkJDWmozWFRoXzdGTDA0YWJyZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 28 Oct 2026 09:19:00 GMT",
-          "sentiment": "中性"
         },
         {
           "title": "中信金代子公司中國信託產物保險股份有限公司公告向關係人取得使用權資產- 新聞 - MoneyDJ",
@@ -17362,17 +17369,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "10/22上市投信賣超排行前20名 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSzB3eUpSU0I1UzdocVVpbVQweldOQzB6X18wRVB0YWJZYldsdUxKTl9pUHZ1dmUtaUNodXpRSjUxajNFaU9hOEh1c29aSHVBSVJQeEFBQzdsUEswU2FfV0JDVE5WMVpPMldYdGlNRDdNeTZJaGt4OGRoU29rNlV3M1pZbHpUMkJMUGt0TjJWdTJkdw?oc=5",
+          "title": "新聞內容-BD53161D-E5C9-4332-B31D-8B6924F19F21 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdHZTcUxNRVRTeHZ3Uy04RnpsbV9ORTZXTTR3M3Vic3ZBeDhHZktTbzRtUzljckNOLVk3SHplRlE2R1VTRVAtY2tZdk91VnZ1blVUb0lpM1U3S0FnOXRXN3NzamtNYzYyTnFPdXFNdXVxMms2N3lDZ2hRZ0dNd3FBRUE3bkxsNlU0d09v?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 26 Oct 2026 23:32:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "10/28上市近二日券資比前20名排行- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNR29xenMydHJwTnpZdGhUQTlhTTVQVGZZbU1IdGo1ZldkQXJlbmZjMGVYZTdFZlFIV05aV1huWDRxTlpMZ2g2dmJIc1prTTc2cnk4VlUyUEtjOXUtWW9zLVpOaldEM29PRGoyQ3VNM21xdE9DMUlkMnBVeEcwYTA4cmItMTZGM0lwUEx1TGFNWUtQbFhZS1BXcGsyMTlrOHBfOXZvRmFjcWVHanNYZU52M04yZ2xZSzVrWU9CRkdxWERkQQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 28 Oct 2026 23:48:00 GMT",
+          "date": "Wed, 28 Oct 2026 06:22:03 GMT",
           "sentiment": "中性"
         }
       ],
@@ -21576,24 +21576,24 @@
           "sentiment": "中性"
         },
         {
-          "title": "盤後解盤內容-26EFA5EA-82F0-43D2-84FD-03745996FA84 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa2R0Y0VZRjhObk1HVk9zRVpFR1czcmg1Z0drZ0U5SmJlWkF4bzlsMy1FVUZJWkRNcTgwWTI0OE5MVWNFanZwQ001OE1UdF9QNUloQUJBZm4wa0ZXWjVXNFRMa2JGbFNlaVprV2h6cWw1eE1JS3Y2NXNvQ2c3NWM5Vjdsbmg0cnpGbVRWSENVZW1QQm1j?oc=5",
+          "title": "中華電 115年9月營收243.99億、年增20.85% - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRWVEV2xjM2RWbl9ZcmVmT0M0X0tvT3RrZTQwRVM5aHVia0JFb2xuQTRYbVd5Nl81bWVQQllUOWJwZzFReDhydjZ0Mm5TUG5JTkRxbnNSY2l3RS1hNDdvb3NtSnF1a21PYTY2dktlcWw0Y0JpR0xhX3EwVHVoYktBU0dVb0dzdHVDMFdpeUg1OEp2Zw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 22 Oct 2026 13:55:40 GMT",
+          "date": "Mon, 12 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "盤後解盤內容-A33CFE41-5A84-489B-B28F-1570373EE025 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLXZ2MnVfSkxvYnpfcHd3TEtmNE5tWVo5UEJ5eHpiWXl0cjFtQzFwUnNxdU1YbG0xRXUyOUh3NEkxOWFyMFBZT1dOaVlOaGtFNmktRXFTa0tScnM3WTBUc1hFMmVCVjd3LXFpdGh5Q09icUs1ZnNwTGJXTEVjTnhQT0NLcmhDcURNc1hfQ0E3T054SHV0?oc=5",
+          "title": "中華電9月營收創同期高，累計EPS達4.25元",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRmlEY2g3eS1yZEhJRzBmUXBkLXpZV3pMUW4zWl9KVGZ6d1ZTZ0RsWjVBLTZLd1NfMVFyUFpGRW1EVGdUMkFBRzI3TC1XdWU5NTNjYS1QSTNpMG56Zm96MmY5Q01la1RiRFNiaEVDSWtxbnRUYkZQOF9JbnlHalJxa0t4Um9IRms4aDg5d2tYUmhmdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 28 Oct 2026 08:15:59 GMT",
+          "date": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "新聞內容-CF37E6A4-8EE1-459D-8D5B-2B33ADA993AB - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPa3p3Qnc4OGNKMTVnbDVaX3JqTFBwcl84dThfcGJwX2N5NHlCSmZPeWVLT2pEV0pic0YzUXE1OUF6azh2U0dSdzl5T0JUb2cxTHZPOUlaMzVWRHMxUFdCRS1BUklJa0o3b2ZUNlNPbmF4SlN5VU9OdEJ2RE5URHhvTG9ZbWxxQ3hvS2NZ?oc=5",
+          "title": "中華電本公司將召開線上法說會說明115年第3季營運成果- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZkdzLU9ESmhqcXY2UXo4THhKYzlKWUt5ZzRoWWw1YTUzUkI0SmhBVTZZdnNBMERLNnRIWTRpdTJKeWpQX3JFQnhZS1I0QUZOUkI3OVBOZWM1MTF4aTB0Tkw4aW53Q2ZYNWpqRGQtNm8teGE4YmVwNXlTcG5TYkhPOUtfMG54dWpRTTlKSFpwWkgxZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 27 Oct 2026 06:20:57 GMT",
+          "date": "Fri, 02 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -25776,7 +25776,7 @@
       ],
       "news": [
         {
-          "title": "意德士 115年9月營收8600萬、年增61.99%",
+          "title": "意德士 115年9月營收8600萬、年增61.99% - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcGU0QXd3U2RCRW5LNzN0MVhXanBzMmR0dDdkS3JYRDh1X2Z4dGx1QWR4eVRnWEdIWkRKNFF2VG5Ib1BHdHVBQXFJRC1jcHllb01kTmI3bW1NbUZyT05lbTJtck9FVC1aSTFRRXZRR2tRT05mVDh2RnNaRFFCNUpzQVllLUZZS0E3Z1BFc3lla1hZdw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 07 Oct 2026 07:00:00 GMT",
@@ -25804,7 +25804,7 @@
           "sentiment": "中性"
         },
         {
-          "title": "意德士：關係人奇鼎科技承包公司空調系統工程等案，合約總金額約2.01億元- 新聞 - MoneyDJ",
+          "title": "意德士：關係人奇鼎科技承包公司空調系統工程等案，合約總金額約2.01億元- 新聞",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdVBvVll1c0Y2S2VvTk1QdXlVUm9jRFVaMlRMa1ZtYkpfbHlRY0pwaDRXWXJmd3VVWS1Vay1uNmktbVF4bHY4T3NWQk9ZTGx5VnMtV0Q2YXppYkxXSU83UXZEQi0zSU03cFcwN0huNURDX1hUM1NNRUg4eFRKNkFzZ1NOU1p4QTlNOGM0dmxuaEtLUQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Mon, 07 Apr 2025 07:00:00 GMT",
@@ -29453,7 +29453,7 @@
       ],
       "news": [
         {
-          "title": "宇川精材 115年9月營收1490萬、年增38.35% - MoneyDJ",
+          "title": "宇川精材 115年9月營收1490萬、年增38.35%",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTXBGMDFibXpqNGlfZk5vNWV5OTJXS01YMjRCS05OSFozY2picGVxSi12U2xCZjdSNXZ5aHlxUXpXMW91aHUtOExKZXlaX0pENEl1c1p5eEhYZWlFV1d2TTcyZHpTWTc1WFhPZjdvOW8tYzFoeXRHMzNqYVN2S19zQXEtd2lKNUhtRkpCZ2swVlFyQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Thu, 08 Oct 2026 07:00:00 GMT",
@@ -31585,6 +31585,13 @@
           "sentiment": "中性"
         },
         {
+          "title": "新聞內容-EDB99654-432D-49AC-A9C7-330440219C61 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNelJvU0ptWjVIamFFTmF1Xy1EOHYyZXpDQUprVlZKX05VdHhiTGRyUlRWWFozU3EzTDA4QU9XUGpsT1BSNEloLXlNckFuNTlQTzVkeWVEVkVndWZRU1c5Y3FJNEJGU2VmOVduVTdNLXVhVlc2bWp1Q0dGZmlVUGpkemJJak1aLU9IUFE?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 28 Oct 2026 06:58:15 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "證交所、櫃買中心10/28公告停券名單- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZXFXSEpPUFhCUlJsaUJ2V1Zmem5mUGVDWHJQYW92bDZYWnhpeDFzUHNzSjhhd2w1dmYxcXU4Xzc5MENxd3pRNTF3M2FDUkFHY20wNmV2WGw2anBIM081RzhBclJOUTI4TmtJWldDRnd3RnJoeEEtdnlmaWppTlM1Ynh6dXJPSEhiUEVSOUx4VHROZw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -31596,13 +31603,6 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRU1kaXNRUC1pNk82WTRBQ01uVFl5NDlMdHI1VkI2NEtKbnJ4SVkxRzFBeTViZkFLeUVPbXJ1M0tJdnFFdHFxeGpDcDdDLVdNeUJMY19sUDZDZFQwZURJSmNTXzUyY21BckpvNlRyRGQyczVlaC1Dd1hRWURXX1JobzBGcUt3bXoxMXE1Y2VZQ190Zw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 27 Oct 2026 05:43:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "上櫃認購(售)權證10/29彙總表- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbzBKWVQ4QTFreDhhR01TS0FxZVREV1hTYl96V0xEcGxMQ3MtLUJuXzR2dWllZ0hfYzVubFBxdkFCVHJmeDdOVF9nb042Vl9HRHlYSFlaakRpbHI4cm9qaHdyWHRDMU5OYVdWTFRIZnY1RV9ub2M5SjhqVXdpY1FHaEc5UVQwMDRaVWJBeDBQbXBjZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 28 Oct 2026 05:42:00 GMT",
           "sentiment": "中性"
         }
       ],
