@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 11:49:11",
+  "updated_at": "2026-11-05 12:53:22",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -715,7 +715,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2235.0,
-      "buzz_score": 5,
+      "buzz_score": 6,
       "institution": {
         "foreign": {
           "d1": -21603.811,
@@ -2865,7 +2865,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 236.5,
-      "buzz_score": 5,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
           "d1": -16577.006,
@@ -5016,7 +5016,7 @@
       "trend": "偏弱",
       "quarter_high": 5165.0,
       "quarter_low": 3455.0,
-      "buzz_score": 4,
+      "buzz_score": 1,
       "institution": {
         "foreign": {
           "d1": -5209.569,
@@ -7168,7 +7168,7 @@
       "trend": "空頭",
       "quarter_high": 2115.0,
       "quarter_low": 1160.0,
-      "buzz_score": 4,
+      "buzz_score": 2,
       "institution": {
         "foreign": {
           "d1": -3127.743,
@@ -19797,17 +19797,17 @@
           "sentiment": "利多"
         },
         {
+          "title": "國家隊低接17檔逆勢翻紅- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBmcWhOZzBLQW9sa3FmaF9uUUxhY0FXd1hRWVhJbXlYcUFGQzVyNWxGRkk2a0c2bXMwSTNJR2dnX19VZVFfR0NLcmNnc1laRVBQa1ZlRmtaQ0psSnEyZlpaZnZFb3ktSVdVM0JTdVBiRnE3NW50cWVkNQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 04 Nov 2026 23:40:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "11/2上市投信買超排行前20名 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaXIwamVZYV84M1p3Z3VTeTdieGlBWW02eWRkZ1RyVXdSYnZ1X2RRdDJpTjhNTXFzVHVQamZLdVNTV1h3RXo2aGRlWVE5UXg2QzFfU0tJc1VuNkRYeENfU0Rkb3FrUXFnUHZybHZUdUE3R1dIaE9WWXRwTUwyQ1VUeldfM1FJWmZBY3FpNWZlR1ZhQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Mon, 02 Nov 2026 23:32:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "11/4上市投信買超排行前20名 - 台股 - 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcE5YOHRPQ1NxQjlKRXRTa05BVFNuSTlYZUVYVXlDc0NUcFEtN0FtYVVkUncyc1hzYzFIWVZEQ0hucjJXNTF5Slh5dFhkTzRrX2dBODJTa1c3alB3bV9oeXJ5LXBaUC1UcG44MC1CaEVMeUJIZlh1NWE4SVBRUmt3M09B?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 04 Nov 2026 23:31:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -30012,6 +30012,13 @@
       ],
       "news": [
         {
+          "title": "國際財經新聞-內文 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYm95ZUxOU3Q5S1NIRm82Y0RRS1FpM191NkpXQ3ZrUVN1QzM1N1c0VnlXN1B4blpiRlQzWkVnUkJ0ZFZmakgtT2pTZFFkM3kwYzNMb05ULUwwZHZPY05zdzZVaTRjeU4tU0FKX0ZqWng5V3cwZFljbXVjQjlWM1BfY3RSM2dTSzRiMW9kMVdnR1VmTERmYTRSQ01EN3p6dFJuaDRrRE9aS1F5bnl2cEZOQkxXMm82dHF0LUtzZExDRk9kMG9BVDVGUHhFTQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Sat, 11 Jul 2026 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "宇川精材 115年9月營收1490萬、年增38.35% - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTXBGMDFibXpqNGlfZk5vNWV5OTJXS01YMjRCS05OSFozY2picGVxSi12U2xCZjdSNXZ5aHlxUXpXMW91aHUtOExKZXlaX0pENEl1c1p5eEhYZWlFV1d2TTcyZHpTWTc1WFhPZjdvOW8tYzFoeXRHMzNqYVN2S19zQXEtd2lKNUhtRkpCZ2swVlFyQQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -30044,13 +30051,6 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTEI3dlkwODlOVEk2TWlISGNZTU56bzZNeHcyeFZILWdBWTVyZVNhWDRHRlVrNExWUV9FdnZMeXJGTDZtZ0cybmlHSzJPWnhfMjdHcEdKMkd6bzBiSnd0N2YtNWxHRlpKNDNWUW9KV0ZvNkxDU0NXX0tma2R4cUVoUDBzNGFQQW53Q1VaV1NzbUNXdw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 31 Mar 2026 07:00:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "宇川精密材料科技股份有限公司 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVlRzcXkwTjFnNy1fVnRCVHcydmxvTWxvUmZsbDR6SWkwQnpfMEo4RjJsSWxzVE9sVDRsY2dBay1jNi01dV85WHd3QTYta3I3c0otNU5Mck4tVnA2cG1yWXV1UVJfSzhvbFREU2NyYWdYblFGeS05WHlqSXFwc3VKX2FNZXBOQ3MyR1dnZTdwLTI1Z3Z6SThB?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Fri, 09 Jan 2026 08:00:00 GMT",
           "sentiment": "中性"
         }
       ],
