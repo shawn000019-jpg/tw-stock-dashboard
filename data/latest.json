@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 19:24:04",
+  "updated_at": "2026-11-05 22:31:48",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -32,7 +32,7 @@
       {
         "id": "2330",
         "name": "台積電",
-        "total5": -36153.391
+        "total5": -36130.905000000006
       },
       {
         "id": "3711",
@@ -42,16 +42,16 @@
       {
         "id": "2308",
         "name": "台達電",
-        "total5": -17853.591
+        "total5": -17914.591
       }
     ]
   },
   "market_institution": {
     "date": "20261105",
     "foreign": -1024.60621838,
-    "trust": 225.31591838,
+    "trust": 225.94451141,
     "dealer": -435.27495658,
-    "total": -1234.56525658,
+    "total": -1233.93666355,
     "unit": "億元"
   },
   "market_regime": {
@@ -313,71 +313,87 @@
   "finance_news": {
     "asia": [
       {
-        "title": "勤誠第3季獲利季減27%　每股純益8.06元",
-        "url": "https://www.cna.com.tw/news/afe/202611050272.aspx",
+        "title": "民生電價遠低於成本　台電扛逾750億補貼盼立院支持預算撥補",
+        "url": "https://www.cna.com.tw/news/afe/202611050336.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 18:09:59 +0800",
-        "sentiment": "利多",
-        "region": "asia"
-      },
-      {
-        "title": "聯邦銀：股市震盪劇烈為短期因素　投資政策維持穩健",
-        "url": "https://www.cna.com.tw/news/afe/202611050271.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 18:09:57 +0800",
+        "date": "Thu, 05 Nov 2026 21:37:21 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "台股連日重挫　金管會提2數據強調風險可控、緊盯股市波動",
-        "url": "https://www.cna.com.tw/news/afe/202611050267.aspx",
+        "title": "台股跌1374點　上市櫃融資餘額合計減少274.18億元",
+        "url": "https://www.cna.com.tw/news/afe/202611050332.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 18:04:48 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "AI助攻PCB　華通、臻鼎連2個月營收創新高",
-        "url": "https://www.cna.com.tw/news/afe/202611050265.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:59:44 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "大立光10月營收58.46億元月增1%　估11月出貨動能下滑",
-        "url": "https://www.cna.com.tw/news/afe/202611050261.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:54:35 +0800",
+        "date": "Thu, 05 Nov 2026 21:25:10 +0800",
         "sentiment": "利空",
         "region": "asia"
       },
       {
-        "title": "矽格南電京元電第3季獲利走高　AI晶片封測載板需求助攻",
-        "url": "https://www.cna.com.tw/news/afe/202611050259.aspx",
+        "title": "外媒稱美光勞資協商暫緩設廠　經部：協助雙方溝通",
+        "url": "https://www.cna.com.tw/news/afe/202611050330.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:51:31 +0800",
-        "sentiment": "利多",
-        "region": "asia"
-      },
-      {
-        "title": "新台幣重貶　央行喊話出口商：勿過度期待貶值、有需求就結售",
-        "url": "https://www.cna.com.tw/news/afe/202611050258.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:50:29 +0800",
+        "date": "Thu, 05 Nov 2026 21:15:05 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "遠傳3大引擎催動淨利登高　4G、5G用戶黃金交叉",
-        "url": "https://www.cna.com.tw/news/afe/202611050256.aspx",
+        "title": "路透：北京暫緩核發進口許可　60萬顆輝達H200晶片堆香港",
+        "url": "https://www.cna.com.tw/news/aopl/202611050329.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:45:25 +0800",
+        "date": "Thu, 05 Nov 2026 21:12:03 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "新台幣何時止貶　富邦金羅瑋：2因素未解前恐偏弱",
+        "url": "https://www.cna.com.tw/news/afe/202611050328.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 21:10:01 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "勞資協商致桃園新廠停工？美光：在台營運正常、期待達成協議",
+        "url": "https://www.cna.com.tw/news/afe/202611050327.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 21:04:59 +0800",
+        "sentiment": "利空",
+        "region": "asia"
+      },
+      {
+        "title": "威力彩第115089期開獎",
+        "url": "https://www.cna.com.tw/news/ahel/202611050325.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 20:51:54 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "泓德能源啟動第2次庫藏股　擬斥資最高7.44億買回8000張",
+        "url": "https://www.cna.com.tw/news/afe/202611050324.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 20:49:52 +0800",
         "sentiment": "中性",
         "region": "asia"
       }
     ],
     "international": [
+      {
+        "title": "英國央行調升基準利率1碼至4%　逾3年來首度升息",
+        "url": "https://www.cna.com.tw/news/aopl/202611050331.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 21:16:07 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "外資10月淨匯出64.61億美元創同期最高　累計今年仍淨匯入",
+        "url": "https://www.cna.com.tw/news/afe/202611050309.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 19:43:19 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
       {
         "title": "AI需求帶動　全球興建中核反應爐數量創車諾比核災後新高",
         "url": "https://www.cna.com.tw/news/ait/202611020228.aspx",
@@ -397,132 +413,132 @@
     ],
     "all": [
       {
-        "title": "勤誠第3季獲利季減27%　每股純益8.06元",
-        "url": "https://www.cna.com.tw/news/afe/202611050272.aspx",
+        "title": "民生電價遠低於成本　台電扛逾750億補貼盼立院支持預算撥補",
+        "url": "https://www.cna.com.tw/news/afe/202611050336.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 18:09:59 +0800",
-        "sentiment": "利多",
-        "region": "asia"
-      },
-      {
-        "title": "聯邦銀：股市震盪劇烈為短期因素　投資政策維持穩健",
-        "url": "https://www.cna.com.tw/news/afe/202611050271.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 18:09:57 +0800",
+        "date": "Thu, 05 Nov 2026 21:37:21 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "台股連日重挫　金管會提2數據強調風險可控、緊盯股市波動",
-        "url": "https://www.cna.com.tw/news/afe/202611050267.aspx",
+        "title": "台股跌1374點　上市櫃融資餘額合計減少274.18億元",
+        "url": "https://www.cna.com.tw/news/afe/202611050332.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 18:04:48 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "AI助攻PCB　華通、臻鼎連2個月營收創新高",
-        "url": "https://www.cna.com.tw/news/afe/202611050265.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:59:44 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "大立光10月營收58.46億元月增1%　估11月出貨動能下滑",
-        "url": "https://www.cna.com.tw/news/afe/202611050261.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:54:35 +0800",
+        "date": "Thu, 05 Nov 2026 21:25:10 +0800",
         "sentiment": "利空",
         "region": "asia"
       },
       {
-        "title": "矽格南電京元電第3季獲利走高　AI晶片封測載板需求助攻",
-        "url": "https://www.cna.com.tw/news/afe/202611050259.aspx",
+        "title": "英國央行調升基準利率1碼至4%　逾3年來首度升息",
+        "url": "https://www.cna.com.tw/news/aopl/202611050331.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:51:31 +0800",
-        "sentiment": "利多",
-        "region": "asia"
+        "date": "Thu, 05 Nov 2026 21:16:07 +0800",
+        "sentiment": "中性",
+        "region": "international"
       },
       {
-        "title": "新台幣重貶　央行喊話出口商：勿過度期待貶值、有需求就結售",
-        "url": "https://www.cna.com.tw/news/afe/202611050258.aspx",
+        "title": "外媒稱美光勞資協商暫緩設廠　經部：協助雙方溝通",
+        "url": "https://www.cna.com.tw/news/afe/202611050330.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:50:29 +0800",
+        "date": "Thu, 05 Nov 2026 21:15:05 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "遠傳3大引擎催動淨利登高　4G、5G用戶黃金交叉",
-        "url": "https://www.cna.com.tw/news/afe/202611050256.aspx",
+        "title": "路透：北京暫緩核發進口許可　60萬顆輝達H200晶片堆香港",
+        "url": "https://www.cna.com.tw/news/aopl/202611050329.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:45:25 +0800",
+        "date": "Thu, 05 Nov 2026 21:12:03 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "超商決戰物流服務　全家推社區取、統一超拓店轉宅",
-        "url": "https://www.cna.com.tw/news/afe/202611050255.aspx",
+        "title": "新台幣何時止貶　富邦金羅瑋：2因素未解前恐偏弱",
+        "url": "https://www.cna.com.tw/news/afe/202611050328.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:44:23 +0800",
+        "date": "Thu, 05 Nov 2026 21:10:01 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "聯嘉投控：墨西哥新廠本季量產　明年推矽光子模組樣品",
-        "url": "https://www.cna.com.tw/news/afe/202611050250.aspx",
+        "title": "勞資協商致桃園新廠停工？美光：在台營運正常、期待達成協議",
+        "url": "https://www.cna.com.tw/news/afe/202611050327.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:41:12 +0800",
-        "sentiment": "利多",
-        "region": "asia"
-      },
-      {
-        "title": "任天堂上半年淨利年增11%　遊戲軟體銷售表現亮眼",
-        "url": "https://www.cna.com.tw/news/aopl/202611050249.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:38:10 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "環團要求停建三接南防波堤　中油：具防護必要性、恪遵環評",
-        "url": "https://www.cna.com.tw/news/afe/202611050246.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:31:03 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "美民主黨掌國會　分析：對泰國影響有限、政策存變數",
-        "url": "https://www.cna.com.tw/news/afe/202611050234.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:27:38 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "櫃買跌6.41%　櫃買中心籲理性分析無須過度恐慌",
-        "url": "https://www.cna.com.tw/news/afe/202611050233.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:25:36 +0800",
+        "date": "Thu, 05 Nov 2026 21:04:59 +0800",
         "sentiment": "利空",
         "region": "asia"
       },
       {
-        "title": "「蜘蛛人」賣座GTA6將上市　索尼獲利增44%上調財測",
-        "url": "https://www.cna.com.tw/news/aopl/202611050230.aspx",
+        "title": "威力彩第115089期開獎",
+        "url": "https://www.cna.com.tw/news/ahel/202611050325.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:20:30 +0800",
+        "date": "Thu, 05 Nov 2026 20:51:54 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "泓德能源啟動第2次庫藏股　擬斥資最高7.44億買回8000張",
+        "url": "https://www.cna.com.tw/news/afe/202611050324.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 20:49:52 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "今彩539第115268期開獎",
+        "url": "https://www.cna.com.tw/news/ahel/202611050323.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 20:44:50 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "統一企業前3季獲利增26%　賺贏去年全年",
+        "url": "https://www.cna.com.tw/news/afe/202611050318.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 20:08:38 +0800",
         "sentiment": "利多",
         "region": "asia"
       },
       {
-        "title": "衛星通訊攸關國安　業者盼太空中心升格太空署",
-        "url": "https://www.cna.com.tw/news/afe/202611050226.aspx",
+        "title": "信驊第3季獲利逾20億元創新高　每股純益48.13元",
+        "url": "https://www.cna.com.tw/news/afe/202611050316.aspx",
         "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 17:08:21 +0800",
+        "date": "Thu, 05 Nov 2026 20:01:34 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "穩懋違約交割逾2218萬元　今年第3度達揭露標準",
+        "url": "https://www.cna.com.tw/news/afe/202611050315.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 19:56:32 +0800",
         "sentiment": "中性",
         "region": "asia"
+      },
+      {
+        "title": "儒鴻前3季每股賺18.7元　全年挑戰歷史新高",
+        "url": "https://www.cna.com.tw/news/afe/202611050314.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 19:52:30 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "拚金融創新　金管會修正業務試辦要點",
+        "url": "https://www.cna.com.tw/news/afe/202611050312.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 19:50:26 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "外資10月淨匯出64.61億美元創同期最高　累計今年仍淨匯入",
+        "url": "https://www.cna.com.tw/news/afe/202611050309.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 05 Nov 2026 19:43:19 +0800",
+        "sentiment": "中性",
+        "region": "international"
       }
     ]
   },
@@ -665,7 +681,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2235.0,
-      "buzz_score": 5,
+      "buzz_score": 7,
       "institution": {
         "foreign": {
           "d1": -10252.1,
@@ -673,16 +689,16 @@
           "d20": -223160.654
         },
         "trust": {
-          "d1": 2717.155,
-          "d5": 14314.864,
-          "d20": 35037.664
+          "d1": 2739.641,
+          "d5": 14337.35,
+          "d20": 35060.15
         },
         "dealer": {
           "d1": 5295.5869999999995,
           "d5": 16728.523999999998,
           "d20": 32213.119
         },
-        "total5": -36153.391,
+        "total5": -36130.905000000006,
         "signal": "法人偏空",
         "streak": "連賣5日",
         "foreign_streak": "連賣20日",
@@ -2815,7 +2831,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 234.0,
-      "buzz_score": 7,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": -11173.138,
@@ -4966,7 +4982,7 @@
       "trend": "偏弱",
       "quarter_high": 5165.0,
       "quarter_low": 3450.0,
-      "buzz_score": 0,
+      "buzz_score": 2,
       "institution": {
         "foreign": {
           "d1": -2875.496,
@@ -4974,16 +4990,16 @@
           "d20": -54606.363000000005
         },
         "trust": {
-          "d1": 919.36,
-          "d5": 4564.261,
-          "d20": 7236.632
+          "d1": 916.86,
+          "d5": 4561.761,
+          "d20": 7234.132
         },
         "dealer": {
           "d1": 138.678,
           "d5": 603.913,
           "d20": 455.3309999999999
         },
-        "total5": -12576.91,
+        "total5": -12579.41,
         "signal": "法人偏空",
         "streak": "連賣20日",
         "foreign_streak": "連賣20日",
@@ -6820,6 +6836,13 @@
           "sentiment": "中性"
         },
         {
+          "title": "聯發科蔡力行：公司前景樂觀；長抱報酬佳- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ2tDNDZ5OHZTZ3ZZdGlBS3hFVm15RV9RMmhNUkJiUFdHZlQ2YUw3SFhwbFNVQUQyZVdIYkVHOUtHeTZsZ2pRS3VSX3gzb2dSSmNnbWVBWTJEQzZocHYwd2ltYW9KS1V1c283Ti15QmZNMmlCdlJTU04xRkFpaWFaNmh5VDJKZlRFc2Z5ZEk5a0NxZw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 03 Nov 2026 06:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "聯發科(2454)基金持股明細-台股 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oNlptUUdnSG0xUnNoNUVfRmRWN3FJemtHVTM0MWFyc0xrUHVKckxKTEN3c2tGcnZzeGhsazByRkZneW1selFuVFJFR3kwR3F4aVJiTDBFd0laM3RfYnJRUG1zMEtTUW1OZ0lndzZYU05nQQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -6831,13 +6854,6 @@
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBneGRUS3l4UkJoX2lUR19rQmtlZzBYUVBMMGFsbTluRmxzSGEwY0xueXdkazB1R3I2RWl0NVk0ekhXZ2hqMkpGQkxsU0hNdEpnS2MtSUd5M1hIdkloUDh4Z185VERBM1EzMUNXVTMwRzFlanc?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 03 Nov 2026 18:30:12 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "聯發科蔡力行：公司前景樂觀；長抱報酬佳- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ2tDNDZ5OHZTZ3ZZdGlBS3hFVm15RV9RMmhNUkJiUFdHZlQ2YUw3SFhwbFNVQUQyZVdIYkVHOUtHeTZsZ2pRS3VSX3gzb2dSSmNnbWVBWTJEQzZocHYwd2ltYW9KS1V1c283Ti15QmZNMmlCdlJTU04xRkFpaWFaNmh5VDJKZlRFc2Z5ZEk5a0NxZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Tue, 03 Nov 2026 06:00:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -7126,16 +7142,16 @@
           "d20": -59830.332
         },
         "trust": {
-          "d1": 83.626,
-          "d5": 113.67000000000004,
-          "d20": -1073.8609999999999
+          "d1": 22.626,
+          "d5": 52.670000000000044,
+          "d20": -1134.8609999999999
         },
         "dealer": {
           "d1": 388.775,
           "d5": 1536.443,
           "d20": 293.2389999999998
         },
-        "total5": -17853.591,
+        "total5": -17914.591,
         "signal": "法人偏空",
         "streak": "連賣19日",
         "foreign_streak": "連賣6日",
@@ -9276,16 +9292,16 @@
           "d20": -10905.472
         },
         "trust": {
-          "d1": 1075.235,
-          "d5": 5904.816,
-          "d20": 12922.403
+          "d1": 1065.884,
+          "d5": 5895.465,
+          "d20": 12913.052
         },
         "dealer": {
           "d1": 1026.752,
           "d5": 2893.569,
           "d20": 7460.824
         },
-        "total5": -2778.3230000000003,
+        "total5": -2787.674,
         "signal": "法人偏空",
         "streak": "連買1日",
         "foreign_streak": "連賣3日",
