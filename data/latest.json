@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 10:53:59",
+  "updated_at": "2026-11-06 11:47:16",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -313,6 +313,38 @@
   "finance_news": {
     "asia": [
       {
+        "title": "永續金融浪潮　林丙輝：集保助台灣企業站穩關鍵位置",
+        "url": "https://www.cna.com.tw/news/afe/202611060061.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 10:32:29 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "台股重挫失守4萬點　國安基金：若失序不排除召開臨時會",
+        "url": "https://www.cna.com.tw/news/afe/202611060051.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 10:12:07 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "韓股暴跌逾8%失守5000點　觸發第一階段熔斷機制",
+        "url": "https://www.cna.com.tw/news/afe/202611060047.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 09:58:59 +0800",
+        "sentiment": "利空",
+        "region": "asia"
+      },
+      {
+        "title": "台股狂瀉逾3700點　新台幣貶至33元寫逾1年半新低",
+        "url": "https://www.cna.com.tw/news/afe/202611060045.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 09:50:54 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "台積電跌停　台股早盤崩跌3737點創盤中最大跌點失守年線",
         "url": "https://www.cna.com.tw/news/afe/202611060037.aspx",
         "source": "中央社產經",
@@ -343,41 +375,25 @@
         "date": "Fri, 06 Nov 2026 08:39:15 +0800",
         "sentiment": "利空",
         "region": "asia"
-      },
-      {
-        "title": "歐股多收黑　美期中選舉結果一度激勵盤中創高",
-        "url": "https://www.cna.com.tw/news/afe/202611060005.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 06 Nov 2026 01:40:18 +0800",
-        "sentiment": "利多",
-        "region": "asia"
-      },
-      {
-        "title": "資策會整合AI與軟體資源　加速技術落地",
-        "url": "https://www.cna.com.tw/news/afe/202611050347.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:23:47 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "今彩539第115268期　頭獎1注中獎",
-        "url": "https://www.cna.com.tw/news/ahel/202611050344.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:04:40 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "威力彩第115089期　頭獎槓龜",
-        "url": "https://www.cna.com.tw/news/ahel/202611050343.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:03:36 +0800",
-        "sentiment": "中性",
-        "region": "asia"
       }
     ],
     "international": [
+      {
+        "title": "AI泡沫疑慮引爆全球賣壓　日韓股市同步重挫",
+        "url": "https://www.cna.com.tw/news/afe/202611060068.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 11:04:44 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "蘋果擬發債籌75億美元　加入科技業AI募資行列",
+        "url": "https://www.cna.com.tw/news/afe/202611060067.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 11:03:42 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
       {
         "title": "日股日經指數重挫逾5%　美股科技股暴跌引發市場震盪",
         "url": "https://www.cna.com.tw/news/afe/202611060033.aspx",
@@ -423,28 +439,60 @@
         "url": "https://www.cna.com.tw/news/afe/202611060011.aspx",
         "source": "中央社產經",
         "date": "Fri, 06 Nov 2026 05:01:35 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "美國期中選舉後市場回歸平靜　美股開盤走勢不一",
-        "url": "https://www.cna.com.tw/news/afe/202611050352.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:57:00 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "京東收購歐洲最大電子產品零售商　歐盟附條件准了",
-        "url": "https://www.cna.com.tw/news/acn/202611050351.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:54:58 +0800",
         "sentiment": "中性",
         "region": "international"
       }
     ],
     "all": [
       {
+        "title": "AI泡沫疑慮引爆全球賣壓　日韓股市同步重挫",
+        "url": "https://www.cna.com.tw/news/afe/202611060068.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 11:04:44 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "蘋果擬發債籌75億美元　加入科技業AI募資行列",
+        "url": "https://www.cna.com.tw/news/afe/202611060067.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 11:03:42 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "永續金融浪潮　林丙輝：集保助台灣企業站穩關鍵位置",
+        "url": "https://www.cna.com.tw/news/afe/202611060061.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 10:32:29 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "台股重挫失守4萬點　國安基金：若失序不排除召開臨時會",
+        "url": "https://www.cna.com.tw/news/afe/202611060051.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 10:12:07 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "韓股暴跌逾8%失守5000點　觸發第一階段熔斷機制",
+        "url": "https://www.cna.com.tw/news/afe/202611060047.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 09:58:59 +0800",
+        "sentiment": "利空",
+        "region": "asia"
+      },
+      {
+        "title": "台股狂瀉逾3700點　新台幣貶至33元寫逾1年半新低",
+        "url": "https://www.cna.com.tw/news/afe/202611060045.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 09:50:54 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "台積電跌停　台股早盤崩跌3737點創盤中最大跌點失守年線",
         "url": "https://www.cna.com.tw/news/afe/202611060037.aspx",
         "source": "中央社產經",
@@ -523,54 +571,6 @@
         "date": "Fri, 06 Nov 2026 05:01:35 +0800",
         "sentiment": "中性",
         "region": "international"
-      },
-      {
-        "title": "歐股多收黑　美期中選舉結果一度激勵盤中創高",
-        "url": "https://www.cna.com.tw/news/afe/202611060005.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 06 Nov 2026 01:40:18 +0800",
-        "sentiment": "利多",
-        "region": "asia"
-      },
-      {
-        "title": "美國期中選舉後市場回歸平靜　美股開盤走勢不一",
-        "url": "https://www.cna.com.tw/news/afe/202611050352.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:57:00 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "京東收購歐洲最大電子產品零售商　歐盟附條件准了",
-        "url": "https://www.cna.com.tw/news/acn/202611050351.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:54:58 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "資策會整合AI與軟體資源　加速技術落地",
-        "url": "https://www.cna.com.tw/news/afe/202611050347.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:23:47 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "今彩539第115268期　頭獎1注中獎",
-        "url": "https://www.cna.com.tw/news/ahel/202611050344.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:04:40 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "威力彩第115089期　頭獎槓龜",
-        "url": "https://www.cna.com.tw/news/ahel/202611050343.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 22:03:36 +0800",
-        "sentiment": "中性",
-        "region": "asia"
       }
     ]
   },
@@ -713,7 +713,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2235.0,
-      "buzz_score": 10,
+      "buzz_score": 15,
       "institution": {
         "foreign": {
           "d1": -10252.1,
@@ -2871,7 +2871,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 234.0,
-      "buzz_score": 2,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": -11173.138,
@@ -4746,21 +4746,21 @@
           "sentiment": "中性"
         },
         {
-          "title": "鴻海喊出3週開發，垂直整合能否突破封裝瓶頸- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQak1LRDUwN3ZMaTNMRDN1QTFZa1AzQUhqclN2LTJEczhvbU0xaVZxb1NHdnpHeXRKZE1VM1F1N3I4X2xyaUZ2X2dGR1Jnek5qVG0za0o2VkNob2FmYjlwYTVyWUR3RHpoUFdYM3ZRMkhVem54dkc5T21zWFVPRG5hSFIwRGE1eVlNSUlNMF9qM1k5QQ?oc=5",
+          "title": "人形機器人Agility借殼過關、11/5赴NASDAQ掛牌 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbUR0ZjNzeDQwYU5mbjRwdTBIa3QxNlZiV1BrVi1WMXVrX1huWWd4dndTeVVLLVotaWhDNTNuaWsyTy1zV3M1TDVzYVdfMzZESkJES1g5Tm85cmQ5SGRLTWN3ZEFocVdfcDBtZUhIRUk0ODFQcGZxY1l0WG92NU5XTG5YUG0tSmp0VFBQeUgtYUItdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 02 Nov 2026 00:44:00 GMT",
-          "sentiment": "利多"
+          "date": "Wed, 04 Nov 2026 01:03:00 GMT",
+          "sentiment": "中性"
         },
         {
-          "title": "鴻海明年拚雙位數成長；德州仍有擴建需求- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYkpkeWkwM0lLM2pZWHVTdko1UUtnQnpaVlR0MDFZX3VsQzdFSnE3dmpPYzFHWVlLVG9STFRBUGdXNnVObWdVUnJfYWptcTVJU1o4b1JUZmtHaXk2S3dSMHgtLTZnU1p6dmdfVDZFbWNiUEFocl94NXJfTTNoREVCdVVVZDNsOXhLRDVNMjJ4M1pMZw?oc=5",
+          "title": "美國期中選舉添AI投資疑慮 台股重挫1374點！終場失守42K - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdHBYT19FNTZlUlo3YU5oakNEZ2pvbDdSa0MxdmVmTFM1dEVza2JuLXJvS0EyS01ZVzB5aFl3ejlEYzFPVm44M3NXbHYzSDk1SGxjb05tbk9aZlVBQ3dHc1VkZGVJMjVoLTNlWmpQZlJEUmFBZ2Y1MUE1eGFOeEFkYzFCNUpZRG1SN2czUXI2Z2drdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Fri, 30 Oct 2026 08:40:00 GMT",
-          "sentiment": "利多"
+          "date": "Thu, 05 Nov 2026 06:16:00 GMT",
+          "sentiment": "中性"
         }
       ],
-      "news_score": 3,
+      "news_score": 1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2317",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -5030,7 +5030,7 @@
       "trend": "偏弱",
       "quarter_high": 5165.0,
       "quarter_low": 3450.0,
-      "buzz_score": 5,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": -2875.496,
@@ -6878,9 +6878,9 @@
       "news": [
         {
           "title": "聯發科(2454)基金持股明細-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5NSVQ4dVNCOEtBSmxRZkpWS1c4ejVQVVJEYTRkSXdtZFp5NFZIdTdHc1BZR2dWWko4VDdHci1yT1phRWJqNWx2aHh0QW1GZDhTSW51aVZKOGUtczM0NlIxSA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RamlSay16dUEwRGs5YVU2RElPZWdxWW4xbjlzTkIzTmZUUjFLSGhxSnROdU5BUkVzbkJUdTVwUVhHR19heU5aRzZ6VVJsQ2tvRTEyU0R1Zjc1MFJveDJIV1B2NDRkNXJncjVfRlRDbmQzZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 05 Nov 2026 11:42:19 GMT",
+          "date": "Thu, 05 Nov 2026 17:32:48 GMT",
           "sentiment": "中性"
         },
         {
@@ -7190,7 +7190,7 @@
       "trend": "空頭",
       "quarter_high": 2115.0,
       "quarter_low": 1120.0,
-      "buzz_score": 1,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
           "d1": -2025.224,
@@ -9044,18 +9044,18 @@
           "sentiment": "中性"
         },
         {
-          "title": "台股史上第七大跌點！終場狂瀉1612點 失守44K大關、台積電跌35元 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQelBGb0V5OV8tdHUwYnpfOVJpVS1keHkwc1ZJSkE5MU5Oa05IVDBZd0p6eWVNV0wyUG4wXzB3U2dYQ3VZRkdYQ1BTLXR6RjZQZFVyUXg1NkIyd291MklQOHl1eERuamJ4aTRMbEZOWldpcGtTdlNKZUd6NmdLNFh3TWR3VmZwa2ZrNkVOSzQzenlMUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Tue, 03 Nov 2026 06:36:00 GMT",
-          "sentiment": "利空"
-        },
-        {
           "title": "台股44K保衛戰！開盤重挫逾750點 台積電一度失守2300元 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ1kxdjdnUFpPTVZpZFgzMjFlbUxDWEFmYmlxWEVQUlB0Q2xOUFNLWnV5ZFhOdzBDVzZob1hMS2VNR2ZJbVVkVXFleFJrV3BMQ0xlWUdlMWlLX2pJNnQ1QkxKNy1jUXF2SERKbFRPOWlwYmtXSzFLcmQ0ZlV1cmFmeWRqeXl0dzB4bENvaFdCQ2NkUQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 03 Nov 2026 02:16:00 GMT",
           "sentiment": "中性"
+        },
+        {
+          "title": "台股史上第七大跌點！終場狂瀉1612點 失守44K大關、台積電跌35元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQelBGb0V5OV8tdHUwYnpfOVJpVS1keHkwc1ZJSkE5MU5Oa05IVDBZd0p6eWVNV0wyUG4wXzB3U2dYQ3VZRkdYQ1BTLXR6RjZQZFVyUXg1NkIyd291MklQOHl1eERuamJ4aTRMbEZOWldpcGtTdlNKZUd6NmdLNFh3TWR3VmZwa2ZrNkVOSzQzenlMUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 03 Nov 2026 06:36:00 GMT",
+          "sentiment": "利空"
         },
         {
           "title": "美國期中選舉添AI投資疑慮 台股重挫1374點！終場失守42K - MoneyDJ",
@@ -26318,6 +26318,13 @@
           "sentiment": "中性"
         },
         {
+          "title": "意德士取得新竹縣竹東鎮土地，計約2.66億元- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOYXpNX2ZHWVFmRXF0WmZ3UmdtVWlpVGJfRVFkTE5aR0IxRHhieUE0eS02eVRnNi1iVHFKekhlQUk3Q3NETjFUcTJJRkF4UEhIU2xqcnRiZ1puRFMxNTV0TTdyWGJpdmRfUndrMFVpYTR3QUJZV2dsbHp3S1VFM1VjS185WlZqX0lCMWNUR2Q5VlFiUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 16 Jul 2026 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "意德士擬購土地、自地委建竹東新廠及設備總投資預算變更為上限約6.88億元- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOR1VTTGFDaDkzMHlNMUgzNUpWRUhEbGlXQjA4aER1Z3g1dUpWMWh4QnV1cWdCd3ZuRTdWaWhWT0k0Ymc5R1ZmdWxLenRtanBpYkRDRGtJT3JGb3JuakFTZ2NuVlNjLTZ5dnhIdFhGNXY4SkVKOTdaWXY0emY5TnJGMEFhdEZ3cU9PdWV3RGppUFB5QQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -26336,13 +26343,6 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQndnTHdJaHpQQUNBUk5mWnZwc3ZEeGd6VVpNOExIaElTN1ZRci03RGhYTHZKaEN1bG1tcTA5UDBJdVNBNHBjRjYzblI3Q2JWR29LbDYyMWV2UUJtMm1fOGxtNWtHalBYM0ZsZXZLQllKYUJ2Z2pXeVZSX29FWHpyZnFhbnluQTEyNFFXSkdLMzdFdw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Mon, 01 Sep 2025 07:00:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "意德士Q3營收估續揚，全年拚新高- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPakZtckVtLWdxVkRKT1lKdnQ1Qk9WT1MwZTNoaVdITGpERVJHWVN0dm1qUTJQV2tVRnM5OUhfbG04NFVSOGR3MzZUZTBqN203UXdjN0VIQV91ZTZpcXRHMFdTOEZBbmJHWU5IMEZkb1ZnVzlvczd0SURxNzdtbFNDc1YxbUo5bDU0MFhBOTRjaENyZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Mon, 03 Aug 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -26600,7 +26600,7 @@
       "trend": "空頭",
       "quarter_high": 92.0,
       "quarter_low": 56.9,
-      "buzz_score": 1,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
           "d1": -34.0,
