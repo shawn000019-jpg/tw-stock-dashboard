@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 09:44:04",
+  "updated_at": "2026-11-06 10:01:23",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -313,6 +313,22 @@
   "finance_news": {
     "asia": [
       {
+        "title": "台積電跌停　台股早盤崩跌3737點創盤中最大跌點失守年線",
+        "url": "https://www.cna.com.tw/news/afe/202611060037.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 09:13:37 +0800",
+        "sentiment": "利空",
+        "region": "asia"
+      },
+      {
+        "title": "新台幣開盤貶4.4分　早盤重貶逾1.6角見33元",
+        "url": "https://www.cna.com.tw/news/afe/202611060036.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 09:12:35 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "台股開盤跌2658.96點",
         "url": "https://www.cna.com.tw/news/afe/202611060034.aspx",
         "source": "中央社產經",
@@ -358,22 +374,6 @@
         "source": "中央社產經",
         "date": "Thu, 05 Nov 2026 22:03:36 +0800",
         "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "民生電價遠低於成本　台電扛逾750億補貼盼立院支持預算撥補",
-        "url": "https://www.cna.com.tw/news/afe/202611050336.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 21:37:21 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "台股跌1374點　上市櫃融資餘額合計減少274.18億元",
-        "url": "https://www.cna.com.tw/news/afe/202611050332.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 21:25:10 +0800",
-        "sentiment": "利空",
         "region": "asia"
       }
     ],
@@ -445,6 +445,22 @@
     ],
     "all": [
       {
+        "title": "台積電跌停　台股早盤崩跌3737點創盤中最大跌點失守年線",
+        "url": "https://www.cna.com.tw/news/afe/202611060037.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 09:13:37 +0800",
+        "sentiment": "利空",
+        "region": "asia"
+      },
+      {
+        "title": "新台幣開盤貶4.4分　早盤重貶逾1.6角見33元",
+        "url": "https://www.cna.com.tw/news/afe/202611060036.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 06 Nov 2026 09:12:35 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "台股開盤跌2658.96點",
         "url": "https://www.cna.com.tw/news/afe/202611060034.aspx",
         "source": "中央社產經",
@@ -554,22 +570,6 @@
         "source": "中央社產經",
         "date": "Thu, 05 Nov 2026 22:03:36 +0800",
         "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "民生電價遠低於成本　台電扛逾750億補貼盼立院支持預算撥補",
-        "url": "https://www.cna.com.tw/news/afe/202611050336.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 21:37:21 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "台股跌1374點　上市櫃融資餘額合計減少274.18億元",
-        "url": "https://www.cna.com.tw/news/afe/202611050332.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 05 Nov 2026 21:25:10 +0800",
-        "sentiment": "利空",
         "region": "asia"
       }
     ]
@@ -713,7 +713,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2235.0,
-      "buzz_score": 10,
+      "buzz_score": 6,
       "institution": {
         "foreign": {
           "d1": -10252.1,
@@ -5030,7 +5030,7 @@
       "trend": "偏弱",
       "quarter_high": 5165.0,
       "quarter_low": 3450.0,
-      "buzz_score": 4,
+      "buzz_score": 5,
       "institution": {
         "foreign": {
           "d1": -2875.496,
@@ -7190,7 +7190,7 @@
       "trend": "空頭",
       "quarter_high": 2115.0,
       "quarter_low": 1120.0,
-      "buzz_score": 2,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
           "d1": -2025.224,
@@ -19844,9 +19844,9 @@
         },
         {
           "title": "日月光投控代子公司矽品精密工業(股)公司公告取得廠務工程- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcXVYdjVYalpibzRSUHRENEhCRVFSMVZQc1luUVNSSktZaC1QTWYtVTVLTjZETDRyQ2F5Uy1FZHFyTGZENHlBY3BTdEtWLXM3dGhlRW5fdnZaLWtNX3FnSm1na2tFZmxhaFF3MTVicUdIXzlzUE51MUI0aHdFc0tmWEw5TC1kNkhoSnh6S3JIRDdMUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVUllOWdLNmk5bXJSdG5UYzFmVENCSXdNdjhhcmlJMzcyc3NUbjFjYW1FazNpME1ySXVsVndYcjM1dC00WlNGTWVVUmRJbjB3Q0IxOTlfNHNRYTNKUDVGemNnZldNaEpLazdGMnlIcVVNcUo4V3djaEdJWkdfVmhQQTBXTnZmWU45ODdWenllNmp2QQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 04 Nov 2026 09:04:00 GMT",
+          "date": "Thu, 05 Nov 2026 07:14:00 GMT",
           "sentiment": "中性"
         },
         {
