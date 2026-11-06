@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 11:47:16",
+  "updated_at": "2026-11-06 12:51:38",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -713,7 +713,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2235.0,
-      "buzz_score": 15,
+      "buzz_score": 11,
       "institution": {
         "foreign": {
           "d1": -10252.1,
@@ -2871,7 +2871,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 234.0,
-      "buzz_score": 4,
+      "buzz_score": 5,
       "institution": {
         "foreign": {
           "d1": -11173.138,
@@ -5030,7 +5030,7 @@
       "trend": "偏弱",
       "quarter_high": 5165.0,
       "quarter_low": 3450.0,
-      "buzz_score": 4,
+      "buzz_score": 6,
       "institution": {
         "foreign": {
           "d1": -2875.496,
@@ -6878,9 +6878,16 @@
       "news": [
         {
           "title": "聯發科(2454)基金持股明細-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RamlSay16dUEwRGs5YVU2RElPZWdxWW4xbjlzTkIzTmZUUjFLSGhxSnROdU5BUkVzbkJUdTVwUVhHR19heU5aRzZ6VVJsQ2tvRTEyU0R1Zjc1MFJveDJIV1B2NDRkNXJncjVfRlRDbmQzZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5qQzFIRzRobVFUX0hEWDRWS2JYdjhFdkZIV2JtckJEWXZNaU51aTZLZXdqUW16Z0pxRlhnbHIwRDZGcGsxZTZDOU54ME9BMEpBbEUwdkFFRnJ6eW42d3pFOWNpRQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 05 Nov 2026 17:32:48 GMT",
+          "date": "Thu, 05 Nov 2026 11:38:45 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "聯發科/NVIDIA合攻AI PC；第二代SoC開發中- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUm9nSHRhZWkyVlNlWndUZU9ubk9DOWE1ODNTN0MxNVRQaW5XeWs5MXZtMEJNZ1hBQTgzX1NSemhuOVFVc1FDS1FSWWozdERZVjlCSmZTeTJmMlFOS3RHdkxiM0JKYjMwdS0xQ1Yya3c1WnI3d0gwTE1mN0xuMXVUaFVmZ0w4TVhRSFNEUXdtdjUwUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 04 Nov 2026 01:35:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -6910,16 +6917,9 @@
           "source": "MoneyDJ / Google News",
           "date": "Tue, 03 Nov 2026 06:00:00 GMT",
           "sentiment": "中性"
-        },
-        {
-          "title": "台股早盤史詩暴跌逾3700點！ 台積電、聯發科殺跌停- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU21LR1FkVXA0SXdvYUs4b0ZTUW9rY1NPeWZkUHlVMWxxRG1YejduSW84MDljeGhScnBWNVlkdjRQeTltMHNPa21rYlgyS3JIM3R6YWVtZzZScmhKYnJObjB4aW1iZ3dBVU5RZ3pMZUp5SWtMTXJRZDVCdDFkNUJxaHI2dXgxTzJCT3BCUWJxbDgxUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Fri, 06 Nov 2026 01:36:00 GMT",
-          "sentiment": "利空"
         }
       ],
-      "news_score": -1,
+      "news_score": 0,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2454",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -7190,7 +7190,7 @@
       "trend": "空頭",
       "quarter_high": 2115.0,
       "quarter_low": 1120.0,
-      "buzz_score": 0,
+      "buzz_score": 1,
       "institution": {
         "foreign": {
           "d1": -2025.224,
@@ -15526,13 +15526,6 @@
           "sentiment": "中性"
         },
         {
-          "title": "國泰投信四方向強骨，投研團隊專業分工創首例- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPajA1YU9oZjJoNDljRHlad1R3WWhDb2tzQlhiWklyYml1X2l0Ylo0ZFdvNWdWVksyZlAtekZqS2taRVNORE9xQldHYzdvdDhTaVoxMVRibERQM2JqamtySnF1ZlZvakV3VWhIZVVlUVFyR2habTVRM01XOTRURHdMOFRZb0V3a21SWjJnLThROHpSQQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Fri, 30 Oct 2026 04:19:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "11/5上市近二日券資比前20名排行- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWmpLakpWbFJsZ1BQV2VMT1Y4MFhRcFVqWmpRYzVoaGVBY1VZbHpMY21ZN0sxNmFaVnk2alBsUDdOaHZibkFubXl5WDg4UEdWUFVIU2Iydmt2X3pCdml0RUJmdTdLZlI1ZGVabkk3NTNOb2xiVXFGampzS2RmQjlHbE9ESGJDOTRLWkZGS3U5eTZyQQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -15551,6 +15544,13 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2lUVlY1U1ZZMmNUaEpDQjNHc09FaTBXUF9saEY4czc2NHoxWFRDZkFBdWZJOE9laWlqY1pHZVY4UFVJeTRFbzdrdTBYYi1CajdoY3h6bEpQaUN4dG44NmtzVnFITnQyZ21hVEhyMkwzNktCZDlwZFFwWFd4NFBDd29pa1FCMGJUc19zZDhpRzFaQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Fri, 06 Nov 2026 00:28:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "國泰金房貸塗銷數位化，私銀產品再添私募股權- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeGpmazdtY3dfdDdMMmU1YnBRNFFEMjZTQVRzRHdtdlUxczVTblF1WkpkOWllOFpjWTB3b09CM0Y4Ul9xSElTOVp5TUZvSDgtX1RVdW1fY2hXbXU1RXI3RjNNNTN3VHQ2bTlPLXJqUU40aXZQcUQ3MWQyMFExSmR1aUF6TmtMZGNfVUNWRl9fUGtSUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 20 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
