@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09 12:57:09",
+  "updated_at": "2026-11-09 13:58:15",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -315,6 +315,14 @@
   "finance_news": {
     "asia": [
       {
+        "title": "NCC目前沒有委員　藍白立委：待人事案通過再審預算",
+        "url": "https://www.cna.com.tw/news/aipl/202611090087.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 09 Nov 2026 13:15:37 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "正崴土城廠辦火警　無人員傷亡將盤點財務損失",
         "url": "https://www.cna.com.tw/news/afe/202611090071.aspx",
         "source": "中央社產經",
@@ -369,14 +377,6 @@
         "date": "Mon, 09 Nov 2026 11:32:32 +0800",
         "sentiment": "中性",
         "region": "asia"
-      },
-      {
-        "title": "台北榮總眼科部AI視覺檢測　獲聯發科影響力共創獎",
-        "url": "https://www.cna.com.tw/news/afe/202611090056.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 09 Nov 2026 11:26:29 +0800",
-        "sentiment": "中性",
-        "region": "asia"
       }
     ],
     "international": [
@@ -414,6 +414,14 @@
       }
     ],
     "all": [
+      {
+        "title": "NCC目前沒有委員　藍白立委：待人事案通過再審預算",
+        "url": "https://www.cna.com.tw/news/aipl/202611090087.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 09 Nov 2026 13:15:37 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
       {
         "title": "正崴土城廠辦火警　無人員傷亡將盤點財務損失",
         "url": "https://www.cna.com.tw/news/afe/202611090071.aspx",
@@ -533,14 +541,6 @@
         "date": "Mon, 09 Nov 2026 09:05:05 +0800",
         "sentiment": "中性",
         "region": "asia"
-      },
-      {
-        "title": "憂美國加強監管　比特幣、以太幣跌至逾2個月新低",
-        "url": "https://www.cna.com.tw/news/aopl/202611090015.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 09 Nov 2026 08:55:00 +0800",
-        "sentiment": "利空",
-        "region": "international"
       }
     ]
   },
@@ -683,7 +683,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2020.0,
-      "buzz_score": 10,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": -22844.481,
@@ -2530,17 +2530,24 @@
       ],
       "news": [
         {
-          "title": "台積電(2330)基金持股明細-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12ZllnRlo4dlMyX3Q4ZjlKcVlwYS1HeVI5TUxUX2JiMmJaMmJWcWdsVXdTMmI1dXF4ejA4b3N0MjRKZV9OSnhUczZORTU2UnAyUE9qcy00bmpxdFZRaDgtSDVzU0tNVEFHdTJ5N011OE15VzA?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Sun, 08 Nov 2026 16:58:25 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "台積電擴封裝/美國製造，BlueChip明年啟動接單- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTlNucE00d0kyZmpjYmNhS0tURS1DcDZ5OXZVd0hQNTRjTGNGNkV2eUZDSVMzS2syUV9LTjdfV1Ywb0g4YXZXdkdZTFQwbXV2VUdjc2g4LTRvYkMtbExSdXllVC05WDlRa05aMGJrUTBOZnkydUpmY1hqSlk3X3kxcUg4cWFLNWljNjhuaEtTSUZRQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Thu, 05 Nov 2026 01:55:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "台積電(2330)基金持股明細-台股 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qTkdsWDlleFdjMmpSMFl0MDJadVNuaHhiZk55ZzNYNkZwSDI4b3Q0WUFKaTc4OE1lRjJycS1jajRVQ01YWjF5WUs2S0VPYVFtSGpnbXV3UHFxNUd5WFdqbzU2LVRVdW9Va052X3RpUC1TZw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 03 Nov 2026 20:02:29 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "台積電(2330)基金持股明細-台股 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pNjhfUkNNdkNpLXo1NFVvSHhsNVNHSzh5d2ZUREVjSzNwQzMwcjNnbC1XMXM2V3NEOEpGOUpwUDB2emkyWnhJQU9EekZud1lnd2VTVkY5SFk1bm9nV2hZeldmSjFReEtCUkNDaWlWMDd3ZjQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 03 Nov 2026 15:36:53 GMT",
           "sentiment": "中性"
         },
         {
@@ -2563,13 +2570,6 @@
           "source": "MoneyDJ / Google News",
           "date": "Mon, 09 Nov 2026 01:37:00 GMT",
           "sentiment": "利空"
-        },
-        {
-          "title": "台股44K保衛戰！開盤重挫逾750點 台積電一度失守2300元 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ1kxdjdnUFpPTVZpZFgzMjFlbUxDWEFmYmlxWEVQUlB0Q2xOUFNLWnV5ZFhOdzBDVzZob1hMS2VNR2ZJbVVkVXFleFJrV3BMQ0xlWUdlMWlLX2pJNnQ1QkxKNy1jUXF2SERKbFRPOWlwYmtXSzFLcmQ0ZlV1cmFmeWRqeXl0dzB4bENvaFdCQ2NkUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Tue, 03 Nov 2026 02:16:00 GMT",
-          "sentiment": "中性"
         }
       ],
       "news_score": -2,
@@ -2849,7 +2849,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 212.5,
-      "buzz_score": 5,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": -14082.465,
@@ -5016,7 +5016,7 @@
       "trend": "偏弱",
       "quarter_high": 5165.0,
       "quarter_low": 3115.0,
-      "buzz_score": 6,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": -4535.826,
@@ -18017,7 +18017,7 @@
       "trend": "偏弱",
       "quarter_high": 765.0,
       "quarter_low": 515.0,
-      "buzz_score": 1,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
           "d1": -11302.289,
@@ -20184,7 +20184,7 @@
       "trend": "強勢多頭",
       "quarter_high": 166.5,
       "quarter_low": 143.0,
-      "buzz_score": 1,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
           "d1": 2759.967,
