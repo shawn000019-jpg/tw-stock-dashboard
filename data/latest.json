@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 11:44:44",
+  "updated_at": "2026-11-10 12:46:07",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -311,6 +311,54 @@
   "finance_news": {
     "asia": [
       {
+        "title": "新台幣午盤貶6.9分　暫收32.951元",
+        "url": "https://www.cna.com.tw/news/afe/202611100091.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 12:02:51 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "櫃買中心11/17起辦業績發表會　21家企業參與",
+        "url": "https://www.cna.com.tw/news/afe/202611100090.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 12:01:48 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "AI需求旺　渣打再上修台灣今年經濟成長預測至12.8%",
+        "url": "https://www.cna.com.tw/news/afe/202611100083.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 11:51:33 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "金融業去年金融科技投資324億　銀行占7成、保險大成長",
+        "url": "https://www.cna.com.tw/news/afe/202611100062.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 11:16:49 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "台股盤中重登43000點　台積電聯發科領軍",
+        "url": "https://www.cna.com.tw/news/afe/202611100047.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 10:33:16 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "研調：全年伺服器出貨估1895萬台創新高　年增14.2%",
+        "url": "https://www.cna.com.tw/news/afe/202611100045.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 10:30:12 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "台股早盤續彈逾1200點站回42900點　電子類股強勢",
         "url": "https://www.cna.com.tw/news/afe/202611100029.aspx",
         "source": "中央社產經",
@@ -325,57 +373,17 @@
         "date": "Tue, 10 Nov 2026 09:04:34 +0800",
         "sentiment": "中性",
         "region": "asia"
-      },
-      {
-        "title": "新台幣開盤升4.2分　為32.84元",
-        "url": "https://www.cna.com.tw/news/afe/202611100027.aspx",
-        "source": "中央社產經",
-        "date": "Tue, 10 Nov 2026 09:02:32 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "數字亮眼民間無感  越南恐陷「9.95%悖論」經濟迷思",
-        "url": "https://www.cna.com.tw/news/aopl/202611100026.aspx",
-        "source": "中央社產經",
-        "date": "Tue, 10 Nov 2026 08:48:30 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "美科技股回神　法人：政策護航台股現技術面反彈跡象",
-        "url": "https://www.cna.com.tw/news/afe/202611100024.aspx",
-        "source": "中央社產經",
-        "date": "Tue, 10 Nov 2026 08:36:25 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "婚外情風波延燒　輝達、黃仁勳遭股東提集體訴訟",
-        "url": "https://www.cna.com.tw/news/aopl/202611100017.aspx",
-        "source": "中央社產經",
-        "date": "Tue, 10 Nov 2026 08:09:10 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "科技股跌深反彈　歐股收高",
-        "url": "https://www.cna.com.tw/news/afe/202611100003.aspx",
-        "source": "中央社產經",
-        "date": "Tue, 10 Nov 2026 01:49:31 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "金融時報：新加坡超越愛爾蘭　成為蘋果最大避稅地",
-        "url": "https://www.cna.com.tw/news/aopl/202611090293.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 09 Nov 2026 23:31:18 +0800",
-        "sentiment": "中性",
-        "region": "asia"
       }
     ],
     "international": [
+      {
+        "title": "晶華擬斥資10億元　收購美國舊金山飯店",
+        "url": "https://www.cna.com.tw/news/afe/202611100093.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 12:06:55 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
       {
         "title": "美股走高輝達逆勢收跌4.27%　市場關注黃仁勳相關調查",
         "url": "https://www.cna.com.tw/news/aopl/202611100014.aspx",
@@ -419,6 +427,62 @@
     ],
     "all": [
       {
+        "title": "晶華擬斥資10億元　收購美國舊金山飯店",
+        "url": "https://www.cna.com.tw/news/afe/202611100093.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 12:06:55 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "新台幣午盤貶6.9分　暫收32.951元",
+        "url": "https://www.cna.com.tw/news/afe/202611100091.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 12:02:51 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "櫃買中心11/17起辦業績發表會　21家企業參與",
+        "url": "https://www.cna.com.tw/news/afe/202611100090.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 12:01:48 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "AI需求旺　渣打再上修台灣今年經濟成長預測至12.8%",
+        "url": "https://www.cna.com.tw/news/afe/202611100083.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 11:51:33 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "金融業去年金融科技投資324億　銀行占7成、保險大成長",
+        "url": "https://www.cna.com.tw/news/afe/202611100062.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 11:16:49 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "台股盤中重登43000點　台積電聯發科領軍",
+        "url": "https://www.cna.com.tw/news/afe/202611100047.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 10:33:16 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "研調：全年伺服器出貨估1895萬台創新高　年增14.2%",
+        "url": "https://www.cna.com.tw/news/afe/202611100045.aspx",
+        "source": "中央社產經",
+        "date": "Tue, 10 Nov 2026 10:30:12 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "台股早盤續彈逾1200點站回42900點　電子類股強勢",
         "url": "https://www.cna.com.tw/news/afe/202611100029.aspx",
         "source": "中央社產經",
@@ -489,62 +553,6 @@
         "date": "Tue, 10 Nov 2026 05:37:46 +0800",
         "sentiment": "利空",
         "region": "international"
-      },
-      {
-        "title": "科技股跌深反彈　歐股收高",
-        "url": "https://www.cna.com.tw/news/afe/202611100003.aspx",
-        "source": "中央社產經",
-        "date": "Tue, 10 Nov 2026 01:49:31 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "金融時報：新加坡超越愛爾蘭　成為蘋果最大避稅地",
-        "url": "https://www.cna.com.tw/news/aopl/202611090293.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 09 Nov 2026 23:31:18 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "黃仁勳認婚外情　輝達開盤股價大跌逾8%",
-        "url": "https://www.cna.com.tw/news/afe/202611090291.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 09 Nov 2026 22:46:10 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "核一、核二廠採購案遭調查　台電：若查證屬實將嚴懲",
-        "url": "https://www.cna.com.tw/news/afe/202611090287.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 09 Nov 2026 22:25:01 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "今彩539第115271期　頭獎3注中獎",
-        "url": "https://www.cna.com.tw/news/ahel/202611090285.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 09 Nov 2026 22:06:57 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "威力彩第115090期　頭獎槓龜",
-        "url": "https://www.cna.com.tw/news/ahel/202611090284.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 09 Nov 2026 22:04:55 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "空污法修法10日協商　經部憂衝擊近8千家業者、盼維持現狀",
-        "url": "https://www.cna.com.tw/news/afe/202611090283.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 09 Nov 2026 22:03:52 +0800",
-        "sentiment": "中性",
-        "region": "asia"
       }
     ]
   },
@@ -687,7 +695,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2020.0,
-      "buzz_score": 13,
+      "buzz_score": 6,
       "institution": {
         "foreign": {
           "d1": -8758.88,
@@ -2534,17 +2542,10 @@
       ],
       "news": [
         {
-          "title": "台積電(2330)法人持股-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91OGoxZmRuQlJNd25OcU9YREpWUGM4enZTT2tvcXJpTVZ3MFJuWU1KekZ0Z3dlS3I4UDhqbFRaNm55MUxHT0w5X055TmhyNnBVOVdtN2JNZWNBV2RzOUNKMTFjSQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Mon, 09 Nov 2026 11:11:05 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "台積電(2330)基金持股明細-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12ZllnRlo4dlMyX3Q4ZjlKcVlwYS1HeVI5TUxUX2JiMmJaMmJWcWdsVXdTMmI1dXF4ejA4b3N0MjRKZV9OSnhUczZORTU2UnAyUE9qcy00bmpxdFZRaDgtSDVzU0tNVEFHdTJ5N011OE15VzA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YU2pYUm1kdVN4aWNYVkFkOG5RNDhqRldkWkkyMnVDVVc1TndPMi1PZDNfeGI5Mjc1NGtVbUxmR0tNcVN4clAxbHdBR3RoLVFVMWlvTGh2a1V0aGhXVGQ3OEtaMDhZS25waXpIcmZpMHUzWjQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Sun, 08 Nov 2026 16:58:25 GMT",
+          "date": "Mon, 09 Nov 2026 10:59:52 GMT",
           "sentiment": "中性"
         },
         {
@@ -2574,9 +2575,16 @@
           "source": "MoneyDJ / Google News",
           "date": "Wed, 04 Nov 2026 01:36:00 GMT",
           "sentiment": "中性"
+        },
+        {
+          "title": "失守4萬點！台股收跌1873點史上第4慘 台積電重摔105元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMzNzNFVGeC1LLVBBRGxBeEIyWWhRbURTWlpTaV9iXzNaaG1CZ0M0Zk0zVmxodDhiQmlDRk9ncXNsSlQxMmI0aTI4NUprT3VmTDRIZ1dia3RzTHYxaC1LRHBTNHh6Rk1Oa2RrdGhqMmxUc09FbkQ1b2tGZFhzY0ZZVW8wdVNaMHFDc0ZVdGpTMm9Ldw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Fri, 06 Nov 2026 06:16:00 GMT",
+          "sentiment": "利空"
         }
       ],
-      "news_score": -2,
+      "news_score": -3,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2330",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -2861,7 +2869,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 212.5,
-      "buzz_score": 5,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": 3669.311,
@@ -5035,7 +5043,7 @@
       "trend": "偏弱",
       "quarter_high": 5165.0,
       "quarter_low": 3115.0,
-      "buzz_score": 4,
+      "buzz_score": 6,
       "institution": {
         "foreign": {
           "d1": -1935.063,
@@ -9072,6 +9080,13 @@
           "sentiment": "中性"
         },
         {
+          "title": "台達參與聯合國環境公約會議聚焦電氣化/生物多樣性- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTnNEekNoaldKUjM2WXhJelhfenpxWmJIdk1RbDd6bk1qVVJzWG5mWVhkT2thSnVYWHlDV2dKcm5fTVZFZTl4VmFOY2dqXzhvQzhiMk1pbFhRNjR6MXExRF83U3p3bFBickQ0cUFCb0ptYklTbkxybzRFdmsyZF95clI2V3NVb1lBQWdubFlpTWprdw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 10 Nov 2026 03:51:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "台達電10月營收創新高，AI電源/液冷出貨升溫- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOFA2c0JocHdpMzl6dE52UnNaOVhZMHh6WDhIWmVLVUV5VktlN0pNcE01ZU1yeVJrcWhnWGdhT0hTUFRUUDlDRXgteC01dDdyU1BPdVpYY00td04yWGJJWUtxUFlreHU0OVZEWmZjQWRwOHl2cnJQNjVscnNBWkR1OENYTXpBdDVtRDRrejJQUUE0Zw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -9086,21 +9101,14 @@
           "sentiment": "中性"
         },
         {
-          "title": "國安基金救場台股止跌反攻！早盤大漲逾千點 台積電開盤漲75元 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWk1kRUZYODNWTlNxdE1Kdy1iajNsTERwb3lMWmoteDQ2S3dUM21waGtlYkthUEprd2k0M2Q1WnJ6NXVNZUhkaWkxT215Y1ZVY1dNM3Q2QWFGN3pqbF9zTHRNbTVjLXc2WFMtMjYzeXdubkFKX0x5QzN4eE9FbnM1NlhBMHAtd2VGTGpka3dQNFc4Zw?oc=5",
+          "title": "本季營收力拚連三季改寫新猷？台達電：以公告為準- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOUlOUEhhbkJIcWJ6MXotY3JGN1hXVGFmTUdCWTlINVJlbWhfQW9aaXQtamRQTzB6UzJ4LXF6Mk9fOHFfeXM3eVlpdjN3eW9UeC1NcWZkYjlJN21ReGdzUV9ESDJVd2FyOWpiY1RRbTdLcnAxZ0Q2YnlEcG4xMXZTVVV3RmNSVUxJbFZraXRPbjFadw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 09 Nov 2026 01:37:00 GMT",
-          "sentiment": "利空"
-        },
-        {
-          "title": "美國期中選舉添AI投資疑慮 台股重挫1374點！終場失守42K - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdHBYT19FNTZlUlo3YU5oakNEZ2pvbDdSa0MxdmVmTFM1dEVza2JuLXJvS0EyS01ZVzB5aFl3ejlEYzFPVm44M3NXbHYzSDk1SGxjb05tbk9aZlVBQ3dHc1VkZGVJMjVoLTNlWmpQZlJEUmFBZ2Y1MUE1eGFOeEFkYzFCNUpZRG1SN2czUXI2Z2drdw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 05 Nov 2026 06:16:00 GMT",
+          "date": "Tue, 10 Nov 2026 03:47:00 GMT",
           "sentiment": "中性"
         }
       ],
-      "news_score": -1,
+      "news_score": 0,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2308",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -13413,13 +13421,6 @@
           "sentiment": "中性"
         },
         {
-          "title": "富邦金：台幣料續偏弱；央行可能調整貨幣政策- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZ0ZIQmF6VDFUdFg5SEpoVjhTZG1COU5MX3RhNlEwektmaGpudk5JUHVrSU5lUzA3bEZGMDhpai1lRUgwRlNfalVLU3BQUHp2ZEREb2xweGdRZXY4VGJzdmNJNm0yWDdrVlRpNFFyYkZjbXJtTFpxM00wSTlfY1JzUUFJX2h3aFl5MVFHaG1KMmxLZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 05 Nov 2026 07:47:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "富邦金 富邦金控代富邦華一銀行有限公司公告授信資產之債權處分- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMGw5T0w0VW5IdW9xbjdnU1RHd0l6VkpOTkFIWk9xSVpHYU80bTFmS1pIRlprT2dkWEJGUDhoSVZOWVY1WnZlQzJSZFdkeHlWcjZUMkQzZ21ab016dnVUa2dDSEZDejYyNTZld2hDUW9pVzNMZVk3bmhBR2p4YjVzMzRTcV91c29tZnE4SGYtTkViUQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -13434,6 +13435,13 @@
           "sentiment": "中性"
         },
         {
+          "title": "富邦金：台幣料續偏弱；央行可能調整貨幣政策- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZ0ZIQmF6VDFUdFg5SEpoVjhTZG1COU5MX3RhNlEwektmaGpudk5JUHVrSU5lUzA3bEZGMDhpai1lRUgwRlNfalVLU3BQUHp2ZEREb2xweGdRZXY4VGJzdmNJNm0yWDdrVlRpNFFyYkZjbXJtTFpxM00wSTlfY1JzUUFJX2h3aFl5MVFHaG1KMmxLZw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 05 Nov 2026 07:47:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "11/6上市投信賣超排行前20名 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdTdxdXc3cF9yaWlFM1lUUUVTMkpQMXd2Z0pVd19oZzN4YV90VlFyczV6bWxWS2Z1ZTJOVndqUHhDN2R6WFFjYlhHd0dGcVNHb0xRX3pHaTJwR1FBUl9tWjg4ak5ZNGNsVlNzT3FlVFpEQVJuV1BITy1XYk9rbUZCLVFHS2YySEhYaG91YWZSTU1xdw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -13441,10 +13449,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "富邦金美股盤前後交易上線，雪梨據點拓企業金融- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTnV6NURLZWNfS0JfTUtDTDZHOFNnMC1wXzFpYkhsamh3bU5CcnpEWUhXZkFXTFdCYnZYYXJYWWpTVC1UWWk4TmlIV0pzdG9QXzl3VDVuOTZybXUzUG5iQ2tvNDRrVW5nMjh5WDdFQkNkbVkzalBFXzU5eHc5aDZhaGZkZ2U3MUFDcWtwaWhrYl9Rdw?oc=5",
+          "title": "國票證券：台股20日乖離率已達-10.86%，不宜過度殺低- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2lUVlY1U1ZZMmNUaEpDQjNHc09FaTBXUF9saEY4czc2NHoxWFRDZkFBdWZJOE9laWlqY1pHZVY4UFVJeTRFbzdrdTBYYi1CajdoY3h6bEpQaUN4dG44NmtzVnFITnQyZ21hVEhyMkwzNktCZDlwZFFwWFd4NFBDd29pa1FCMGJUc19zZDhpRzFaQQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 07:00:00 GMT",
+          "date": "Fri, 06 Nov 2026 00:28:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -15616,10 +15624,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "國泰金房貸塗銷數位化，私銀產品再添私募股權- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeGpmazdtY3dfdDdMMmU1YnBRNFFEMjZTQVRzRHdtdlUxczVTblF1WkpkOWllOFpjWTB3b09CM0Y4Ul9xSElTOVp5TUZvSDgtX1RVdW1fY2hXbXU1RXI3RjNNNTN3VHQ2bTlPLXJqUU40aXZQcUQ3MWQyMFExSmR1aUF6TmtMZGNfVUNWRl9fUGtSUQ?oc=5",
+          "title": "國票證券：台股20日乖離率已達-10.86%，不宜過度殺低- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2lUVlY1U1ZZMmNUaEpDQjNHc09FaTBXUF9saEY4czc2NHoxWFRDZkFBdWZJOE9laWlqY1pHZVY4UFVJeTRFbzdrdTBYYi1CajdoY3h6bEpQaUN4dG44NmtzVnFITnQyZ21hVEhyMkwzNktCZDlwZFFwWFd4NFBDd29pa1FCMGJUc19zZDhpRzFaQQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 20 Oct 2026 07:00:00 GMT",
+          "date": "Fri, 06 Nov 2026 00:28:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -17763,6 +17771,13 @@
           "sentiment": "中性"
         },
         {
+          "title": "中信金(2891)基金持股明細-台股 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvVkpWX1dvOUEycjNLcE9lZHkyajlDdmNfdFlTT1RrZEFoamZTWURYVEVMb2p1dkRsQWV6NlBLTklwRkdUZ0hMcUxsT0c3ZXdnSlE4T0xjQ0pwVXFEWTAyaw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Mon, 09 Nov 2026 11:12:14 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "中信金115年度第一次無擔保普通公司債11/17交付 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdkltbkpNZkJrem5uLVlfVWlKZ21DQ1c0eXFhMjVDWDBaeGhRbUsxVngtQWNVdEJZNDRzem9qcTRGRnBJYVctWmM4MnFNX2RoZER0cW5aWk1QQlprblBlVXpYYnVSeVN4RUM3VzA2Z0FORUdobld3YmlxZ2FKUWJic0h3b2lIV0xONGpleDFqZmVxUQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -17788,13 +17803,6 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMTRKVG5BckIxZi1YdWlCZTRpalNxWWpOWHIxYThVN3hMNUFrQ0J4SGVHcF9rOHN5T1BJOUh6M1lDSnZaMXlnWGx4YWtRWGZ5aFoxU3UtNFdxMmhhQW54enJfdHFNWkFlVnlyallqdTdaNU4xQUJ1R2prV1pfcEJDT1V5SHNXMjFvbDB6SHJvVTF5QQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Mon, 09 Nov 2026 10:19:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "中信金 中信金控代子公司Land and Houses Bank PublicCompany Limited公告董事會決議115年度期中盈餘分配案 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTGZpYnVVaGpfd252dmVhMWRtbk9WamlleUlRYnB3SkRXeExVc01BLTk0OUdfT2dFTTRYYWI1MjdZV3J2V0liVW1VZ0tKWHp1elM3dkpLUlVNQnhKTnlnTjZlMk0xc0daRDlqSmFZbUpHNFdvZjlIeS03MUI5TG5QOTl3?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Mon, 09 Nov 2026 10:09:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -18083,7 +18091,7 @@
       "trend": "偏弱",
       "quarter_high": 765.0,
       "quarter_low": 515.0,
-      "buzz_score": 1,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
           "d1": -8457.026,
