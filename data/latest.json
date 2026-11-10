@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 09:35:48",
+  "updated_at": "2026-11-10 09:56:19",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -687,7 +687,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2020.0,
-      "buzz_score": 8,
+      "buzz_score": 12,
       "institution": {
         "foreign": {
           "d1": -8758.88,
@@ -2534,17 +2534,10 @@
       ],
       "news": [
         {
-          "title": "台積電(2330)法人持股-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91OGoxZmRuQlJNd25OcU9YREpWUGM4enZTT2tvcXJpTVZ3MFJuWU1KekZ0Z3dlS3I4UDhqbFRaNm55MUxHT0w5X055TmhyNnBVOVdtN2JNZWNBV2RzOUNKMTFjSQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Mon, 09 Nov 2026 11:11:05 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "台積電(2330)基金持股明細-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE12ZllnRlo4dlMyX3Q4ZjlKcVlwYS1HeVI5TUxUX2JiMmJaMmJWcWdsVXdTMmI1dXF4ejA4b3N0MjRKZV9OSnhUczZORTU2UnAyUE9qcy00bmpxdFZRaDgtSDVzU0tNVEFHdTJ5N011OE15VzA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YU2pYUm1kdVN4aWNYVkFkOG5RNDhqRldkWkkyMnVDVVc1TndPMi1PZDNfeGI5Mjc1NGtVbUxmR0tNcVN4clAxbHdBR3RoLVFVMWlvTGh2a1V0aGhXVGQ3OEtaMDhZS25waXpIcmZpMHUzWjQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Sun, 08 Nov 2026 16:58:25 GMT",
+          "date": "Mon, 09 Nov 2026 10:59:52 GMT",
           "sentiment": "中性"
         },
         {
@@ -2574,9 +2567,16 @@
           "source": "MoneyDJ / Google News",
           "date": "Tue, 03 Nov 2026 02:16:00 GMT",
           "sentiment": "中性"
+        },
+        {
+          "title": "失守4萬點！台股收跌1873點史上第4慘 台積電重摔105元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMzNzNFVGeC1LLVBBRGxBeEIyWWhRbURTWlpTaV9iXzNaaG1CZ0M0Zk0zVmxodDhiQmlDRk9ncXNsSlQxMmI0aTI4NUprT3VmTDRIZ1dia3RzTHYxaC1LRHBTNHh6Rk1Oa2RrdGhqMmxUc09FbkQ1b2tGZFhzY0ZZVW8wdVNaMHFDc0ZVdGpTMm9Ldw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Fri, 06 Nov 2026 06:16:00 GMT",
+          "sentiment": "利空"
         }
       ],
-      "news_score": -2,
+      "news_score": -3,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2330",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -2861,7 +2861,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 212.5,
-      "buzz_score": 4,
+      "buzz_score": 5,
       "institution": {
         "foreign": {
           "d1": 3669.311,
@@ -6883,9 +6883,9 @@
       "news": [
         {
           "title": "聯發科(2454)基金持股明細-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1yTVhJUldvRDRkSlpKSGlucU9oNllCNTNkXzJuTzdNTDFwbGFtakNoT2xhRl9iV3NIZ0NtYzAzeVdMR1V3TkxyTDF4RkktVjJfdWRRbG9Zb3BSWXN5V2FXd3lFb2w4U1l3aXUtMl9ObkFSOVE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1RamlSay16dUEwRGs5YVU2RElPZWdxWW4xbjlzTkIzTmZUUjFLSGhxSnROdU5BUkVzbkJUdTVwUVhHR19heU5aRzZ6VVJsQ2tvRTEyU0R1Zjc1MFJveDJIV1B2NDRkNXJncjVfRlRDbmQzZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 09 Nov 2026 19:12:43 GMT",
+          "date": "Thu, 05 Nov 2026 17:32:48 GMT",
           "sentiment": "中性"
         },
         {
@@ -6910,21 +6910,21 @@
           "sentiment": "中性"
         },
         {
+          "title": "聯發科(2454)基金持股明細-台股 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBneGRUS3l4UkJoX2lUR19rQmtlZzBYUVBMMGFsbTluRmxzSGEwY0xueXdkazB1R3I2RWl0NVk0ekhXZ2hqMkpGQkxsU0hNdEpnS2MtSUd5M1hIdkloUDh4Z185VERBM1EzMUNXVTMwRzFlanc?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 03 Nov 2026 18:30:12 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "聯發科蔡力行：公司前景樂觀；長抱報酬佳- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ2tDNDZ5OHZTZ3ZZdGlBS3hFVm15RV9RMmhNUkJiUFdHZlQ2YUw3SFhwbFNVQUQyZVdIYkVHOUtHeTZsZ2pRS3VSX3gzb2dSSmNnbWVBWTJEQzZocHYwd2ltYW9KS1V1c283Ti15QmZNMmlCdlJTU04xRkFpaWFaNmh5VDJKZlRFc2Z5ZEk5a0NxZw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 03 Nov 2026 06:00:00 GMT",
           "sentiment": "中性"
-        },
-        {
-          "title": "台股早盤史詩暴跌逾3700點！ 台積電、聯發科殺跌停- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOU21LR1FkVXA0SXdvYUs4b0ZTUW9rY1NPeWZkUHlVMWxxRG1YejduSW84MDljeGhScnBWNVlkdjRQeTltMHNPa21rYlgyS3JIM3R6YWVtZzZScmhKYnJObjB4aW1iZ3dBVU5RZ3pMZUp5SWtMTXJRZDVCdDFkNUJxaHI2dXgxTzJCT3BCUWJxbDgxUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Fri, 06 Nov 2026 01:36:00 GMT",
-          "sentiment": "利空"
         }
       ],
-      "news_score": -1,
+      "news_score": 0,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2454",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -18083,7 +18083,7 @@
       "trend": "偏弱",
       "quarter_high": 765.0,
       "quarter_low": 515.0,
-      "buzz_score": 0,
+      "buzz_score": 1,
       "institution": {
         "foreign": {
           "d1": -8457.026,
