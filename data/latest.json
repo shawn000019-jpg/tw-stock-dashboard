@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 09:46:57",
+  "updated_at": "2026-11-12 10:09:51",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -712,7 +712,7 @@
       "trend": "中性",
       "quarter_high": 2590.0,
       "quarter_low": 2020.0,
-      "buzz_score": 15,
+      "buzz_score": 8,
       "institution": {
         "foreign": {
           "d1": 6038.319,
@@ -2559,6 +2559,13 @@
       ],
       "news": [
         {
+          "title": "台積電(2330)法人持股走勢圖 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1nOUpCS0JhMGVCd2xqanZQaTJhRjVOVWZLaW52a2lFOHlwbjBfSzJKTThONDFCR2V6dVZTNE53MTd0VThDY2Jlb0t3QVRaNW93TDRuU2ZXdEp3c296em1lUXFhUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 11 Nov 2026 13:33:45 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "台積電(2330)基金持股明細-台股 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SYm1ha1hORVlNZGQ2V01VOTBMZV9QYWR6YnEwV1RWWG9uTS1pRllSXzlWOE9qZXVWdFpZa0xFamhsSkFsQTBob3FxN2ROaWNDT0JrX0l4Y2ptMFBlSzBsa1c4T3Y3UEhyUjV4Nno5VjMwSWc?oc=5",
           "source": "MoneyDJ / Google News",
@@ -2566,10 +2573,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "台積電(2330)法人持股-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE91OGoxZmRuQlJNd25OcU9YREpWUGM4enZTT2tvcXJpTVZ3MFJuWU1KekZ0Z3dlS3I4UDhqbFRaNm55MUxHT0w5X055TmhyNnBVOVdtN2JNZWNBV2RzOUNKMTFjSQ?oc=5",
+          "title": "台積電張曉強：AI晶片需求「永無止境」 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYVphTS1aQVZWRmZMSURiUGUwcE9RYjBnV1U3dHFqLVdyMnBOd1JhR2RJdFZwQ0pBa2VGV3dXVV9sZy1nNV9MZ1F5TWtHN1MwdGl4RDZfSE9iUDJEenRSc3U2QTlOeHBMOUZhaUJKbl9peDk5VHM3MG9kN2NKTGxEMHJhREJPWU45WVNSQWxBaVVxdw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 09 Nov 2026 11:11:05 GMT",
+          "date": "Thu, 12 Nov 2026 00:48:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -2577,13 +2584,6 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWHl4T1F1V09feld1LUZ1RVRoV0xmLXQ5WldrSDM5VkI3aFNNWkJGaXpHUVA2T1o1NGNEdno3WGZ6UW1JUXRoY1ctVG1kUFdLUjlfNkFpTzR3VExVTTdZbkVXZGNsWWlwUXkwYWVpZGpSR042aVpqV0NTTThfTnVXMVhGcUYxVWdqc2l6Q2htOHJuUQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 10 Nov 2026 05:57:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "台積電張曉強：AI晶片需求「永無止境」 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYVphTS1aQVZWRmZMSURiUGUwcE9RYjBnV1U3dHFqLVdyMnBOd1JhR2RJdFZwQ0pBa2VGV3dXVV9sZy1nNV9MZ1F5TWtHN1MwdGl4RDZfSE9iUDJEenRSc3U2QTlOeHBMOUZhaUJKbl9peDk5VHM3MG9kN2NKTGxEMHJhREJPWU45WVNSQWxBaVVxdw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 12 Nov 2026 00:48:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -2901,7 +2901,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 212.5,
-      "buzz_score": 12,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": -1761.953,
@@ -6973,10 +6973,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "台股強彈1545點收復44K！創史上第六大漲點 台積電漲110元 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOalpsV2V4QWRRUTJPSzZ6d000czlLcFV2ak9BanlkazFfc2syV2RscndWdkl6aS1uN2h4ZUdSWU1TSHRQV0VYUnFlT2VSZ2JTelZhZHNiZ2xGWlVrWkRJeUJnUnI3eE91NGxGbDlQNWEtZTlDWTBpMWRWMFBwUnMzNnQ3MWhRUHlFajJKcGVXUk5hdw?oc=5",
+          "title": "台股開高重返43K陷震盪！一度飆漲逾600點 台積電領頭拉45元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORzlLb0lMeUtKOXlCNWx5ZTlwR2N2U3lNa01KMGI5R2pVbXpiQ0FONXNoSFFvOU1UOUliWnFWTkkwalRYaFhFbFlxcFFDbkRWQW5aSHdVLXpLVHJ3dHBBRVVTLVZSbi1YNXUzOThrY0JrN040TUZOdURRTGRhWnRCZnVFaGVIMTMzSl84Qk9wdzJuZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 11 Nov 2026 06:17:00 GMT",
+          "date": "Wed, 11 Nov 2026 02:17:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -9473,7 +9473,7 @@
       "trend": "空頭",
       "quarter_high": 338.0,
       "quarter_low": 272.0,
-      "buzz_score": 6,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
           "d1": -2278.252,
@@ -11341,6 +11341,13 @@
           "sentiment": "利多"
         },
         {
+          "title": "廣達(2382)基金持股明細-台股 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1uaGd3UXVHVjBmb29zc2Q3aHdubGE3Ul9OU3VCWXlKV2xuLVQ2WUM0dnVLc0dhTVpKT0h0ODNTd0VhVEpSQk9KS2dQM1FEMnRBem5nbWdpNWpScUdaSjBKNFBMdW5LRWJDX01OTFZVXzkzS1E?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 11 Nov 2026 07:14:33 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "廣達 115年10月營收3532.50億、年增103.96% - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE9KMWFYTGZTNVhubGMyX3BfVnF0RERRSzl0MjF3NlYydXJJLWEtYnM4WUpUbndiT1FfajdjZTc1LWEteWpwQ0Q2OVFmdm9iRGZ5VjJsRU90UlIwTy1Hekl4Zkcxb29MbGJ1ZGZ6Y1AyVjdtU2lxM1Q3MjdCYzd0T1dBdXJfclJiNWFKblJfemdZUQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -11348,21 +11355,14 @@
           "sentiment": "中性"
         },
         {
-          "title": "廣達梁次震:美AI基建投資不會停、台供應鏈仍具優勢- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQlR4eEZlU2FkdmxLM2xvNVNNTk9yaEpVaE1zMTAyQ2VrUjlpd0p3UWxWTVQycHE3cDYwVW9CSWNMRXBtQ0tERHh0NmtuRFQ3MWdBbHhpbWRpUWRKYTFCQVhFd2lnVHNmX2UzR1Q5dzViSjFhZDNtdVdWWldwN1cydFQxOVhoNko5ZS1KWkhxQnZ6QQ?oc=5",
+          "title": "評估AI伺服器獲利，廣達：營業利益增幅須優於費用- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYndFVGZfWDdWVmNvdURxVTd2bS1mdE43Z3lWblNJMHcta1NFLTNNT3RWWXZCTjBQc2wwYm1XOG5YQURFakNHdDFXV2hlWENwbG4yeDhOWl9qZmxWR1lMV1RyT09hSlFCWUhOelp6Y1huSVAzQzROV2dOUElEYWxZTVAzQ0VRdGxqTHQ4NTVBTlFadw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 10 Nov 2026 09:13:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "廣達公告本公司董事會通過115年第三季財務報告- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONklnWlhCaXh3NG9PZXVOWTNTOWJweS1YMG5MWDBPN20taEFaM3J2NWtDdEVGV0ZpMG40VlBLS0J5d3M4TWFxdHU4VjVYdF9zQXJka1hnTjZfX1ZCNEk2MUV0aEU1Yl9pbF9Ic1d6clRzckxZRDUwZVlFVERtQktrMDBPaWtpN2U2dkpqakRKVHFQZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 11 Nov 2026 06:50:00 GMT",
-          "sentiment": "中性"
+          "date": "Thu, 12 Nov 2026 01:51:00 GMT",
+          "sentiment": "利多"
         }
       ],
-      "news_score": 2,
+      "news_score": 3,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2382",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -20116,10 +20116,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "日月光投控：矽品精密工業7/22~11/11取得營業用機器設備4批，計約16.04億元- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdFZzNlJpQVN2UHNIRThxWVlQS0t6UHJ2ZWVwOHhNd3Y4c1E5cGozQjRtMVJTM1Z6Mk1LbHlCcmh3UXBsWXJzTzV4STVlWElENTNpSUp6bHJ2RnpHZXMzUFJoZFp6WnZxZlI0RU93OVJ6dmxjb2dIUHJDa1N3Rk9RejRhcTFKMjBOd0lLVTUyY0JvZ3pkX0E?oc=5",
+          "title": "日月光投控11/11參加SinoPac舉辦之法說會- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQa2F1N0htU2RUZVJfaDMwbGN2YzAtZ2ZzUzd6U2t5bmdleVJZRGw1d3dyUmhuYXVKZjN3NDFUYnI3U01aS1VRMFlBVnhEZ0tkbFFHM1kzVHlHUGxNdFFsQTVuelhQVWcydnd0U0hPaVE2cmEtZC1RVnhOYkttVVhLRVl0Y0o1bWFDSFhMcnl0UjZuQQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 12 Nov 2026 01:28:00 GMT",
+          "date": "Tue, 10 Nov 2026 06:07:00 GMT",
           "sentiment": "中性"
         }
       ],
