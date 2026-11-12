@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 12:28:38",
+  "updated_at": "2026-11-12 13:32:00",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -312,6 +312,22 @@
   "finance_news": {
     "asia": [
       {
+        "title": "部分員工資訊遭置外部網站　台積電：無證據顯示系統遭入侵",
+        "url": "https://www.cna.com.tw/news/afe/202611120132.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 12 Nov 2026 12:59:12 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "宏碁搶攻智慧校園　AI助教導入苗栗157校",
+        "url": "https://www.cna.com.tw/news/afe/202611120129.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 12 Nov 2026 12:56:06 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "黃仁勳再爆外遇輝達陷危機　董事會態度急轉彎",
         "url": "https://www.cna.com.tw/news/afe/202611120110.aspx",
         "source": "中央社產經",
@@ -358,22 +374,6 @@
         "date": "Thu, 12 Nov 2026 11:01:05 +0800",
         "sentiment": "中性",
         "region": "asia"
-      },
-      {
-        "title": "輝達不只是晶片商　財務承諾牽動AI產業金融風險",
-        "url": "https://www.cna.com.tw/news/aopl/202611120072.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 12 Nov 2026 11:01:03 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "巴拉圭Ueno Bank倒閉　央行已向所有合格存戶部分退款",
-        "url": "https://www.cna.com.tw/news/aopl/202611120068.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 12 Nov 2026 10:46:54 +0800",
-        "sentiment": "中性",
-        "region": "asia"
       }
     ],
     "international": [
@@ -403,6 +403,22 @@
       }
     ],
     "all": [
+      {
+        "title": "部分員工資訊遭置外部網站　台積電：無證據顯示系統遭入侵",
+        "url": "https://www.cna.com.tw/news/afe/202611120132.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 12 Nov 2026 12:59:12 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "宏碁搶攻智慧校園　AI助教導入苗栗157校",
+        "url": "https://www.cna.com.tw/news/afe/202611120129.aspx",
+        "source": "中央社產經",
+        "date": "Thu, 12 Nov 2026 12:56:06 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
       {
         "title": "黃仁勳再爆外遇輝達陷危機　董事會態度急轉彎",
         "url": "https://www.cna.com.tw/news/afe/202611120110.aspx",
@@ -512,22 +528,6 @@
         "url": "https://www.cna.com.tw/news/afe/202611120037.aspx",
         "source": "中央社產經",
         "date": "Thu, 12 Nov 2026 09:18:47 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "黃仁勳再爆出軌女主管　輝達董事會11日開會決定去留",
-        "url": "https://www.cna.com.tw/news/afe/202611120036.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 12 Nov 2026 09:18:45 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "台股開盤跌76.69點",
-        "url": "https://www.cna.com.tw/news/afe/202611120033.aspx",
-        "source": "中央社產經",
-        "date": "Thu, 12 Nov 2026 09:04:38 +0800",
         "sentiment": "利空",
         "region": "asia"
       }
@@ -6899,9 +6899,9 @@
       "news": [
         {
           "title": "聯發科(2454)基金持股明細-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAtWjljOWxITkVfY1I2ZWZXYTlTbnRIS2VwRlJBaVNoWEZ3ZDc1bUl4Z2xlQWMyMGp3SWVXZjZIajc4a3Q3RlJkMDJWNG1TOTk0RGpTMFEyaWN4YXduSXBYVG9qYklkamNtVXEweXhFSTFfZw?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9Xd1NBcjl5UE9xQ2JlQkZubHRnaWFRQmtVLVoyd0JkX0hJYWN6azdmWVhmYWVtYUF5SzFUTUh4OU92X2lHbnljVkVaaWI5alJiU1FPWjdtRFZGSWJPWkdCRg?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 10 Nov 2026 13:35:07 GMT",
+          "date": "Tue, 10 Nov 2026 18:29:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -9118,17 +9118,17 @@
           "sentiment": "中性"
         },
         {
-          "title": "台達電澄清經濟日報115年11月10日報導- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNW9PU0JsZF9BU0FncGJ4REJtaVoxc0NNaTg3TFlfdVFfTjFfbUNXVGZJMTBtd3M1MklPMVNwUVNjXzZDZ1hDUnpZM3VROTJwOHhvOVljRlJXUTZNa3E4Ul91YnZOWkNHSi16RDZ0UXVzQ1FFOE80TFA2RzRvOTE3ZHRqeDBIdjJ4Q2lrRm5zSmdNUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Tue, 10 Nov 2026 03:39:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "台達電補充公告本公司代子公司Delta Electronics (USA) Inc.公告決議興建F2廠及辦公大樓相關事宜- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ3pUempES1pyOFZab3lkNTJZbm1uckxsbnhSbkpSTjJUQkV5OTNvMENhRUJlMlpveWE4OExfZy00Mk9tZkh3dTV5c3NQSHd3WWwtRjQwZGxFMERtdFpzVElNRjZnMUduS1REa1p5T2xSRHg0aTZnUHZyc25UVnRsR0hhZFY5NG5DYTRvQTFBUjQ1QQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 11 Nov 2026 09:45:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "台達電澄清經濟日報115年11月10日報導- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNW9PU0JsZF9BU0FncGJ4REJtaVoxc0NNaTg3TFlfdVFfTjFfbUNXVGZJMTBtd3M1MklPMVNwUVNjXzZDZ1hDUnpZM3VROTJwOHhvOVljRlJXUTZNa3E4Ul91YnZOWkNHSi16RDZ0UXVzQ1FFOE80TFA2RzRvOTE3ZHRqeDBIdjJ4Q2lrRm5zSmdNUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 10 Nov 2026 03:39:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -17865,11 +17865,11 @@
           "sentiment": "中性"
         },
         {
-          "title": "中信金中國信託金融控股股份有限公司公告本公司暨主要子公司115年度十月份自結盈餘- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVzk4bERZRkZCVVVvQVlDWnZjZzk3YnY2cEo0VVMycFMxRWVyOC00MmgzTGpWLTJNUGl3dEhaRnQwZFl5ZkNZUkZFcFdja1ZYUkZ2LVlwcjdSTXVQbHo5aDdfLW1kaUdvdmNlSDJ0NnRNYlkyc1ZYRGJ4WEJLc0lDUjJraVE1MFpoV3RoaDQ2dnQwdw?oc=5",
+          "title": "中信金自結前10月合併獲利685.50億元，每股稅後3.45元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNjkyMHUtOWxCV2RydlVIMUsyVFJmY1FrZ3RuM1l2TS1ZVU5HT3FDWk1VeVQzUnNMRmdyaGRiQWVyR2FNU200YTRnNnQ1dDNoMGhBYW8wSjc3d2ZEbWtJZ1VtREdIdHRDY2ZqNVVfeEZ5SzNBS0w2QWUtQmdnNWltNXlUZWx3WTBLNlVfU1gyTWdGZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 11 Nov 2026 10:19:00 GMT",
-          "sentiment": "中性"
+          "date": "Wed, 11 Nov 2026 11:40:00 GMT",
+          "sentiment": "利多"
         },
         {
           "title": "中信金115年度第一次無擔保普通公司債11/17交付 - MoneyDJ",
@@ -17893,7 +17893,7 @@
           "sentiment": "中性"
         }
       ],
-      "news_score": 0,
+      "news_score": 1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2891",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
