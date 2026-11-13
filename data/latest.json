@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 19:21:35",
+  "updated_at": "2026-11-13 22:29:23",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -49,9 +49,9 @@
   "market_institution": {
     "date": "20261113",
     "foreign": 288.36686051,
-    "trust": 82.36755951,
+    "trust": 95.39169401,
     "dealer": 68.92477045000001,
-    "total": 439.65919047,
+    "total": 452.68332497,
     "unit": "億元"
   },
   "market_regime": {
@@ -310,84 +310,100 @@
   "finance_news": {
     "asia": [
       {
-        "title": "華紙售觀音廠予元太科技　處分利益估13.3億元",
-        "url": "https://www.cna.com.tw/news/afe/202611130236.aspx",
+        "title": "神基奪歐美無人機大單　明年業務占比估5%至10%",
+        "url": "https://www.cna.com.tw/news/afe/202611130297.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:55:22 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "週年慶出國潮點火　5大銀行10月合計刷卡金額3758億",
-        "url": "https://www.cna.com.tw/news/afe/202611130231.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:43:12 +0800",
+        "date": "Fri, 13 Nov 2026 20:15:37 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "三陽前3季每股賺4.37元　續聚焦機車汽車核心事業",
-        "url": "https://www.cna.com.tw/news/afe/202611130226.aspx",
+        "title": "黃仁勳請辭　輝達部分員工籲董事會「把老大請回來」",
+        "url": "https://www.cna.com.tw/news/aopl/202611130293.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:30:01 +0800",
+        "date": "Fri, 13 Nov 2026 19:54:28 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "台積電前3季獲美德日中政府補助1675億元　創新高",
-        "url": "https://www.cna.com.tw/news/afe/202611130225.aspx",
+        "title": "福島結束第25批含氚廢水排放　核安會：對台無影響",
+        "url": "https://www.cna.com.tw/news/afe/202611130292.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:23:58 +0800",
+        "date": "Fri, 13 Nov 2026 19:52:26 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳請辭引發輝達動盪　美媒：台積電、超微與博通有望受惠",
-        "url": "https://www.cna.com.tw/news/afe/202611130217.aspx",
+        "title": "受惠AI需求強勁　貿聯-KY第3季賺逾2個股本",
+        "url": "https://www.cna.com.tw/news/afe/202611130289.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:09:39 +0800",
+        "date": "Fri, 13 Nov 2026 19:44:19 +0800",
         "sentiment": "利多",
         "region": "asia"
       },
       {
-        "title": "臨危受命暫代執行長 輝達財務長克瑞斯曾質疑黃仁勳投資策略",
-        "url": "https://www.cna.com.tw/news/aopl/202611130211.aspx",
+        "title": "耕興投入15億擴充產能1至2成　瞄準北美和印度客戶需求",
+        "url": "https://www.cna.com.tw/news/afe/202611130287.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:56:26 +0800",
+        "date": "Fri, 13 Nov 2026 19:37:15 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳風波衝擊市場　亞股多收黑",
-        "url": "https://www.cna.com.tw/news/afe/202611130205.aspx",
+        "title": "金管會示警AI攻擊風險　呼籲金融業落實6大措施",
+        "url": "https://www.cna.com.tw/news/afe/202611130284.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:43:13 +0800",
+        "date": "Fri, 13 Nov 2026 19:30:08 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳辭CEO　台驊：空運影響有限、台韓日利多不變",
-        "url": "https://www.cna.com.tw/news/afe/202611130203.aspx",
+        "title": "綠能廠財報出爐　聚恆前3季獲利年增近9倍、麗升轉盈",
+        "url": "https://www.cna.com.tw/news/afe/202611130283.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:42:09 +0800",
+        "date": "Fri, 13 Nov 2026 19:19:06 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "台股本週漲幅逾1成　上市公司總市值增近13兆元",
+        "url": "https://www.cna.com.tw/news/afe/202611130282.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 19:13:02 +0800",
         "sentiment": "中性",
         "region": "asia"
       }
     ],
     "international": [
       {
-        "title": "浩鼎聯手諾華簽ADC平台全球授權　簽約金3000萬美元入袋",
-        "url": "https://www.cna.com.tw/news/afe/202611130234.aspx",
+        "title": "黃仁勳去職和美國加強監管　危及中國逾30億美元AI計畫",
+        "url": "https://www.cna.com.tw/news/aopl/202611130290.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:45:18 +0800",
+        "date": "Fri, 13 Nov 2026 19:44:21 +0800",
         "sentiment": "中性",
         "region": "international"
       },
       {
-        "title": "BBC：美國會議員要求黃仁勳12/3赴參議院作證",
-        "url": "https://www.cna.com.tw/news/aopl/202611130220.aspx",
+        "title": "IEA：全球石油市場10月供過於求　美伊戰爭以來首見",
+        "url": "https://www.cna.com.tw/news/aopl/202611130281.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:15:48 +0800",
+        "date": "Fri, 13 Nov 2026 19:11:59 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "可口可樂匈牙利投資創新高  強化中東歐市場供應力",
+        "url": "https://www.cna.com.tw/news/afe/202611130278.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 19:00:53 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "正達擬斥3500萬美元認購私募股　布局無人載具市場",
+        "url": "https://www.cna.com.tw/news/afe/202611130260.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 18:29:14 +0800",
         "sentiment": "中性",
         "region": "international"
       },
@@ -426,132 +442,132 @@
     ],
     "all": [
       {
-        "title": "華紙售觀音廠予元太科技　處分利益估13.3億元",
-        "url": "https://www.cna.com.tw/news/afe/202611130236.aspx",
+        "title": "神基奪歐美無人機大單　明年業務占比估5%至10%",
+        "url": "https://www.cna.com.tw/news/afe/202611130297.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:55:22 +0800",
-        "sentiment": "利空",
+        "date": "Fri, 13 Nov 2026 20:15:37 +0800",
+        "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "浩鼎聯手諾華簽ADC平台全球授權　簽約金3000萬美元入袋",
-        "url": "https://www.cna.com.tw/news/afe/202611130234.aspx",
+        "title": "黃仁勳請辭　輝達部分員工籲董事會「把老大請回來」",
+        "url": "https://www.cna.com.tw/news/aopl/202611130293.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:45:18 +0800",
+        "date": "Fri, 13 Nov 2026 19:54:28 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "福島結束第25批含氚廢水排放　核安會：對台無影響",
+        "url": "https://www.cna.com.tw/news/afe/202611130292.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 19:52:26 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "黃仁勳去職和美國加強監管　危及中國逾30億美元AI計畫",
+        "url": "https://www.cna.com.tw/news/aopl/202611130290.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 19:44:21 +0800",
         "sentiment": "中性",
         "region": "international"
       },
       {
-        "title": "週年慶出國潮點火　5大銀行10月合計刷卡金額3758億",
-        "url": "https://www.cna.com.tw/news/afe/202611130231.aspx",
+        "title": "受惠AI需求強勁　貿聯-KY第3季賺逾2個股本",
+        "url": "https://www.cna.com.tw/news/afe/202611130289.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:43:12 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "三陽前3季每股賺4.37元　續聚焦機車汽車核心事業",
-        "url": "https://www.cna.com.tw/news/afe/202611130226.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:30:01 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "台積電前3季獲美德日中政府補助1675億元　創新高",
-        "url": "https://www.cna.com.tw/news/afe/202611130225.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:23:58 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "BBC：美國會議員要求黃仁勳12/3赴參議院作證",
-        "url": "https://www.cna.com.tw/news/aopl/202611130220.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:15:48 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "黃仁勳請辭引發輝達動盪　美媒：台積電、超微與博通有望受惠",
-        "url": "https://www.cna.com.tw/news/afe/202611130217.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 17:09:39 +0800",
+        "date": "Fri, 13 Nov 2026 19:44:19 +0800",
         "sentiment": "利多",
         "region": "asia"
       },
       {
-        "title": "臨危受命暫代執行長 輝達財務長克瑞斯曾質疑黃仁勳投資策略",
-        "url": "https://www.cna.com.tw/news/aopl/202611130211.aspx",
+        "title": "耕興投入15億擴充產能1至2成　瞄準北美和印度客戶需求",
+        "url": "https://www.cna.com.tw/news/afe/202611130287.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:56:26 +0800",
+        "date": "Fri, 13 Nov 2026 19:37:15 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳風波衝擊市場　亞股多收黑",
-        "url": "https://www.cna.com.tw/news/afe/202611130205.aspx",
+        "title": "金管會示警AI攻擊風險　呼籲金融業落實6大措施",
+        "url": "https://www.cna.com.tw/news/afe/202611130284.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:43:13 +0800",
+        "date": "Fri, 13 Nov 2026 19:30:08 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳辭CEO　台驊：空運影響有限、台韓日利多不變",
-        "url": "https://www.cna.com.tw/news/afe/202611130203.aspx",
+        "title": "綠能廠財報出爐　聚恆前3季獲利年增近9倍、麗升轉盈",
+        "url": "https://www.cna.com.tw/news/afe/202611130283.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:42:09 +0800",
+        "date": "Fri, 13 Nov 2026 19:19:06 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "台股本週漲幅逾1成　上市公司總市值增近13兆元",
+        "url": "https://www.cna.com.tw/news/afe/202611130282.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 19:13:02 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "外資買超288億　搶進ETF和金融股",
-        "url": "https://www.cna.com.tw/news/afe/202611130200.aspx",
+        "title": "IEA：全球石油市場10月供過於求　美伊戰爭以來首見",
+        "url": "https://www.cna.com.tw/news/aopl/202611130281.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:39:02 +0800",
+        "date": "Fri, 13 Nov 2026 19:11:59 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "技嘉第3季每股大賺12.8元登頂　稱輝達高層變動不影響合作",
+        "url": "https://www.cna.com.tw/news/afe/202611130279.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 19:02:55 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "可口可樂匈牙利投資創新高  強化中東歐市場供應力",
+        "url": "https://www.cna.com.tw/news/afe/202611130278.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 19:00:53 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "台灣半導體產值今年挑戰9.76兆元　估成長49.7%",
+        "url": "https://www.cna.com.tw/news/afe/202611130275.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 18:44:46 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "壽險資金布局公共建設　AI算力中心成新投資焦點",
+        "url": "https://www.cna.com.tw/news/afe/202611130272.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 18:42:40 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "電電公會推波蘭TEEMA園區產業鏈　逾50家台廠參展",
-        "url": "https://www.cna.com.tw/news/afe/202611130193.aspx",
+        "title": "期交所：今年底擬推主動式ETF期貨",
+        "url": "https://www.cna.com.tw/news/afe/202611130264.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:13:47 +0800",
+        "date": "Fri, 13 Nov 2026 18:32:22 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "新台幣升5.1分　收32.838元",
-        "url": "https://www.cna.com.tw/news/afe/202611130191.aspx",
+        "title": "正達擬斥3500萬美元認購私募股　布局無人載具市場",
+        "url": "https://www.cna.com.tw/news/afe/202611130260.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:05:42 +0800",
+        "date": "Fri, 13 Nov 2026 18:29:14 +0800",
         "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "央行明年繳庫逾2200億　外資持有台股占比大增恐影響上繳數",
-        "url": "https://www.cna.com.tw/news/afe/202611130189.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 16:01:38 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "推動智慧物流與資材循環　商業署：促進資訊即時共享",
-        "url": "https://www.cna.com.tw/news/afe/202611130186.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 15:55:31 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "日月光砸千億元投資進駐南科　擴先進封裝產能",
-        "url": "https://www.cna.com.tw/news/afe/202611130183.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 15:50:25 +0800",
-        "sentiment": "中性",
-        "region": "asia"
+        "region": "international"
       }
     ]
   },
@@ -694,7 +710,7 @@
       "trend": "中性",
       "quarter_high": 2590.0,
       "quarter_low": 2020.0,
-      "buzz_score": 4,
+      "buzz_score": 7,
       "institution": {
         "foreign": {
           "d1": -2618.07,
@@ -2891,7 +2907,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 212.5,
-      "buzz_score": 26,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": 7463.169,
@@ -5090,7 +5106,7 @@
       "trend": "中性",
       "quarter_high": 5165.0,
       "quarter_low": 3115.0,
-      "buzz_score": 9,
+      "buzz_score": 6,
       "institution": {
         "foreign": {
           "d1": 2169.623,
@@ -13545,6 +13561,13 @@
           "sentiment": "中性"
         },
         {
+          "title": "富邦金：富邦人壽擬參與Anthropic,PBC普通股IPO案，上限7億美元- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV1JZSzNRRjBiTW11Z0hPNFBCcHNVV0NTVlhrSklSR1B4Wk1CeFp3WS1uX29jSm8yc05LdE1oVEp3anpRQU5ubUg1YmwtRVBKdkZwNjVLS2hXV2lWWHdCblB2dml5c2JTMFRER0ljYmZaUW01MDFNajhLMnozQXQyT1NHWjI4UzBLV1VGMERENmJPUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Fri, 13 Nov 2026 12:36:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "北富銀首爾分行獲准設立，拚台資銀首例- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNUpDWGJwM0E5Y1hPRjAzNkRFS0ZzRWZWUFRXajNzYW1rc2FjdkZ0ZXRfY1BsbkROVzRVc0VlREJXb1FEQ1RZWkpCWFFYdTZ0UFlaeU9oYVlxbC1EU2k0amlZaU85OWNxVEd2ZVAzZnZoOThIcTJZQXRQM0xVSWNVNHAzdkZpUlJfbkNONVlpMV9RZw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -13563,13 +13586,6 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRHY1Z2Q0R1hKc1lkWVNXN01QbUppTWRvRUFxaldKWUJRUHRFblZxQ2VFaHVZX285VHZLTlpjTFpDdGcyZlpneDcyc3FoYTEtQ1ZYUTIxeXhyd1dyVWdESE1NNU5DQTkxTzM3enAtZmZrYTBaUG9fWlpDQ2FXYThvYTU4NzlCX3VfU2VTZWh4RDliQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 11 Nov 2026 23:31:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "國票證券：台股短線仍有震盪可能- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdFBLRDA1MG1lYXZhcUFhSXM4SVY1RW9EZ1VPNjVTU0VCc2lHNXZfZEVybGVLWWRvV0ZrTUxDVWxvZ2VwYl9SaTFERWNWLUowZGs1aUJ2a2kwQU0zTDR2d3h2d3VLcmo3dFo5M1N0c21iNXNuR0ZqOHc5d2JJU0F0WmJCRVFWUHVrM1M3ZnRGTi03UQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 11 Nov 2026 00:37:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -15743,18 +15759,18 @@
           "sentiment": "中性"
         },
         {
-          "title": "國泰金本公司代子公司國泰創投公告董事會決議處分景美科技股份有限公司普通股- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYTRZZlN5b1ViSS1wZ01DUEdmMnFEc3A2WFFsTlRQNDhOeVlsNkpKWVV6U3FGQkhib2hNSUUxYU5BVWl6ckxYVWtWN2RHQndoR3BwNXlFU1otRWZsUHlKVDJ6a0Jqcm5PZTNsNTNYZXhLSE9fRlRxdGFPdV9fbDVQYjU4eGFjTThqWkprRTdpdF9OZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 12 Nov 2026 10:19:00 GMT",
-          "sentiment": "利空"
-        },
-        {
           "title": "國泰金 代子公司國泰世華銀行公告向國泰人壽保險(股)公司取得使用權資產32筆 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPazZjZ3IwRHdPT2pHd1Y1UEpMNTkwUHlXT1VsVTRNN3dkaTNYUVVnY002ZHUxMmJCSDhTNUQyR3NCRkVISzVyQkpJV3NlVnpZZEhVWXBBUmhtMmg3UkkteFpJWnFrMzZ4MkloYjNENlJRQnY5T0RRdFVQNEZqejFwSWJjZXlidHE5S2FsZzZqOEV3UQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Fri, 13 Nov 2026 09:20:00 GMT",
           "sentiment": "中性"
+        },
+        {
+          "title": "國泰金本公司代子公司國泰創投公告董事會決議處分景美科技股份有限公司普通股- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYTRZZlN5b1ViSS1wZ01DUEdmMnFEc3A2WFFsTlRQNDhOeVlsNkpKWVV6U3FGQkhib2hNSUUxYU5BVWl6ckxYVWtWN2RHQndoR3BwNXlFU1otRWZsUHlKVDJ6a0Jqcm5PZTNsNTNYZXhLSE9fRlRxdGFPdV9fbDVQYjU4eGFjTThqWkprRTdpdF9OZw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 12 Nov 2026 10:19:00 GMT",
+          "sentiment": "利空"
         },
         {
           "title": "國泰金本公司代子公司國泰人壽公告取得國泰永續基礎建設有限合夥- 新聞 - MoneyDJ",
@@ -18278,7 +18294,7 @@
       "trend": "偏弱",
       "quarter_high": 765.0,
       "quarter_low": 515.0,
-      "buzz_score": 1,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
           "d1": -1628.445,
@@ -20125,10 +20141,10 @@
       ],
       "news": [
         {
-          "title": "日月光投控：日月光半導體製造10/13~11/12取得供營業用機器設備，計約13億元- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU29WRGVmakpNeWxOaWxJbG1lODhoYU11UGZUc3FRMy1QQWo4Q3VYaWo2TUJra2NWZ01vbTRsOUF1RVp5SUJ1M0VlWjJreG5pRGF4TXkzNnYwQ2ZYcTEtMnh1dlFoX2JvQWlMT25CSzBqZjVLM1FseEhwM2pRbVZ3NVJSMlVTdlFtU1hzYkdSeXY1UQ?oc=5",
+          "title": "日月光投控：日月光半導體製造7/9~11/13向印能科技取得營業用機器設備，計約10億 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQR1VVbVV3eU94YTByYzFmaUdMRUVjOVRYckRGT1hraUFoVWJNN3lfUXhKQkhnMmFBZmR4NVhhQnZkRXNhbDdwYjdzZTdlNHdXcWhvTmlKcTJtU3V4X01LcGFpMUV5c0FBcUlaMU8xcXppRFNaLWpyMDN5MXhFOG9hYWlpbUNZTDFmMXE5a2NEazJUZw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Fri, 13 Nov 2026 01:56:00 GMT",
+          "date": "Fri, 13 Nov 2026 12:31:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -20146,13 +20162,6 @@
           "sentiment": "中性"
         },
         {
-          "title": "日月光投控11/16~17參加J.P. Morgan舉辦之海外法說會- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObDdmdVVRUlpVTHBOMlE0RmpqSkFXRG1ueF9wRlE1Qy1IT01OWndVVzBqaVppRFQzZW5vZHBoMVpVQi1qMFViamZLYWhYQnFtRXF1NmhPdmZ5MU5ac2htb2JyWmI5LUhFamNZNDRKVXVMamZxWGlTUDJLcUxlYzBhaHdVMjk3MHRXY3FOd0Q0MHpZUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Fri, 13 Nov 2026 05:55:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "日月光投控 115年10月營收886.15億、年增47.13% - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTJ0Q2RrbTdNWEc3SUZZZGdfRWItam00bUFuaWU2MTh1dGs5SjI3RlNVbTdQcWlGTWpETk56SW01YnhPRzY0V2g0ejRLRkhkMlFoYUtIMUU5N3NISEdLa2hCX3JvbVRaMnN3TFpaSWs2M3ZkLThUeF9aNmZfSEZGdVZIWkZha0x4bXJDM3VSeVRpUQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -20160,10 +20169,17 @@
           "sentiment": "中性"
         },
         {
-          "title": "日月光投控公告本公司115年第3季合併財務報告經董事會決議通過- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaVhJUEVyU1d5SHhDMm1QY0gyTWJqQTY2WlIxMy12LXM0TmpLRGg2QXJKR0E4M28wVHVlZWtpbUgtZVMwWHN2cTFneU50R19weG5scVhrdktyRmRuZU9yUU5DRzdTVjBjUGFsc2FKdkxseG1XWXFueHBIYlhmSUgzWDZTdTRObkV0QVdyeDRFMVZCQQ?oc=5",
+          "title": "日月光投控11/16~17參加J.P. Morgan舉辦之海外法說會- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxObDdmdVVRUlpVTHBOMlE0RmpqSkFXRG1ueF9wRlE1Qy1IT01OWndVVzBqaVppRFQzZW5vZHBoMVpVQi1qMFViamZLYWhYQnFtRXF1NmhPdmZ5MU5ac2htb2JyWmI5LUhFamNZNDRKVXVMamZxWGlTUDJLcUxlYzBhaHdVMjk3MHRXY3FOd0Q0MHpZUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 09 Nov 2026 09:16:00 GMT",
+          "date": "Fri, 13 Nov 2026 05:55:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "日月光投控(3711)基金持股明細-台股 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YRVh1dUhhTXN1YWI1dE5jWHdoWFRwTHBJUlMzZFVQUTRHN19JVlp3eDM0NmVfeFVkeGRoRjhsbmNSbnctSUlzQVdOcGptaFBlUFUyZk5DdXZJRm1BOVVHNw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 10 Nov 2026 21:05:21 GMT",
           "sentiment": "中性"
         }
       ],
