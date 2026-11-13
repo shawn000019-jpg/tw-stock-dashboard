@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 11:47:00",
+  "updated_at": "2026-11-13 12:53:02",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -389,6 +389,22 @@
         "region": "international"
       },
       {
+        "title": "微軟365全球當機搶修中　官方指涉及代管郵件服務",
+        "url": "https://www.cna.com.tw/news/ait/202611130092.aspx",
+        "source": "中央社科技",
+        "date": "Fri, 13 Nov 2026 11:44:04 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "微軟365全球大當機波及日本政府　網友喊「乾脆放假」",
+        "url": "https://www.cna.com.tw/news/ait/202611130089.aspx",
+        "source": "中央社科技",
+        "date": "Fri, 13 Nov 2026 11:35:58 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
         "title": "微軟365、Outlook等服務當機　數以千計美國用戶受影響",
         "url": "https://www.cna.com.tw/news/ait/202611130010.aspx",
         "source": "中央社科技",
@@ -683,7 +699,7 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2020.0,
-      "buzz_score": 5,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": -3955.418,
@@ -2881,7 +2897,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 212.5,
-      "buzz_score": 7,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": 8390.677,
@@ -5080,7 +5096,7 @@
       "trend": "偏弱",
       "quarter_high": 5165.0,
       "quarter_low": 3115.0,
-      "buzz_score": 8,
+      "buzz_score": 6,
       "institution": {
         "foreign": {
           "d1": 1638.032,
@@ -11339,18 +11355,18 @@
           "sentiment": "中性"
         },
         {
-          "title": "廣達Q3獲利創次高，前三季大賺逾兩個股本- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNazA0SWo0YWVFT2VPNG5DMkhUM01BUkVVcXlTSHFGWTFpTkkzVTM4b0V1VkRMbWwtd0hxQ25MSThMU1g4b2FhZXB3NFBrMVJLa01RMnNHY1RMNEVfOXdMd3RnR3ZGOVg2el9yQ0FMY0Zla1Vyb2VfcWVJVGo2bVZST3VtazdTZmp2SHBEVzVHZ0cwZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 11 Nov 2026 09:06:00 GMT",
-          "sentiment": "利多"
-        },
-        {
           "title": "廣達(2382)基金持股明細-台股 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1uaGd3UXVHVjBmb29zc2Q3aHdubGE3Ul9OU3VCWXlKV2xuLVQ2WUM0dnVLc0dhTVpKT0h0ODNTd0VhVEpSQk9KS2dQM1FEMnRBem5nbWdpNWpScUdaSjBKNFBMdW5LRWJDX01OTFZVXzkzS1E?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 11 Nov 2026 07:14:33 GMT",
           "sentiment": "中性"
+        },
+        {
+          "title": "廣達Q3獲利創次高，前三季大賺逾兩個股本- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNazA0SWo0YWVFT2VPNG5DMkhUM01BUkVVcXlTSHFGWTFpTkkzVTM4b0V1VkRMbWwtd0hxQ25MSThMU1g4b2FhZXB3NFBrMVJLa01RMnNHY1RMNEVfOXdMd3RnR3ZGOVg2el9yQ0FMY0Zla1Vyb2VfcWVJVGo2bVZST3VtazdTZmp2SHBEVzVHZ0cwZw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 11 Nov 2026 09:06:00 GMT",
+          "sentiment": "利多"
         },
         {
           "title": "廣達 115年10月營收3532.50億、年增103.96% - MoneyDJ",
@@ -20119,10 +20135,10 @@
       ],
       "news": [
         {
-          "title": "日月光投控：日月光半導體製造8/6~11/11取得供營業用之機器設備一批，計約10.05億元- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUUp2UVdhM2N1dWJvWUl6bkJBcWk5ek81YXktT2VSVENhMThobjYycU9ETll4UVRhVnZKUFBVTGhRVXJqVWdEaVRuN1ZTMVh1eE5LYVkxdkZvTk5XZHAza3VKTUFvZjZhM09TTXZWY3RKbEFMa2V2U1J4Vjd1dzdhTnhFX3laV0J0VTh4Um5leEd6QQ?oc=5",
+          "title": "日月光投控：日月光半導體製造10/13~11/12取得供營業用機器設備，計約13億元- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNU29WRGVmakpNeWxOaWxJbG1lODhoYU11UGZUc3FRMy1QQWo4Q3VYaWo2TUJra2NWZ01vbTRsOUF1RVp5SUJ1M0VlWjJreG5pRGF4TXkzNnYwQ2ZYcTEtMnh1dlFoX2JvQWlMT25CSzBqZjVLM1FseEhwM2pRbVZ3NVJSMlVTdlFtU1hzYkdSeXY1UQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Thu, 12 Nov 2026 01:28:00 GMT",
+          "date": "Fri, 13 Nov 2026 01:56:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -24523,6 +24539,13 @@
           "sentiment": "中性"
         },
         {
+          "title": "旭然Q3三率三升/獲利創高，前三季EPS 1.11元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZGhMLTYwUTFmNEVjVWRKSWN0bGZGZkFzTFZrUVFkTjhBMTNWQkxzYW85VkIyWmxyOHU0WW13QXRWa0haWnhMb1hUdHBNMmM2RGxyVHZtVXRvMkFDR2FGaldMQk5oemlDSEJndXN0M1VjVXRIZEhOSWdzWTIyMlVabGY0Z1lpQVpIeXdoaXdKQkZJUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Fri, 13 Nov 2026 03:31:00 GMT",
+          "sentiment": "利多"
+        },
+        {
           "title": "旭然 115年10月營收8870萬、年增15.06% - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQzAxVVhkeEZIemxMTU1FTEtibnBkOWRkY19hX0pSX3g1blFmTjNEemV6Vjd0NXVQdmRTUkI0WU5xYWZQOW5mSWdaSmhjNEdKSnFvdUJqNkZXRjdZMXlQN0hIeDlQbllmNnNFNlE0TXlXazFFNWZZNi1jd0NsR3E4STVtdnBBT1hwVDNuZXBFNHJTUQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -24538,7 +24561,7 @@
         },
         {
           "title": "旭然公告本公司董事會通過115年第3季合併財務報告- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQnVlbUhEOFhaVUgwQy05TnZHRXlGUVZobnhXUGJGS1d6R3ZCd0M2N3ZBYUNuVDdnUi0zWEUzeV90TXJEa0tKRFJfblR2dXVpNS1tTWpqZHlYX2ZiNVRNVVJtSFVub1hVMlVUcGlxaS1SWUVKSl94YTB2X3NtX1AteGw2XzFTUzF6cW0yM3owTVlCUQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd0xuR1l0MkV1M0Ryby1YaVBvaUpMQ1Y2ckJGVWtFbkI1b2RMelB0emM5d2RhOGo1WmR4QjN0U3pNWmk4QXNaSFFqM1dZcUNzNVlkS2NlaWFGc2FUQy1KelI3RjhCalZwSngyU2x3NVA1UGxvRXlRSW5TOGxxY0lUQzZ0UkQtVlIzM0NkTWVTWmVZQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Thu, 12 Nov 2026 08:59:00 GMT",
           "sentiment": "中性"
@@ -24549,16 +24572,9 @@
           "source": "MoneyDJ / Google News",
           "date": "Mon, 09 Nov 2026 07:21:31 GMT",
           "sentiment": "中性"
-        },
-        {
-          "title": "旭然今年看審慎樂觀；聚焦高階過濾新布局- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOEZZSHdWQUlkSloyby05SVQ4eTV5QXNWTVN1aXRmQ282ZDFGbU0wS0t5Y3VJdjNpRzNTNmVHclRqeTNFU1pObllFMENHRGRPYVVmeG5uLVQ1a1p5NENwV2lsWFk2c0xMU1hsc2RNcThURDd2SmVFQzc2N3ZuNzBRTGRTTDNHYU1QSTVKMWJJYUlPUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Mon, 08 Jun 2026 07:00:00 GMT",
-          "sentiment": "中性"
         }
       ],
-      "news_score": 0,
+      "news_score": 1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/4556",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -26743,17 +26759,17 @@
           "sentiment": "中性"
         },
         {
+          "title": "產業動態報導內文-A2336A12-263A-4577-8B45-E914CFF6F3AE - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVJwRDdSMnR4NGhVSWZOcGlvM0hQbldnM2g1QlZpVVduYnhUaDZkY2lvUUtRSXBsQ3hIUU5aUlpNLVdTVy1scEZpSV9lWTVWR01LNnF4MW5CeGN0amZ0TGh3UnlVUG00bHFyTnhIZ3l2d2RORE9pSkZyY3VLN2Z2b3ptVXhacko2N2gwZEJVVnJ4R0J1YWw1WkFB?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Thu, 12 Nov 2026 23:42:52 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "意德士訂7/9為除息交易日，現金股利發放日8/14 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEdabXdWUjd5TUNway10UlJKMjJCX1dIQWZFX01QRUdTbk1TWk4zT0ZlcDhjZkFfRFdDbzY0ajNIalNnV1JrS2pTM0ZkOE5Gb2JqNlZzX3MxUjV0QlJaZ2FYTkJubVZuUjA2QlV2elROT2dTbDdFbV9DY2hkNkY4MGlFeGpsaWdJZlNOSUx4cE4yQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 10 Jun 2026 07:00:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "意德士 115年9月營收8600萬、年增61.99% - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcGU0QXd3U2RCRW5LNzN0MVhXanBzMmR0dDdkS3JYRDh1X2Z4dGx1QWR4eVRnWEdIWkRKNFF2VG5Ib1BHdHVBQXFJRC1jcHllb01kTmI3bW1NbUZyT05lbTJtck9FVC1aSTFRRXZRR2tRT05mVDh2RnNaRFFCNUpzQVllLUZZS0E3Z1BFc3lla1hZdw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 07 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
