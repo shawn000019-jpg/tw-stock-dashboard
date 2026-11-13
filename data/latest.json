@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13 12:53:02",
+  "updated_at": "2026-11-13 13:54:05",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -315,81 +315,73 @@
   "finance_news": {
     "asia": [
       {
-        "title": "老屋重建面臨4大阻力　房仲：全年住宅拆除執照件數恐創新低",
-        "url": "https://www.cna.com.tw/news/afe/202611130085.aspx",
+        "title": "世運站A5公辦都更動土砸逾88.5億　林榮顯：將引進京站百貨",
+        "url": "https://www.cna.com.tw/news/afe/202611130118.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 11:27:49 +0800",
+        "date": "Fri, 13 Nov 2026 12:38:01 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳震撼卸任AI格局恐生變　韓國企業有望受惠",
-        "url": "https://www.cna.com.tw/news/afe/202611130068.aspx",
+        "title": "網友稱千萬款項消失被追債　華南銀：不實訊息已損害商譽",
+        "url": "https://www.cna.com.tw/news/afe/202611130114.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 11:11:12 +0800",
+        "date": "Fri, 13 Nov 2026 12:31:52 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "前輝達韓國代表談黃仁勳卸任　CUDA優勢仍在短期影響有限",
+        "url": "https://www.cna.com.tw/news/afe/202611130113.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 12:29:50 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "黃仁勳辭職　供應鏈：明年訂單無虞、AI門檻高成護城河",
+        "url": "https://www.cna.com.tw/news/afe/202611130109.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 12:21:41 +0800",
         "sentiment": "利多",
         "region": "asia"
       },
       {
-        "title": "思科上調全年營收預測　AI網路設備需求強勁",
-        "url": "https://www.cna.com.tw/news/afe/202611130066.aspx",
+        "title": "黃仁勳去職　日本政府關注AI產業及半導體供應鏈衝擊",
+        "url": "https://www.cna.com.tw/news/aopl/202611130105.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 11:07:08 +0800",
+        "date": "Fri, 13 Nov 2026 12:11:33 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "電金傳齊揚　台股強漲近1400點收復12日跌點",
-        "url": "https://www.cna.com.tw/news/afe/202611130062.aspx",
+        "title": "新台幣午盤升3分　暫收32.859元",
+        "url": "https://www.cna.com.tw/news/afe/202611130104.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 10:59:59 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "美調查黃樂涉走私美超微產品　另傳與華為有關聯",
-        "url": "https://www.cna.com.tw/news/aopl/202611130055.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 10:43:44 +0800",
+        "date": "Fri, 13 Nov 2026 12:07:30 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳去職風波未擴大　台股強彈新台幣震盪翻揚",
-        "url": "https://www.cna.com.tw/news/afe/202611130048.aspx",
+        "title": "黃仁勳請辭　市調：AMD和ASIC將瓜分輝達市場",
+        "url": "https://www.cna.com.tw/news/afe/202611130099.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 10:06:28 +0800",
+        "date": "Fri, 13 Nov 2026 11:52:19 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳卸任掀市場震盪　輝達選擇權交易者押中長期反彈",
-        "url": "https://www.cna.com.tw/news/aopl/202611130047.aspx",
+        "title": "黃仁勳去職　供應鏈：輝達技術路徑不變、ASIC發展加速",
+        "url": "https://www.cna.com.tw/news/afe/202611130096.aspx",
         "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 10:06:26 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "黃仁勳辭職震撼AI晶片版圖　投顧：台廠供應鏈仍無可取代",
-        "url": "https://www.cna.com.tw/news/afe/202611130043.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 09:54:17 +0800",
+        "date": "Fri, 13 Nov 2026 11:48:13 +0800",
         "sentiment": "中性",
         "region": "asia"
       }
     ],
     "international": [
       {
-        "title": "黃仁勳如推銷員全球經營政商人脈　美媒：離任後輝達面臨考驗",
-        "url": "https://www.cna.com.tw/news/aopl/202611130020.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 07:16:26 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "微軟365全球當機搶修中　官方指涉及代管郵件服務",
+        "title": "微軟365全球當機搶修中　官方：代管郵件服務異常將盡快恢復",
         "url": "https://www.cna.com.tw/news/ait/202611130092.aspx",
         "source": "中央社科技",
         "date": "Fri, 13 Nov 2026 11:44:04 +0800",
@@ -431,6 +423,70 @@
     ],
     "all": [
       {
+        "title": "世運站A5公辦都更動土砸逾88.5億　林榮顯：將引進京站百貨",
+        "url": "https://www.cna.com.tw/news/afe/202611130118.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 12:38:01 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "網友稱千萬款項消失被追債　華南銀：不實訊息已損害商譽",
+        "url": "https://www.cna.com.tw/news/afe/202611130114.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 12:31:52 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "前輝達韓國代表談黃仁勳卸任　CUDA優勢仍在短期影響有限",
+        "url": "https://www.cna.com.tw/news/afe/202611130113.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 12:29:50 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "黃仁勳辭職　供應鏈：明年訂單無虞、AI門檻高成護城河",
+        "url": "https://www.cna.com.tw/news/afe/202611130109.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 12:21:41 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "黃仁勳去職　日本政府關注AI產業及半導體供應鏈衝擊",
+        "url": "https://www.cna.com.tw/news/aopl/202611130105.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 12:11:33 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "新台幣午盤升3分　暫收32.859元",
+        "url": "https://www.cna.com.tw/news/afe/202611130104.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 12:07:30 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "黃仁勳請辭　市調：AMD和ASIC將瓜分輝達市場",
+        "url": "https://www.cna.com.tw/news/afe/202611130099.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 11:52:19 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "黃仁勳去職　供應鏈：輝達技術路徑不變、ASIC發展加速",
+        "url": "https://www.cna.com.tw/news/afe/202611130096.aspx",
+        "source": "中央社產經",
+        "date": "Fri, 13 Nov 2026 11:48:13 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "老屋重建面臨4大阻力　房仲：全年住宅拆除執照件數恐創新低",
         "url": "https://www.cna.com.tw/news/afe/202611130085.aspx",
         "source": "中央社產經",
@@ -493,70 +549,6 @@
         "date": "Fri, 13 Nov 2026 09:54:17 +0800",
         "sentiment": "中性",
         "region": "asia"
-      },
-      {
-        "title": "黃仁勳辭輝達執行長　聯發科等ASIC族群齊登漲停",
-        "url": "https://www.cna.com.tw/news/afe/202611130039.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 09:48:09 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "黃仁勳去職利空出盡　台股勁揚逾1200點突破44300點",
-        "url": "https://www.cna.com.tw/news/afe/202611130036.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 09:15:01 +0800",
-        "sentiment": "利多",
-        "region": "asia"
-      },
-      {
-        "title": "散戶大舉逢低買進輝達　開盤暴跌14%後跌幅收斂",
-        "url": "https://www.cna.com.tw/news/afe/202611130035.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 09:06:59 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "新台幣開盤升1.9分　為32.87元",
-        "url": "https://www.cna.com.tw/news/afe/202611130034.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 09:04:57 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "台股開盤漲627.88點",
-        "url": "https://www.cna.com.tw/news/afe/202611130033.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 09:03:55 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "黃仁勳去職台指期夜盤未見頹勢　法人：台股可望回穩",
-        "url": "https://www.cna.com.tw/news/afe/202611130029.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 08:33:46 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "矽谷業界評估美中對抗升級　企業恐難有模糊空間",
-        "url": "https://www.cna.com.tw/news/aopl/202611130025.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 08:06:37 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "黃仁勳如推銷員全球經營政商人脈　美媒：離任後輝達面臨考驗",
-        "url": "https://www.cna.com.tw/news/aopl/202611130020.aspx",
-        "source": "中央社產經",
-        "date": "Fri, 13 Nov 2026 07:16:26 +0800",
-        "sentiment": "中性",
-        "region": "international"
       }
     ]
   },
@@ -2897,7 +2889,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 212.5,
-      "buzz_score": 4,
+      "buzz_score": 25,
       "institution": {
         "foreign": {
           "d1": 8390.677,
@@ -9494,7 +9486,7 @@
       "trend": "空頭",
       "quarter_high": 338.0,
       "quarter_low": 272.0,
-      "buzz_score": 0,
+      "buzz_score": 2,
       "institution": {
         "foreign": {
           "d1": -13462.969,
@@ -13539,8 +13531,8 @@
       ],
       "news": [
         {
-          "title": "富邦金 富邦金控代富邦數位音樂公告取得「富邦一號不動產投資信託基金」使用權資產(補充114/03/10公告) - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUGhFbTlXaThMSWdKZmF3cTFLT1BpbEFmUzZEU3J1Q25YSktsOVZ5U0hRN01BZHZKSFVyWVBYRU56ZFY4YVhDWkdpOFBzOUQ4bEdqeXhscVVieW5KMHJlNUNiVlB2ZFBHVWYzT3JlOG5DODdLTjJfd3Y2T0QwUUVROTFrRUJVdU42MjNOYVpxYXZ5dw?oc=5",
+          "title": "富邦金 富邦金控代富邦數位音樂公告取得「富邦一號不動產投資信託基金」使用權資產(補充115/03/09公告) - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdDJJaGY5VGdpVmZobTlocGxaclpZelcwMnY0dzJYbGE5enV2bkhkT0dDT2JXNlVZdEtETzQweGh3OEtuYl92MkV3dU5YMXE1ZVN3QkdUN2NLV255eTdUTXlDY28yMmhRY19jNTNzWGc0VzRZRzFfbTZKZURuNmhBLVlOZnEwTjdKZ3dyRGJKMGRhZw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Thu, 12 Nov 2026 08:44:00 GMT",
           "sentiment": "中性"
@@ -18288,7 +18280,7 @@
       "trend": "偏弱",
       "quarter_high": 765.0,
       "quarter_low": 515.0,
-      "buzz_score": 0,
+      "buzz_score": 1,
       "institution": {
         "foreign": {
           "d1": -1064.503,
@@ -26759,17 +26751,17 @@
           "sentiment": "中性"
         },
         {
-          "title": "產業動態報導內文-A2336A12-263A-4577-8B45-E914CFF6F3AE - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNLVJwRDdSMnR4NGhVSWZOcGlvM0hQbldnM2g1QlZpVVduYnhUaDZkY2lvUUtRSXBsQ3hIUU5aUlpNLVdTVy1scEZpSV9lWTVWR01LNnF4MW5CeGN0amZ0TGh3UnlVUG00bHFyTnhIZ3l2d2RORE9pSkZyY3VLN2Z2b3ptVXhacko2N2gwZEJVVnJ4R0J1YWw1WkFB?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 12 Nov 2026 23:42:52 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "意德士訂7/9為除息交易日，現金股利發放日8/14 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZEdabXdWUjd5TUNway10UlJKMjJCX1dIQWZFX01QRUdTbk1TWk4zT0ZlcDhjZkFfRFdDbzY0ajNIalNnV1JrS2pTM0ZkOE5Gb2JqNlZzX3MxUjV0QlJaZ2FYTkJubVZuUjA2QlV2elROT2dTbDdFbV9DY2hkNkY4MGlFeGpsaWdJZlNOSUx4cE4yQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 10 Jun 2026 07:00:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "意德士 115年9月營收8600萬、年增61.99% - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcGU0QXd3U2RCRW5LNzN0MVhXanBzMmR0dDdkS3JYRDh1X2Z4dGx1QWR4eVRnWEdIWkRKNFF2VG5Ib1BHdHVBQXFJRC1jcHllb01kTmI3bW1NbUZyT05lbTJtck9FVC1aSTFRRXZRR2tRT05mVDh2RnNaRFFCNUpzQVllLUZZS0E3Z1BFc3lla1hZdw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 07 Oct 2026 07:00:00 GMT",
           "sentiment": "中性"
         }
       ],
