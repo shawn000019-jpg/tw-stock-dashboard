@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16 11:36:01",
+  "updated_at": "2026-11-16 13:27:25",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -310,6 +310,46 @@
   "finance_news": {
     "asia": [
       {
+        "title": "參與COP31　尹崇堯分享台灣高溫微型保險經驗",
+        "url": "https://www.cna.com.tw/news/afe/202611160080.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 12:16:01 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "新台幣午盤重貶1.17角　暫收32.955元",
+        "url": "https://www.cna.com.tw/news/afe/202611160078.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 12:08:57 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "璦司柏17日每股188元登錄興櫃　攻CPO先進封裝",
+        "url": "https://www.cna.com.tw/news/afe/202611160075.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 11:56:50 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "名超每股88元登錄興櫃　前3季每股純益4.26元",
+        "url": "https://www.cna.com.tw/news/afe/202611160072.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 11:39:44 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "電電公會波蘭展17日登場　聚焦AI與智慧製造",
+        "url": "https://www.cna.com.tw/news/afe/202611160063.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 11:26:24 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
         "title": "台股盤中重挫逾1800點　跌破42000點",
         "url": "https://www.cna.com.tw/news/afe/202611160049.aspx",
         "source": "中央社產經",
@@ -332,49 +372,17 @@
         "date": "Mon, 16 Nov 2026 10:54:39 +0800",
         "sentiment": "中性",
         "region": "asia"
-      },
-      {
-        "title": "保險業接軌新制　金管會盼深化風險管理文化",
-        "url": "https://www.cna.com.tw/news/afe/202611160039.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 10:44:32 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "SK海力士5年擬砸345億　扶植本土半導體供應商",
-        "url": "https://www.cna.com.tw/news/aopl/202611160031.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 10:21:15 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "騏億鑫掛牌上櫃　早盤一度震盪翻黑",
-        "url": "https://www.cna.com.tw/news/afe/202611160029.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 10:12:10 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "日本第3季經濟停滯　伊朗戰爭推升通膨壓抑消費",
-        "url": "https://www.cna.com.tw/news/aopl/202611160027.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 09:54:06 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "台股早盤跌逾1300點跌破43000點　台積電跌55元",
-        "url": "https://www.cna.com.tw/news/afe/202611160026.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 09:36:03 +0800",
-        "sentiment": "利空",
-        "region": "asia"
       }
     ],
     "international": [
+      {
+        "title": "AI熱潮動搖　資料中心概念股6月來蒸發4.2兆美元",
+        "url": "https://www.cna.com.tw/news/afe/202611160061.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 11:23:20 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
       {
         "title": "微軟365服務全球當機　亞太企業及政府機關受影響",
         "url": "https://www.cna.com.tw/news/ait/202611130190.aspx",
@@ -398,17 +406,57 @@
         "date": "Fri, 13 Nov 2026 11:35:58 +0800",
         "sentiment": "中性",
         "region": "international"
-      },
-      {
-        "title": "微軟365、Outlook等服務當機　數以千計美國用戶受影響",
-        "url": "https://www.cna.com.tw/news/ait/202611130010.aspx",
-        "source": "中央社科技",
-        "date": "Fri, 13 Nov 2026 04:40:59 +0800",
-        "sentiment": "中性",
-        "region": "international"
       }
     ],
     "all": [
+      {
+        "title": "參與COP31　尹崇堯分享台灣高溫微型保險經驗",
+        "url": "https://www.cna.com.tw/news/afe/202611160080.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 12:16:01 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "新台幣午盤重貶1.17角　暫收32.955元",
+        "url": "https://www.cna.com.tw/news/afe/202611160078.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 12:08:57 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "璦司柏17日每股188元登錄興櫃　攻CPO先進封裝",
+        "url": "https://www.cna.com.tw/news/afe/202611160075.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 11:56:50 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "名超每股88元登錄興櫃　前3季每股純益4.26元",
+        "url": "https://www.cna.com.tw/news/afe/202611160072.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 11:39:44 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "電電公會波蘭展17日登場　聚焦AI與智慧製造",
+        "url": "https://www.cna.com.tw/news/afe/202611160063.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 11:26:24 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "AI熱潮動搖　資料中心概念股6月來蒸發4.2兆美元",
+        "url": "https://www.cna.com.tw/news/afe/202611160061.aspx",
+        "source": "中央社產經",
+        "date": "Mon, 16 Nov 2026 11:23:20 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
       {
         "title": "台股盤中重挫逾1800點　跌破42000點",
         "url": "https://www.cna.com.tw/news/afe/202611160049.aspx",
@@ -486,54 +534,6 @@
         "url": "https://www.cna.com.tw/news/afe/202611160019.aspx",
         "source": "中央社產經",
         "date": "Mon, 16 Nov 2026 09:03:48 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "股東控隱瞞PC銷售疲弱　英特爾遭集體訴訟",
-        "url": "https://www.cna.com.tw/news/afe/202611160014.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 08:47:37 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "AI前景添變數　台股本週聚焦輝達財報",
-        "url": "https://www.cna.com.tw/news/afe/202611160013.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 08:38:35 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "黃仁勳黯然下台　紐約時報：台灣社會錯愕又難以置信",
-        "url": "https://www.cna.com.tw/news/afe/202611160005.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 05:52:12 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "金融時報：黃仁勳考慮回鍋　矽谷盟友施壓輝達董事會要求讓他復職",
-        "url": "https://www.cna.com.tw/news/aopl/202611160004.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 04:57:09 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "美財長貝森特：輝達須「從公司外部」尋找新執行長",
-        "url": "https://www.cna.com.tw/news/aopl/202611160002.aspx",
-        "source": "中央社產經",
-        "date": "Mon, 16 Nov 2026 00:40:00 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "參與COP31　國泰金李長庚：讓重建信任成為氣候轉型力量",
-        "url": "https://www.cna.com.tw/news/afe/202611150205.aspx",
-        "source": "中央社產經",
-        "date": "Sun, 15 Nov 2026 22:50:43 +0800",
         "sentiment": "中性",
         "region": "asia"
       }
@@ -678,7 +678,7 @@
       "trend": "中性",
       "quarter_high": 2590.0,
       "quarter_low": 2020.0,
-      "buzz_score": 6,
+      "buzz_score": 5,
       "institution": {
         "foreign": {
           "d1": -2618.07,
@@ -2532,13 +2532,6 @@
           "sentiment": "中性"
         },
         {
-          "title": "台積電 115年第3季綜合損益表，每股盈餘29.43元 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRHZleWM4aHRXWm0wREJZU3NfUXY2cDlCWGtHWWxPYWpwQ2hwdXB0b24zVmxsQUE4c0IyLUZFamphc2xOUU5SZzdvakxFTE1rc0lhZ09lMkFfWGV1WDVDMEJKMGZ4TTVmYTZfbGo2RnY5cmFqR0dDYVh1cnFmVkxSN0RFNXJlODRWMV8tekZ6UVRRUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Fri, 13 Nov 2026 05:49:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "台積電張曉強：AI晶片需求「永無止境」 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYVphTS1aQVZWRmZMSURiUGUwcE9RYjBnV1U3dHFqLVdyMnBOd1JhR2RJdFZwQ0pBa2VGV3dXVV9sZy1nNV9MZ1F5TWtHN1MwdGl4RDZfSE9iUDJEenRSc3U2QTlOeHBMOUZhaUJKbl9peDk5VHM3MG9kN2NKTGxEMHJhREJPWU45WVNSQWxBaVVxdw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -2547,9 +2540,9 @@
         },
         {
           "title": "台積電(2330)基金持股明細-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5nMl8wb3RDdFpVWWRlZEVOdWZiSnlpc01vcW12Um9TUTR5b3FRbEFOY2hRUm5iVlhhNjFsdmU5UklNWVJVLVBZazZWVHVmak9FSFhpbkpfdGlXNFhZN29jRHd2OFpRYWJjb2VUTGFjSWNZRGs?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VME1IVC1BTmZZWkhOZGpuX0JrRHhycVpwQTJNZmx6R0NOVkJ5WXo1QlBKelFQd3oxUTR0TFJyV3p0VkFEbldfYXFPWmpxMmZBbXZMQUYwOV8zNVFLZlFzbGV2enNNY3E0MlRkcTNNclhhaUU?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 10 Nov 2026 13:39:47 GMT",
+          "date": "Tue, 10 Nov 2026 13:35:02 GMT",
           "sentiment": "中性"
         },
         {
@@ -2564,6 +2557,13 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWHl4T1F1V09feld1LUZ1RVRoV0xmLXQ5WldrSDM5VkI3aFNNWkJGaXpHUVA2T1o1NGNEdno3WGZ6UW1JUXRoY1ctVG1kUFdLUjlfNkFpTzR3VExVTTdZbkVXZGNsWWlwUXkwYWVpZGpSR042aVpqV0NTTThfTnVXMVhGcUYxVWdqc2l6Q2htOHJuUQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 10 Nov 2026 05:57:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "精材與台積簽產能外包協議攻先進封裝oS模組- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQU1d5TzFvSGZfdHpxb0FQRFd4dUxVd0lBMlBCcWFVbG44bHdPdmN3YmxFdFItdUFvMG1BRW1yaVJTYzZ0akRDc1lTQ0Vrb2gwR1lMNnBPanVtLTBDR2wzUG9Hd0dCcXJKamxwWUk5NEx0VUpRYXhvbDQ4OEVuUUY5T2llM3FZTXZBbkpIZUp4bi14UQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Mon, 16 Nov 2026 00:13:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -2883,7 +2883,7 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 212.5,
-      "buzz_score": 10,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
           "d1": 7463.169,
@@ -7296,7 +7296,7 @@
       "trend": "空頭",
       "quarter_high": 2115.0,
       "quarter_low": 1020.0,
-      "buzz_score": 0,
+      "buzz_score": 5,
       "institution": {
         "foreign": {
           "d1": -1411.386,
@@ -9143,6 +9143,13 @@
       ],
       "news": [
         {
+          "title": "台達電AI資料中心占比近5成，檳城新基地啟動- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRmxfMHlOUnJrOE1ZaTZoMl9mNkhsdlFkdzZNc0xyeVFmbEJqM3c2OGpVaDJ4M1NlT204MkNPU29VYndMUXpyYzhEM1R0MzBsZVU3TGVkalc5aEtkeGhMZ0Z0VlE1MUphRk5JellWOXhpN0xHN05MTVROQUQ3Vm44NmphNkJkSTUwMzItRGJlSlk3QQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Mon, 16 Nov 2026 02:15:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "台達電10月營收創歷史新高前10月超越去年全年- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZVhKUE1JTUxYdldQRlBFT2RRNldOVTBEcEhBSWw5UmFYQlM4QXBXLXNuVThPMmJMT2ZBeUpLQ0hVM0huSjlCdlJuMnhscXVOTFBSQWFGd3Vhb3kwblJ0TzhKdWEwTFNVZ3E4TXZWSTVpcjFWeVRxaWFTQ19uUWhJWGZ1WElYMlRLWERQVVdWMnFpZw?oc=5",
           "source": "MoneyDJ / Google News",
@@ -9154,13 +9161,6 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaTdTQ0ZIUEZZWE9lSHAzUl9Wbm9ucHBUOGdzX1JOWVpNeEdhczVyUmh0VnoyenZ1eG5yYWJlakhZYi0xeGlucTlrLTV3UzMzQ2g2N2p5Q01TWVJFVDhQMzFDa2lMQmdDaHdHeldKRUJOdVVYdmNQdmdDQUJIQWJiYkZZMGdubXgtZUllT3R1X2tzZw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Mon, 09 Nov 2026 08:46:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "台達電AI資料中心占比近5成，檳城新基地啟動- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRmxfMHlOUnJrOE1ZaTZoMl9mNkhsdlFkdzZNc0xyeVFmbEJqM3c2OGpVaDJ4M1NlT204MkNPU29VYndMUXpyYzhEM1R0MzBsZVU3TGVkalc5aEtkeGhMZ0Z0VlE1MUphRk5JellWOXhpN0xHN05MTVROQUQ3Vm44NmphNkJkSTUwMzItRGJlSlk3QQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Mon, 16 Nov 2026 02:15:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -11356,17 +11356,17 @@
           "sentiment": "利多"
         },
         {
-          "title": "廣達10月、前10月營收齊創同期新高- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ3ZfQ3ZnZ2FhOE1Ta2RTcmh5aHBtMW5mbm0yWkg1Zk1OYUVwTm9kQU9DWm9uNUlwNXFVSkJSUHBzMGxUR1A3TUJuVC03NFoxN3dUblFfa3kzZzVaTndBcVY4SDMyNHVGdHVhd2Flc0tWa1ZjNEtjMXdSNzZnNmtIczNObGdpRTRaU1JTRWUxbjZzQQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Tue, 10 Nov 2026 00:16:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "廣達(2382)基金持股明細-台股 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1uaGd3UXVHVjBmb29zc2Q3aHdubGE3Ul9OU3VCWXlKV2xuLVQ2WUM0dnVLc0dhTVpKT0h0ODNTd0VhVEpSQk9KS2dQM1FEMnRBem5nbWdpNWpScUdaSjBKNFBMdW5LRWJDX01OTFZVXzkzS1E?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 11 Nov 2026 07:14:33 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "廣達10月、前10月營收齊創同期新高- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZ3ZfQ3ZnZ2FhOE1Ta2RTcmh5aHBtMW5mbm0yWkg1Zk1OYUVwTm9kQU9DWm9uNUlwNXFVSkJSUHBzMGxUR1A3TUJuVC03NFoxN3dUblFfa3kzZzVaTndBcVY4SDMyNHVGdHVhd2Flc0tWa1ZjNEtjMXdSNzZnNmtIczNObGdpRTRaU1JTRWUxbjZzQQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Tue, 10 Nov 2026 00:16:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -20187,13 +20187,6 @@
           "sentiment": "中性"
         },
         {
-          "title": "日月光投控：矽品精密工業10/20~11/12向朋億*取得廠務工程，計約6.2億元- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQkRUSHJ6YTFQZ3dKMmJKVDN3WXVLYWpoSEdNZXBTNG8yTW1XTF9FLWVGM1g5cHd0ZUFNaHNhRzNfZkdseWZtejZzTi1RYm11ay1ITjZCX2k3aGczcU1TYldLbWp6UERMZkg0LWhIa0dhS09TaC1HQ0oyblB3aTJVQlh6dXlNX3BWQlkwdU42a3lLUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 12 Nov 2026 09:20:00 GMT",
-          "sentiment": "中性"
-        },
-        {
           "title": "日月光投控10月營收創歷史新高前十月超越歷年全年- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMFNtY0laX1V5UFBnRExrQ3FmUUgzamFoYllmUlF3RlZHQzd5TElWbU9KajZjYVY1bkh2U0o5WGU1LUc1ZU1jWEhlT1AyeG1Lc1ltNXNZZUUyMUY4WDk5Yk1VYmR1Vm9BUjdKT3hPUGllOGZiZnBxN2lRcE91Rnp0amFENGJ5MldoRjhzbjdMZGlEUQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -20212,6 +20205,13 @@
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1YRVh1dUhhTXN1YWI1dE5jWHdoWFRwTHBJUlMzZFVQUTRHN19JVlp3eDM0NmVfeFVkeGRoRjhsbmNSbnctSUlzQVdOcGptaFBlUFUyZk5DdXZJRm1BOVVHNw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Tue, 10 Nov 2026 21:05:21 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "日月光千億先進封裝布局，路竹廠一期啟用二期動土- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVU1yTlBFSl9MTVhXRjZuRGlTdkRZa3Byc1VXalJJdjdNbXlZbVBwUG9fN1BDZzZXU2JfR194aXoyd1RuaW13SzB5SnBMcDRlaVZZRC1JQVdKZWRXVnBDWktWbVJDX3hfSVQ3eWpuUEpQWFRpNGN1WllTT3J5VTVTcUZSMEw0TTdkMm4wTDVWc2Mxdw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Fri, 13 Nov 2026 04:44:00 GMT",
           "sentiment": "中性"
         }
       ],
