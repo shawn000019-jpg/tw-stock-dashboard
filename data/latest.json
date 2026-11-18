@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 14:53:38",
+  "updated_at": "2026-11-18 19:24:43",
   "sources": [
     "FinMind（量化資料，server-side）",
     "TWSE 臺灣證券交易所",
@@ -15,50 +15,50 @@
       {
         "id": "2891",
         "name": "中信金",
-        "total5": 56466.936
+        "total5": 50594.194
       },
       {
         "id": "2882",
         "name": "國泰金",
-        "total5": 15639.722000000002
+        "total5": 11603.142
       },
       {
         "id": "2881",
         "name": "富邦金",
-        "total5": 12137.791999999998
+        "total5": 4998.768999999999
       }
     ],
     "weakest": [
       {
-        "id": "2317",
-        "name": "鴻海",
-        "total5": -15620.474000000002
+        "id": "2330",
+        "name": "台積電",
+        "total5": -23686.414000000004
       },
       {
-        "id": "2382",
-        "name": "廣達",
-        "total5": -11212.952
+        "id": "2317",
+        "name": "鴻海",
+        "total5": -18308.639000000003
       },
       {
         "id": "3711",
         "name": "日月光投控",
-        "total5": -11034.047999999999
+        "total5": -10793.779999999999
       }
     ]
   },
   "market_institution": {
-    "date": "20261117",
-    "foreign": -380.93637437,
-    "trust": -38.20722349,
-    "dealer": -156.96229125,
-    "total": -576.10588911,
+    "date": "20261118",
+    "foreign": -765.63675949,
+    "trust": 175.58413018,
+    "dealer": -42.020923659999994,
+    "total": -632.07355297,
     "unit": "億元"
   },
   "market_regime": {
     "label": "偏空",
     "score": -9,
     "weight_breadth": -7,
-    "foreign": -380.93637437,
+    "foreign": -765.63675949,
     "note": "權值股技術廣度＋TWSE 外資當日買賣超"
   },
   "decision_zones": {
@@ -90,6 +90,39 @@
         "upside": 76.41159310344827
       },
       {
+        "id": "7556",
+        "name": "意德士",
+        "score": 56,
+        "reasons": [
+          "法人近5日賣超",
+          "技術偏弱",
+          "基準目標尚有 59% 空間"
+        ],
+        "upside": 58.59493856366957
+      },
+      {
+        "id": "3680",
+        "name": "家登",
+        "score": 56,
+        "reasons": [
+          "法人近5日賣超",
+          "技術偏弱",
+          "基準目標尚有 150% 空間"
+        ],
+        "upside": 149.6653411352718
+      },
+      {
+        "id": "2382",
+        "name": "廣達",
+        "score": 55,
+        "reasons": [
+          "法人近5日賣超",
+          "技術偏弱",
+          "基準目標尚有 149% 空間"
+        ],
+        "upside": 148.82701886792452
+      },
+      {
         "id": "2317",
         "name": "鴻海",
         "score": 53,
@@ -101,28 +134,6 @@
         "upside": 74.71446150693748
       },
       {
-        "id": "2382",
-        "name": "廣達",
-        "score": 53,
-        "reasons": [
-          "法人近5日賣超",
-          "技術偏弱",
-          "基準目標尚有 149% 空間"
-        ],
-        "upside": 149.41026415094342
-      },
-      {
-        "id": "7556",
-        "name": "意德士",
-        "score": 52,
-        "reasons": [
-          "法人近5日賣超",
-          "技術偏弱",
-          "基準目標尚有 63% 空間"
-        ],
-        "upside": 63.367471437113345
-      },
-      {
         "id": "2308",
         "name": "台達電",
         "score": 51,
@@ -131,17 +142,7 @@
           "技術偏弱",
           "基準目標尚有 25% 空間"
         ],
-        "upside": 24.591883954370374
-      },
-      {
-        "id": "3680",
-        "name": "家登",
-        "score": 50,
-        "reasons": [
-          "法人近5日賣超",
-          "技術偏弱"
-        ],
-        "upside": 150.71730184230242
+        "upside": 24.673637159064853
       },
       {
         "id": "3711",
@@ -151,30 +152,18 @@
           "法人近5日賣超",
           "技術偏弱"
         ],
-        "upside": 1.8919206639024022
+        "upside": 1.9625971406634912
       },
       {
         "id": "5297",
         "name": "廣化",
-        "score": 36,
+        "score": 39,
         "reasons": [
-          "綜合僅 36 分",
+          "綜合僅 39 分",
           "法人近5日賣超",
           "技術偏弱"
         ],
         "upside": null
-      },
-      {
-        "id": "4556",
-        "name": "旭然",
-        "score": 31,
-        "reasons": [
-          "綜合僅 31 分",
-          "法人近5日賣超",
-          "技術偏弱",
-          "現價高於基準目標"
-        ],
-        "upside": -8.087033925669884
       },
       {
         "id": "2882",
@@ -217,11 +206,22 @@
       {
         "id": "2454",
         "name": "聯發科",
-        "score": 55,
+        "score": 50,
         "reasons": [
           "法人近5日買超"
         ],
-        "upside": -63.914586232164524
+        "upside": -63.89784902726293
+      },
+      {
+        "id": "4556",
+        "name": "旭然",
+        "score": 49,
+        "reasons": [
+          "法人近5日買超",
+          "技術偏弱",
+          "現價高於基準目標"
+        ],
+        "upside": -2.859756234238786
       },
       {
         "id": "7887",
@@ -237,7 +237,7 @@
   },
   "daily_brief": {
     "market": "偏空",
-    "headline": "市場偏空；外資 -380.9 億",
+    "headline": "市場偏空；外資 -765.6 億",
     "leaders": [
       {
         "id": "2412",
@@ -250,9 +250,9 @@
         "score": 59
       },
       {
-        "id": "2454",
-        "name": "聯發科",
-        "score": 55
+        "id": "7556",
+        "name": "意德士",
+        "score": 56
       }
     ],
     "risks": [
@@ -277,8 +277,14 @@
     {
       "id": "2454",
       "name": "聯發科",
-      "score": 55,
-      "change5": 30
+      "score": 50,
+      "change5": 25
+    },
+    {
+      "id": "4556",
+      "name": "旭然",
+      "score": 49,
+      "change5": 16
     },
     {
       "id": "7887",
@@ -297,111 +303,105 @@
       "name": "台達電",
       "score": 51,
       "change5": 8
-    },
-    {
-      "id": "2382",
-      "name": "廣達",
-      "score": 53,
-      "change5": 1
     }
   ],
   "finance_news": {
     "asia": [
       {
-        "title": "11月電子期漲　金融期跌",
-        "url": "https://www.cna.com.tw/news/afe/202611180154.aspx",
+        "title": "輝達財報佳但中國間諜疑雲仍在　亞股走勢分歧",
+        "url": "https://www.cna.com.tw/news/afe/202611180290.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 14:05:58 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "11月台股期指漲14點",
-        "url": "https://www.cna.com.tw/news/afe/202611180152.aspx",
-        "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 14:00:53 +0800",
+        "date": "Wed, 18 Nov 2026 17:57:51 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "台股高低震盪1677點　收漲102點守住4萬點",
-        "url": "https://www.cna.com.tw/news/afe/202611180148.aspx",
+        "title": "萬海航運造樹海　認植養護破110萬棵",
+        "url": "https://www.cna.com.tw/news/afe/202611180285.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 13:53:45 +0800",
+        "date": "Wed, 18 Nov 2026 17:50:41 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "台股漲102.80點",
-        "url": "https://www.cna.com.tw/news/afe/202611180143.aspx",
+        "title": "三商家購股臨會通過轉型更名眾聯投控",
+        "url": "https://www.cna.com.tw/news/afe/202611180283.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 13:46:34 +0800",
+        "date": "Wed, 18 Nov 2026 17:45:36 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳辭任執行長　輝達代理執行長：客戶員工仍支持",
-        "url": "https://www.cna.com.tw/news/aopl/202611180135.aspx",
+        "title": "證交所：明年7/5起千金股升降單位5元降為1元",
+        "url": "https://www.cna.com.tw/news/afe/202611180275.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 13:26:16 +0800",
+        "date": "Wed, 18 Nov 2026 17:27:19 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "少子化不只缺工　中研院士示警教育與產業失衡",
-        "url": "https://www.cna.com.tw/news/afe/202611180114.aspx",
+        "title": "東山非法掩埋引議　台水：距烏山頭水庫4公里、非水源保護區",
+        "url": "https://www.cna.com.tw/news/afe/202611180254.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 12:38:29 +0800",
+        "date": "Wed, 18 Nov 2026 17:09:34 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "新台幣午盤重貶1.38角　暫收32.988元",
-        "url": "https://www.cna.com.tw/news/afe/202611180099.aspx",
+        "title": "荷蘭設光電出現藍綠菌　經部：與台灣水庫環境不同、不宜類推",
+        "url": "https://www.cna.com.tw/news/afe/202611180248.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 12:06:56 +0800",
+        "date": "Wed, 18 Nov 2026 17:04:22 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "彰銀國票金公公併有譜？張兆順：盼明年中有結果",
-        "url": "https://www.cna.com.tw/news/afe/202611180091.aspx",
+        "title": "雙鴻看好明年營收成長高於今年　ASIC業績超越GPU",
+        "url": "https://www.cna.com.tw/news/afe/202611180243.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 11:57:39 +0800",
+        "date": "Wed, 18 Nov 2026 16:59:11 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "財長：若總預算明年1/5前三讀　普發現金最快1/26入帳",
+        "url": "https://www.cna.com.tw/news/afe/202611180237.aspx",
+        "source": "中央社產經",
+        "date": "Wed, 18 Nov 2026 16:52:58 +0800",
         "sentiment": "中性",
         "region": "asia"
       }
     ],
     "international": [
       {
+        "title": "2026年企業新創活躍指數　台灣名列全球第19",
+        "url": "https://www.cna.com.tw/news/afe/202611180295.aspx",
+        "source": "中央社產經",
+        "date": "Wed, 18 Nov 2026 18:08:02 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "歐盟課冷軋鋼反傾銷稅　中鋼：客戶下單轉積極",
+        "url": "https://www.cna.com.tw/news/afe/202611180213.aspx",
+        "source": "中央社產經",
+        "date": "Wed, 18 Nov 2026 16:05:06 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
+        "title": "歐洲商會發布建議書　籲改善經商環境、強化能源韌性與人才延攬",
+        "url": "https://www.cna.com.tw/news/afe/202611180204.aspx",
+        "source": "中央社產經",
+        "date": "Wed, 18 Nov 2026 15:51:47 +0800",
+        "sentiment": "中性",
+        "region": "international"
+      },
+      {
         "title": "Anthropic啟動上市　將成檢驗全球AI投資熱潮關鍵指標",
         "url": "https://www.cna.com.tw/news/ait/202611180151.aspx",
-        "source": "中央社產經",
+        "source": "中央社科技",
         "date": "Wed, 18 Nov 2026 13:59:51 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "新加坡金融科技節　台灣館創新技術秀國際競爭力",
-        "url": "https://www.cna.com.tw/news/afe/202611180126.aspx",
-        "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 12:54:54 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "美國收緊AI晶片出口管制　泰國央行：影響仍待評估",
-        "url": "https://www.cna.com.tw/news/afe/202611180120.aspx",
-        "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 12:43:41 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "歐洲科技新創今年募資估達810億美元　創2015年來次高紀錄",
-        "url": "https://www.cna.com.tw/news/aopl/202611180066.aspx",
-        "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 11:07:45 +0800",
         "sentiment": "中性",
         "region": "international"
       },
@@ -432,130 +432,130 @@
     ],
     "all": [
       {
-        "title": "11月電子期漲　金融期跌",
-        "url": "https://www.cna.com.tw/news/afe/202611180154.aspx",
+        "title": "2026年企業新創活躍指數　台灣名列全球第19",
+        "url": "https://www.cna.com.tw/news/afe/202611180295.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 14:05:58 +0800",
-        "sentiment": "利空",
-        "region": "asia"
-      },
-      {
-        "title": "11月台股期指漲14點",
-        "url": "https://www.cna.com.tw/news/afe/202611180152.aspx",
-        "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 14:00:53 +0800",
-        "sentiment": "中性",
-        "region": "asia"
-      },
-      {
-        "title": "Anthropic啟動上市　將成檢驗全球AI投資熱潮關鍵指標",
-        "url": "https://www.cna.com.tw/news/ait/202611180151.aspx",
-        "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 13:59:51 +0800",
+        "date": "Wed, 18 Nov 2026 18:08:02 +0800",
         "sentiment": "中性",
         "region": "international"
       },
       {
-        "title": "台股高低震盪1677點　收漲102點守住4萬點",
-        "url": "https://www.cna.com.tw/news/afe/202611180148.aspx",
+        "title": "輝達財報佳但中國間諜疑雲仍在　亞股走勢分歧",
+        "url": "https://www.cna.com.tw/news/afe/202611180290.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 13:53:45 +0800",
+        "date": "Wed, 18 Nov 2026 17:57:51 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "台股漲102.80點",
-        "url": "https://www.cna.com.tw/news/afe/202611180143.aspx",
+        "title": "萬海航運造樹海　認植養護破110萬棵",
+        "url": "https://www.cna.com.tw/news/afe/202611180285.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 13:46:34 +0800",
+        "date": "Wed, 18 Nov 2026 17:50:41 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "黃仁勳辭任執行長　輝達代理執行長：客戶員工仍支持",
-        "url": "https://www.cna.com.tw/news/aopl/202611180135.aspx",
+        "title": "三商家購股臨會通過轉型更名眾聯投控",
+        "url": "https://www.cna.com.tw/news/afe/202611180283.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 13:26:16 +0800",
+        "date": "Wed, 18 Nov 2026 17:45:36 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "新加坡金融科技節　台灣館創新技術秀國際競爭力",
-        "url": "https://www.cna.com.tw/news/afe/202611180126.aspx",
+        "title": "證交所：明年7/5起千金股升降單位5元降為1元",
+        "url": "https://www.cna.com.tw/news/afe/202611180275.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 12:54:54 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "美國收緊AI晶片出口管制　泰國央行：影響仍待評估",
-        "url": "https://www.cna.com.tw/news/afe/202611180120.aspx",
-        "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 12:43:41 +0800",
-        "sentiment": "中性",
-        "region": "international"
-      },
-      {
-        "title": "少子化不只缺工　中研院士示警教育與產業失衡",
-        "url": "https://www.cna.com.tw/news/afe/202611180114.aspx",
-        "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 12:38:29 +0800",
+        "date": "Wed, 18 Nov 2026 17:27:19 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "新台幣午盤重貶1.38角　暫收32.988元",
-        "url": "https://www.cna.com.tw/news/afe/202611180099.aspx",
+        "title": "東山非法掩埋引議　台水：距烏山頭水庫4公里、非水源保護區",
+        "url": "https://www.cna.com.tw/news/afe/202611180254.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 12:06:56 +0800",
+        "date": "Wed, 18 Nov 2026 17:09:34 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "彰銀國票金公公併有譜？張兆順：盼明年中有結果",
-        "url": "https://www.cna.com.tw/news/afe/202611180091.aspx",
+        "title": "荷蘭設光電出現藍綠菌　經部：與台灣水庫環境不同、不宜類推",
+        "url": "https://www.cna.com.tw/news/afe/202611180248.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 11:57:39 +0800",
+        "date": "Wed, 18 Nov 2026 17:04:22 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "立委質疑曠世智能虧損仍不撤資　台企銀：經營狀況有改善",
-        "url": "https://www.cna.com.tw/news/afe/202611180090.aspx",
+        "title": "雙鴻看好明年營收成長高於今年　ASIC業績超越GPU",
+        "url": "https://www.cna.com.tw/news/afe/202611180243.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 11:56:36 +0800",
-        "sentiment": "利空",
+        "date": "Wed, 18 Nov 2026 16:59:11 +0800",
+        "sentiment": "利多",
         "region": "asia"
       },
       {
-        "title": "台塑新智能攜手立碁電子　共推台灣微電網建置",
-        "url": "https://www.cna.com.tw/news/afe/202611180079.aspx",
+        "title": "財長：若總預算明年1/5前三讀　普發現金最快1/26入帳",
+        "url": "https://www.cna.com.tw/news/afe/202611180237.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 11:50:13 +0800",
+        "date": "Wed, 18 Nov 2026 16:52:58 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "台股盤中拚守4萬點　台積電小漲、AI股欲振乏力",
-        "url": "https://www.cna.com.tw/news/afe/202611180077.aspx",
+        "title": "施吉生技23日登錄興櫃　明年底拚進30家醫療院所",
+        "url": "https://www.cna.com.tw/news/afe/202611180236.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 11:45:09 +0800",
+        "date": "Wed, 18 Nov 2026 16:49:56 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "佳世達旗下其曜液冷散熱解決方案　拚AI基礎設施",
-        "url": "https://www.cna.com.tw/news/afe/202611180070.aspx",
+        "title": "資策會：2大機制推動新創落地　串聯產業需求走向市場",
+        "url": "https://www.cna.com.tw/news/afe/202611180235.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 11:18:53 +0800",
+        "date": "Wed, 18 Nov 2026 16:45:54 +0800",
         "sentiment": "中性",
         "region": "asia"
       },
       {
-        "title": "歐洲科技新創今年募資估達810億美元　創2015年來次高紀錄",
-        "url": "https://www.cna.com.tw/news/aopl/202611180066.aspx",
+        "title": "中國車市競爭激烈　裕日車：合資品牌經營更艱辛",
+        "url": "https://www.cna.com.tw/news/afe/202611180228.aspx",
         "source": "中央社產經",
-        "date": "Wed, 18 Nov 2026 11:07:45 +0800",
+        "date": "Wed, 18 Nov 2026 16:30:39 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "碩正離型膜獲一線半導體廠採用　卡位先進封裝商機",
+        "url": "https://www.cna.com.tw/news/afe/202611180224.aspx",
+        "source": "中央社產經",
+        "date": "Wed, 18 Nov 2026 16:18:30 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "中研院經濟所與中經院簽署協議　深化經濟研究合作",
+        "url": "https://www.cna.com.tw/news/afe/202611180222.aspx",
+        "source": "中央社產經",
+        "date": "Wed, 18 Nov 2026 16:15:26 +0800",
+        "sentiment": "利多",
+        "region": "asia"
+      },
+      {
+        "title": "新台幣貶9.7分　收32.947元",
+        "url": "https://www.cna.com.tw/news/afe/202611180215.aspx",
+        "source": "中央社產經",
+        "date": "Wed, 18 Nov 2026 16:08:11 +0800",
+        "sentiment": "中性",
+        "region": "asia"
+      },
+      {
+        "title": "歐盟課冷軋鋼反傾銷稅　中鋼：客戶下單轉積極",
+        "url": "https://www.cna.com.tw/news/afe/202611180213.aspx",
+        "source": "中央社產經",
+        "date": "Wed, 18 Nov 2026 16:05:06 +0800",
         "sentiment": "中性",
         "region": "international"
       }
@@ -572,7 +572,7 @@
       "eps_ttm": 98.27,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 147.405,
-      "pe": 22.09,
+      "pe": 22.14,
       "quarterly_eps": [
         {
           "quarter": "2024Q4",
@@ -692,7 +692,7 @@
           "revenue": 586890319000.0
         }
       ],
-      "target_low": 3185.0535375000004,
+      "target_low": 3193.8978375,
       "target_base": 3836.95215,
       "target_high": 4197.3573750000005,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
@@ -700,28 +700,28 @@
       "trend": "偏弱",
       "quarter_high": 2590.0,
       "quarter_low": 2020.0,
-      "buzz_score": 4,
+      "buzz_score": 12,
       "institution": {
         "foreign": {
-          "d1": -14606.092,
-          "d5": -23607.754,
-          "d20": -173441.172
+          "d1": -15452.905,
+          "d5": -45098.978,
+          "d20": -179059.366
         },
         "trust": {
-          "d1": 2275.372,
-          "d5": 5423.105,
-          "d20": 45261.779
+          "d1": 3372.795,
+          "d5": 6410.624,
+          "d20": 44750.0
         },
         "dealer": {
-          "d1": 6825.4259999999995,
-          "d5": 9965.957,
-          "d20": 37218.953
+          "d1": 5184.878,
+          "d5": 15001.939999999999,
+          "d20": 41057.666
         },
-        "total5": -8218.692000000003,
+        "total5": -23686.414000000004,
         "signal": "法人偏空",
-        "streak": "連賣2日",
-        "foreign_streak": "連賣4日",
-        "last_date": "2026-11-17"
+        "streak": "連賣3日",
+        "foreign_streak": "連賣5日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -2794,7 +2794,7 @@
       "eps_ttm": 16.57,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 24.14752720014583,
-      "pe": 13.25,
+      "pe": 13.37,
       "quarterly_eps": [
         {
           "quarter": "2024Q4",
@@ -2922,28 +2922,28 @@
       "trend": "空頭",
       "quarter_high": 266.5,
       "quarter_low": 212.5,
-      "buzz_score": 32,
+      "buzz_score": 4,
       "institution": {
         "foreign": {
-          "d1": -3329.158,
-          "d5": -18176.554,
-          "d20": 9660.002999999993
+          "d1": -7150.167,
+          "d5": -23564.768,
+          "d20": 17394.15499999999
         },
         "trust": {
-          "d1": 866.466,
-          "d5": -2515.5280000000002,
-          "d20": 13707.272
+          "d1": 1402.561,
+          "d5": -1713.3040000000003,
+          "d20": 14292.105
         },
         "dealer": {
-          "d1": 2834.4709999999995,
-          "d5": 5071.607999999999,
-          "d20": 17850.386
+          "d1": 1971.137,
+          "d5": 6969.432999999999,
+          "d20": 19276.145
         },
-        "total5": -15620.474000000002,
+        "total5": -18308.639000000003,
         "signal": "法人偏空",
-        "streak": "連買1日",
-        "foreign_streak": "連賣2日",
-        "last_date": "2026-11-17"
+        "streak": "連賣1日",
+        "foreign_streak": "連賣3日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -5016,7 +5016,7 @@
       "eps_ttm": 62.35,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 65.94458731227819,
-      "pe": 61.77,
+      "pe": 63.37,
       "quarterly_eps": [
         {
           "quarter": "2024Q4",
@@ -5136,36 +5136,36 @@
           "revenue": 55025656000.0
         }
       ],
-      "target_low": 1330.1023260886511,
-      "target_base": 1421.7653024527178,
-      "target_high": 1668.7277819371996,
+      "target_low": 1332.4103866445807,
+      "target_base": 1422.4247483258405,
+      "target_high": 1671.8601498345326,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位；模型與現價差距過大，請降低權重",
       "valuation_status": "估值偏熱",
       "trend": "中性",
       "quarter_high": 5165.0,
       "quarter_low": 3115.0,
-      "buzz_score": 4,
+      "buzz_score": 5,
       "institution": {
         "foreign": {
-          "d1": -2143.421,
-          "d5": 302.2150000000001,
-          "d20": -36523.258
+          "d1": -986.318,
+          "d5": -257.9519999999999,
+          "d20": -36356.376000000004
         },
         "trust": {
-          "d1": 635.188,
-          "d5": 1836.408,
-          "d20": 11213.145
+          "d1": 351.227,
+          "d5": 1597.942,
+          "d20": 11398.637
         },
         "dealer": {
-          "d1": 348.702,
-          "d5": 631.092,
-          "d20": 1653.701
+          "d1": 432.703,
+          "d5": 903.668,
+          "d20": 2300.469
         },
-        "total5": 2769.715,
-        "signal": "法人偏多",
-        "streak": "連賣2日",
-        "foreign_streak": "連賣2日",
-        "last_date": "2026-11-17"
+        "total5": 2243.658,
+        "signal": "內資偏多",
+        "streak": "連賣3日",
+        "foreign_streak": "連賣3日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -7043,10 +7043,10 @@
       },
       "score": {
         "fundamental": 16,
-        "chip": 25,
+        "chip": 20,
         "technical": 14,
         "valuation": 0,
-        "total": 55
+        "total": 50
       },
       "score_history": [
         {
@@ -7196,14 +7196,14 @@
         {
           "date": "2026-11-18",
           "fundamental": 16,
-          "chip": 25,
+          "chip": 20,
           "technical": 14,
           "valuation": 0,
-          "total": 55
+          "total": 50
         }
       ],
-      "score_change_1d": 7,
-      "score_change_5d": 30,
+      "score_change_1d": 2,
+      "score_change_5d": 25,
       "risk_reward": {
         "support": 3115.0,
         "resistance": 5165.0,
@@ -7225,7 +7225,7 @@
         "reasons": [
           "法人近5日買超"
         ],
-        "upside": -63.914586232164524
+        "upside": -63.89784902726293
       }
     },
     {
@@ -7238,7 +7238,7 @@
       "eps_ttm": 33.3,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 43.32919848806844,
-      "pe": 31.68,
+      "pe": 31.83,
       "quarterly_eps": [
         {
           "quarter": "2024Q4",
@@ -7358,36 +7358,36 @@
           "revenue": 74666163000.0
         }
       ],
-      "target_low": 1138.5830132702185,
-      "target_base": 1320.673969916326,
+      "target_low": 1139.5579202362,
+      "target_base": 1321.5405538860875,
       "target_high": 2319.736964054964,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "低於保守價",
       "trend": "空頭",
       "quarter_high": 2115.0,
       "quarter_low": 1000.0,
-      "buzz_score": 1,
+      "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": 258.844,
-          "d5": -9507.418,
-          "d20": -50572.08
+          "d1": -2575.466,
+          "d5": -8939.53,
+          "d20": -52312.611
         },
         "trust": {
-          "d1": -2270.091,
-          "d5": -2034.7289999999998,
-          "d20": -1846.6829999999998
+          "d1": 420.466,
+          "d5": -2402.814,
+          "d20": -2058.7619999999997
         },
         "dealer": {
-          "d1": 713.7420000000001,
-          "d5": 1638.328,
-          "d20": 3308.319
+          "d1": 591.086,
+          "d5": 2130.886,
+          "d20": 4478.085
         },
-        "total5": -9903.819,
+        "total5": -9211.457999999999,
         "signal": "法人偏空",
-        "streak": "連賣27日",
-        "foreign_streak": "連買1日",
-        "last_date": "2026-11-17"
+        "streak": "連賣28日",
+        "foreign_streak": "連賣1日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -9213,6 +9213,20 @@
       ],
       "news": [
         {
+          "title": "台達電本公司代子公司Delta Electronics Int'l (Singapore)Pte. Ltd.公告發放現金股利- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZkMzdFlzVDVFTTdxWXZKakpCdkc3bmdpendZSHVKQ2NSWEZPTXhyYi15VXozanNKQnpjUnBjU0F2TWxVWlIzeWNJRzlvWERjRjFmYkNKRl8teVVnSUtqcUpvcVpJUlJSaGpjc1ZnYlJQQUFyNVhhaXUxRUN0dTJlYkpaLUVrQUJPRjhFNVhURV9hdw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 18 Nov 2026 08:44:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "台達電本公司代子公司Delta Electronics Int'l (Singapore)Pte. Ltd.公告現金股利除息基準日- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaUlRdG1UNnNIY01zajNCTTVpbnZFVXZWbXVCY1V6a3Y3cnZPc1dyV0lDbnFmQS0yLU4xWkdpUndhc09KMHBUY1A0bXZXelhNUjRTXzRVVjdoRVZ4RFJxRG1pTXJza1hkbXFFeUczd0UwSF9pX0x5N3BSb2J3ZXM5M0tVcjV0bm9HM0hYaFRBel9adw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 18 Nov 2026 08:44:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "台達電 (補充公告)本公司代子公司Delta Electronics Int'l (Singapore) Pte. Ltd.公告董事會決議擬增資DEM - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWTZvUVRFSm1tSFNzVXNMaXpmM0RxZDQ4MXRkaUhlc3lzY2ZOZjgwSDNpRWJZVTZONG5oR2hpbXlOajZGbkNMRUVITXNsb1NMSTRlcmh1MGhEb0Q4YVJ2TS1xUFE3dGFELWljRDdDczN0U2otbGs2NnBqRU9oZkdiRnV6RXVkZ1h0b1RLZWdXcTR6UQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -9238,20 +9252,6 @@
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTkpBWU1TNGUzMDhaSXNsQnBVMGxmZDBFZ09GXzRCb00xR2VNanZsZmRPbEN4Z3FnbS15Mi0wbUpIT2owd2J4YXNuRllEcEliWVNfT1JQVGpkZHIzR241RGpKT0N5bTBzYVdlZ0J5OTNEOEFkcTBrVm1QZWNILTBjSGVCc0U3UHVUdTVteHRKeW9Sdw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Wed, 18 Nov 2026 00:39:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "台股早盤衝高回落！一度漲破800點直逼41K 台積電開2200元 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMzVCdDJYOFlndnNBVEU0VkdkSFhsUTJCeXZsN09EV1VBVENxMmVXdm1Eb0pHNURGb3ZlLWdiazU3dmk1djZiUEttTllsR0cyZklqbjlNcVgwRDliSWJ6MkR5Vy1nclRxV3hlT0Y1bjBiMGd2TVJCWFY0eUZnaWRMNG5ZTjB3ejFzeW5mOXV1QllYdw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 18 Nov 2026 02:22:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "黃仁勳請辭台股卻翻紅！早盤漲破1200點台積電直逼2400元大關- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSjNsVlE5Sks3MHFkbHlyQWp4TGZwU0hDdWgyWVZJQ2tVenFpY3Znd3RUM0tMX2xQNEZSVG5vR1YyUjUzY3FNamFKMlRXRHdIMmRCV2VpMjZhMjM3NFNSZFNzbUhpNEN2NDZyejVlWjNJZllnMmlOVUhySmxOV21tamdFaE9NMUhOZGdRaVpTaU1DUQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Fri, 13 Nov 2026 01:57:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -9429,9 +9429,9 @@
       "risk_reward": {
         "support": 1000.0,
         "resistance": 2115.0,
-        "upside_pct": 24.591883954370374,
+        "upside_pct": 24.673637159064853,
         "downside_pct": 5.660377358490567,
-        "rr": 4.344566165272099,
+        "rr": 4.35900923143479,
         "entry_low": 990.0,
         "entry_high": 1030.0,
         "risk_note": "近季低點作風險參考；非自動停損價"
@@ -9447,7 +9447,7 @@
           "技術偏弱",
           "基準目標尚有 25% 空間"
         ],
-        "upside": 24.591883954370374
+        "upside": 24.673637159064853
       }
     },
     {
@@ -9460,7 +9460,7 @@
       "eps_ttm": 25.759999999999998,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 38.64,
-      "pe": 10.71,
+      "pe": 10.81,
       "quarterly_eps": [
         {
           "quarter": "2024Q4",
@@ -9581,8 +9581,8 @@
         }
       ],
       "target_low": 601.2384000000001,
-      "target_base": 660.9372000000001,
-      "target_high": 833.2715999999999,
+      "target_base": 659.3915999999999,
+      "target_high": 830.3735999999999,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "低於保守價",
       "trend": "空頭",
@@ -9591,25 +9591,25 @@
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": 144.333,
-          "d5": -11595.426,
-          "d20": -23401.179
+          "d1": -6005.63,
+          "d5": -15322.804,
+          "d20": -25267.111999999997
         },
         "trust": {
-          "d1": 1309.578,
-          "d5": -1500.2899999999995,
-          "d20": 9702.525
+          "d1": 5807.954,
+          "d5": 3634.1110000000003,
+          "d20": 15056.373
         },
         "dealer": {
-          "d1": 790.05,
-          "d5": 1882.764,
-          "d20": 10065.852
+          "d1": 999.554,
+          "d5": 3000.266,
+          "d20": 10438.886
         },
-        "total5": -11212.952,
+        "total5": -8688.427,
         "signal": "法人偏空",
-        "streak": "連買2日",
-        "foreign_streak": "連買2日",
-        "last_date": "2026-11-17"
+        "streak": "連買3日",
+        "foreign_streak": "連賣1日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -11435,36 +11435,15 @@
       ],
       "news": [
         {
-          "title": "廣達明年AI伺服器拚高雙位數增；未見客戶調整訂單- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZkY1MEhUUWtocng1bzZpdUYyNlpIX3pSQlJEWElTX003d1gwN3dITm5hbnlXTE5OdnV5NHc1SklLVGNqcXlESS1jbVhLTTJrWGNna1pRQXJreHZyTWxQU3RfTjM5ZldLVTBUY1pPU291SU9HUDluaHNXSmJybkUwVURrWFZjT2FBeVpFSS1ucU84UQ?oc=5",
+          "title": "廣達：Quanta Manufacturing Nashville美國廠租賃使用權資產，計約1491萬美元- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeE52Y1lmbTZBdVFiUTdSb1BjblpVZEV1SGdCUTdFM2VvUTZ4bXVjMW52ZkFyX0h4VldaYWpack4xbDc5YzBETmZEUnJXUkZPVUI3eTMtZXdNZHVPdHpib1dPdm54R3BpS1hadkpNZFZhdklsXy1xRUlJZnBWRlV6NlNfSERBNkdEUE56LTl4am1VUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Wed, 11 Nov 2026 09:06:00 GMT",
-          "sentiment": "利多"
-        },
-        {
-          "title": "廣達Q3獲利創次高，前三季大賺逾兩個股本- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNazA0SWo0YWVFT2VPNG5DMkhUM01BUkVVcXlTSHFGWTFpTkkzVTM4b0V1VkRMbWwtd0hxQ25MSThMU1g4b2FhZXB3NFBrMVJLa01RMnNHY1RMNEVfOXdMd3RnR3ZGOVg2el9yQ0FMY0Zla1Vyb2VfcWVJVGo2bVZST3VtazdTZmp2SHBEVzVHZ0cwZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 11 Nov 2026 09:06:00 GMT",
-          "sentiment": "利多"
-        },
-        {
-          "title": "廣達(2382)基金持股明細-台股 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1uaGd3UXVHVjBmb29zc2Q3aHdubGE3Ul9OU3VCWXlKV2xuLVQ2WUM0dnVLc0dhTVpKT0h0ODNTd0VhVEpSQk9KS2dQM1FEMnRBem5nbWdpNWpScUdaSjBKNFBMdW5LRWJDX01OTFZVXzkzS1E?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 11 Nov 2026 07:14:33 GMT",
+          "date": "Wed, 18 Nov 2026 06:48:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "評估AI伺服器獲利，廣達：營業利益增幅須優於費用- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYndFVGZfWDdWVmNvdURxVTd2bS1mdE43Z3lWblNJMHcta1NFLTNNT3RWWXZCTjBQc2wwYm1XOG5YQURFakNHdDFXV2hlWENwbG4yeDhOWl9qZmxWR1lMV1RyT09hSlFCWUhOelp6Y1huSVAzQzROV2dOUElEYWxZTVAzQ0VRdGxqTHQ4NTVBTlFadw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Thu, 12 Nov 2026 01:51:00 GMT",
-          "sentiment": "利多"
-        },
-        {
-          "title": "廣達本公司受邀參加麥格理證券所舉辦之\"Macquarie Taiwan Conference 2026\"投資論壇- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZWNSd21uWGwwdE9IRU4zLXFEdzFvaTd1X2w2dFl1S0JrS1pMSTFNa0x1QWZpeHNWVURPWVcxYVZKTHBoWWUtbV9uTzZjSXAzWVBxSFJLNzUtUjRJOEVhTktMTFg0QmctYXJfeWMzVFowa1FObWJwTzZtRXN5S0w1UExPb1l5SXBsVERRNjhKckNOZw?oc=5",
+          "title": "廣達本公司受邀參加2026年元大證券第四季投資論壇- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN2JJTllka3Ytb2hreWw5SjVBOTFZUHVMcWhTWWZBLTctUWVjeFRXS0dneC1KalJrMXRoVHJNMXZVaXdwV2VVajFmWThuS3NmODFYeTlRZEtJbVZIeWhqS254SGo5ZUVlUlZkYUp3V0ZmRU93MThITmpnd2UyRXNuWG95UHVsclR6NWNpWHFIeE5uUQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Fri, 13 Nov 2026 07:29:00 GMT",
           "sentiment": "中性"
@@ -11475,9 +11454,30 @@
           "source": "MoneyDJ / Google News",
           "date": "Fri, 13 Nov 2026 07:45:00 GMT",
           "sentiment": "中性"
+        },
+        {
+          "title": "《DJ在線》AI投資續航力受矚伺服器廠：訂單尚未鬆動- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZ0FkOFgtdWRfdm1DUFMwNDN6VzRfcFVaX1lOSnZIbG5zbW5vWTExeVRNdDFDT2xoSHRfOFhEb0RNVUtTWkpZQjA0aU12cUd4Q1VSM0JVZWxMeVZnclN0ZUlGSlRDOF9adG9mUnNTQWhMc1JEU0g0OEYxdzFYel9LMl93UldoM3ZmTjAwMEFWZVBsUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Fri, 13 Nov 2026 01:00:00 GMT",
+          "sentiment": "利多"
+        },
+        {
+          "title": "台股早盤衝高回落！一度漲破800點直逼41K 台積電開2200元 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMzVCdDJYOFlndnNBVEU0VkdkSFhsUTJCeXZsN09EV1VBVENxMmVXdm1Eb0pHNURGb3ZlLWdiazU3dmk1djZiUEttTllsR0cyZklqbjlNcVgwRDliSWJ6MkR5Vy1nclRxV3hlT0Y1bjBiMGd2TVJCWFY0eUZnaWRMNG5ZTjB3ejFzeW5mOXV1QllYdw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 18 Nov 2026 02:22:00 GMT",
+          "sentiment": "中性"
+        },
+        {
+          "title": "台股上演大怒神！早盤漲627點後翻黑摜破40K 尾盤急拉翻紅險守大關- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNREdIVS1kVk1nbFRsY1RzZGFZdUYwTTJRcVNRTXlZUDFMZmI3VXRaaTlvNTNGR3V5NGJCTC12bDRob1JvQzQ1ZFdaRmltVzI0bFBsQ0g4ZUpnUUc4bmcydXNFWHVVZmVHZWlaYkR6ZnJqSWw5UTk3aDBoWUdrTEJocktvckd2QjNLRVVoTGk1SmRVdw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 18 Nov 2026 06:02:00 GMT",
+          "sentiment": "中性"
         }
       ],
-      "news_score": 3,
+      "news_score": 1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/2382",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -11487,10 +11487,10 @@
       },
       "score": {
         "fundamental": 25,
-        "chip": 0,
+        "chip": 2,
         "technical": 3,
         "valuation": 25,
-        "total": 53
+        "total": 55
       },
       "score_history": [
         {
@@ -11640,20 +11640,20 @@
         {
           "date": "2026-11-18",
           "fundamental": 25,
-          "chip": 0,
+          "chip": 2,
           "technical": 3,
           "valuation": 25,
-          "total": 53
+          "total": 55
         }
       ],
-      "score_change_1d": 3,
-      "score_change_5d": 1,
+      "score_change_1d": 5,
+      "score_change_5d": 3,
       "risk_reward": {
         "support": 253.0,
         "resistance": 338.0,
-        "upside_pct": 149.41026415094342,
+        "upside_pct": 148.82701886792452,
         "downside_pct": 4.528301886792453,
-        "rr": 32.99476666666667,
+        "rr": 32.865966666666665,
         "entry_low": 250.47,
         "entry_high": 260.59000000000003,
         "risk_note": "近季低點作風險參考；非自動停損價"
@@ -11669,7 +11669,7 @@
           "技術偏弱",
           "基準目標尚有 149% 空間"
         ],
-        "upside": 149.41026415094342
+        "upside": 148.82701886792452
       }
     },
     {
@@ -11682,7 +11682,7 @@
       "eps_ttm": 11.55,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 8.085,
-      "pe": 14.07,
+      "pe": 13.93,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
@@ -11804,7 +11804,7 @@
       ],
       "target_low": 92.41155,
       "target_base": 102.35610000000001,
-      "target_high": 127.13662500000001,
+      "target_high": 126.69195000000002,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "估值偏熱",
       "trend": "偏弱",
@@ -11813,25 +11813,25 @@
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": -10141.003,
-          "d5": -18939.065000000002,
-          "d20": -18287.525
+          "d1": -4629.489,
+          "d5": -23515.117,
+          "d20": -21512.632
         },
         "trust": {
-          "d1": 6823.0,
-          "d5": 28708.842,
-          "d20": 35737.056
+          "d1": 3847.0,
+          "d5": 25628.842,
+          "d20": 40610.818999999996
         },
         "dealer": {
-          "d1": 1936.286,
-          "d5": 2368.015,
-          "d20": 14676.552
+          "d1": -0.2949999999999591,
+          "d5": 2885.0440000000003,
+          "d20": 13994.019
         },
-        "total5": 12137.791999999998,
+        "total5": 4998.768999999999,
         "signal": "內資偏多",
-        "streak": "連賣2日",
-        "foreign_streak": "連賣2日",
-        "last_date": "2026-11-17"
+        "streak": "連賣3日",
+        "foreign_streak": "連賣3日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -13692,10 +13692,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "富邦金 富邦金控代子公司富邦投信公告取得「富邦一號不動產投資信託基金」使用權資產- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcHlPb1REdGlfVWxBZTlNOVJVdnN1TlpyeThQZ05Eck1XZlJ4QjJUbGNQNTI5djRMWHBhOTFwRVNNMWVTOXlEOUk0Q0N3NWp1djVEY21QX0hXX1ltUnlvbUw4al9TLXJBVGtIVXpVZGFKX2tnUzZNbFVIOXlKUjluVG9DMExvdFRBSWsyVE15MUR6Zw?oc=5",
+          "title": "富邦金 富邦金控代子公司富邦資產管理股份有限公司公告取得台北富邦商業銀行股份有限公司使用權資產- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQzhQNEtOXzVYc1FJZ1FoVFBFc1p4ZHp3LVc1ZWtjZWhCRWxBTThoNHFaclZub2d0Nl9JY0tDenJ3ZFdTbGV3STBLWEhuVERxTnhqTXh0WWN2MWNoUHgwUHRjMjV5MmZVMm4wUUJsM05DOXhRcDdVd2VhdmhSeWs3VlJPdU5SNWxWVTl3QmM4OVdyUQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Tue, 17 Nov 2026 08:35:00 GMT",
+          "date": "Wed, 18 Nov 2026 09:04:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -13905,7 +13905,7 @@
       "eps_ttm": 9.12,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 6.3839999999999995,
-      "pe": 13.09,
+      "pe": 12.97,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
@@ -14036,25 +14036,25 @@
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": -4368.686,
-          "d5": -14723.188,
-          "d20": -36222.719
+          "d1": -9071.597,
+          "d5": -18533.532,
+          "d20": -41089.904
         },
         "trust": {
-          "d1": 7007.0,
-          "d5": 27317.0,
-          "d20": 60882.820999999996
+          "d1": 6202.0,
+          "d5": 25720.0,
+          "d20": 64911.515999999996
         },
         "dealer": {
-          "d1": 2082.653,
-          "d5": 3045.91,
-          "d20": 17470.443
+          "d1": 803.8449999999999,
+          "d5": 4416.674,
+          "d20": 17670.69
         },
-        "total5": 15639.722000000002,
+        "total5": 11603.142,
         "signal": "內資偏多",
-        "streak": "連買1日",
-        "foreign_streak": "連賣2日",
-        "last_date": "2026-11-17"
+        "streak": "連賣1日",
+        "foreign_streak": "連賣3日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -15915,10 +15915,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "國泰金代子公司國泰世華商業銀行公告擬取得國泰人壽保險(股)公司十年(含)期以上累積次順位普通公司債- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORTFhTnI0TlpTWXV2a2N4Y2I0VEg5VUhKT1VJTmZENjE3ZFFEcURBaW1xemhIVVBBXzFfb2o2ZWxaTjFySHdMRGdSalF4d0JETmtaQUdyRlNaSlVWSjhRS2gtMV9BX284T0FOVUdYTHZOX3pxaW1wa2hZZWRiamxoanE3bTljb1R2dkFVNm11R0wydw?oc=5",
+          "title": "國泰金代子公司國泰產險公告向國泰人壽保險股份有限公司取得使用權資產- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMGlmeHdyOVd0cl9seURwQ2xSOEJMVk5LVjFrWE8yZlpNVG1KRlN4VS1qMEpwUGt4QzN4ZFZpbmtWV1lIVFhRYmZoSXQyTUdJdVViaFh6TE96RjhyUVN6cVBrWEkxeUwwek1uTFNVektKU1pDUWtzRlBWQndSandJQWJFRFA1M2lJbUJudWN1MVh1Zw?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Fri, 13 Nov 2026 09:20:00 GMT",
+          "date": "Wed, 18 Nov 2026 09:39:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -16128,7 +16128,7 @@
       "eps_ttm": 4.26,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 3.1028497955833174,
-      "pe": 18.54,
+      "pe": 17.56,
       "quarterly_eps": [
         {
           "quarter": "2024Q3",
@@ -16259,25 +16259,25 @@
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": -3057.299,
-          "d5": -674.3090000000007,
-          "d20": -17448.888000000003
+          "d1": -12590.392,
+          "d5": -5083.262000000001,
+          "d20": -30105.491
         },
         "trust": {
-          "d1": 10266.0,
-          "d5": 48677.7,
-          "d20": 110857.937
+          "d1": 7514.0,
+          "d5": 41498.7,
+          "d20": 119444.151
         },
         "dealer": {
-          "d1": 3577.977,
-          "d5": 8463.545,
-          "d20": 54060.254
+          "d1": 5883.165000000001,
+          "d5": 14178.756000000001,
+          "d20": 56232.264
         },
-        "total5": 56466.936,
+        "total5": 50594.194,
         "signal": "內資偏多",
-        "streak": "連買5日",
-        "foreign_streak": "連賣1日",
-        "last_date": "2026-11-17"
+        "streak": "連買6日",
+        "foreign_streak": "連賣2日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -18110,15 +18110,15 @@
           "sentiment": "中性"
         },
         {
-          "title": "中信金 115年10月營收176.33億、年減35.41% - 台股 - 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPM3d4MExYVEdtYnVBNGg3c3J6N2R5b3FyTTAwWDJDWHlmQTJZWEhCZWJXam9sX0QzM01VSW1XVV84QnA1b0xFc3JyR2Z4SnBFMU5TQTg5MlloQ2RnQ2JYY2NBaHNEMGxfa2xpelAwQXAzOENIS2FDSnlNallscTAyYU1B?oc=5",
+          "title": "中信金 115年10月營收176.33億、年減35.41% - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX1I0UEhjTkt1dlJBWWtXS0IzclcyMDdWeGY4ZnA4blNMcW9oMGNJb3BnVG9XVVV4dlV1WU9XczhyT2IteUltX254V0taQVJ3cExDNVh5Uk5acWpNcE05MmM4M2xrYVhoSVJNWEtvR1hZcWNvSFhyOEJTUlItcEpRYUNLY2E4QjBPQWpCS2RSY2xEZw?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Thu, 12 Nov 2026 01:04:00 GMT",
           "sentiment": "中性"
         },
         {
-          "title": "中信金 115年10月營收176.33億、年減35.41% - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPX1I0UEhjTkt1dlJBWWtXS0IzclcyMDdWeGY4ZnA4blNMcW9oMGNJb3BnVG9XVVV4dlV1WU9XczhyT2IteUltX254V0taQVJ3cExDNVh5Uk5acWpNcE05MmM4M2xrYVhoSVJNWEtvR1hZcWNvSFhyOEJTUlItcEpRYUNLY2E4QjBPQWpCS2RSY2xEZw?oc=5",
+          "title": "中信金 115年10月營收176.33億、年減35.41% - 台股 - 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLTNNUGx2emFkSlJwQkdydGpDd2w5MkJUbHd3eFp3VVl3bnBmZUxZY3Z3R3I2ZUhtLVNtM2RIc1lOSENDanRqdVBaVmFJM3NzdnBDMlNhUUZsLTZLY1JmWHZuNUZMQVRiMEFkTDh4X0N6aWFQRl81X1RFaWwzSVAzczNIN3ZCUjhYWjFIZzljZEhhckdkVE1aY0NFQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Thu, 12 Nov 2026 01:04:00 GMT",
           "sentiment": "中性"
@@ -18131,17 +18131,17 @@
           "sentiment": "中性"
         },
         {
+          "title": "11/18上市自營商買超排行前20名 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNGhwbUhmaFpMNVQ0dE1qb1ZQRFI1MTZHMVJLa2VQSmlpNXoweEZxU0pSTUFWZ2NWZ0gtNkN1NW40MEt5VGRmREw1emFPSHpKcF8tOW81Nk90c2E1Sk9YYjhwdm5DaUZHMEpmcVFRdVQ2R1pVLXIwd2o2NGNvWHk5YThJQ254TUFIaXlUZ3pmVHgzdw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 18 Nov 2026 08:23:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "11/13上市投信買超排行前20名 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR3ZvSExlLXhBNUE4X2pjVk5BOHhHT2VXNmtkQmo4MEdvZmtTRk9LSzN6TzVrZTVqWnV2ZkRoUTFqdXFoV3AwU2tObEExZ2JGWkdHOThXTXhtakhzei1JQlQ4aC1wa2F2WTFvRHptMUZvZUJlUXVEM1Blc0dlYnFEcDQzZXVFX0V5XzRuX3gyTXhTQQ?oc=5",
           "source": "MoneyDJ / Google News",
           "date": "Sun, 15 Nov 2026 23:31:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "11/17上市近二日券資比前20名排行- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTHJHZk5PM2V3NjlIcXJ5dzBZUkpPbTdiOEhFcmNNRUJSaFlqWWZmRnJYb2lnY3RyLUtDVy14TElTZkN3Z0NCSzVUc3J1czZXWmp0UVZIQ3MweU1jZ1dKMEN2YjN2V1NzUkNSRi1pd3BfSnp0ekl6RnZwZ2trR2NEQmVQUTZwQVk3cTFlaXF5QlhjQQ?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Tue, 17 Nov 2026 23:34:00 GMT",
           "sentiment": "中性"
         }
       ],
@@ -18351,7 +18351,7 @@
       "eps_ttm": 17.55,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 25.820472843384284,
-      "pe": 29.85,
+      "pe": 31.46,
       "quarterly_eps": [
         {
           "quarter": "2024Q4",
@@ -18471,36 +18471,36 @@
           "revenue": 88615136000.0
         }
       ],
-      "target_low": 497.5605116920152,
-      "target_base": 558.3677252381851,
+      "target_low": 498.33512587731667,
+      "target_base": 558.7550323308359,
       "target_high": 936.6376523937648,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "合理偏低",
       "trend": "偏弱",
       "quarter_high": 765.0,
       "quarter_low": 506.0,
-      "buzz_score": 0,
+      "buzz_score": 1,
       "institution": {
         "foreign": {
-          "d1": -4961.611,
-          "d5": -14720.435,
-          "d20": -101030.236
+          "d1": -5947.663,
+          "d5": -17974.193,
+          "d20": -105350.966
         },
         "trust": {
-          "d1": 257.182,
-          "d5": 1371.016,
-          "d20": 46084.776
+          "d1": 4026.831,
+          "d5": 4649.88,
+          "d20": 48515.724
         },
         "dealer": {
-          "d1": 1265.787,
-          "d5": 2315.371,
-          "d20": 5053.067
+          "d1": 695.62,
+          "d5": 2530.533,
+          "d20": 5560.1900000000005
         },
-        "total5": -11034.047999999999,
+        "total5": -10793.779999999999,
         "signal": "法人偏空",
-        "streak": "連賣5日",
-        "foreign_streak": "連賣14日",
-        "last_date": "2026-11-17"
+        "streak": "連賣6日",
+        "foreign_streak": "連賣15日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -20326,6 +20326,13 @@
       ],
       "news": [
         {
+          "title": "日月光投控：矽品精密工業6/29~11/17取得營業用機器設備14批，計約11.48億元- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZkdONVZ1UURGZVBxZVV3UnY2aVBmTzBrc3VvRDd0aHVMTGk4UUR2bzNYNlR6OV9UMXNOZGFzQWp5a0hUZ2VibUxtbTlRSXh1dlJwY2VfOVVHMktPbTlIOFZDQjN0Rlo3SUJzS25zQzFYVjZySmF4NWdCZGV3MFVmYVpFRGVlak12SklVcWRyVGN6Zw?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Wed, 18 Nov 2026 01:23:00 GMT",
+          "sentiment": "中性"
+        },
+        {
           "title": "日月光投控：矽品精密工業7/23~11/17取得廠務工程，計約22.94億元- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMlVwcElGdGJfQU5RZWc5c19hYU04dFJzZ1NJdkhpbHNUQTJtdEpGazhwZVRDMlBlM0MzSnJRQjFmbGdKN2NZdVFubmhhZmN5NU52V2xGWUVoR0h5Q0hib09SMzJYck9EdFRuZlM4a24wWGx3LThsREh5eHMzdGNXbTVqTWtRUmpQek40T2Q3X3ZhUQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -20333,17 +20340,10 @@
           "sentiment": "中性"
         },
         {
-          "title": "日月光投控：日月光半導體製造7/13~11/16取得供營業用之機器設備一批，計約10.18億元- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNU9LX3o5QXVWSlM1WHlYaFhGWEVZaEktcDFnbzJiTHM4NUNPX0ZCempWUkNKN21LVTB4OVNLaHR3QmExRlpFLUVvX1N3WVd5SDBIY29hUjdwZjlSUDR0YzBmdk8ya21RUFpQeUZVSk4zdFk4TTFKSlBGeGNEMjhZb3N4RTJEVVpRSDR6NVFWRlBuQQ?oc=5",
+          "title": "日月光投控：台灣福雷電子10/16~11/17向帆宣取得廠務工程，計約4.98億元- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcU80QlhYdU9MQjZtRGtua0ROUzlMNHk3ZmtQYnA0elVQWWJfY3VYYmJrbDc2THUxdDIxcHBrQXptRWR6aFNaUmkzZ2F1TjVtcHJrUnIxdWhKNlFCdm9Gc1AwakpxVk9Vemk5dzEzUTdBRDR3cDk4bkdqMXl3ZmRLYTFsUkNramFmd3UxVkhGVEd0UQ?oc=5",
           "source": "MoneyDJ / Google News",
-          "date": "Mon, 16 Nov 2026 08:42:00 GMT",
-          "sentiment": "中性"
-        },
-        {
-          "title": "日月光投控：矽品精密工業6/29~11/17取得營業用機器設備14批，計約11.48億元- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZkdONVZ1UURGZVBxZVV3UnY2aVBmTzBrc3VvRDd0aHVMTGk4UUR2bzNYNlR6OV9UMXNOZGFzQWp5a0hUZ2VibUxtbTlRSXh1dlJwY2VfOVVHMktPbTlIOFZDQjN0Rlo3SUJzS25zQzFYVjZySmF4NWdCZGV3MFVmYVpFRGVlak12SklVcWRyVGN6Zw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Wed, 18 Nov 2026 01:23:00 GMT",
+          "date": "Tue, 17 Nov 2026 09:10:00 GMT",
           "sentiment": "中性"
         },
         {
@@ -20542,9 +20542,9 @@
       "risk_reward": {
         "support": 506.0,
         "resistance": 765.0,
-        "upside_pct": 1.8919206639024022,
+        "upside_pct": 1.9625971406634912,
         "downside_pct": 7.664233576642336,
-        "rr": 0.24685060090917058,
+        "rr": 0.25607219835323647,
         "entry_low": 500.94,
         "entry_high": 521.1800000000001,
         "risk_note": "近季低點作風險參考；非自動停損價"
@@ -20559,7 +20559,7 @@
           "法人近5日賣超",
           "技術偏弱"
         ],
-        "upside": 1.8919206639024022
+        "upside": 1.9625971406634912
       }
     },
     {
@@ -20703,25 +20703,25 @@
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": -863.13,
-          "d5": 10880.663,
-          "d20": 51272.359
+          "d1": -1843.821,
+          "d5": 4574.337,
+          "d20": 46084.112
         },
         "trust": {
-          "d1": -3091.483,
-          "d5": -5340.533,
-          "d20": 4196.696
+          "d1": 311.0,
+          "d5": -4071.213,
+          "d20": 2090.214
         },
         "dealer": {
-          "d1": 803.656,
-          "d5": 1856.904,
-          "d20": 6436.069
+          "d1": 546.971,
+          "d5": 2406.483,
+          "d20": 6769.28
         },
-        "total5": 7397.034,
+        "total5": 2909.607,
         "signal": "法人偏多",
-        "streak": "連賣1日",
-        "foreign_streak": "連賣1日",
-        "last_date": "2026-11-17"
+        "streak": "連賣2日",
+        "foreign_streak": "連賣2日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -22789,12 +22789,12 @@
       "name": "旭然",
       "market": "TPEx",
       "weight": false,
-      "close": 89.2,
-      "change_pct": -4.700854700854695,
+      "close": 84.4,
+      "change_pct": -5.3811659192825045,
       "eps_ttm": 1.54,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 1.7719119459326231,
-      "pe": 57.92,
+      "pe": 54.81,
       "quarterly_eps": [
         {
           "quarter": "2024Q4",
@@ -22916,7 +22916,7 @@
       ],
       "target_low": 72.2497095954027,
       "target_base": 81.98636573830247,
-      "target_high": 116.06023245858681,
+      "target_high": 116.02479421966817,
       "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "接近樂觀價",
       "trend": "偏弱",
@@ -22925,9 +22925,9 @@
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": 33.0,
-          "d5": -28.695,
-          "d20": -105.769
+          "d1": -5.0,
+          "d5": 70.30499999999999,
+          "d20": -54.78
         },
         "trust": {
           "d1": 0.0,
@@ -22935,24 +22935,17 @@
           "d20": 0.0
         },
         "dealer": {
-          "d1": 0.028,
-          "d5": -1.004,
-          "d20": -2.633
+          "d1": 1.01,
+          "d5": 0.623,
+          "d20": 1.9339999999999997
         },
-        "total5": -29.69900000000001,
-        "signal": "法人偏空",
-        "streak": "連買3日",
-        "foreign_streak": "連買3日",
-        "last_date": "2026-11-17"
+        "total5": 70.928,
+        "signal": "法人偏多",
+        "streak": "連賣1日",
+        "foreign_streak": "連賣1日",
+        "last_date": "2026-11-18"
       },
       "history": [
-        {
-          "date": "2025-10-21",
-          "close": 23.1,
-          "ma20": 21.994999999999997,
-          "ma60": 22.118333333333332,
-          "ma120": 22.520833333333332
-        },
         {
           "date": "2025-10-22",
           "close": 22.95,
@@ -24765,6 +24758,13 @@
           "ma20": 104.21,
           "ma60": 97.58166666666666,
           "ma120": 88.89291666666666
+        },
+        {
+          "date": "2026-11-18",
+          "close": 84.4,
+          "ma20": 102.405,
+          "ma60": 97.71333333333334,
+          "ma120": 89.26875
         }
       ],
       "news": [
@@ -24821,10 +24821,10 @@
       },
       "score": {
         "fundamental": 23,
-        "chip": 3,
+        "chip": 21,
         "technical": 3,
         "valuation": 2,
-        "total": 31
+        "total": 49
       },
       "score_history": [
         {
@@ -24974,19 +24974,19 @@
         {
           "date": "2026-11-18",
           "fundamental": 23,
-          "chip": 3,
+          "chip": 21,
           "technical": 3,
           "valuation": 2,
-          "total": 31
+          "total": 49
         }
       ],
-      "score_change_1d": 0,
-      "score_change_5d": -2,
+      "score_change_1d": 18,
+      "score_change_5d": 16,
       "risk_reward": {
         "support": 81.0,
         "resistance": 149.0,
-        "upside_pct": -8.087033925669884,
-        "downside_pct": 9.192825112107625,
+        "upside_pct": -2.859756234238786,
+        "downside_pct": 4.028436018957352,
         "rr": null,
         "entry_low": 80.19,
         "entry_high": 83.43,
@@ -24997,14 +24997,13 @@
         "issues": []
       },
       "decision": {
-        "zone": "風險警戒",
+        "zone": "中性等待",
         "reasons": [
-          "綜合僅 31 分",
-          "法人近5日賣超",
+          "法人近5日買超",
           "技術偏弱",
           "現價高於基準目標"
         ],
-        "upside": -8.087033925669884
+        "upside": -2.859756234238786
       }
     },
     {
@@ -25012,12 +25011,12 @@
       "name": "意德士",
       "market": "TPEx",
       "weight": false,
-      "close": 216.0,
-      "change_pct": -0.6896551724137945,
+      "close": 222.5,
+      "change_pct": 3.009259259259256,
       "eps_ttm": 9.97,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 13.33108191553324,
-      "pe": 22.22,
+      "pe": 22.89,
       "quarterly_eps": [
         {
           "quarter": "2024Q4",
@@ -25144,13 +25143,13 @@
       "valuation_status": "低於保守價",
       "trend": "偏弱",
       "quarter_high": 314.0,
-      "quarter_low": 208.0,
+      "quarter_low": 205.0,
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": 0.0,
-          "d5": -11.0,
-          "d20": -50.702999999999996
+          "d1": 1.0,
+          "d5": -12.0,
+          "d20": -58.702999999999996
         },
         "trust": {
           "d1": 0.0,
@@ -25158,24 +25157,17 @@
           "d20": 0.0
         },
         "dealer": {
-          "d1": 0.59,
-          "d5": -1.359,
-          "d20": -25.524
+          "d1": 1.358,
+          "d5": -0.13799999999999987,
+          "d20": -19.788
         },
-        "total5": -12.359,
+        "total5": -12.138,
         "signal": "法人偏空",
-        "streak": "連買1日",
-        "foreign_streak": "0日",
-        "last_date": "2026-11-17"
+        "streak": "連買2日",
+        "foreign_streak": "連買1日",
+        "last_date": "2026-11-18"
       },
       "history": [
-        {
-          "date": "2025-10-21",
-          "close": 162.0,
-          "ma20": 165.8,
-          "ma60": 174.23333333333332,
-          "ma120": 171.39166666666668
-        },
         {
           "date": "2025-10-22",
           "close": 162.5,
@@ -26988,6 +26980,13 @@
           "ma20": 251.5,
           "ma60": 257.8666666666667,
           "ma120": 256.35
+        },
+        {
+          "date": "2026-11-18",
+          "close": 222.5,
+          "ma20": 248.625,
+          "ma60": 257.51666666666665,
+          "ma120": 255.80416666666667
         }
       ],
       "news": [
@@ -27045,9 +27044,9 @@
       "score": {
         "fundamental": 21,
         "chip": 3,
-        "technical": 3,
+        "technical": 7,
         "valuation": 25,
-        "total": 52
+        "total": 56
       },
       "score_history": [
         {
@@ -27198,21 +27197,21 @@
           "date": "2026-11-18",
           "fundamental": 21,
           "chip": 3,
-          "technical": 3,
+          "technical": 7,
           "valuation": 25,
-          "total": 52
+          "total": 56
         }
       ],
-      "score_change_1d": 0,
-      "score_change_5d": -2,
+      "score_change_1d": 4,
+      "score_change_5d": 2,
       "risk_reward": {
-        "support": 208.0,
+        "support": 205.0,
         "resistance": 314.0,
-        "upside_pct": 63.367471437113345,
-        "downside_pct": 3.7037037037037033,
-        "rr": 17.109217288020606,
-        "entry_low": 205.92,
-        "entry_high": 214.24,
+        "upside_pct": 58.59493856366957,
+        "downside_pct": 7.865168539325842,
+        "rr": 7.449927903095132,
+        "entry_low": 202.95,
+        "entry_high": 211.15,
         "risk_note": "近季低點作風險參考；非自動停損價"
       },
       "data_quality": {
@@ -27224,9 +27223,9 @@
         "reasons": [
           "法人近5日賣超",
           "技術偏弱",
-          "基準目標尚有 63% 空間"
+          "基準目標尚有 59% 空間"
         ],
-        "upside": 63.367471437113345
+        "upside": 58.59493856366957
       }
     },
     {
@@ -27234,8 +27233,8 @@
       "name": "廣化",
       "market": "Emerging",
       "weight": false,
-      "close": 52.2,
-      "change_pct": -8.260105448154654,
+      "close": 54.3,
+      "change_pct": 4.022988505747116,
       "eps_ttm": 1.19,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 1.785,
@@ -27355,9 +27354,9 @@
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": 3.943,
-          "d5": -33.613,
-          "d20": -5.308999999999999
+          "d1": 18.609,
+          "d5": -26.625999999999998,
+          "d20": 21.434
         },
         "trust": {
           "d1": 0.0,
@@ -27369,20 +27368,13 @@
           "d5": 0.0,
           "d20": 0.0
         },
-        "total5": -33.613,
+        "total5": -26.625999999999998,
         "signal": "法人偏空",
-        "streak": "連買1日",
-        "foreign_streak": "連買1日",
-        "last_date": "2026-11-17"
+        "streak": "連買2日",
+        "foreign_streak": "連買2日",
+        "last_date": "2026-11-18"
       },
       "history": [
-        {
-          "date": "2025-10-21",
-          "close": 34.05,
-          "ma20": 33.582499999999996,
-          "ma60": 32.47833333333333,
-          "ma120": 33.08166666666667
-        },
         {
           "date": "2025-10-22",
           "close": 33.45,
@@ -29195,6 +29187,13 @@
           "ma20": 65.2,
           "ma60": 71.92833333333333,
           "ma120": 78.36916666666666
+        },
+        {
+          "date": "2026-11-18",
+          "close": 54.3,
+          "ma20": 64.25,
+          "ma60": 71.64833333333333,
+          "ma120": 77.68833333333333
         }
       ],
       "news": [
@@ -29252,9 +29251,9 @@
       "score": {
         "fundamental": 21,
         "chip": 3,
-        "technical": 0,
+        "technical": 3,
         "valuation": 12,
-        "total": 36
+        "total": 39
       },
       "score_history": [
         {
@@ -29405,18 +29404,18 @@
           "date": "2026-11-18",
           "fundamental": 21,
           "chip": 3,
-          "technical": 0,
+          "technical": 3,
           "valuation": 12,
-          "total": 36
+          "total": 39
         }
       ],
-      "score_change_1d": 0,
-      "score_change_5d": -3,
+      "score_change_1d": 3,
+      "score_change_5d": 0,
       "risk_reward": {
         "support": 46.0,
         "resistance": 92.0,
         "upside_pct": null,
-        "downside_pct": 11.87739463601533,
+        "downside_pct": 15.285451197053401,
         "rr": null,
         "entry_low": 45.54,
         "entry_high": 47.38,
@@ -29431,7 +29430,7 @@
       "decision": {
         "zone": "風險警戒",
         "reasons": [
-          "綜合僅 36 分",
+          "綜合僅 39 分",
           "法人近5日賣超",
           "技術偏弱"
         ],
@@ -29443,8 +29442,8 @@
       "name": "宇川精材",
       "market": "Emerging",
       "weight": false,
-      "close": 97.0,
-      "change_pct": -2.5125628140703515,
+      "close": 96.5,
+      "change_pct": -0.5154639175257714,
       "eps_ttm": -4.0,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": -4.0,
@@ -29549,13 +29548,13 @@
       "valuation_status": "待估值",
       "trend": "空頭",
       "quarter_high": 170.5,
-      "quarter_low": 97.0,
+      "quarter_low": 90.0,
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": 10.226,
-          "d5": 3.4029999999999996,
-          "d20": 17.694999999999997
+          "d1": 4.579,
+          "d5": 22.923000000000002,
+          "d20": 27.371
         },
         "trust": {
           "d1": 0.0,
@@ -29567,11 +29566,11 @@
           "d5": 0.0,
           "d20": -10.0
         },
-        "total5": 3.4029999999999996,
+        "total5": 22.923000000000002,
         "signal": "法人偏多",
-        "streak": "連買4日",
-        "foreign_streak": "連買4日",
-        "last_date": "2026-11-17"
+        "streak": "連買5日",
+        "foreign_streak": "連買5日",
+        "last_date": "2026-11-18"
       },
       "history": [
         {
@@ -30994,6 +30993,13 @@
           "ma20": 124.6,
           "ma60": 145.76666666666668,
           "ma120": 162.42083333333332
+        },
+        {
+          "date": "2026-11-18",
+          "close": 96.5,
+          "ma20": 122.1,
+          "ma60": 144.79166666666666,
+          "ma120": 160.96666666666667
         }
       ],
       "news": [
@@ -31212,14 +31218,14 @@
       "score_change_1d": 0,
       "score_change_5d": 15,
       "risk_reward": {
-        "support": null,
+        "support": 90.0,
         "resistance": 170.5,
         "upside_pct": null,
-        "downside_pct": null,
+        "downside_pct": 6.7357512953367875,
         "rr": null,
-        "entry_low": 91.2285,
-        "entry_high": 94.91449999999999,
-        "risk_note": "缺有效近季支撐，觀察區僅供參考"
+        "entry_low": 89.1,
+        "entry_high": 92.7,
+        "risk_note": "近季低點作風險參考；非自動停損價"
       },
       "data_quality": {
         "level": "中",
@@ -31241,12 +31247,12 @@
       "name": "家登",
       "market": "TPEx",
       "weight": false,
-      "close": 356.0,
-      "change_pct": -5.193075898801602,
+      "close": 357.5,
+      "change_pct": 0.4213483146067398,
       "eps_ttm": 17.77,
       "eps_source": "近四季官方單季 EPS 加總",
       "forward_eps": 22.043803273860128,
-      "pe": 20.06,
+      "pe": 20.14,
       "quarterly_eps": [
         {
           "quarter": "2024Q4",
@@ -31289,7 +31295,7 @@
           "reported_eps": 4.46
         }
       ],
-      "target_confidence": "低",
+      "target_confidence": "高",
       "revenue_yoy": 24.050665581655206,
       "revenue_mom": -17.833385457152716,
       "revenue_history": [
@@ -31369,42 +31375,35 @@
       "target_low": 757.4801899980185,
       "target_base": 892.5535945585966,
       "target_high": 1144.4591564706332,
-      "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位；模型與現價差距過大，請降低權重",
+      "valuation_note": "Forward EPS × 歷史 PE 25% / 50% / 75% 分位",
       "valuation_status": "低於保守價",
       "trend": "偏弱",
       "quarter_high": 594.0,
-      "quarter_low": 353.0,
+      "quarter_low": 337.5,
       "buzz_score": 0,
       "institution": {
         "foreign": {
-          "d1": -178.412,
-          "d5": -644.808,
-          "d20": -1869.551
+          "d1": -92.899,
+          "d5": -883.394,
+          "d20": -1774.608
         },
         "trust": {
-          "d1": 0.0,
-          "d5": -26.0,
-          "d20": -80.015
+          "d1": 1.0,
+          "d5": 0.0,
+          "d20": -79.015
         },
         "dealer": {
-          "d1": 0.6680000000000001,
-          "d5": -23.835999999999995,
-          "d20": -240.82999999999998
+          "d1": 10.545000000000002,
+          "d5": -49.75599999999999,
+          "d20": -203.134
         },
-        "total5": -694.644,
+        "total5": -933.15,
         "signal": "法人偏空",
-        "streak": "連賣4日",
-        "foreign_streak": "連賣4日",
-        "last_date": "2026-11-17"
+        "streak": "連賣5日",
+        "foreign_streak": "連賣5日",
+        "last_date": "2026-11-18"
       },
       "history": [
-        {
-          "date": "2025-10-21",
-          "close": 342.0,
-          "ma20": 343.525,
-          "ma60": 317.56666666666666,
-          "ma120": 338.0
-        },
         {
           "date": "2025-10-22",
           "close": 337.5,
@@ -33217,6 +33216,13 @@
           "ma20": 453.1,
           "ma60": 499.9916666666667,
           "ma120": 496.85
+        },
+        {
+          "date": "2026-11-18",
+          "close": 357.5,
+          "ma20": 445.625,
+          "ma60": 498.26666666666665,
+          "ma120": 494.87083333333334
         }
       ],
       "news": [
@@ -33242,6 +33248,13 @@
           "sentiment": "中性"
         },
         {
+          "title": "家登今年營收拚逐季揚；FOUP成長力道強- 新聞 - MoneyDJ",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMXoxXzF5ZHJ4SzRIclJjNTlmM245WENmdHhyZXlWbVltaHRKVDNpNVpfYk9RRHUxRFdlbEVjUmpSbW5LMnVqN3FOT3B0Vy0tNjB1ZU5BMENsRkh4cV8xRV9DY3lWYnEyc0wySi0yVzRaZVhGZl9sdkJTdFVXRjJhVE5uVmtfc0o1ODBpTFlaV0hwUQ?oc=5",
+          "source": "MoneyDJ / Google News",
+          "date": "Fri, 17 Feb 2023 08:00:00 GMT",
+          "sentiment": "利多"
+        },
+        {
           "title": "家登資訊安全長改由劉媺貞擔任- 新聞 - MoneyDJ",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZURydUV1R0w3di1ZMkVZaFZEdDNsNUN0dy1aQ01PWEY3ZDJMVllXc3c4dWVIQWtXT2hCdFBVaFNZejU5ZUxjdF9mSk9WN0ZoRVZvM1VXVlZzc0ROa1FQMzJ4VzR4dlJpWlRtTDlJZHNOZ3dSQ1k1TzFmM0s2QV9kSHNEVW5fcEFvNlZDc2YzWkZyUQ?oc=5",
           "source": "MoneyDJ / Google News",
@@ -33254,16 +33267,9 @@
           "source": "MoneyDJ / Google News",
           "date": "Wed, 22 Apr 2026 07:00:00 GMT",
           "sentiment": "中性"
-        },
-        {
-          "title": "家登董事改選名單- 新聞 - MoneyDJ",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNSVlzbHlwVFZ2RWZhZnVnb2tYRFJLMTlZTXVscjNGZ2t1Q3haenZJUXlHZHlmMDk5bjE2aVRHQlBhVnVRUVZrUUZnakNKU2M0allyQUt5cy0xODdEcWY2Ym1mTmRaWHBraDVwekFFUjFISWwydFJQTW81YzNsOUdHeEFMbFFFRllpVFV3eGZmZ0UyZw?oc=5",
-          "source": "MoneyDJ / Google News",
-          "date": "Fri, 24 May 2024 07:00:00 GMT",
-          "sentiment": "中性"
         }
       ],
-      "news_score": 0,
+      "news_score": 1,
       "links": {
         "財報狗": "https://statementdog.com/analysis/3680",
         "CMoney": "https://www.cmoney.tw/forum/popular/buzz?tab=popular",
@@ -33273,10 +33279,10 @@
       },
       "score": {
         "fundamental": 21,
-        "chip": 1,
-        "technical": 3,
+        "chip": 3,
+        "technical": 7,
         "valuation": 25,
-        "total": 50
+        "total": 56
       },
       "score_history": [
         {
@@ -33426,37 +33432,36 @@
         {
           "date": "2026-11-18",
           "fundamental": 21,
-          "chip": 1,
-          "technical": 3,
+          "chip": 3,
+          "technical": 7,
           "valuation": 25,
-          "total": 50
+          "total": 56
         }
       ],
-      "score_change_1d": 0,
-      "score_change_5d": -4,
+      "score_change_1d": 6,
+      "score_change_5d": 2,
       "risk_reward": {
-        "support": 353.0,
+        "support": 337.5,
         "resistance": 594.0,
-        "upside_pct": null,
-        "downside_pct": 0.8426966292134831,
-        "rr": null,
-        "entry_low": 349.46999999999997,
-        "entry_high": 363.59000000000003,
+        "upside_pct": 149.6653411352718,
+        "downside_pct": 5.594405594405594,
+        "rr": 26.752679727929834,
+        "entry_low": 334.125,
+        "entry_high": 347.625,
         "risk_note": "近季低點作風險參考；非自動停損價"
       },
       "data_quality": {
-        "level": "中",
-        "issues": [
-          "目標價低可信"
-        ]
+        "level": "高",
+        "issues": []
       },
       "decision": {
         "zone": "風險警戒",
         "reasons": [
           "法人近5日賣超",
-          "技術偏弱"
+          "技術偏弱",
+          "基準目標尚有 150% 空間"
         ],
-        "upside": 150.71730184230242
+        "upside": 149.6653411352718
       }
     }
   ]
